@@ -2617,9 +2617,10 @@
       "durationSec": 4
     },
     {
-      "type": "narration",
+      "type": "cta",
       "speaker": "NARRATOR",
       "text": "Quick pause. If you're enjoying this, subscribe to Farthing Explains. It's free, and it takes up even less space than Singapore.",
+      "ctaText": "Smaller than Singapore. Free forever.",
       "visual": {
         "kind": "crowd",
         "set": "plaza",
@@ -5159,9 +5160,10 @@
       "durationSec": 5.83
     },
     {
-      "type": "narration",
+      "type": "cta",
       "speaker": "NARRATOR",
       "text": "If you made it this far, thank you. Subscribe to Farthing Explains for more stories about how money makes and breaks countries.",
+      "ctaText": "More stories. Every country has one.",
       "visual": {
         "kind": "crowd",
         "set": "pampas",
