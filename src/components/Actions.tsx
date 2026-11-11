@@ -378,7 +378,7 @@ const Bars: React.FC<{ v: ActionV }> = ({ v }) => {
   // Angled labels need ~180px below baseline; horizontal need ~80px
   const needsAngledLabels = n >= 4;
   const BASE_Y = needsAngledLabels ? 680 : 720;   // axis baseline
-  const TOP_Y  = 160;                              // top of tallest bar
+  const TOP_Y  = 230;                              // top of tallest bar (kept below title ~y112)
   const BAR_H  = BASE_Y - TOP_Y;                  // max bar height px
 
   return (
