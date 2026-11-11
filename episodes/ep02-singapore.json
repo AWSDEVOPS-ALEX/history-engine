@@ -4372,7 +4372,13 @@
         "name": "bars",
         "bg": "street",
         "item": "Singapore GDP per person (USD)",
-        "cycle": true
+        "cycle": true,
+        "bars": [
+          { "label": "1965", "value": 500, "color": "#e67e22" },
+          { "label": "1990", "value": 13000, "color": "#e67e22" },
+          { "label": "2015", "value": 56000, "color": "#27ae60" },
+          { "label": "Today", "value": 107000, "color": "#27ae60" }
+        ]
       },
       "id": "ch4-s24",
       "audio": "audio/ep02-singapore/ch4-s24.mp3",
@@ -4706,10 +4712,14 @@
       "speaker": "NARRATOR",
       "text": "Critics, including press-freedom groups, say the media and the opposition have operated under tight limits for decades.",
       "visual": {
-        "kind": "action",
-        "name": "scroll",
-        "item": "Press freedom",
-        "bg": "street"
+        "kind": "scroll",
+        "dates": [
+          "1965 — PAP wins",
+          "1971 — Press law",
+          "1990 — Lee steps down",
+          "2015 — PAP 70%",
+          "2020 — PAP 61%"
+        ]
       },
       "mascot": {
         "pose": "confused"
