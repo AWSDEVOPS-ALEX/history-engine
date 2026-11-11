@@ -874,101 +874,59 @@
       "visual": {
         "kind": "map",
         "from": {
-          "lon": 103.82,
-          "lat": 1.35,
-          "zoom": 9
+          "lon": 100,
+          "lat": 10,
+          "zoom": 3
         },
         "to": {
-          "lon": 109,
-          "lat": 4,
-          "zoom": 4.2
+          "lon": 100,
+          "lat": 10,
+          "zoom": 3.5
         },
         "events": [
           {
-            "type": "move",
-            "path": [
-              [
-                110,
-                22
-              ],
-              [
-                103.82,
-                1.35
-              ]
-            ],
+            "type": "flow",
+            "path": [[110, 22], [103.82, 1.35]],
             "t": 0,
-            "word": 0,
-            "icon": "ship",
-            "dur": 2,
-            "trail": true
+            "color": "#ffd34d",
+            "width": 6
           },
           {
-            "type": "move",
-            "path": [
-              [
-                74,
-                15
-              ],
-              [
-                103.82,
-                1.35
-              ]
-            ],
-            "t": 0,
-            "word": 2,
-            "icon": "ship",
-            "dur": 2,
-            "trail": true
+            "type": "flow",
+            "path": [[74, 15], [103.82, 1.35]],
+            "t": 0.4,
+            "color": "#ffd34d",
+            "width": 6
           },
           {
-            "type": "move",
-            "path": [
-              [
-                115,
-                4
-              ],
-              [
-                103.82,
-                1.35
-              ]
-            ],
-            "t": 0,
-            "word": 4,
-            "icon": "ship",
-            "dur": 2,
-            "trail": true
+            "type": "flow",
+            "path": [[115, 4], [103.82, 1.35]],
+            "t": 0.8,
+            "color": "#ffd34d",
+            "width": 6
           },
           {
-            "type": "move",
-            "path": [
-              [
-                55,
-                25
-              ],
-              [
-                103.82,
-                1.35
-              ]
-            ],
-            "t": 0,
-            "word": 6,
-            "icon": "ship",
-            "dur": 2,
-            "trail": true
+            "type": "flow",
+            "path": [[55, 25], [103.82, 1.35]],
+            "t": 1.2,
+            "color": "#ffd34d",
+            "width": 6
           },
           {
             "type": "callout",
-            "at": [
-              103.82,
-              1.35
-            ],
-            "t": 0,
-            "word": 8,
-            "label": "Free port - no taxes",
+            "at": [103.82, 1.35],
+            "t": 1.6,
+            "label": "Free port",
             "side": "right",
-            "persist": false,
-            "focus": true,
+            "pos": "above",
+            "focus": false,
             "icon": "banknotes"
+          },
+          {
+            "type": "pulse",
+            "at": [103.82, 1.35],
+            "t": 0,
+            "color": "#f39c12"
           }
         ]
       },
