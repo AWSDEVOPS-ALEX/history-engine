@@ -159,21 +159,190 @@
     {
       "type": "narration",
       "speaker": "NARRATOR",
-      "text": "On the ninth of August 1965, a prime minister sat in front of television cameras and broke down in tears.",
+      "text": "This tiny island is richer than the United States. Richer than Germany. Richer than almost anywhere on Earth.",
+      "visual": {
+        "kind": "map",
+        "satellite": true,
+        "from": {
+          "lon": 103.82,
+          "lat": 1.35,
+          "zoom": 2
+        },
+        "to": {
+          "lon": 103.82,
+          "lat": 1.35,
+          "zoom": 10
+        },
+        "events": [
+          {
+            "type": "nation",
+            "at": [
+              103.82,
+              1.35
+            ],
+            "t": 0.3,
+            "code": "sg",
+            "label": "Singapore"
+          },
+          {
+            "type": "pulse",
+            "at": [
+              103.82,
+              1.35
+            ],
+            "t": 0.3,
+            "color": "#f1c40f"
+          },
+          {
+            "type": "label",
+            "at": [
+              103.82,
+              2.4
+            ],
+            "t": 1.0,
+            "text": "$107,000/person",
+            "size": 38,
+            "color": "#f1c40f",
+            "caps": false
+          }
+        ]
+      },
+      "id": "hook-s01"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "And sixty years ago it had nothing. No oil. No gold. No farmland. Not even enough water to drink.",
+      "visual": {
+        "kind": "map",
+        "satellite": true,
+        "from": {
+          "lon": 103.82,
+          "lat": 1.35,
+          "zoom": 10
+        },
+        "to": {
+          "lon": 103.82,
+          "lat": 1.35,
+          "zoom": 4.5
+        },
+        "events": [
+          {
+            "type": "callout",
+            "at": [
+              94,
+              13
+            ],
+            "t": 0.3,
+            "icon": "oil",
+            "label": "NO OIL",
+            "pos": "above"
+          },
+          {
+            "type": "callout",
+            "at": [
+              116,
+              13
+            ],
+            "t": 0.7,
+            "icon": "gold",
+            "label": "NO GOLD",
+            "pos": "above"
+          },
+          {
+            "type": "callout",
+            "at": [
+              94,
+              -9
+            ],
+            "t": 1.1,
+            "icon": "wheat",
+            "label": "NO FARMLAND",
+            "pos": "below"
+          },
+          {
+            "type": "callout",
+            "at": [
+              116,
+              -9
+            ],
+            "t": 1.5,
+            "icon": "water",
+            "label": "NO WATER",
+            "pos": "below"
+          }
+        ]
+      },
+      "id": "hook-s02"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "The average person earned five hundred dollars a year. The same as Mexico. A third of what people made in Britain.",
+      "visual": {
+        "kind": "action",
+        "name": "bars",
+        "bg": "street",
+        "bars": [
+          {
+            "label": "Singapore",
+            "value": 500,
+            "color": "#c0392b",
+            "flag": "sg"
+          },
+          {
+            "label": "Mexico",
+            "value": 490,
+            "color": "#e67e22",
+            "flag": "mx"
+          },
+          {
+            "label": "UK",
+            "value": 1400,
+            "color": "#2ecc71",
+            "flag": "gb"
+          },
+          {
+            "label": "USA",
+            "value": 3600,
+            "color": "#3498db",
+            "flag": "us"
+          }
+        ],
+        "hideValues": false,
+        "labels": [
+          {
+            "text": "GDP per person, 1965 (USD)",
+            "x": 50,
+            "y": 10,
+            "at": 0.4,
+            "size": 54
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "confused"
+      },
+      "id": "hook-s03"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "On the ninth of August 1965, the man who had to fix all of this sat down in front of television cameras — and wept.",
       "visual": {
         "kind": "scene",
         "set": "palace",
         "cam": {
           "x": 50,
-          "y": 50,
-          "from": 1,
-          "to": 1.08
+          "y": 60,
+          "from": 1.6,
+          "to": 1.9
         },
         "cast": [
           {
             "id": "LEE_KY",
             "x": 50,
-            "pose": "confused",
+            "pose": "shrug",
             "flip": false
           }
         ],
@@ -188,189 +357,12 @@
         ]
       },
       "date": "1965",
-      "id": "hook-s01",
-      "audio": "audio/ep02-singapore/hook-s01.mp3",
-      "durationSec": 8.37
+      "id": "hook-s04"
     },
     {
       "type": "narration",
       "speaker": "NARRATOR",
-      "text": "His country had just been thrown out of the nation it had joined only two years earlier. It was now on its own.",
-      "visual": {
-        "kind": "map",
-        "from": {
-          "lon": 109,
-          "lat": 4,
-          "zoom": 4.2
-        },
-        "to": {
-          "lon": 103.82,
-          "lat": 1.35,
-          "zoom": 9
-        },
-        "events": [
-          {
-            "type": "fill",
-            "countries": [
-              "MYS"
-            ],
-            "t": 0,
-            "color": "#c0392b",
-            "stagger": 0
-          },
-          {
-            "type": "pulse",
-            "at": [
-              103.82,
-              1.35
-            ],
-            "t": 0.5,
-            "color": "#f39c12"
-          },
-          {
-            "type": "nation",
-            "at": [
-              103.82,
-              1.35
-            ],
-            "t": 1,
-            "code": "sg",
-            "label": "Singapore — alone"
-          },
-          {
-            "type": "label",
-            "at": [
-              109.5,
-              4
-            ],
-            "t": 0.8,
-            "text": "EXPELLED",
-            "size": 32,
-            "color": "#e74c3c",
-            "caps": true
-          }
-        ]
-      },
-      "date": "1965",
-      "id": "hook-s02",
-      "audio": "audio/ep02-singapore/hook-s02.mp3",
-      "durationSec": 7.39
-    },
-    {
-      "type": "narration",
-      "speaker": "NARRATOR",
-      "text": "And on paper, it had almost no chance.",
-      "visual": {
-        "kind": "action",
-        "name": "scales",
-        "left": {
-          "icon": "crown",
-          "label": "The odds"
-        },
-        "right": {
-          "icon": "coins",
-          "label": "Singapore"
-        },
-        "tilt": 35,
-        "bg": "night-city"
-      },
-      "mascot": {
-        "pose": "confused"
-      },
-      "id": "hook-s03",
-      "audio": "audio/ep02-singapore/hook-s03.mp3",
-      "durationSec": 3.15
-    },
-    {
-      "type": "narration",
-      "speaker": "NARRATOR",
-      "text": "It was a small island, smaller than the city of London. No oil. No gold. No farmland. Not even enough fresh water for its own people.",
-      "visual": {
-        "kind": "map",
-        "from": {
-          "lon": 103.82,
-          "lat": 1.35,
-          "zoom": 5
-        },
-        "to": {
-          "lon": 103.82,
-          "lat": 1.35,
-          "zoom": 6
-        },
-        "events": [
-          {
-            "type": "nation",
-            "at": [
-              103.82,
-              1.35
-            ],
-            "t": 0,
-            "code": "sg",
-            "label": "Singapore"
-          },
-          {
-            "type": "pulse",
-            "at": [
-              103.82,
-              1.35
-            ],
-            "t": 0,
-            "color": "#e74c3c"
-          },
-          {
-            "type": "callout",
-            "at": [
-              96,
-              8
-            ],
-            "t": 0.3,
-            "icon": "oil",
-            "label": "NO OIL",
-            "side": "right"
-          },
-          {
-            "type": "callout",
-            "at": [
-              112,
-              7
-            ],
-            "t": 0.7,
-            "icon": "gold",
-            "label": "NO GOLD",
-            "side": "left"
-          },
-          {
-            "type": "callout",
-            "at": [
-              96,
-              -6
-            ],
-            "t": 1.1,
-            "icon": "wheat",
-            "label": "NO FARMLAND",
-            "side": "right"
-          },
-          {
-            "type": "callout",
-            "at": [
-              112,
-              -6
-            ],
-            "t": 1.5,
-            "icon": "water",
-            "label": "NO WATER",
-            "side": "left"
-          }
-        ]
-      },
-      "id": "hook-s04",
-      "audio": "audio/ep02-singapore/hook-s04.mp3",
-      "durationSec": 10.79
-    },
-    {
-      "type": "narration",
-      "speaker": "NARRATOR",
-      "text": "Nearly one in ten workers had no job. Many families lived in crowded wooden slums that could burn down in an afternoon.",
+      "text": "His country had no money, no army, no water supply. Nine hundred thousand people lived in wooden slums that burned down on a dry afternoon.",
       "visual": {
         "kind": "crowd",
         "set": "village",
@@ -397,128 +389,12 @@
       "mascot": {
         "pose": "confused"
       },
-      "id": "hook-s05",
-      "audio": "audio/ep02-singapore/hook-s05.mp3",
-      "durationSec": 8.61
+      "id": "hook-s05"
     },
     {
       "type": "narration",
       "speaker": "NARRATOR",
-      "text": "The average person earned around five hundred dollars a year. About the same as Mexico or South Africa at the time.",
-      "visual": {
-        "kind": "action",
-        "name": "bars",
-        "bg": "street",
-        "bars": [
-          {
-            "label": "Singapore",
-            "value": 500,
-            "color": "#c0392b",
-            "flag": "sg"
-          },
-          {
-            "label": "Mexico",
-            "value": 490,
-            "color": "#e67e22"
-          },
-          {
-            "label": "USA",
-            "value": 3600,
-            "color": "#3498db",
-            "flag": "us"
-          },
-          {
-            "label": "UK",
-            "value": 1400,
-            "color": "#2ecc71",
-            "flag": "gb"
-          }
-        ],
-        "hideValues": false,
-        "labels": [
-          {
-            "text": "GDP per person, 1965 (USD)",
-            "x": 50,
-            "y": 10,
-            "at": 0.4,
-            "size": 54
-          }
-        ]
-      },
-      "id": "hook-s06",
-      "audio": "audio/ep02-singapore/hook-s06.mp3",
-      "durationSec": 7.63
-    },
-    {
-      "type": "narration",
-      "speaker": "NARRATOR",
-      "text": "That country was Singapore.",
-      "visual": {
-        "kind": "map",
-        "from": {
-          "lon": 103.82,
-          "lat": 1.35,
-          "zoom": 4
-        },
-        "to": {
-          "lon": 103.82,
-          "lat": 1.35,
-          "zoom": 9
-        },
-        "events": [
-          {
-            "type": "nation",
-            "at": [
-              103.82,
-              1.35
-            ],
-            "t": 0.3,
-            "code": "sg",
-            "label": "Singapore"
-          },
-          {
-            "type": "pulse",
-            "at": [
-              103.82,
-              1.35
-            ],
-            "t": 0.3,
-            "color": "#f39c12"
-          },
-          {
-            "type": "pulse",
-            "at": [
-              103.82,
-              1.35
-            ],
-            "t": 1.1,
-            "color": "#e74c3c"
-          },
-          {
-            "type": "label",
-            "at": [
-              103.82,
-              2.2
-            ],
-            "t": 0.6,
-            "text": "SINGAPORE",
-            "size": 36,
-            "color": "#f1c40f",
-            "caps": true
-          }
-        ]
-      },
-      "mascot": {
-        "pose": "talk"
-      },
-      "id": "hook-s07",
-      "audio": "audio/ep02-singapore/hook-s07.mp3",
-      "durationSec": 2.2
-    },
-    {
-      "type": "narration",
-      "speaker": "NARRATOR",
-      "text": "Now look at it today. In 2026, the average Singaporean produces more than a hundred and seven thousand dollars a year.",
+      "text": "Now look at it today. In 2026, the average Singaporean earns over a hundred and seven thousand dollars a year.",
       "visual": {
         "kind": "action",
         "name": "bars",
@@ -537,16 +413,16 @@
             "flag": "us"
           },
           {
-            "label": "UK",
-            "value": 49000,
-            "color": "#2ecc71",
-            "flag": "gb"
-          },
-          {
             "label": "Germany",
             "value": 55000,
             "color": "#e67e22",
             "flag": "de"
+          },
+          {
+            "label": "UK",
+            "value": 49000,
+            "color": "#2ecc71",
+            "flag": "gb"
           }
         ],
         "hideValues": false,
@@ -560,77 +436,15 @@
           }
         ]
       },
-      "id": "hook-s08",
-      "audio": "audio/ep02-singapore/hook-s08.mp3",
-      "durationSec": 8.9
-    },
-    {
-      "type": "narration",
-      "speaker": "NARRATOR",
-      "text": "That is more than the average American. More than the British, the French and the Germans. One of the highest figures on Earth.",
-      "visual": {
-        "kind": "action",
-        "name": "bars",
-        "bars": [
-          {
-            "label": "Singapore",
-            "value": 107000,
-            "color": "#e74c3c",
-            "flag": "sg"
-          },
-          {
-            "label": "USA",
-            "value": 80000,
-            "color": "#3498db",
-            "flag": "us"
-          },
-          {
-            "label": "Germany",
-            "value": 54000,
-            "color": "#f1c40f",
-            "flag": "de"
-          },
-          {
-            "label": "UK",
-            "value": 49000,
-            "color": "#2ecc71",
-            "flag": "gb"
-          },
-          {
-            "label": "France",
-            "value": 46000,
-            "color": "#9b59b6",
-            "flag": "fr"
-          }
-        ],
-        "bg": "market"
-      },
       "mascot": {
         "pose": "happy"
       },
-      "id": "hook-s09",
-      "audio": "audio/ep02-singapore/hook-s09.mp3",
-      "durationSec": 8.61
+      "id": "hook-s06"
     },
     {
       "type": "narration",
       "speaker": "NARRATOR",
-      "text": "It has one of the busiest ports in the world, one of the cleanest governments in the world, and most families own their own home.",
-      "visual": {
-        "kind": "crowd",
-        "set": "skyline",
-        "action": "cheer",
-        "n": 10,
-        "seed": 22
-      },
-      "id": "hook-s10",
-      "audio": "audio/ep02-singapore/hook-s10.mp3",
-      "durationSec": 8.09
-    },
-    {
-      "type": "narration",
-      "speaker": "NARRATOR",
-      "text": "So how does a swamp with nothing go from five hundred dollars to more than a hundred thousand in one lifetime?",
+      "text": "More than the average American. More than the British. More than the Germans. The same island. One lifetime.",
       "visual": {
         "kind": "action",
         "name": "pricetag",
@@ -642,53 +456,9 @@
         "bg": "bank"
       },
       "mascot": {
-        "pose": "confused"
+        "pose": "happy"
       },
-      "id": "hook-s11",
-      "audio": "audio/ep02-singapore/hook-s11.mp3",
-      "durationSec": 6.39
-    },
-    {
-      "type": "narration",
-      "speaker": "NARRATOR",
-      "text": "It wasn't oil. It wasn't luck. And it definitely wasn't easy.",
-      "visual": {
-        "kind": "action",
-        "name": "scales",
-        "left": {
-          "icon": "coins",
-          "label": "Oil / Luck"
-        },
-        "right": {
-          "icon": "book",
-          "label": "Rules + Trade"
-        },
-        "tilt": -28,
-        "bg": "desert"
-      },
-      "id": "hook-s12",
-      "audio": "audio/ep02-singapore/hook-s12.mp3",
-      "durationSec": 5.25
-    },
-    {
-      "type": "narration",
-      "speaker": "NARRATOR",
-      "text": "To understand it, we have to go back to the moment someone first noticed this little island was in exactly the right place.",
-      "visual": {
-        "kind": "scroll",
-        "dates": [
-          "1819",
-          "1959",
-          "1965",
-          "1971",
-          "Today"
-        ],
-        "roll": "close"
-      },
-      "date": "1819",
-      "id": "hook-s13",
-      "audio": "audio/ep02-singapore/hook-s13.mp3",
-      "durationSec": 7.04
+      "id": "hook-s07"
     },
     {
       "type": "narration",
