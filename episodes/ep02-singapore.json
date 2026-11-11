@@ -334,7 +334,7 @@
     {
       "type": "narration",
       "speaker": "NARRATOR",
-      "text": "On the ninth of August 1965, the man who had to fix all of this sat down in front of television cameras — and wept.",
+      "text": "On the ninth of August 1965, the man who had to fix all of this sat down in front of television cameras \u2014 and wept.",
       "visual": {
         "kind": "scene",
         "set": "palace",
@@ -648,8 +648,102 @@
       "speaker": "NARRATOR",
       "text": "Every ship from China to India passed through one narrow strait.",
       "visual": {
-        "kind": "gray",
-        "icon": "globe"
+        "kind": "map",
+        "from": {
+          "lon": 103.0,
+          "lat": 2.5,
+          "zoom": 4
+        },
+        "to": {
+          "lon": 103.5,
+          "lat": 2.0,
+          "zoom": 5.5
+        },
+        "events": [
+          {
+            "type": "move",
+            "path": [
+              [
+                115.0,
+                22.0
+              ],
+              [
+                103.5,
+                1.3
+              ],
+              [
+                80.0,
+                10.0
+              ]
+            ],
+            "t": 0.0,
+            "icon": "ship",
+            "label": "China \u2192 India"
+          },
+          {
+            "type": "move",
+            "path": [
+              [
+                110.0,
+                20.0
+              ],
+              [
+                103.5,
+                1.3
+              ],
+              [
+                75.0,
+                8.0
+              ]
+            ],
+            "t": 0.4,
+            "icon": "ship"
+          },
+          {
+            "type": "move",
+            "path": [
+              [
+                105.0,
+                15.0
+              ],
+              [
+                103.5,
+                1.3
+              ],
+              [
+                72.0,
+                6.0
+              ]
+            ],
+            "t": 0.8,
+            "icon": "ship"
+          },
+          {
+            "type": "arrow",
+            "from": [
+              103.5,
+              5.0
+            ],
+            "to": [
+              103.5,
+              -1.0
+            ],
+            "t": 0.2,
+            "color": "#f39c12"
+          },
+          {
+            "type": "label",
+            "at": [
+              103.5,
+              1.3
+            ],
+            "t": 0.5,
+            "text": "Strait of Malacca",
+            "size": 28,
+            "color": "#ffffff",
+            "caps": true
+          }
+        ]
       },
       "id": "ch1-s03",
       "audio": "audio/ep02-singapore/ch1-s03.mp3",
@@ -885,8 +979,94 @@
       "speaker": "NARRATOR",
       "text": "Within decades, Singapore became one of the great trading hubs of the British empire.",
       "visual": {
-        "kind": "gray",
-        "icon": "globe"
+        "kind": "map",
+        "from": {
+          "lon": 103.82,
+          "lat": 1.35,
+          "zoom": 3
+        },
+        "to": {
+          "lon": 103.82,
+          "lat": 1.35,
+          "zoom": 2.5
+        },
+        "events": [
+          {
+            "type": "nation",
+            "at": [
+              103.82,
+              1.35
+            ],
+            "t": 0,
+            "code": "sg",
+            "label": "Singapore"
+          },
+          {
+            "type": "flow",
+            "from": [
+              115.0,
+              22.0
+            ],
+            "to": [
+              103.82,
+              1.35
+            ],
+            "t": 0.0,
+            "icon": "ship",
+            "label": "China"
+          },
+          {
+            "type": "flow",
+            "from": [
+              80.0,
+              10.0
+            ],
+            "to": [
+              103.82,
+              1.35
+            ],
+            "t": 0.4,
+            "icon": "ship",
+            "label": "India"
+          },
+          {
+            "type": "flow",
+            "from": [
+              -0.1,
+              51.5
+            ],
+            "to": [
+              103.82,
+              1.35
+            ],
+            "t": 0.8,
+            "icon": "ship",
+            "label": "Britain"
+          },
+          {
+            "type": "flow",
+            "from": [
+              106.8,
+              -6.2
+            ],
+            "to": [
+              103.82,
+              1.35
+            ],
+            "t": 1.2,
+            "icon": "ship",
+            "label": "Java"
+          },
+          {
+            "type": "pulse",
+            "at": [
+              103.82,
+              1.35
+            ],
+            "t": 1.5,
+            "color": "#f39c12"
+          }
+        ]
       },
       "id": "ch1-s08",
       "audio": "audio/ep02-singapore/ch1-s08.mp3",
@@ -1112,7 +1292,10 @@
           },
           {
             "type": "pulse",
-            "at": [103.82, 1.35],
+            "at": [
+              103.82,
+              1.35
+            ],
             "t": 0.5,
             "color": "#e74c3c"
           }
@@ -1212,8 +1395,11 @@
       "speaker": "MOTHER_1",
       "text": "Eleven people. One room. Singapore in 1959.",
       "visual": {
-        "kind": "gray",
-        "icon": "question"
+        "kind": "crowd",
+        "set": "home",
+        "n": 9,
+        "action": "stand",
+        "seed": 3
       },
       "id": "ch1-s17",
       "audio": "audio/ep02-singapore/ch1-s17.mp3",
@@ -1329,14 +1515,9 @@
       "speaker": "NARRATOR",
       "text": "Remember that. It's the first clue to how this country works.",
       "visual": {
-        "kind": "gray",
-        "icon": "question",
-        "cam": {
-          "x": 50,
-          "y": 50,
-          "from": 1,
-          "to": 1.08
-        }
+        "kind": "scene",
+        "set": "void",
+        "cast": []
       },
       "mascot": {
         "pose": "point"
@@ -1750,7 +1931,7 @@
             ],
             "t": 0,
             "code": "sg",
-            "label": "Singapore — alone"
+            "label": "Singapore \u2014 alone"
           },
           {
             "type": "pulse",
@@ -1796,8 +1977,15 @@
       "speaker": "NARRATOR",
       "text": "Lee Kuan Yew faced the cameras. He was fighting back tears.",
       "visual": {
-        "kind": "gray",
-        "icon": "question"
+        "kind": "scene",
+        "set": "stage",
+        "cast": [
+          {
+            "id": "LEE",
+            "x": 50,
+            "pose": "talk"
+          }
+        ]
       },
       "date": "1965",
       "id": "ch2-s07",
@@ -2215,8 +2403,27 @@
       "speaker": "BRIT_OFF",
       "text": "1971. The British are leaving.",
       "visual": {
-        "kind": "gray",
-        "icon": "question"
+        "kind": "scene",
+        "set": "street",
+        "cast": [
+          {
+            "id": "SOLDIER_1",
+            "x": 30,
+            "pose": "point",
+            "flip": true
+          },
+          {
+            "id": "SOLDIER_2",
+            "x": 55,
+            "pose": "talk",
+            "flip": true
+          },
+          {
+            "id": "MOTHER_1",
+            "x": 75,
+            "pose": "confused"
+          }
+        ]
       },
       "id": "ch2-s16",
       "audio": "audio/ep02-singapore/ch2-s16.mp3",
@@ -2252,8 +2459,20 @@
       "speaker": "BRIT_OFF",
       "text": "About thirty thousand jobs. A fifth of the economy.",
       "visual": {
-        "kind": "gray",
-        "icon": "coins"
+        "kind": "action",
+        "name": "bars",
+        "bars": [
+          {
+            "label": "Jobs lost",
+            "value": 30000,
+            "color": "#e74c3c"
+          },
+          {
+            "label": "Economy %",
+            "value": 20,
+            "color": "#e67e22"
+          }
+        ]
       },
       "id": "ch2-s18",
       "audio": "audio/ep02-singapore/ch2-s18.mp3",
@@ -2314,8 +2533,9 @@
       "speaker": "SG_CLERK",
       "text": "No hinterland. No resources. No big market. And now, no army base.",
       "visual": {
-        "kind": "gray",
-        "icon": "coins"
+        "kind": "scene",
+        "set": "void",
+        "cast": []
       },
       "id": "ch2-s21",
       "audio": "audio/ep02-singapore/ch2-s21.mp3",
@@ -2404,8 +2624,21 @@
       "speaker": "NARRATOR",
       "text": "Most experts at the time would not have bet on Singapore.",
       "visual": {
-        "kind": "gray",
-        "icon": "question"
+        "kind": "scene",
+        "set": "void",
+        "cast": [
+          {
+            "id": "EXPERT_1",
+            "x": 35,
+            "pose": "shrug"
+          },
+          {
+            "id": "EXPERT_2",
+            "x": 65,
+            "pose": "confused",
+            "flip": true
+          }
+        ]
       },
       "mascot": {
         "pose": "point"
@@ -2437,23 +2670,41 @@
       "speaker": "NARRATOR",
       "text": "Start with the scariest problem: water.",
       "visual": {
-        "kind": "gray",
-        "icon": "coins",
-        "props": [
+        "kind": "map",
+        "satellite": true,
+        "from": {
+          "lon": 103.82,
+          "lat": 1.35,
+          "zoom": 9
+        },
+        "to": {
+          "lon": 103.82,
+          "lat": 1.35,
+          "zoom": 11
+        },
+        "events": [
           {
-            "icon": "coins",
-            "x": 50,
-            "y": 44,
-            "scale": 1.4,
-            "anim": "pulse"
+            "type": "label",
+            "at": [
+              103.82,
+              1.35
+            ],
+            "t": 0.3,
+            "text": "No rivers. No lakes.",
+            "size": 36,
+            "color": "#e74c3c",
+            "caps": true
+          },
+          {
+            "type": "pulse",
+            "at": [
+              103.82,
+              1.35
+            ],
+            "t": 0.8,
+            "color": "#3498db"
           }
-        ],
-        "cam": {
-          "x": 50,
-          "y": 50,
-          "from": 1,
-          "to": 1.1
-        }
+        ]
       },
       "mascot": {
         "pose": "point"
@@ -2629,7 +2880,7 @@
         "kind": "document",
         "title": "WATER DEAL",
         "sub": "3 Malaysian cents per 1,000 gallons",
-        "stamp": "1962–2061",
+        "stamp": "1962\u20132061",
         "stampAt": 1.2,
         "seal": true,
         "bg": "study"
@@ -2660,44 +2911,30 @@
       "speaker": "NARRATOR",
       "text": "So Singapore spent decades building what it calls its four national taps: rain caught in reservoirs, water from Johor, seawater turned fresh, and the strangest one of all.",
       "visual": {
-        "kind": "gray",
-        "icon": "coins",
-        "props": [
+        "kind": "action",
+        "name": "bars",
+        "bars": [
           {
-            "icon": "coins",
-            "x": 25,
-            "y": 45,
-            "scale": 0.8,
-            "anim": "bob"
+            "label": "Rainwater",
+            "value": 25,
+            "color": "#3498db"
           },
           {
-            "icon": "ship",
-            "x": 42,
-            "y": 45,
-            "scale": 0.8,
-            "anim": "bob"
+            "label": "Imported",
+            "value": 25,
+            "color": "#2ecc71"
           },
           {
-            "icon": "factory",
-            "x": 59,
-            "y": 45,
-            "scale": 0.8,
-            "anim": "bob"
+            "label": "Recycled",
+            "value": 25,
+            "color": "#9b59b6"
           },
           {
-            "icon": "bulb",
-            "x": 76,
-            "y": 45,
-            "scale": 0.8,
-            "anim": "pulse"
+            "label": "Desalinated",
+            "value": 25,
+            "color": "#f39c12"
           }
-        ],
-        "cam": {
-          "x": 50,
-          "y": 50,
-          "from": 0.95,
-          "to": 1.05
-        }
+        ]
       },
       "id": "ch3-s06",
       "audio": "audio/ep02-singapore/ch3-s06.mp3",
@@ -2783,8 +3020,21 @@
       "speaker": "FATHER_2",
       "text": "Recycled. Filtered. Cleaned to drinking-water standards.",
       "visual": {
-        "kind": "gray",
-        "icon": "question"
+        "kind": "scene",
+        "set": "office",
+        "cast": [
+          {
+            "id": "WORKER_1",
+            "x": 40,
+            "pose": "point"
+          },
+          {
+            "id": "WORKER_2",
+            "x": 65,
+            "pose": "happy",
+            "flip": true
+          }
+        ]
       },
       "id": "ch3-s10",
       "audio": "audio/ep02-singapore/ch3-s10.mp3",
@@ -2945,8 +3195,26 @@
       "speaker": "NARRATOR",
       "text": "Families could buy their flat using money from their own pension fund.",
       "visual": {
-        "kind": "gray",
-        "icon": "coins"
+        "kind": "scene",
+        "set": "home",
+        "cast": [
+          {
+            "id": "FATHER_1",
+            "x": 35,
+            "pose": "happy"
+          },
+          {
+            "id": "MOTHER_1",
+            "x": 55,
+            "pose": "happy",
+            "flip": true
+          },
+          {
+            "id": "CHILD_1",
+            "x": 70,
+            "pose": "talk"
+          }
+        ]
       },
       "date": "1968",
       "id": "ch3-s17",
@@ -3021,8 +3289,34 @@
       "speaker": "SON",
       "text": "Over eighty percent of Singaporeans own their home. Using their own pension savings.",
       "visual": {
-        "kind": "gray",
-        "icon": "shield"
+        "kind": "action",
+        "name": "bars",
+        "bars": [
+          {
+            "label": "Singapore",
+            "value": 89,
+            "flag": "sg",
+            "color": "#e74c3c"
+          },
+          {
+            "label": "USA",
+            "value": 66,
+            "flag": "us",
+            "color": "#3498db"
+          },
+          {
+            "label": "Germany",
+            "value": 46,
+            "flag": "de",
+            "color": "#2ecc71"
+          },
+          {
+            "label": "UK",
+            "value": 65,
+            "flag": "gb",
+            "color": "#9b59b6"
+          }
+        ]
       },
       "id": "ch3-s21",
       "audio": "audio/ep02-singapore/ch3-s21.mp3",
@@ -3073,23 +3367,15 @@
       "speaker": "NARRATOR",
       "text": "And third: the iron rules.",
       "visual": {
-        "kind": "gray",
-        "icon": "shield",
-        "props": [
+        "kind": "scene",
+        "set": "palace",
+        "cast": [
           {
-            "icon": "shield",
+            "id": "LEE",
             "x": 50,
-            "y": 44,
-            "scale": 1.4,
-            "anim": "pulse"
+            "pose": "point"
           }
-        ],
-        "cam": {
-          "x": 50,
-          "y": 50,
-          "from": 1,
-          "to": 1.1
-        }
+        ]
       },
       "mascot": {
         "pose": "point"
@@ -3211,8 +3497,21 @@
       "speaker": "NARRATOR",
       "text": "The rules are the rules. No exceptions. No cash in the envelope.",
       "visual": {
-        "kind": "gray",
-        "icon": "shield"
+        "kind": "scene",
+        "set": "office",
+        "cast": [
+          {
+            "id": "OFFICIAL_1",
+            "x": 35,
+            "pose": "shrug"
+          },
+          {
+            "id": "OFFICIAL_2",
+            "x": 65,
+            "pose": "angry",
+            "flip": true
+          }
+        ]
       },
       "mascot": {
         "pose": "happy"
@@ -3358,7 +3657,7 @@
       "visual": {
         "kind": "document",
         "title": "ECONOMIC DEVELOPMENT BOARD",
-        "sub": "Est. 1961 — Albert Winsemius, adviser",
+        "sub": "Est. 1961 \u2014 Albert Winsemius, adviser",
         "seal": true,
         "bg": "study"
       },
@@ -3391,7 +3690,7 @@
               1.32
             ],
             "t": 0,
-            "label": "Jurong — swamp",
+            "label": "Jurong \u2014 swamp",
             "icon": "wheat",
             "side": "left",
             "persist": true,
@@ -3628,8 +3927,20 @@
       "speaker": "EDB_OFF",
       "text": "Up to ninety percent off your profits tax. For ten years.",
       "visual": {
-        "kind": "gray",
-        "icon": "coins"
+        "kind": "action",
+        "name": "bars",
+        "bars": [
+          {
+            "label": "Normal rate",
+            "value": 100,
+            "color": "#e74c3c"
+          },
+          {
+            "label": "With holiday",
+            "value": 10,
+            "color": "#2ecc71"
+          }
+        ]
       },
       "id": "ch4-s11",
       "audio": "audio/ep02-singapore/ch4-s11.mp3",
@@ -3715,8 +4026,11 @@
       "speaker": "NARRATOR",
       "text": "Tax holidays. Ready land. English-speaking workers. The pitch was real.",
       "visual": {
-        "kind": "gray",
-        "icon": "coins"
+        "kind": "crowd",
+        "set": "street",
+        "n": 8,
+        "action": "walk",
+        "seed": 21
       },
       "date": "1967",
       "id": "ch4-s15",
@@ -3792,8 +4106,30 @@
       "speaker": "NARRATOR",
       "text": "Basic goods. Electronics. Finance. Services. Each decade, one rung higher.",
       "visual": {
-        "kind": "gray",
-        "icon": "star"
+        "kind": "action",
+        "name": "bars",
+        "bars": [
+          {
+            "label": "1970s Goods",
+            "value": 40,
+            "color": "#e67e22"
+          },
+          {
+            "label": "1980s Electronics",
+            "value": 65,
+            "color": "#3498db"
+          },
+          {
+            "label": "1990s Finance",
+            "value": 80,
+            "color": "#9b59b6"
+          },
+          {
+            "label": "2000s Services",
+            "value": 95,
+            "color": "#2ecc71"
+          }
+        ]
       },
       "id": "ch4-s19",
       "audio": "audio/ep02-singapore/ch4-s19.mp3",
@@ -3851,8 +4187,90 @@
       "speaker": "NARRATOR",
       "text": "The port never stopped. In 2025, the second busiest container port on earth.",
       "visual": {
-        "kind": "gray",
-        "icon": "globe"
+        "kind": "map",
+        "from": {
+          "lon": 103.82,
+          "lat": 1.35,
+          "zoom": 1.5
+        },
+        "to": {
+          "lon": 103.82,
+          "lat": 1.35,
+          "zoom": 2.0
+        },
+        "events": [
+          {
+            "type": "nation",
+            "at": [
+              103.82,
+              1.35
+            ],
+            "t": 0,
+            "code": "sg",
+            "label": "#2 busiest port"
+          },
+          {
+            "type": "flow",
+            "from": [
+              121.5,
+              31.2
+            ],
+            "to": [
+              103.82,
+              1.35
+            ],
+            "t": 0.0,
+            "icon": "ship"
+          },
+          {
+            "type": "flow",
+            "from": [
+              -87.6,
+              41.8
+            ],
+            "to": [
+              103.82,
+              1.35
+            ],
+            "t": 0.3,
+            "icon": "ship"
+          },
+          {
+            "type": "flow",
+            "from": [
+              2.35,
+              48.9
+            ],
+            "to": [
+              103.82,
+              1.35
+            ],
+            "t": 0.6,
+            "icon": "ship"
+          },
+          {
+            "type": "flow",
+            "from": [
+              139.7,
+              35.7
+            ],
+            "to": [
+              103.82,
+              1.35
+            ],
+            "t": 0.9,
+            "icon": "ship"
+          },
+          {
+            "type": "pulse",
+            "at": [
+              103.82,
+              1.35
+            ],
+            "t": 1.2,
+            "color": "#e74c3c"
+          }
+        ]
       },
       "id": "ch4-s22",
       "audio": "audio/ep02-singapore/ch4-s22.mp3",
@@ -4118,8 +4536,10 @@
       "speaker": "SALESMAN",
       "text": "A hundred and thirty thousand dollars. Just for the right to drive.",
       "visual": {
-        "kind": "gray",
-        "icon": "coins"
+        "kind": "action",
+        "name": "pricetag",
+        "from": 0,
+        "to": 130000
       },
       "id": "ch5-s08",
       "audio": "audio/ep02-singapore/ch5-s08.mp3",
@@ -4252,8 +4672,30 @@
       "speaker": "NARRATOR",
       "text": "One party. Every election. Since 1959.",
       "visual": {
-        "kind": "gray",
-        "icon": "shield"
+        "kind": "action",
+        "name": "bars",
+        "bars": [
+          {
+            "label": "1959",
+            "value": 54,
+            "color": "#e74c3c"
+          },
+          {
+            "label": "1980",
+            "value": 78,
+            "color": "#e74c3c"
+          },
+          {
+            "label": "2000",
+            "value": 75,
+            "color": "#e74c3c"
+          },
+          {
+            "label": "2020",
+            "value": 61,
+            "color": "#e74c3c"
+          }
+        ]
       },
       "id": "ch5-s13",
       "audio": "audio/ep02-singapore/ch5-s13.mp3",
@@ -4281,8 +4723,11 @@
       "speaker": "NARRATOR",
       "text": "Supporters say that same stability is exactly what made the wealth possible.",
       "visual": {
-        "kind": "gray",
-        "icon": "shield"
+        "kind": "crowd",
+        "set": "street",
+        "n": 8,
+        "action": "walk",
+        "seed": 44
       },
       "mascot": {
         "pose": "point"
