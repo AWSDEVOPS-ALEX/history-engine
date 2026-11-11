@@ -28,6 +28,7 @@ const MODEL = process.env.FISH_MODEL ?? "s2.1-pro";
 const TEMPO = Number(process.env.VOICE_TEMPO ?? 1);
 const file = process.argv[2];
 if (!file) throw new Error("usage: npm run voice -- episodes/<file>.json");
+const only = new Set(process.argv.slice(3)); // if provided, only regenerate these segment ids
 
 const ep: Episode = JSON.parse(readFileSync(file, "utf8"));
 const slug = basename(file, ".json");
@@ -73,6 +74,11 @@ for (const s of ep.segments) {
   const raw = join(dir, `${s.id}.raw.mp3`);
   const legacy = existsSync(abs) && !existsSync(raw); // clips made before raw caching
   if (legacy) execFileSync("cp", [abs, raw]);
+  // when specific ids are requested, force re-synthesis by removing cached files
+  if (only.size > 0 && only.has(s.id)) {
+    if (existsSync(raw)) execFileSync("rm", [raw]);
+    if (existsSync(abs)) execFileSync("rm", [abs]);
+  }
   if (!existsSync(raw)) {
     process.stdout.write(`voice ${s.id} (${s.speaker})… `);
     writeFileSync(raw, await tts(s.text, voiceFor(s)));
