@@ -1002,56 +1002,64 @@
             "label": "Singapore"
           },
           {
-            "type": "flow",
-            "from": [
-              115.0,
-              22.0
-            ],
-            "to": [
-              103.82,
-              1.35
+            "type": "move",
+            "path": [
+              [
+                115.0,
+                22.0
+              ],
+              [
+                103.82,
+                1.35
+              ]
             ],
             "t": 0.0,
             "icon": "ship",
             "label": "China"
           },
           {
-            "type": "flow",
-            "from": [
-              80.0,
-              10.0
-            ],
-            "to": [
-              103.82,
-              1.35
+            "type": "move",
+            "path": [
+              [
+                80.0,
+                10.0
+              ],
+              [
+                103.82,
+                1.35
+              ]
             ],
             "t": 0.4,
             "icon": "ship",
             "label": "India"
           },
           {
-            "type": "flow",
-            "from": [
-              -0.1,
-              51.5
-            ],
-            "to": [
-              103.82,
-              1.35
+            "type": "move",
+            "path": [
+              [
+                -0.1,
+                51.5
+              ],
+              [
+                103.82,
+                1.35
+              ]
             ],
             "t": 0.8,
             "icon": "ship",
             "label": "Britain"
           },
           {
-            "type": "flow",
-            "from": [
-              106.8,
-              -6.2
-            ],
-            "to": [
-              103.82,
-              1.35
+            "type": "move",
+            "path": [
+              [
+                106.8,
+                -6.2
+              ],
+              [
+                103.82,
+                1.35
+              ]
             ],
             "t": 1.2,
             "icon": "ship",
@@ -1516,7 +1524,7 @@
       "text": "Remember that. It's the first clue to how this country works.",
       "visual": {
         "kind": "scene",
-        "set": "void",
+        "set": "study",
         "cast": []
       },
       "mascot": {
@@ -1978,7 +1986,7 @@
       "text": "Lee Kuan Yew faced the cameras. He was fighting back tears.",
       "visual": {
         "kind": "scene",
-        "set": "stage",
+        "set": "palace",
         "cast": [
           {
             "id": "LEE",
@@ -2534,7 +2542,7 @@
       "text": "No hinterland. No resources. No big market. And now, no army base.",
       "visual": {
         "kind": "scene",
-        "set": "void",
+        "set": "study",
         "cast": []
       },
       "id": "ch2-s21",
@@ -2625,7 +2633,7 @@
       "text": "Most experts at the time would not have bet on Singapore.",
       "visual": {
         "kind": "scene",
-        "set": "void",
+        "set": "study",
         "cast": [
           {
             "id": "EXPERT_1",
@@ -3021,7 +3029,7 @@
       "text": "Recycled. Filtered. Cleaned to drinking-water standards.",
       "visual": {
         "kind": "scene",
-        "set": "office",
+        "set": "study",
         "cast": [
           {
             "id": "WORKER_1",
@@ -3498,7 +3506,7 @@
       "text": "The rules are the rules. No exceptions. No cash in the envelope.",
       "visual": {
         "kind": "scene",
-        "set": "office",
+        "set": "study",
         "cast": [
           {
             "id": "OFFICIAL_1",
@@ -4210,53 +4218,61 @@
             "label": "#2 busiest port"
           },
           {
-            "type": "flow",
-            "from": [
-              121.5,
-              31.2
-            ],
-            "to": [
-              103.82,
-              1.35
+            "type": "move",
+            "path": [
+              [
+                121.5,
+                31.2
+              ],
+              [
+                103.82,
+                1.35
+              ]
             ],
             "t": 0.0,
             "icon": "ship"
           },
           {
-            "type": "flow",
-            "from": [
-              -87.6,
-              41.8
-            ],
-            "to": [
-              103.82,
-              1.35
+            "type": "move",
+            "path": [
+              [
+                -87.6,
+                41.8
+              ],
+              [
+                103.82,
+                1.35
+              ]
             ],
             "t": 0.3,
             "icon": "ship"
           },
           {
-            "type": "flow",
-            "from": [
-              2.35,
-              48.9
-            ],
-            "to": [
-              103.82,
-              1.35
+            "type": "move",
+            "path": [
+              [
+                2.35,
+                48.9
+              ],
+              [
+                103.82,
+                1.35
+              ]
             ],
             "t": 0.6,
             "icon": "ship"
           },
           {
-            "type": "flow",
-            "from": [
-              139.7,
-              35.7
-            ],
-            "to": [
-              103.82,
-              1.35
+            "type": "move",
+            "path": [
+              [
+                139.7,
+                35.7
+              ],
+              [
+                103.82,
+                1.35
+              ]
             ],
             "t": 0.9,
             "icon": "ship"
@@ -4374,10 +4390,26 @@
         "item": "Singapore GDP per person (USD)",
         "cycle": true,
         "bars": [
-          { "label": "1965", "value": 500, "color": "#e67e22" },
-          { "label": "1990", "value": 13000, "color": "#e67e22" },
-          { "label": "2015", "value": 56000, "color": "#27ae60" },
-          { "label": "Today", "value": 107000, "color": "#27ae60" }
+          {
+            "label": "1965",
+            "value": 500,
+            "color": "#e67e22"
+          },
+          {
+            "label": "1990",
+            "value": 13000,
+            "color": "#e67e22"
+          },
+          {
+            "label": "2015",
+            "value": 56000,
+            "color": "#27ae60"
+          },
+          {
+            "label": "Today",
+            "value": 107000,
+            "color": "#27ae60"
+          }
         ]
       },
       "id": "ch4-s24",
@@ -4714,11 +4746,11 @@
       "visual": {
         "kind": "scroll",
         "dates": [
-          "1965 — PAP wins",
-          "1971 — Press law",
-          "1990 — Lee steps down",
-          "2015 — PAP 70%",
-          "2020 — PAP 61%"
+          "1965 \u2014 PAP wins",
+          "1971 \u2014 Press law",
+          "1990 \u2014 Lee steps down",
+          "2015 \u2014 PAP 70%",
+          "2020 \u2014 PAP 61%"
         ]
       },
       "mascot": {
