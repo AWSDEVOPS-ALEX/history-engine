@@ -159,204 +159,137 @@
     {
       "type": "narration",
       "speaker": "NARRATOR",
-      "text": "On the ninth of August 1965, a prime minister sat in front of television cameras and broke down in tears.",
+      "text": "This tiny island is richer than the United States. Richer than Germany. Richer than almost anywhere on Earth.",
       "visual": {
-        "kind": "scene",
-        "set": "palace",
-        "cam": {
-          "x": 50,
-          "y": 50,
-          "from": 1.0,
-          "to": 1.08
-        },
-        "cast": [
+        "kind": "map",
+        "from": { "lon": 103.82, "lat": 1.35, "zoom": 2 },
+        "to":   { "lon": 103.82, "lat": 1.35, "zoom": 10 },
+        "events": [
           {
-            "id": "LEE_KY",
-            "x": 50,
-            "pose": "confused",
-            "flip": false
-          }
-        ],
-        "props": [
+            "type": "pulse",
+            "at": [103.82, 1.35],
+            "t": 0.4,
+            "color": "#f1c40f"
+          },
           {
-            "icon": "scroll",
-            "x": 72,
-            "y": 68,
-            "scale": 0.7,
-            "anim": "none"
+            "type": "pulse",
+            "at": [103.82, 1.35],
+            "t": 1.1,
+            "color": "#f1c40f"
+          },
+          {
+            "type": "nation",
+            "at": [103.82, 1.35],
+            "t": 1.6,
+            "code": "sg",
+            "label": "Singapore"
+          },
+          {
+            "type": "label",
+            "at": [103.82, 2.6],
+            "t": 2.0,
+            "text": "$107,000 / person",
+            "size": 32,
+            "color": "#f1c40f",
+            "caps": false
           }
         ]
       },
-      "date": "1965",
       "id": "hook-s01"
     },
     {
       "type": "narration",
       "speaker": "NARRATOR",
-      "text": "His country had just been thrown out of the nation it had joined only two years earlier. It was now on its own.",
+      "text": "And sixty years ago it had nothing. No oil. No gold. No farmland. Not even enough water to drink.",
       "visual": {
         "kind": "map",
-        "from": {
-          "lon": 109,
-          "lat": 4,
-          "zoom": 4.2
-        },
-        "to": {
-          "lon": 103.82,
-          "lat": 1.35,
-          "zoom": 9
-        },
+        "from": { "lon": 103.82, "lat": 1.35, "zoom": 10 },
+        "to":   { "lon": 103.82, "lat": 1.35, "zoom": 4.5 },
         "events": [
           {
-            "type": "fill",
-            "countries": [
-              "MYS"
-            ],
-            "t": 0,
-            "color": "#c0392b",
-            "stagger": 0
-          },
-          {
-            "type": "pulse",
-            "at": [
-              103.82,
-              1.35
-            ],
-            "t": 0.5,
-            "color": "#f39c12"
-          },
-          {
             "type": "nation",
-            "at": [
-              103.82,
-              1.35
-            ],
-            "t": 1.0,
+            "at": [103.82, 1.35],
+            "t": 0,
             "code": "sg",
-            "label": "Singapore \u2014 alone"
+            "label": "Singapore"
           },
           {
-            "type": "label",
-            "at": [
-              109.5,
-              4.0
-            ],
-            "t": 0.8,
-            "text": "EXPELLED",
-            "size": 32,
-            "color": "#e74c3c",
-            "caps": true
+            "type": "callout",
+            "at": [94.0, 14.0],
+            "t": 0.4,
+            "icon": "oil",
+            "label": "NO OIL",
+            "side": "right",
+            "pos": "above"
+          },
+          {
+            "type": "callout",
+            "at": [116.0, 13.0],
+            "t": 1.0,
+            "icon": "gold",
+            "label": "NO GOLD",
+            "side": "left",
+            "pos": "above"
+          },
+          {
+            "type": "callout",
+            "at": [94.0, -9.0],
+            "t": 1.6,
+            "icon": "wheat",
+            "label": "NO FARMLAND",
+            "side": "right",
+            "pos": "below"
+          },
+          {
+            "type": "callout",
+            "at": [116.0, -9.0],
+            "t": 2.2,
+            "icon": "water",
+            "label": "NO WATER",
+            "side": "left",
+            "pos": "below"
           }
         ]
       },
-      "date": "1965",
       "id": "hook-s02"
     },
     {
       "type": "narration",
       "speaker": "NARRATOR",
-      "text": "And on paper, it had almost no chance.",
+      "text": "The average person earned five hundred dollars a year. The same as Mexico. A third of what people made in Britain.",
       "visual": {
         "kind": "action",
-        "name": "scales",
-        "left": {
-          "icon": "crown",
-          "label": "The odds"
-        },
-        "right": {
-          "icon": "coins",
-          "label": "Singapore"
-        },
-        "tilt": 35,
-        "bg": "night-city"
-      },
-      "mascot": {
-        "pose": "confused"
+        "name": "bars",
+        "bg": "street",
+        "bars": [
+          { "label": "Singapore", "value": 500,  "color": "#c0392b", "flag": "sg" },
+          { "label": "Mexico",    "value": 490,  "color": "#e67e22" },
+          { "label": "UK",        "value": 1400, "color": "#2ecc71", "flag": "gb" },
+          { "label": "USA",       "value": 3600, "color": "#3498db", "flag": "us" }
+        ],
+        "hideValues": false,
+        "labels": [
+          { "text": "GDP per person, 1965 (USD)", "x": 50, "y": 10, "at": 0.4, "size": 54 }
+        ]
       },
       "id": "hook-s03"
     },
     {
       "type": "narration",
       "speaker": "NARRATOR",
-      "text": "It was a small island, smaller than the city of London. No oil. No gold. No farmland. Not even enough fresh water for its own people.",
+      "text": "On the ninth of August 1965, the man who had to fix all of this sat down in front of television cameras \u2014 and wept.",
       "visual": {
-        "kind": "map",
-        "from": {
-          "lon": 103.82,
-          "lat": 1.35,
-          "zoom": 5
-        },
-        "to": {
-          "lon": 103.82,
-          "lat": 1.35,
-          "zoom": 6
-        },
-        "events": [
-          {
-            "type": "nation",
-            "at": [
-              103.82,
-              1.35
-            ],
-            "t": 0,
-            "code": "sg",
-            "label": "Singapore"
-          },
-          {
-            "type": "pulse",
-            "at": [
-              103.82,
-              1.35
-            ],
-            "t": 0,
-            "color": "#e74c3c"
-          },
-          {
-            "type": "callout",
-            "at": [
-              96.0,
-              8.0
-            ],
-            "t": 0.3,
-            "icon": "oil",
-            "label": "NO OIL",
-            "side": "right"
-          },
-          {
-            "type": "callout",
-            "at": [
-              112.0,
-              7.0
-            ],
-            "t": 0.7,
-            "icon": "gold",
-            "label": "NO GOLD",
-            "side": "left"
-          },
-          {
-            "type": "callout",
-            "at": [
-              96.0,
-              -6.0
-            ],
-            "t": 1.1,
-            "icon": "wheat",
-            "label": "NO FARMLAND",
-            "side": "right"
-          },
-          {
-            "type": "callout",
-            "at": [
-              112.0,
-              -6.0
-            ],
-            "t": 1.5,
-            "icon": "water",
-            "label": "NO WATER",
-            "side": "left"
-          }
+        "kind": "scene",
+        "set": "palace",
+        "cam": { "x": 50, "y": 60, "from": 1.6, "to": 1.9 },
+        "cast": [
+          { "id": "LEE_KY", "x": 50, "pose": "shrug", "flip": false }
+        ],
+        "props": [
+          { "icon": "scroll", "x": 68, "y": 66, "scale": 0.65, "anim": "none" }
         ]
       },
+      "date": "1965",
       "id": "hook-s04"
     },
     {
@@ -394,45 +327,20 @@
     {
       "type": "narration",
       "speaker": "NARRATOR",
-      "text": "The average person earned around five hundred dollars a year. About the same as Mexico or South Africa at the time.",
+      "text": "Now look at it today. In 2026, the average Singaporean earns over a hundred and seven thousand dollars a year.",
       "visual": {
         "kind": "action",
         "name": "bars",
-        "bg": "street",
+        "bg": "skyline",
         "bars": [
-          {
-            "label": "Singapore",
-            "value": 500,
-            "color": "#c0392b",
-            "flag": "sg"
-          },
-          {
-            "label": "Mexico",
-            "value": 490,
-            "color": "#e67e22"
-          },
-          {
-            "label": "USA",
-            "value": 3600,
-            "color": "#3498db",
-            "flag": "us"
-          },
-          {
-            "label": "UK",
-            "value": 1400,
-            "color": "#2ecc71",
-            "flag": "gb"
-          }
+          { "label": "Singapore", "value": 107000, "color": "#f2d27a", "flag": "sg" },
+          { "label": "USA",       "value": 86000,  "color": "#3498db", "flag": "us" },
+          { "label": "Germany",   "value": 55000,  "color": "#e67e22", "flag": "de" },
+          { "label": "UK",        "value": 49000,  "color": "#2ecc71", "flag": "gb" }
         ],
         "hideValues": false,
         "labels": [
-          {
-            "text": "GDP per person, 1965 (USD)",
-            "x": 50,
-            "y": 10,
-            "at": 0.4,
-            "size": 54
-          }
+          { "text": "GDP per person, 2026 (USD)", "x": 50, "y": 10, "at": 0.4, "size": 54 }
         ]
       },
       "id": "hook-s06"
@@ -440,159 +348,19 @@
     {
       "type": "narration",
       "speaker": "NARRATOR",
-      "text": "That country was Singapore.",
+      "text": "More than the average American. More than the British. More than the Germans. The same island. One lifetime.",
       "visual": {
-        "kind": "map",
-        "from": {
-          "lon": 103.82,
-          "lat": 1.35,
-          "zoom": 4
-        },
-        "to": {
-          "lon": 103.82,
-          "lat": 1.35,
-          "zoom": 9
-        },
-        "events": [
-          {
-            "type": "nation",
-            "at": [
-              103.82,
-              1.35
-            ],
-            "t": 0.3,
-            "code": "sg",
-            "label": "Singapore"
-          },
-          {
-            "type": "pulse",
-            "at": [
-              103.82,
-              1.35
-            ],
-            "t": 0.3,
-            "color": "#f39c12"
-          },
-          {
-            "type": "pulse",
-            "at": [
-              103.82,
-              1.35
-            ],
-            "t": 1.1,
-            "color": "#e74c3c"
-          },
-          {
-            "type": "label",
-            "at": [
-              103.82,
-              2.2
-            ],
-            "t": 0.6,
-            "text": "SINGAPORE",
-            "size": 36,
-            "color": "#f1c40f",
-            "caps": true
-          }
-        ]
+        "kind": "action",
+        "name": "pricetag",
+        "from": 500,
+        "to": 107000,
+        "prefix": "$",
+        "suffix": "/yr",
+        "item": "GDP per person",
+        "bg": "bank"
       },
-      "mascot": {
-        "pose": "talk"
-      },
+      "mascot": { "pose": "happy" },
       "id": "hook-s07"
-    },
-    {
-      "type": "narration",
-      "speaker": "NARRATOR",
-      "text": "Now look at it today. In 2026, the average Singaporean produces more than a hundred and seven thousand dollars a year.",
-      "visual": {
-        "kind": "action",
-        "name": "bars",
-        "bg": "skyline",
-        "bars": [
-          {
-            "label": "Singapore",
-            "value": 107000,
-            "color": "#f2d27a",
-            "flag": "sg"
-          },
-          {
-            "label": "USA",
-            "value": 86000,
-            "color": "#3498db",
-            "flag": "us"
-          },
-          {
-            "label": "UK",
-            "value": 49000,
-            "color": "#2ecc71",
-            "flag": "gb"
-          },
-          {
-            "label": "Germany",
-            "value": 55000,
-            "color": "#e67e22",
-            "flag": "de"
-          }
-        ],
-        "hideValues": false,
-        "labels": [
-          {
-            "text": "GDP per person, 2026 (USD)",
-            "x": 50,
-            "y": 10,
-            "at": 0.4,
-            "size": 54
-          }
-        ]
-      },
-      "id": "hook-s08"
-    },
-    {
-      "type": "narration",
-      "speaker": "NARRATOR",
-      "text": "That is more than the average American. More than the British, the French and the Germans. One of the highest figures on Earth.",
-      "visual": {
-        "kind": "action",
-        "name": "bars",
-        "bars": [
-          {
-            "label": "Singapore",
-            "value": 107000,
-            "color": "#e74c3c",
-            "flag": "sg"
-          },
-          {
-            "label": "USA",
-            "value": 80000,
-            "color": "#3498db",
-            "flag": "us"
-          },
-          {
-            "label": "Germany",
-            "value": 54000,
-            "color": "#f1c40f",
-            "flag": "de"
-          },
-          {
-            "label": "UK",
-            "value": 49000,
-            "color": "#2ecc71",
-            "flag": "gb"
-          },
-          {
-            "label": "France",
-            "value": 46000,
-            "color": "#9b59b6",
-            "flag": "fr"
-          }
-        ],
-        "bg": "market"
-      },
-      "mascot": {
-        "pose": "happy"
-      },
-      "id": "hook-s09"
     },
     {
       "type": "narration",
@@ -606,25 +374,6 @@
         "seed": 22
       },
       "id": "hook-s10"
-    },
-    {
-      "type": "narration",
-      "speaker": "NARRATOR",
-      "text": "So how does a swamp with nothing go from five hundred dollars to more than a hundred thousand in one lifetime?",
-      "visual": {
-        "kind": "action",
-        "name": "pricetag",
-        "from": 500,
-        "to": 107000,
-        "prefix": "$",
-        "suffix": "/yr",
-        "item": "GDP per person",
-        "bg": "bank"
-      },
-      "mascot": {
-        "pose": "confused"
-      },
-      "id": "hook-s11"
     },
     {
       "type": "narration",
