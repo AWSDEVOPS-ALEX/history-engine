@@ -1,0 +1,8497 @@
+{
+ "title": "Argentina Was Richer Than France. What Happened?",
+ "fps": 30,
+ "mascot": {
+  "skin": "#c68e5e",
+  "robe": "#2f7f7a",
+  "trim": "#e0b84a",
+  "hat": "cap",
+  "hatColor": "#7a3b2e",
+  "glasses": true,
+  "staff": "chronicler",
+  "satchel": true,
+  "belt": "#7a3b2e",
+  "pattern": "stripes",
+  "sandals": true,
+  "prop": "none"
+ },
+ "narratorVoice": "",
+ "sfxMode": "scenes",
+ "sfxVolume": 0.7,
+ "music": "music/bed.mp3",
+ "musicVolume": 0.08,
+ "cast": [
+  {
+   "id": "BRITISH_INVESTOR",
+   "look": {
+    "skin": "#f0cfb0",
+    "robe": "#3a3a48",
+    "trim": "#b23a2a",
+    "hat": "tallhat",
+    "hatColor": "#1e1a17",
+    "prop": "coin"
+   },
+   "voice": ""
+  },
+  {
+   "id": "RANCH_OWNER",
+   "look": {
+    "skin": "#d9a878",
+    "robe": "#8a5a2b",
+    "trim": "#e0b84a",
+    "hat": "brim",
+    "hatColor": "#5a3d2b",
+    "beard": "short",
+    "beardColor": "#3a2a1e",
+    "belt": "#3a2a1e"
+   },
+   "voice": ""
+  },
+  {
+   "id": "GENERAL",
+   "look": {
+    "skin": "#e0b48c",
+    "robe": "#5b6b3a",
+    "trim": "#e0b84a",
+    "hat": "peaked",
+    "hatColor": "#4a5a30"
+   },
+   "voice": ""
+  },
+  {
+   "id": "CLERK",
+   "look": {
+    "skin": "#f0cfb0",
+    "robe": "#6b7b8b",
+    "trim": "#d9d9d9",
+    "hair": "#3a2a1e",
+    "glasses": true,
+    "prop": "scroll"
+   },
+   "voice": ""
+  },
+  {
+   "id": "WORKER",
+   "look": {
+    "skin": "#c89a6a",
+    "robe": "#2d5a7b",
+    "trim": "#9aa0a6",
+    "hat": "cap",
+    "hatColor": "#2d5a7b"
+   },
+   "voice": ""
+  },
+  {
+   "id": "FACTORY_OWNER",
+   "look": {
+    "skin": "#e8c4a0",
+    "robe": "#4a3a3a",
+    "trim": "#e0b84a",
+    "hat": "tallhat",
+    "hatColor": "#2b2622",
+    "beard": "short",
+    "beardColor": "#9a9a9a"
+   },
+   "voice": ""
+  },
+  {
+   "id": "SHOPPER",
+   "look": {
+    "skin": "#d9a878",
+    "robe": "#b23a2a",
+    "trim": "#e0b84a",
+    "hair": "#3a2a1e",
+    "prop": "coin"
+   },
+   "voice": ""
+  },
+  {
+   "id": "SHOPKEEPER",
+   "look": {
+    "skin": "#e8c4a0",
+    "robe": "#f4f1ea",
+    "trim": "#2f7f7a",
+    "hair": "#5a3d2b",
+    "beard": "short",
+    "beardColor": "#5a3d2b"
+   },
+   "voice": ""
+  },
+  {
+   "id": "CUSTOMER",
+   "look": {
+    "skin": "#c89a6a",
+    "robe": "#4f6d8f",
+    "trim": "#e0b84a",
+    "hair": "#2b2622"
+   },
+   "voice": ""
+  },
+  {
+   "id": "BANK_TELLER",
+   "look": {
+    "skin": "#f0cfb0",
+    "robe": "#2b3a55",
+    "trim": "#e0b84a",
+    "hair": "#3a2a1e",
+    "glasses": true
+   },
+   "voice": ""
+  },
+  {
+   "id": "GRANDSON",
+   "look": {
+    "skin": "#d9a878",
+    "robe": "#e07b1f",
+    "trim": "#e0b84a",
+    "hair": "#2b2622"
+   },
+   "voice": ""
+  },
+  {
+   "id": "GRANDMOTHER",
+   "look": {
+    "skin": "#e8c4a0",
+    "robe": "#7a3b5a",
+    "trim": "#e0b84a",
+    "hair": "#c9c9c9",
+    "bun": true,
+    "glasses": true
+   },
+   "voice": ""
+  }
+ ],
+ "segments": [
+  {
+   "id": "c01-s01",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "In 1913, if you were a young European looking for a better life, there was one country that kept coming up.",
+   "visual": {
+    "kind": "map",
+    "from": {
+     "lon": -30,
+     "lat": 5,
+     "zoom": 1.15
+    },
+    "events": [
+     {
+      "type": "pin",
+      "at": [
+       -58.38,
+       -34.6
+      ],
+      "t": 5.6,
+      "label": "Buenos Aires"
+     },
+     {
+      "type": "callout",
+      "at": [
+       10,
+       47
+      ],
+      "t": 0,
+      "word": 8,
+      "src": "archive/immigrants-hotel.jpg",
+      "icon": "ship",
+      "label": "young Europeans",
+      "focus": false,
+      "side": "right"
+     }
+    ],
+    "to": {
+     "lon": -60,
+     "lat": -30,
+     "zoom": 3.0
+    },
+    "intro": "clouds",
+    "introDur": 4.0
+   },
+   "date": "1913",
+   "mascot": {
+    "pose": "talk"
+   }
+  },
+  {
+   "id": "c01-s02",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "Not America. Not Canada. Argentina.",
+   "visual": {
+    "kind": "map",
+    "from": {
+     "lon": -85,
+     "lat": 22,
+     "zoom": 1.5
+    },
+    "keys": [
+     {
+      "t": 0.9,
+      "view": {
+       "lon": -85,
+       "lat": 22,
+       "zoom": 1.5
+      }
+     },
+     {
+      "t": 2.3,
+      "view": {
+       "lon": -64,
+       "lat": -30,
+       "zoom": 2.6
+      }
+     }
+    ],
+    "events": [
+     {
+      "type": "fill",
+      "countries": [
+       "United States of America"
+      ],
+      "t": 0,
+      "word": 1,
+      "color": "#8a8f99"
+     },
+     {
+      "type": "label",
+      "at": [
+       -98,
+       39
+      ],
+      "text": "✗",
+      "t": 0,
+      "word": 1,
+      "size": 190,
+      "color": "#e0402b"
+     },
+     {
+      "type": "fill",
+      "countries": [
+       "Canada"
+      ],
+      "t": 0,
+      "word": 3,
+      "color": "#8a8f99"
+     },
+     {
+      "type": "label",
+      "at": [
+       -105,
+       58
+      ],
+      "text": "✗",
+      "t": 0,
+      "word": 3,
+      "size": 190,
+      "color": "#e0402b"
+     },
+     {
+      "type": "fill",
+      "countries": [
+       "Argentina"
+      ],
+      "t": 0,
+      "word": 4,
+      "color": "#e0a526"
+     },
+     {
+      "type": "pulse",
+      "at": [
+       -58.38,
+       -34.6
+      ],
+      "t": 0,
+      "word": 4,
+      "color": "#ffd34d"
+     },
+     {
+      "type": "label",
+      "at": [
+       -66,
+       -36
+      ],
+      "text": "Argentina",
+      "t": 0,
+      "word": 4,
+      "style": "region",
+      "rotate": -75,
+      "size": 60
+     }
+    ]
+   }
+  },
+  {
+   "id": "c01-s03",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "It had some of the richest farmland on Earth.",
+   "visual": {
+    "kind": "map",
+    "from": {
+     "lon": -64,
+     "lat": -30,
+     "zoom": 2.6
+    },
+    "events": [
+     {
+      "type": "callout",
+      "at": [
+       -61.5,
+       -35.0
+      ],
+      "t": 0,
+      "word": 6,
+      "focus": true,
+      "icon": "wheat",
+      "src": "archive/badges/pampas.jpg",
+      "label": "the Pampas",
+      "side": "right",
+      "pos": "below"
+     }
+    ],
+    "to": {
+     "lon": -61,
+     "lat": -35,
+     "zoom": 7
+    }
+   },
+   "labels": [
+    {
+     "text": "richest farmland",
+     "x": 52,
+     "y": 22,
+     "at": 0.4,
+     "size": 72,
+     "emph": "underline"
+    }
+   ]
+  },
+  {
+   "id": "c01-s04",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "Its capital was building wide boulevards, grand opera houses and the first subway in Latin America.",
+   "visual": {
+    "kind": "set",
+    "set": "street",
+    "cam": {
+     "x": 50,
+     "y": 50,
+     "from": 1.0,
+     "to": 1.12
+    }
+   },
+   "shots": [
+    {
+     "word": 6,
+     "visual": {
+      "kind": "set",
+      "set": "palace",
+      "cam": {
+       "x": 50,
+       "y": 40,
+       "from": 1.05,
+       "to": 1.2
+      }
+     },
+     "labels": [
+      {
+       "text": "opera houses",
+       "x": 36,
+       "y": 20,
+       "at": 0.2,
+       "size": 72,
+       "color": "#f5c518"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c01-s05",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "And on average, Argentines earned more than the French and more than the Germans.",
+   "visual": {
+    "kind": "action",
+    "name": "bars",
+    "hideValues": true,
+    "bg": "plaza",
+    "bars": [
+     {
+      "label": "Argentina",
+      "value": 104,
+      "color": "#74acdf",
+      "flag": "ar"
+     },
+     {
+      "label": "France",
+      "value": 92,
+      "color": "#4f6d8f",
+      "flag": "fr"
+     },
+     {
+      "label": "Germany",
+      "value": 96,
+      "color": "#3a3a48",
+      "flag": "de"
+     }
+    ]
+   },
+   "labels": [
+    {
+     "text": "income per person, 1913",
+     "x": 50,
+     "y": 10,
+     "at": 0.4,
+     "size": 60
+    }
+   ]
+  },
+  {
+   "id": "c01-s06",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "Even in 1947, after two world wars, Argentina was still one of the ten richest countries on the planet.",
+   "visual": {
+    "kind": "gray",
+    "props": [
+     {
+      "icon": "crown",
+      "x": 52,
+      "y": 56,
+      "t": 0.4,
+      "scale": 0.7
+     }
+    ],
+    "bg": "pampas"
+   },
+   "date": "1947",
+   "shots": [
+    {
+     "word": 7,
+     "visual": {
+      "kind": "map",
+      "from": {
+       "lon": -20,
+       "lat": 15,
+       "zoom": 1.3
+      },
+      "events": [
+       {
+        "type": "fill",
+        "countries": [
+         "Argentina"
+        ],
+        "t": 0.2,
+        "color": "#e0a526"
+       }
+      ],
+      "to": {
+       "lon": -40,
+       "lat": -10,
+       "zoom": 1.7
+      }
+     },
+     "labels": [
+      {
+       "text": "top 10",
+       "x": 50,
+       "y": 20,
+       "at": 1.0,
+       "size": 90,
+       "color": "#f5c518",
+       "emph": "circle"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c01-s07",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "Now look at it today. Argentina has defaulted on its debts nine times.",
+   "visual": {
+    "kind": "map",
+    "from": {
+     "lon": -40,
+     "lat": -10,
+     "zoom": 1.7
+    },
+    "events": [
+     {
+      "type": "pin",
+      "at": [
+       -58.38,
+       -34.6
+      ],
+      "t": 0.4,
+      "label": "Today"
+     },
+     {
+      "type": "nation",
+      "at": [
+       -64,
+       -36
+      ],
+      "t": 0,
+      "word": 0,
+      "code": "ar"
+     }
+    ],
+    "to": {
+     "lon": -63,
+     "lat": -33,
+     "zoom": 5.5
+    }
+   },
+   "date": "Today",
+   "mascot": {
+    "pose": "confused"
+   }
+  },
+  {
+   "id": "c01-s08",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "In 1989, prices in its shops rose by around five thousand percent in a single year.",
+   "visual": {
+    "kind": "action",
+    "name": "pricetag",
+    "from": 100,
+    "to": 5100,
+    "item": "prices, 1989",
+    "bg": "shop"
+   },
+   "date": "1989",
+   "shots": [
+    {
+     "word": 9,
+     "visual": {
+      "kind": "gray",
+      "props": [
+       {
+        "icon": "banknotes",
+        "x": 52,
+        "y": 58,
+        "t": 0.1,
+        "scale": 1.6,
+        "anim": "pulse"
+       }
+      ],
+      "bg": "countryside"
+     },
+     "labels": [
+      {
+       "text": "5,000%",
+       "x": 52,
+       "y": 22,
+       "at": 0.4,
+       "size": 110,
+       "color": "#e0402b",
+       "emph": "box"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c01-s09",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "And many Argentines still keep their savings in US dollars, hidden at home, because they do not trust their own money.",
+   "visual": {
+    "kind": "set",
+    "set": "home"
+   },
+   "labels": [
+    {
+     "text": "dollars at home",
+     "x": 40,
+     "y": 20,
+     "at": 1.6,
+     "size": 72
+    }
+   ],
+   "shots": [
+    {
+     "word": 10,
+     "visual": {
+      "kind": "action",
+      "name": "mattress"
+     }
+    }
+   ]
+  },
+  {
+   "id": "c01-s10",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "So how does a country go from richer than France to broke, again and again?",
+   "visual": {
+    "kind": "action",
+    "name": "crash",
+    "cycle": true,
+    "item": "ARGENTINA",
+    "bg": "skyline"
+   },
+   "mascot": {
+    "pose": "confused"
+   },
+   "labels": [
+    {
+     "text": "boom → bust → boom → bust",
+     "x": 50,
+     "y": 10,
+     "at": 0.8,
+     "size": 60,
+     "color": "#ffd34d"
+    }
+   ]
+  },
+  {
+   "id": "c01-s11",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "It wasn't a war. It wasn't a famine. It wasn't a single bad leader.",
+   "visual": {
+    "kind": "set",
+    "set": "battlefield",
+    "cam": {
+     "x": 50,
+     "y": 55,
+     "from": 1.0,
+     "to": 1.1
+    }
+   },
+   "mascot": {
+    "pose": "shrug"
+   },
+   "labels": [
+    {
+     "text": "not a war",
+     "x": 50,
+     "y": 20,
+     "at": 0.2,
+     "size": 70
+    },
+    {
+     "text": "✗",
+     "x": 50,
+     "y": 48,
+     "at": 0.7,
+     "size": 230,
+     "color": "#e0402b"
+    }
+   ],
+   "shots": [
+    {
+     "word": 8,
+     "visual": {
+      "kind": "set",
+      "set": "palace",
+      "cam": {
+       "x": 50,
+       "y": 45,
+       "from": 1.0,
+       "to": 1.1
+      }
+     },
+     "labels": [
+      {
+       "text": "not one bad leader",
+       "x": 50,
+       "y": 20,
+       "at": 0.1,
+       "size": 70
+      },
+      {
+       "text": "✗",
+       "x": 50,
+       "y": 48,
+       "at": 0.6,
+       "size": 230,
+       "color": "#e0402b"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c01-s12",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "To find out, we have to go back to the moment Argentina found its fortune.",
+   "visual": {
+    "kind": "scroll",
+    "dates": [
+     "1870",
+     "1930",
+     "1946",
+     "1989",
+     "2001",
+     "Today"
+    ],
+    "highlight": 0,
+    "roll": "close"
+   }
+  },
+  {
+   "id": "c02-s01",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "And it all started with grass.",
+   "visual": {
+    "kind": "map",
+    "from": {
+     "lon": -60,
+     "lat": -25,
+     "zoom": 3.0
+    },
+    "events": [
+     {
+      "type": "fill",
+      "countries": [
+       "Argentina"
+      ],
+      "t": 0.3,
+      "color": "#8fc45a"
+     },
+     {
+      "type": "callout",
+      "at": [
+       -61.5,
+       -35.0
+      ],
+      "t": 0,
+      "word": 5,
+      "focus": true,
+      "icon": "wheat",
+      "label": "grass",
+      "src": "archive/badges/pampas.jpg"
+     }
+    ],
+    "to": {
+     "lon": -62,
+     "lat": -34,
+     "zoom": 4.5
+    },
+    "intro": "clouds"
+   },
+   "date": "1870",
+   "mascot": {
+    "pose": "talk"
+   }
+  },
+  {
+   "id": "c02-s02",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "This is the Pampas. A sea of flat, fertile grassland bigger than most countries in Europe.",
+   "visual": {
+    "kind": "map",
+    "from": {
+     "lon": -62,
+     "lat": -34,
+     "zoom": 4.5
+    },
+    "events": [
+     {
+      "type": "callout",
+      "at": [
+       -61.5,
+       -35.0
+      ],
+      "t": 0,
+      "focus": false,
+      "icon": "wheat",
+      "label": "grass",
+      "src": "archive/badges/pampas.jpg",
+      "persist": true
+     },
+     {
+      "type": "label",
+      "at": [
+       -62,
+       -31.6
+      ],
+      "text": "the Pampas",
+      "t": 0.6,
+      "style": "region",
+      "rotate": -8,
+      "size": 90
+     },
+     {
+      "type": "scatter",
+      "around": [
+       -61.5,
+       -35.0
+      ],
+      "icon": "wheat",
+      "n": 7,
+      "spread": 2.2,
+      "t": 2.2,
+      "size": 0.45
+     },
+     {
+      "type": "callout",
+      "at": [
+       -60.5,
+       -36.5
+      ],
+      "t": 0,
+      "word": 9,
+      "focus": true,
+      "icon": "wheat",
+      "label": "fertile grassland",
+      "zoom": 1.3,
+      "side": "right",
+      "pos": "below",
+      "src": "archive/badges/pampas.jpg"
+     }
+    ],
+    "to": {
+     "lon": -61.5,
+     "lat": -35,
+     "zoom": 7
+    }
+   }
+  },
+  {
+   "id": "c02-s03",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "No mountains to cross, no thick forest to clear. Just endless grass, rain and rich black soil.",
+   "visual": {
+    "kind": "map",
+    "from": {
+     "lon": -61.5,
+     "lat": -35,
+     "zoom": 7
+    },
+    "events": [
+     {
+      "type": "callout",
+      "at": [
+       -60.5,
+       -36.5
+      ],
+      "t": 0,
+      "focus": false,
+      "icon": "wheat",
+      "label": "fertile grassland",
+      "zoom": 1.3,
+      "side": "right",
+      "pos": "below",
+      "src": "archive/badges/pampas.jpg",
+      "persist": true
+     },
+     {
+      "type": "scatter",
+      "around": [
+       -60.5,
+       -36
+      ],
+      "icon": "cattle",
+      "n": 6,
+      "spread": 2,
+      "t": 1.5,
+      "size": 0.5
+     },
+     {
+      "type": "callout",
+      "at": [
+       -62.5,
+       -33.5
+      ],
+      "t": 0,
+      "word": 1,
+      "focus": false,
+      "icon": "mound",
+      "label": "no mountains",
+      "side": "left"
+     },
+     {
+      "type": "callout",
+      "at": [
+       -60,
+       -36.5
+      ],
+      "t": 0,
+      "word": 16,
+      "focus": true,
+      "icon": "wheat",
+      "label": "rich black soil",
+      "side": "right",
+      "src": "archive/badges/pampas.jpg"
+     }
+    ],
+    "to": {
+     "lon": -61,
+     "lat": -35.5,
+     "zoom": 7.5
+    }
+   },
+   "shots": [
+    {
+     "word": 9,
+     "visual": {
+      "kind": "set",
+      "set": "fields",
+      "cam": {
+       "x": 50,
+       "y": 70,
+       "from": 1.0,
+       "to": 1.2
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "c02-s04",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "For most of history, that grass fed wild cattle and not much else.",
+   "visual": {
+    "kind": "map",
+    "from": {
+     "lon": -61,
+     "lat": -35.5,
+     "zoom": 7.5
+    },
+    "events": [
+     {
+      "type": "move",
+      "path": [
+       [
+        -63.5,
+        -36.5
+       ],
+       [
+        -61,
+        -35
+       ],
+       [
+        -59,
+        -34.6
+       ]
+      ],
+      "icon": "cattle",
+      "count": 4,
+      "t": 0.4,
+      "dur": 3.5,
+      "trail": false
+     },
+     {
+      "type": "callout",
+      "at": [
+       -60,
+       -36
+      ],
+      "t": 0,
+      "word": 8,
+      "focus": true,
+      "icon": "cattle",
+      "label": "wild cattle",
+      "src": "archive/badges/cattle.jpg"
+     }
+    ],
+    "to": {
+     "lon": -60.2,
+     "lat": -35.766666666666666,
+     "zoom": 8.85
+    }
+   }
+  },
+  {
+   "id": "c02-s05",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "Argentina had the land, but it had a problem.",
+   "visual": {
+    "kind": "gray",
+    "props": [
+     {
+      "icon": "cattle",
+      "x": 46,
+      "y": 58,
+      "t": 0.2,
+      "scale": 1.3
+     }
+    ],
+    "bg": "pampas"
+   },
+   "labels": [
+    {
+     "text": "a problem",
+     "x": 60,
+     "y": 22,
+     "at": 1.2,
+     "size": 72,
+     "emph": "underline"
+    }
+   ],
+   "mascot": {
+    "pose": "shrug"
+   }
+  },
+  {
+   "id": "c02-s06",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "The people who wanted to buy its beef and grain lived on the other side of an ocean.",
+   "visual": {
+    "kind": "map",
+    "from": {
+     "lon": -45,
+     "lat": -20,
+     "zoom": 2.2
+    },
+    "events": [
+     {
+      "type": "pin",
+      "at": [
+       -58.38,
+       -34.6
+      ],
+      "t": 0.4
+     },
+     {
+      "type": "pin",
+      "at": [
+       -0.13,
+       51.5
+      ],
+      "t": 2.4,
+      "label": "London"
+     },
+     {
+      "type": "arrow",
+      "from": [
+       -58.38,
+       -34.6
+      ],
+      "to": [
+       -0.13,
+       51.5
+      ],
+      "t": 3.0,
+      "color": "#ffd34d"
+     },
+     {
+      "type": "callout",
+      "at": [
+       -58.38,
+       -34.6
+      ],
+      "t": 0,
+      "word": 7,
+      "focus": false,
+      "icon": "cattle",
+      "label": "beef and grain",
+      "side": "right",
+      "src": "archive/badges/cattle.jpg"
+     },
+     {
+      "type": "callout",
+      "at": [
+       -0.13,
+       51.5
+      ],
+      "t": 0,
+      "word": 17,
+      "focus": false,
+      "icon": "coins",
+      "label": "the buyers",
+      "side": "left",
+      "src": "archive/badges/london-docks.jpg"
+     },
+     {
+      "type": "nation",
+      "at": [
+       -2,
+       53
+      ],
+      "t": 0,
+      "word": 17,
+      "code": "gb",
+      "label": "Britain"
+     }
+    ],
+    "to": {
+     "lon": -25,
+     "lat": 5,
+     "zoom": 1.7
+    }
+   },
+   "mascot": {
+    "pose": "point"
+   }
+  },
+  {
+   "id": "c02-s07",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "And meat goes bad long before a sailing ship can cross the Atlantic.",
+   "visual": {
+    "kind": "map",
+    "from": {
+     "lon": -25,
+     "lat": 5,
+     "zoom": 1.7
+    },
+    "events": [
+     {
+      "type": "callout",
+      "at": [
+       -0.13,
+       51.5
+      ],
+      "t": 0,
+      "focus": false,
+      "icon": "coins",
+      "label": "the buyers",
+      "side": "left",
+      "src": "archive/badges/london-docks.jpg",
+      "persist": true
+     },
+     {
+      "type": "callout",
+      "at": [
+       -58.38,
+       -34.6
+      ],
+      "t": 0,
+      "focus": false,
+      "icon": "cattle",
+      "label": "beef and grain",
+      "side": "right",
+      "src": "archive/badges/cattle.jpg",
+      "persist": true
+     },
+     {
+      "type": "move",
+      "path": [
+       [
+        -58.38,
+        -34.6
+       ],
+       [
+        -35,
+        -15
+       ],
+       [
+        -25,
+        15
+       ],
+       [
+        -12,
+        40
+       ],
+       [
+        -0.13,
+        51.5
+       ]
+      ],
+      "icon": "ship",
+      "t": 0.3,
+      "dur": 4.5
+     },
+     {
+      "type": "label",
+      "at": [
+       -30,
+       0
+      ],
+      "text": "weeks at sea",
+      "t": 1.5
+     },
+     {
+      "type": "callout",
+      "at": [
+       -30,
+       -5
+      ],
+      "t": 0,
+      "word": 3,
+      "focus": false,
+      "icon": "fire",
+      "label": "meat spoils"
+     }
+    ],
+    "to": {
+     "lon": -21.470588235294116,
+     "lat": 3.8235294117647056,
+     "zoom": 2.006
+    }
+   },
+   "mascot": {
+    "pose": "confused"
+   }
+  },
+  {
+   "id": "c02-s08",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "Then, in the 1870s, everything changed at once.",
+   "visual": {
+    "kind": "set",
+    "set": "port",
+    "cam": {
+     "x": 55,
+     "y": 45,
+     "from": 1.0,
+     "to": 1.15
+    }
+   },
+   "date": "1870s"
+  },
+  {
+   "id": "c02-s09",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "First came the railways.",
+   "visual": {
+    "kind": "action",
+    "name": "train",
+    "cargo": "wheat"
+   }
+  },
+  {
+   "id": "c02-s10",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "British investors poured money into Argentina, and British companies laid thousands of kilometres of track.",
+   "visual": {
+    "kind": "map",
+    "from": {
+     "lon": -63,
+     "lat": -33,
+     "zoom": 5.5
+    },
+    "events": [
+     {
+      "type": "flow",
+      "path": [
+       [
+        -58.38,
+        -34.6
+       ],
+       [
+        -60.65,
+        -32.95
+       ],
+       [
+        -64.18,
+        -31.42
+       ]
+      ],
+      "t": 0.4,
+      "color": "#ffffff"
+     },
+     {
+      "type": "flow",
+      "path": [
+       [
+        -58.38,
+        -34.6
+       ],
+       [
+        -63,
+        -33.5
+       ],
+       [
+        -68.83,
+        -32.89
+       ]
+      ],
+      "t": 0.8,
+      "color": "#ffffff"
+     },
+     {
+      "type": "flow",
+      "path": [
+       [
+        -58.38,
+        -34.6
+       ],
+       [
+        -60.5,
+        -36.5
+       ],
+       [
+        -62.27,
+        -38.72
+       ]
+      ],
+      "t": 1.2,
+      "color": "#ffffff"
+     },
+     {
+      "type": "flow",
+      "path": [
+       [
+        -60.65,
+        -32.95
+       ],
+       [
+        -63.5,
+        -29
+       ],
+       [
+        -65.2,
+        -26.8
+       ]
+      ],
+      "t": 1.6,
+      "color": "#ffffff"
+     },
+     {
+      "type": "move",
+      "path": [
+       [
+        -58.38,
+        -34.6
+       ],
+       [
+        -60.65,
+        -32.95
+       ],
+       [
+        -64.18,
+        -31.42
+       ]
+      ],
+      "icon": "train",
+      "t": 1.0,
+      "dur": 4,
+      "trail": false
+     },
+     {
+      "type": "icon",
+      "at": [
+       -57,
+       -31
+      ],
+      "icon": "banknotes",
+      "t": 0.3,
+      "size": 0.7
+     },
+     {
+      "type": "callout",
+      "at": [
+       -58.38,
+       -34.6
+      ],
+      "t": 0,
+      "word": 3,
+      "focus": true,
+      "icon": "banknotes",
+      "label": "British money",
+      "side": "right"
+     },
+     {
+      "type": "callout",
+      "at": [
+       -64.18,
+       -31.42
+      ],
+      "t": 0,
+      "word": 14,
+      "focus": true,
+      "icon": "train",
+      "label": "thousands of km of track",
+      "side": "left",
+      "src": "archive/retiro-station.jpg"
+     },
+     {
+      "type": "nation",
+      "at": [
+       -55.5,
+       -31.5
+      ],
+      "t": 0,
+      "word": 0,
+      "code": "gb",
+      "label": "British"
+     }
+    ],
+    "to": {
+     "lon": -61.90909090909091,
+     "lat": -33.36363636363637,
+     "zoom": 6.49
+    }
+   },
+   "shots": [
+    {
+     "word": 6,
+     "visual": {
+      "kind": "photo",
+      "src": "archive/retiro-station.jpg",
+      "caption": "Retiro station, Buenos Aires, late 1800s"
+     }
+    }
+   ]
+  },
+  {
+   "id": "c02-s11",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "Every line ran the same way: from the farms in the interior straight to the port of Buenos Aires.",
+   "visual": {
+    "kind": "map",
+    "from": {
+     "lon": -63,
+     "lat": -33,
+     "zoom": 5.5
+    },
+    "events": [
+     {
+      "type": "flow",
+      "path": [
+       [
+        -58.38,
+        -34.6
+       ],
+       [
+        -60.65,
+        -32.95
+       ],
+       [
+        -64.18,
+        -31.42
+       ]
+      ],
+      "t": 0,
+      "color": "#ffffff"
+     },
+     {
+      "type": "flow",
+      "path": [
+       [
+        -58.38,
+        -34.6
+       ],
+       [
+        -63,
+        -33.5
+       ],
+       [
+        -68.83,
+        -32.89
+       ]
+      ],
+      "t": 0,
+      "color": "#ffffff"
+     },
+     {
+      "type": "flow",
+      "path": [
+       [
+        -58.38,
+        -34.6
+       ],
+       [
+        -60.5,
+        -36.5
+       ],
+       [
+        -62.27,
+        -38.72
+       ]
+      ],
+      "t": 0,
+      "color": "#ffffff"
+     },
+     {
+      "type": "flow",
+      "path": [
+       [
+        -60.65,
+        -32.95
+       ],
+       [
+        -63.5,
+        -29
+       ],
+       [
+        -65.2,
+        -26.8
+       ]
+      ],
+      "t": 0,
+      "color": "#ffffff"
+     },
+     {
+      "type": "pin",
+      "at": [
+       -58.38,
+       -34.6
+      ],
+      "t": 2.2,
+      "label": "Buenos Aires"
+     },
+     {
+      "type": "arrow",
+      "from": [
+       -64.18,
+       -31.42
+      ],
+      "to": [
+       -58.38,
+       -34.6
+      ],
+      "t": 1.0,
+      "color": "#ffd34d"
+     },
+     {
+      "type": "arrow",
+      "from": [
+       -68.83,
+       -32.89
+      ],
+      "to": [
+       -58.38,
+       -34.6
+      ],
+      "t": 1.4,
+      "color": "#ffd34d"
+     },
+     {
+      "type": "callout",
+      "at": [
+       -64.18,
+       -31.42
+      ],
+      "t": 0,
+      "word": 8,
+      "focus": true,
+      "icon": "wheat",
+      "label": "the farms",
+      "side": "left",
+      "src": "archive/badges/wheat.jpg"
+     },
+     {
+      "type": "callout",
+      "at": [
+       -58.38,
+       -34.6
+      ],
+      "t": 0,
+      "word": 15,
+      "focus": true,
+      "icon": "ship",
+      "label": "one port",
+      "side": "right",
+      "src": "archive/buenos-aires-1900.jpg"
+     }
+    ],
+    "to": {
+     "lon": -61.90909090909091,
+     "lat": -33.36363636363637,
+     "zoom": 6.49
+    }
+   }
+  },
+  {
+   "id": "c02-s12",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "Second came the cold. French engineers had worked out how to freeze meat on board a ship.",
+   "visual": {
+    "kind": "gray",
+    "props": [
+     {
+      "icon": "ship",
+      "x": 44,
+      "y": 58,
+      "t": 0.4,
+      "scale": 1.6
+     },
+     {
+      "icon": "cattle",
+      "x": 66,
+      "y": 62,
+      "t": 1.6,
+      "scale": 1.0
+     }
+    ],
+    "bg": "estancia"
+   }
+  },
+  {
+   "id": "c02-s13",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "Suddenly, a steak from the Pampas could reach a dinner table in London or Paris, still fresh.",
+   "visual": {
+    "kind": "action",
+    "name": "voyage"
+   }
+  },
+  {
+   "id": "c02-s14",
+   "type": "skit",
+   "speaker": "BRITISH_INVESTOR",
+   "text": "So, we build the railway. You send the beef. We buy the beef.",
+   "visual": {
+    "kind": "scene",
+    "set": "port",
+    "cast": [
+     {
+      "id": "BRITISH_INVESTOR",
+      "x": 32,
+      "pose": "point"
+     },
+     {
+      "id": "RANCH_OWNER",
+      "x": 68,
+      "pose": "talk",
+      "flip": true,
+      "enter": "right"
+     }
+    ]
+   },
+   "date": "1880"
+  },
+  {
+   "id": "c02-s15",
+   "type": "skit",
+   "speaker": "RANCH_OWNER",
+   "text": "And who owns the railway?",
+   "visual": {
+    "kind": "scene",
+    "set": "port",
+    "cast": [
+     {
+      "id": "BRITISH_INVESTOR",
+      "x": 32,
+      "pose": "talk"
+     },
+     {
+      "id": "RANCH_OWNER",
+      "x": 68,
+      "pose": "confused",
+      "flip": true
+     }
+    ]
+   },
+   "date": "1880"
+  },
+  {
+   "id": "c02-s16",
+   "type": "skit",
+   "speaker": "BRITISH_INVESTOR",
+   "text": "We do.",
+   "visual": {
+    "kind": "scene",
+    "set": "port",
+    "cast": [
+     {
+      "id": "BRITISH_INVESTOR",
+      "x": 32,
+      "pose": "happy"
+     },
+     {
+      "id": "RANCH_OWNER",
+      "x": 68,
+      "pose": "talk",
+      "flip": true
+     }
+    ]
+   },
+   "date": "1880"
+  },
+  {
+   "id": "c02-s17",
+   "type": "skit",
+   "speaker": "RANCH_OWNER",
+   "text": "And the ships?",
+   "visual": {
+    "kind": "scene",
+    "set": "port",
+    "cast": [
+     {
+      "id": "BRITISH_INVESTOR",
+      "x": 32,
+      "pose": "talk"
+     },
+     {
+      "id": "RANCH_OWNER",
+      "x": 68,
+      "pose": "confused",
+      "flip": true
+     }
+    ]
+   },
+   "date": "1880"
+  },
+  {
+   "id": "c02-s18",
+   "type": "skit",
+   "speaker": "BRITISH_INVESTOR",
+   "text": "Also us.",
+   "visual": {
+    "kind": "scene",
+    "set": "port",
+    "cast": [
+     {
+      "id": "BRITISH_INVESTOR",
+      "x": 32,
+      "pose": "happy"
+     },
+     {
+      "id": "RANCH_OWNER",
+      "x": 68,
+      "pose": "shrug",
+      "flip": true
+     }
+    ]
+   },
+   "date": "1880"
+  },
+  {
+   "id": "c02-s19",
+   "type": "skit",
+   "speaker": "RANCH_OWNER",
+   "text": "And the banks that lend me the money?",
+   "visual": {
+    "kind": "scene",
+    "set": "port",
+    "cast": [
+     {
+      "id": "BRITISH_INVESTOR",
+      "x": 32,
+      "pose": "talk"
+     },
+     {
+      "id": "RANCH_OWNER",
+      "x": 68,
+      "pose": "angry",
+      "flip": true
+     }
+    ]
+   },
+   "date": "1880"
+  },
+  {
+   "id": "c02-s20",
+   "type": "skit",
+   "speaker": "BRITISH_INVESTOR",
+   "text": "Do you want to get rich or not?",
+   "visual": {
+    "kind": "scene",
+    "set": "port",
+    "cast": [
+     {
+      "id": "BRITISH_INVESTOR",
+      "x": 32,
+      "pose": "shrug"
+     },
+     {
+      "id": "RANCH_OWNER",
+      "x": 68,
+      "pose": "talk",
+      "flip": true
+     }
+    ]
+   },
+   "date": "1880"
+  },
+  {
+   "id": "c02-s21",
+   "type": "skit",
+   "speaker": "RANCH_OWNER",
+   "text": "Pass me the pen.",
+   "visual": {
+    "kind": "scene",
+    "set": "port",
+    "cast": [
+     {
+      "id": "BRITISH_INVESTOR",
+      "x": 32,
+      "pose": "happy"
+     },
+     {
+      "id": "RANCH_OWNER",
+      "x": 68,
+      "pose": "happy",
+      "flip": true
+     }
+    ]
+   },
+   "date": "1880"
+  },
+  {
+   "id": "c02-s22",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "It was a fantastic deal for both sides, at least at first.",
+   "visual": {
+    "kind": "map",
+    "from": {
+     "lon": -25,
+     "lat": 5,
+     "zoom": 1.7
+    },
+    "events": [
+     {
+      "type": "flow",
+      "path": [
+       [
+        -58.38,
+        -34.6
+       ],
+       [
+        -30,
+        -5
+       ],
+       [
+        -15,
+        30
+       ],
+       [
+        -0.13,
+        51.5
+       ]
+      ],
+      "t": 0.2,
+      "color": "#ffd34d",
+      "width": 8
+     },
+     {
+      "type": "flow",
+      "path": [
+       [
+        -0.13,
+        51.5
+       ],
+       [
+        -20,
+        30
+       ],
+       [
+        -35,
+        -5
+       ],
+       [
+        -58.38,
+        -34.6
+       ]
+      ],
+      "t": 1.0,
+      "color": "#ffffff"
+     },
+     {
+      "type": "callout",
+      "at": [
+       -58.38,
+       -34.6
+      ],
+      "t": 0,
+      "word": 4,
+      "focus": false,
+      "icon": "coins",
+      "label": "Argentina sells",
+      "side": "right"
+     },
+     {
+      "type": "callout",
+      "at": [
+       -0.13,
+       51.5
+      ],
+      "t": 0,
+      "word": 6,
+      "focus": false,
+      "icon": "coins",
+      "label": "Britain profits",
+      "side": "left",
+      "src": "archive/badges/london-docks.jpg"
+     },
+     {
+      "type": "nation",
+      "at": [
+       -64,
+       -34
+      ],
+      "t": 0,
+      "word": 4,
+      "code": "ar"
+     },
+     {
+      "type": "nation",
+      "at": [
+       -2,
+       53
+      ],
+      "t": 0,
+      "word": 6,
+      "code": "gb"
+     }
+    ],
+    "to": {
+     "lon": -21.470588235294116,
+     "lat": 3.8235294117647056,
+     "zoom": 2.006
+    }
+   }
+  },
+  {
+   "id": "c02-s23",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "Argentina became one of the biggest exporters of beef, wheat, corn and wool in the world.",
+   "visual": {
+    "kind": "map",
+    "from": {
+     "lon": -21.470588235294116,
+     "lat": 3.8235294117647056,
+     "zoom": 2.006
+    },
+    "events": [
+     {
+      "type": "callout",
+      "at": [
+       -0.13,
+       51.5
+      ],
+      "t": 0,
+      "focus": false,
+      "icon": "coins",
+      "label": "Britain profits",
+      "side": "left",
+      "src": "archive/badges/london-docks.jpg",
+      "persist": true
+     },
+     {
+      "type": "callout",
+      "at": [
+       -58.38,
+       -34.6
+      ],
+      "t": 0,
+      "focus": false,
+      "icon": "coins",
+      "label": "Argentina sells",
+      "side": "right",
+      "persist": true
+     },
+     {
+      "type": "icon",
+      "at": [
+       -61.5,
+       -35.0
+      ],
+      "icon": "cattle",
+      "t": 0.4,
+      "size": 0.8
+     },
+     {
+      "type": "icon",
+      "at": [
+       -64,
+       -30
+      ],
+      "icon": "wheat",
+      "t": 1.0,
+      "size": 0.8
+     },
+     {
+      "type": "flow",
+      "path": [
+       [
+        -58.38,
+        -34.6
+       ],
+       [
+        -25,
+        10
+       ],
+       [
+        -0.13,
+        51.5
+       ]
+      ],
+      "t": 1.6,
+      "color": "#ffd34d"
+     },
+     {
+      "type": "flow",
+      "path": [
+       [
+        -58.38,
+        -34.6
+       ],
+       [
+        -20,
+        15
+       ],
+       [
+        2.35,
+        48.86
+       ]
+      ],
+      "t": 2.0,
+      "color": "#ffd34d"
+     },
+     {
+      "type": "flow",
+      "path": [
+       [
+        -58.38,
+        -34.6
+       ],
+       [
+        -22,
+        20
+       ],
+       [
+        9.99,
+        53.55
+       ]
+      ],
+      "t": 2.4,
+      "color": "#ffd34d"
+     },
+     {
+      "type": "callout",
+      "at": [
+       -60,
+       -36
+      ],
+      "t": 0,
+      "word": 8,
+      "focus": false,
+      "icon": "cattle",
+      "label": "beef",
+      "side": "right",
+      "src": "archive/badges/cattle.jpg"
+     },
+     {
+      "type": "callout",
+      "at": [
+       -63,
+       -31
+      ],
+      "t": 0,
+      "word": 9,
+      "focus": false,
+      "icon": "wheat",
+      "label": "wheat & corn",
+      "side": "left",
+      "src": "archive/badges/wheat.jpg"
+     },
+     {
+      "type": "nation",
+      "at": [
+       -66,
+       -38
+      ],
+      "t": 0,
+      "word": 0,
+      "code": "ar"
+     }
+    ],
+    "to": {
+     "lon": -21.470588235294116,
+     "lat": 3.8235294117647056,
+     "zoom": 2.006
+    }
+   },
+   "shots": [
+    {
+     "word": 8,
+     "visual": {
+      "kind": "action",
+      "name": "train",
+      "cargo": "cattle"
+     }
+    }
+   ]
+  },
+  {
+   "id": "c02-s24",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "Money flowed in faster than the country could spend it.",
+   "visual": {
+    "kind": "action",
+    "name": "moneyrain",
+    "bg": "street"
+   }
+  },
+  {
+   "id": "c02-s25",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "And people followed the money. Between 1870 and 1914, nearly six million Europeans sailed to Argentina, mostly from Italy and Spain.",
+   "visual": {
+    "kind": "map",
+    "from": {
+     "lon": 4,
+     "lat": 42,
+     "zoom": 6
+    },
+    "events": [
+     {
+      "type": "pin",
+      "at": [
+       8.93,
+       44.4
+      ],
+      "t": 0.6,
+      "label": "Italy"
+     },
+     {
+      "type": "pin",
+      "at": [
+       2.17,
+       41.39
+      ],
+      "t": 1.0,
+      "label": "Spain"
+     },
+     {
+      "type": "move",
+      "path": [
+       [
+        8.93,
+        44.4
+       ],
+       [
+        0,
+        35
+       ],
+       [
+        -25,
+        5
+       ],
+       [
+        -58.38,
+        -34.6
+       ]
+      ],
+      "icon": "ship",
+      "count": 3,
+      "t": 3.0,
+      "dur": 5
+     },
+     {
+      "type": "move",
+      "path": [
+       [
+        2.17,
+        41.39
+       ],
+       [
+        -15,
+        30
+       ],
+       [
+        -30,
+        0
+       ],
+       [
+        -58.38,
+        -34.6
+       ]
+      ],
+      "icon": "ship",
+      "count": 2,
+      "t": 3.6,
+      "dur": 5
+     },
+     {
+      "type": "counter",
+      "at": [
+       -32,
+       14
+      ],
+      "from": 0,
+      "to": 5900000,
+      "t": 5.2,
+      "dur": 2.5,
+      "suffix": " people"
+     },
+     {
+      "type": "nation",
+      "at": [
+       12.5,
+       42.5
+      ],
+      "t": 0,
+      "word": 18,
+      "code": "it"
+     },
+     {
+      "type": "nation",
+      "at": [
+       -3.7,
+       40.2
+      ],
+      "t": 0,
+      "word": 20,
+      "code": "es"
+     }
+    ],
+    "keys": [
+     {
+      "t": 2.2,
+      "view": {
+       "lon": 4,
+       "lat": 42,
+       "zoom": 6
+      }
+     },
+     {
+      "t": 5.5,
+      "view": {
+       "lon": -28,
+       "lat": 5,
+       "zoom": 1.7
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "c02-s26",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "More than three million of them stayed.",
+   "visual": {
+    "kind": "photo",
+    "src": "archive/immigrants-hotel.jpg",
+    "caption": "Immigrants' Hotel, Buenos Aires, c. 1912"
+   }
+  },
+  {
+   "id": "c02-s27",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "By the 1890s, in parts of Buenos Aires, you were more likely to hear Italian than the local Spanish.",
+   "visual": {
+    "kind": "photo",
+    "src": "archive/buenos-aires-1900.jpg",
+    "caption": "Buenos Aires, c. 1900"
+   },
+   "date": "1890s",
+   "shots": [
+    {
+     "word": 8,
+     "visual": {
+      "kind": "crowd",
+      "set": "street",
+      "action": "stand",
+      "n": 7,
+      "seed": 8,
+      "cam": {
+       "x": 50,
+       "y": 55,
+       "from": 1.0,
+       "to": 1.1
+      }
+     },
+     "labels": [
+      {
+       "text": "Ciao!",
+       "x": 26,
+       "y": 26,
+       "at": 0.3,
+       "size": 72,
+       "color": "#9fe08a"
+      },
+      {
+       "text": "Buongiorno!",
+       "x": 56,
+       "y": 16,
+       "at": 1.0,
+       "size": 72,
+       "color": "#9fe08a"
+      },
+      {
+       "text": "¡Hola!",
+       "x": 76,
+       "y": 30,
+       "at": 2.0,
+       "size": 56
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c02-s28",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "Buenos Aires earned a nickname: the Paris of South America.",
+   "visual": {
+    "kind": "set",
+    "set": "palace"
+   },
+   "labels": [
+    {
+     "text": "the Paris of South America",
+     "x": 46,
+     "y": 22,
+     "at": 1.2,
+     "size": 72,
+     "color": "#f5c518",
+     "emph": "underline"
+    }
+   ]
+  },
+  {
+   "id": "c02-s29",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "Its rich families shipped their furniture from France, sent their sons to European universities and built mansions that would not look out of place on the Champs-Élysées.",
+   "visual": {
+    "kind": "scene",
+    "set": "palace",
+    "cast": [],
+    "props": [
+     {
+      "icon": "chest",
+      "x": 30,
+      "y": 72,
+      "t": 0.6,
+      "scale": 0.35
+     },
+     {
+      "icon": "book",
+      "x": 48,
+      "y": 70,
+      "t": 2.2,
+      "scale": 0.3
+     },
+     {
+      "icon": "castle",
+      "x": 66,
+      "y": 66,
+      "t": 4.0,
+      "scale": 1.4
+     }
+    ]
+   }
+  },
+  {
+   "id": "c02-s30",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "There was a saying in Europe at the time. If someone was extremely wealthy, people said they were as rich as an Argentine.",
+   "visual": {
+    "kind": "gray",
+    "props": [
+     {
+      "icon": "bag",
+      "x": 52,
+      "y": 58,
+      "t": 0.4,
+      "scale": 0.5
+     }
+    ],
+    "bg": "port"
+   },
+   "shots": [
+    {
+     "word": 9,
+     "visual": {
+      "kind": "crowd",
+      "set": "street",
+      "action": "stand",
+      "n": 6,
+      "seed": 11
+     },
+     "labels": [
+      {
+       "text": "as rich as an Argentine",
+       "x": 50,
+       "y": 14,
+       "at": 2.4,
+       "size": 72,
+       "color": "#f5c518",
+       "emph": "box"
+      }
+     ],
+     "bubbles": [
+      {
+       "x": 30,
+       "y": 34,
+       "icon": "bag",
+       "t": 0.3,
+       "tail": [
+        22,
+        55
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c02-s31",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "By 1913, the country was a success story that the whole world was watching. But look closely at that map again.",
+   "visual": {
+    "kind": "map",
+    "from": {
+     "lon": -63,
+     "lat": -33,
+     "zoom": 5.5
+    },
+    "events": [
+     {
+      "type": "flow",
+      "path": [
+       [
+        -58.38,
+        -34.6
+       ],
+       [
+        -60.65,
+        -32.95
+       ],
+       [
+        -64.18,
+        -31.42
+       ]
+      ],
+      "t": 0,
+      "color": "#ffffff"
+     },
+     {
+      "type": "flow",
+      "path": [
+       [
+        -58.38,
+        -34.6
+       ],
+       [
+        -63,
+        -33.5
+       ],
+       [
+        -68.83,
+        -32.89
+       ]
+      ],
+      "t": 0,
+      "color": "#ffffff"
+     },
+     {
+      "type": "flow",
+      "path": [
+       [
+        -58.38,
+        -34.6
+       ],
+       [
+        -60.5,
+        -36.5
+       ],
+       [
+        -62.27,
+        -38.72
+       ]
+      ],
+      "t": 0,
+      "color": "#ffffff"
+     },
+     {
+      "type": "flow",
+      "path": [
+       [
+        -60.65,
+        -32.95
+       ],
+       [
+        -63.5,
+        -29
+       ],
+       [
+        -65.2,
+        -26.8
+       ]
+      ],
+      "t": 0,
+      "color": "#ffffff"
+     },
+     {
+      "type": "callout",
+      "at": [
+       -58.38,
+       -34.6
+      ],
+      "t": 0,
+      "word": 6,
+      "focus": true,
+      "icon": "crown",
+      "label": "a success story"
+     }
+    ],
+    "to": {
+     "lon": -61.90909090909091,
+     "lat": -33.36363636363637,
+     "zoom": 6.49
+    }
+   },
+   "date": "1913",
+   "mascot": {
+    "pose": "talk",
+    "poses": [
+     {
+      "t": 3.5,
+      "pose": "point"
+     }
+    ]
+   }
+  },
+  {
+   "id": "c02-s32",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "Every railway line led to one port. Almost every ship sailed to the same few buyers.",
+   "visual": {
+    "kind": "map",
+    "from": {
+     "lon": -61.90909090909091,
+     "lat": -33.36363636363637,
+     "zoom": 6.49
+    },
+    "events": [
+     {
+      "type": "callout",
+      "at": [
+       -58.38,
+       -34.6
+      ],
+      "t": 0,
+      "focus": false,
+      "icon": "crown",
+      "label": "a success story",
+      "persist": true
+     },
+     {
+      "type": "flow",
+      "path": [
+       [
+        -58.38,
+        -34.6
+       ],
+       [
+        -60.65,
+        -32.95
+       ],
+       [
+        -64.18,
+        -31.42
+       ]
+      ],
+      "t": 0,
+      "color": "#ffffff"
+     },
+     {
+      "type": "flow",
+      "path": [
+       [
+        -58.38,
+        -34.6
+       ],
+       [
+        -63,
+        -33.5
+       ],
+       [
+        -68.83,
+        -32.89
+       ]
+      ],
+      "t": 0,
+      "color": "#ffffff"
+     },
+     {
+      "type": "flow",
+      "path": [
+       [
+        -58.38,
+        -34.6
+       ],
+       [
+        -60.5,
+        -36.5
+       ],
+       [
+        -62.27,
+        -38.72
+       ]
+      ],
+      "t": 0,
+      "color": "#ffffff"
+     },
+     {
+      "type": "flow",
+      "path": [
+       [
+        -60.65,
+        -32.95
+       ],
+       [
+        -63.5,
+        -29
+       ],
+       [
+        -65.2,
+        -26.8
+       ]
+      ],
+      "t": 0,
+      "color": "#ffffff"
+     },
+     {
+      "type": "pin",
+      "at": [
+       -58.38,
+       -34.6
+      ],
+      "t": 0.4,
+      "label": "one port"
+     },
+     {
+      "type": "arrow",
+      "from": [
+       -58.38,
+       -34.6
+      ],
+      "to": [
+       -20,
+       20
+      ],
+      "t": 2.6,
+      "color": "#ffd34d"
+     },
+     {
+      "type": "callout",
+      "at": [
+       -58.38,
+       -34.6
+      ],
+      "t": 0,
+      "word": 6,
+      "focus": true,
+      "icon": "ship",
+      "label": "one port",
+      "side": "right",
+      "src": "archive/buenos-aires-1900.jpg"
+     },
+     {
+      "type": "callout",
+      "at": [
+       -0.13,
+       51.5
+      ],
+      "t": 0,
+      "word": 15,
+      "focus": false,
+      "icon": "coins",
+      "label": "a few buyers",
+      "side": "left",
+      "src": "archive/badges/london-docks.jpg"
+     }
+    ],
+    "to": {
+     "lon": -45,
+     "lat": -10,
+     "zoom": 2.4
+    }
+   }
+  },
+  {
+   "id": "c02-s33",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "And almost all the best land belonged to a small group of very rich families.",
+   "visual": {
+    "kind": "map",
+    "from": {
+     "lon": -45,
+     "lat": -10,
+     "zoom": 2.4
+    },
+    "events": [
+     {
+      "type": "callout",
+      "at": [
+       -0.13,
+       51.5
+      ],
+      "t": 0,
+      "focus": false,
+      "icon": "coins",
+      "label": "a few buyers",
+      "side": "left",
+      "src": "archive/badges/london-docks.jpg",
+      "persist": true
+     },
+     {
+      "type": "callout",
+      "at": [
+       -58.38,
+       -34.6
+      ],
+      "t": 0,
+      "focus": false,
+      "icon": "ship",
+      "label": "one port",
+      "side": "right",
+      "src": "archive/buenos-aires-1900.jpg",
+      "persist": true
+     },
+     {
+      "type": "scatter",
+      "around": [
+       -61.5,
+       -35.0
+      ],
+      "icon": "crown",
+      "n": 4,
+      "spread": 2,
+      "t": 0.6,
+      "size": 0.55
+     },
+     {
+      "type": "callout",
+      "at": [
+       -61.5,
+       -35.0
+      ],
+      "t": 0,
+      "word": 14,
+      "focus": true,
+      "icon": "crown",
+      "label": "a few rich families",
+      "src": "archive/badges/estancia.jpg"
+     }
+    ],
+    "to": {
+     "lon": -60.642857142857146,
+     "lat": -35.285714285714285,
+     "zoom": 8.26
+    }
+   }
+  },
+  {
+   "id": "c02-s34",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "Argentina had built a machine that turned grass into gold. It just hadn't built much of anything else.",
+   "visual": {
+    "kind": "gray",
+    "props": [
+     {
+      "icon": "wheat",
+      "x": 36,
+      "y": 58,
+      "t": 0.3,
+      "scale": 1.2
+     },
+     {
+      "icon": "coins",
+      "x": 64,
+      "y": 58,
+      "t": 1.4,
+      "scale": 0.6
+     }
+    ],
+    "bg": "pampas"
+   },
+   "labels": [
+    {
+     "text": "grass → gold",
+     "x": 50,
+     "y": 22,
+     "at": 1.0,
+     "size": 72,
+     "color": "#f5c518"
+    }
+   ],
+   "mascot": {
+    "pose": "talk",
+    "poses": [
+     {
+      "t": 3.2,
+      "pose": "shrug"
+     }
+    ]
+   },
+   "shots": [
+    {
+     "word": 10,
+     "visual": {
+      "kind": "gray",
+      "props": [
+       {
+        "icon": "wheat",
+        "x": 36,
+        "y": 58,
+        "t": 0.05,
+        "scale": 1.2
+       },
+       {
+        "icon": "coins",
+        "x": 64,
+        "y": 58,
+        "t": 0.05,
+        "scale": 0.6
+       }
+      ],
+      "cam": {
+       "x": 36,
+       "y": 58,
+       "from": 1.35,
+       "to": 1.5
+      },
+      "bg": "pampas"
+     }
+    }
+   ]
+  },
+  {
+   "id": "c02-s35",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "As long as the world kept buying, that didn't matter. Then, one day, the world stopped buying.",
+   "visual": {
+    "kind": "map",
+    "from": {
+     "lon": -20,
+     "lat": 15,
+     "zoom": 1.3
+    },
+    "events": [
+     {
+      "type": "flow",
+      "path": [
+       [
+        -58.38,
+        -34.6
+       ],
+       [
+        -25,
+        10
+       ],
+       [
+        -0.13,
+        51.5
+       ]
+      ],
+      "t": 0,
+      "color": "#ffd34d"
+     },
+     {
+      "type": "callout",
+      "at": [
+       -0.13,
+       51.5
+      ],
+      "t": 0,
+      "word": 15,
+      "focus": false,
+      "icon": "stamp",
+      "label": "stopped buying",
+      "side": "left",
+      "src": "archive/badges/london-docks.jpg"
+     }
+    ],
+    "to": {
+     "lon": -15.384615384615385,
+     "lat": 13.461538461538462,
+     "zoom": 1.534
+    }
+   },
+   "mascot": {
+    "pose": "talk",
+    "poses": [
+     {
+      "t": 2.8,
+      "pose": "confused"
+     }
+    ]
+   }
+  },
+  {
+   "id": "c03-s01",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "In October 1929, the New York stock market crashed, and the Great Depression spread around the world.",
+   "visual": {
+    "kind": "action",
+    "name": "crash",
+    "item": "NEW YORK STOCKS"
+   },
+   "date": "October 1929",
+   "shots": [
+    {
+     "word": 10,
+     "visual": {
+      "kind": "map",
+      "from": {
+       "lon": -60,
+       "lat": 30,
+       "zoom": 2.0
+      },
+      "events": [
+       {
+        "type": "pulse",
+        "at": [
+         -74.0,
+         40.7
+        ],
+        "t": 0.1,
+        "color": "#e0402b"
+       },
+       {
+        "type": "pulse",
+        "at": [
+         -0.13,
+         51.5
+        ],
+        "t": 0.4,
+        "color": "#e0402b"
+       },
+       {
+        "type": "pulse",
+        "at": [
+         -58.38,
+         -34.6
+        ],
+        "t": 0.7,
+        "color": "#e0402b"
+       },
+       {
+        "type": "pulse",
+        "at": [
+         2.35,
+         48.86
+        ],
+        "t": 0.9,
+        "color": "#e0402b"
+       },
+       {
+        "type": "pulse",
+        "at": [
+         121.47,
+         31.23
+        ],
+        "t": 1.1,
+        "color": "#e0402b"
+       }
+      ],
+      "to": {
+       "lon": -20,
+       "lat": 15,
+       "zoom": 1.3
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "c03-s02",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "Factories closed. Families stopped buying.",
+   "visual": {
+    "kind": "set",
+    "set": "factory",
+    "cam": {
+     "x": 50,
+     "y": 50,
+     "from": 1.0,
+     "to": 1.15
+    }
+   },
+   "mascot": {
+    "pose": "confused"
+   },
+   "labels": [
+    {
+     "text": "closed",
+     "x": 50,
+     "y": 20,
+     "at": 0.4,
+     "size": 90,
+     "color": "#e0402b",
+     "emph": "box"
+    }
+   ]
+  },
+  {
+   "id": "c03-s03",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "And the price of beef and wheat, the two things Argentina sold, collapsed.",
+   "visual": {
+    "kind": "gray",
+    "props": [
+     {
+      "icon": "cattle",
+      "x": 38,
+      "y": 60,
+      "t": 0.3,
+      "scale": 1.2
+     },
+     {
+      "icon": "wheat",
+      "x": 62,
+      "y": 60,
+      "t": 0.9,
+      "scale": 1.2
+     }
+    ],
+    "bg": "pampas"
+   },
+   "labels": [
+    {
+     "text": "collapsed",
+     "x": 50,
+     "y": 22,
+     "at": 2.6,
+     "size": 72,
+     "color": "#e0402b",
+     "emph": "underline"
+    }
+   ],
+   "mascot": {
+    "pose": "angry"
+   }
+  },
+  {
+   "id": "c03-s04",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "For a country that earned almost everything from exports, this was a disaster.",
+   "visual": {
+    "kind": "map",
+    "from": {
+     "lon": -25,
+     "lat": 5,
+     "zoom": 1.7
+    },
+    "events": [
+     {
+      "type": "flow",
+      "path": [
+       [
+        -58.38,
+        -34.6
+       ],
+       [
+        -25,
+        10
+       ],
+       [
+        -0.13,
+        51.5
+       ]
+      ],
+      "t": 0,
+      "color": "#e0402b",
+      "width": 2
+     },
+     {
+      "type": "callout",
+      "at": [
+       -58.38,
+       -34.6
+      ],
+      "t": 0,
+      "word": 12,
+      "focus": true,
+      "icon": "exclaim",
+      "label": "disaster"
+     }
+    ],
+    "to": {
+     "lon": -21.470588235294116,
+     "lat": 3.8235294117647056,
+     "zoom": 2.006
+    }
+   },
+   "mascot": {
+    "pose": "confused"
+   }
+  },
+  {
+   "id": "c03-s05",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "Britain, its biggest customer, began favouring food from its own empire.",
+   "visual": {
+    "kind": "map",
+    "from": {
+     "lon": -21.470588235294116,
+     "lat": 3.8235294117647056,
+     "zoom": 2.006
+    },
+    "events": [
+     {
+      "type": "callout",
+      "at": [
+       -58.38,
+       -34.6
+      ],
+      "t": 0,
+      "focus": false,
+      "icon": "exclaim",
+      "label": "disaster",
+      "persist": true
+     },
+     {
+      "type": "fill",
+      "countries": [
+       "United Kingdom",
+       "Canada",
+       "Australia",
+       "India",
+       "South Africa",
+       "New Zealand"
+      ],
+      "t": 0.4,
+      "color": "#e88a9a",
+      "stagger": 0.25
+     },
+     {
+      "type": "flow",
+      "path": [
+       [
+        134,
+        -25
+       ],
+       [
+        80,
+        -10
+       ],
+       [
+        40,
+        10
+       ],
+       [
+        -0.13,
+        51.5
+       ]
+      ],
+      "t": 2.2,
+      "color": "#ffd34d"
+     },
+     {
+      "type": "flow",
+      "path": [
+       [
+        -100,
+        55
+       ],
+       [
+        -50,
+        55
+       ],
+       [
+        -0.13,
+        51.5
+       ]
+      ],
+      "t": 2.6,
+      "color": "#ffd34d"
+     },
+     {
+      "type": "callout",
+      "at": [
+       80,
+       20
+      ],
+      "t": 0,
+      "word": 10,
+      "focus": false,
+      "icon": "crown",
+      "label": "its own empire",
+      "side": "left"
+     },
+     {
+      "type": "nation",
+      "at": [
+       -2,
+       53
+      ],
+      "t": 0,
+      "word": 0,
+      "code": "gb",
+      "label": "Britain"
+     }
+    ],
+    "to": {
+     "lon": 30,
+     "lat": 10,
+     "zoom": 1.2
+    }
+   }
+  },
+  {
+   "id": "c03-s06",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "The ships that used to leave Buenos Aires full now left half empty.",
+   "visual": {
+    "kind": "map",
+    "from": {
+     "lon": -25,
+     "lat": 5,
+     "zoom": 1.7
+    },
+    "events": [
+     {
+      "type": "move",
+      "path": [
+       [
+        -58.38,
+        -34.6
+       ],
+       [
+        -30,
+        0
+       ],
+       [
+        -15,
+        35
+       ],
+       [
+        -0.13,
+        51.5
+       ]
+      ],
+      "icon": "ship",
+      "t": 0.3,
+      "dur": 4
+     },
+     {
+      "type": "label",
+      "at": [
+       -30,
+       -5
+      ],
+      "text": "half empty",
+      "t": 1.4
+     },
+     {
+      "type": "callout",
+      "at": [
+       -58.38,
+       -34.6
+      ],
+      "t": 0,
+      "word": 11,
+      "focus": true,
+      "icon": "ship",
+      "label": "half empty"
+     }
+    ],
+    "to": {
+     "lon": -21.470588235294116,
+     "lat": 3.8235294117647056,
+     "zoom": 2.006
+    }
+   }
+  },
+  {
+   "id": "c03-s07",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "And then something happened that would shape the next fifty years.",
+   "visual": {
+    "kind": "gray",
+    "props": [],
+    "icon": "exclaim",
+    "iconX": 58,
+    "iconY": 50,
+    "iconScale": 0.8,
+    "bg": "plaza"
+   }
+  },
+  {
+   "id": "c03-s08",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "Argentina had become a democracy in 1912, when it gave men the secret ballot.",
+   "visual": {
+    "kind": "action",
+    "name": "ballot",
+    "item": "1912"
+   },
+   "date": "1912",
+   "labels": []
+  },
+  {
+   "id": "c03-s09",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "But in September 1930, with the economy falling apart, the army marched into Buenos Aires and removed the elected president.",
+   "visual": {
+    "kind": "scene",
+    "set": "night-city",
+    "cast": [
+     {
+      "id": "GENERAL",
+      "x": 46,
+      "pose": "angry",
+      "enter": "left"
+     }
+    ]
+   },
+   "date": "September 1930",
+   "mood": "night",
+   "shots": [
+    {
+     "word": 9,
+     "visual": {
+      "kind": "action",
+      "name": "march",
+      "bg": "street"
+     }
+    }
+   ]
+  },
+  {
+   "id": "c03-s10",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "It was the country's first military coup of the twentieth century. It would not be the last.",
+   "visual": {
+    "kind": "gray",
+    "props": [
+     {
+      "icon": "flag",
+      "x": 52,
+      "y": 58,
+      "t": 0.3,
+      "scale": 1.5
+     }
+    ],
+    "bg": "countryside"
+   },
+   "labels": [
+    {
+     "text": "coup #1",
+     "x": 52,
+     "y": 22,
+     "at": 1.4,
+     "size": 86,
+     "emph": "circle"
+    }
+   ],
+   "mascot": {
+    "pose": "talk",
+    "poses": [
+     {
+      "t": 3.2,
+      "pose": "confused"
+     }
+    ]
+   }
+  },
+  {
+   "id": "c03-s11",
+   "type": "skit",
+   "speaker": "GENERAL",
+   "text": "Don't worry. We're only here until things calm down.",
+   "visual": {
+    "kind": "scene",
+    "set": "study",
+    "cast": [
+     {
+      "id": "GENERAL",
+      "x": 32,
+      "pose": "talk"
+     },
+     {
+      "id": "CLERK",
+      "x": 68,
+      "pose": "confused",
+      "flip": true
+     }
+    ]
+   },
+   "date": "1930"
+  },
+  {
+   "id": "c03-s12",
+   "type": "skit",
+   "speaker": "CLERK",
+   "text": "How long is that?",
+   "visual": {
+    "kind": "scene",
+    "set": "study",
+    "cast": [
+     {
+      "id": "GENERAL",
+      "x": 32,
+      "pose": "talk"
+     },
+     {
+      "id": "CLERK",
+      "x": 68,
+      "pose": "talk",
+      "flip": true
+     }
+    ]
+   },
+   "date": "1930"
+  },
+  {
+   "id": "c03-s13",
+   "type": "skit",
+   "speaker": "GENERAL",
+   "text": "A few months. A year at most.",
+   "visual": {
+    "kind": "scene",
+    "set": "study",
+    "cast": [
+     {
+      "id": "GENERAL",
+      "x": 32,
+      "pose": "shrug"
+     },
+     {
+      "id": "CLERK",
+      "x": 68,
+      "pose": "talk",
+      "flip": true
+     }
+    ]
+   },
+   "date": "1930"
+  },
+  {
+   "id": "c03-s14",
+   "type": "skit",
+   "speaker": "CLERK",
+   "text": "Temporary. Got it.",
+   "visual": {
+    "kind": "scene",
+    "set": "study",
+    "cast": [
+     {
+      "id": "GENERAL",
+      "x": 32,
+      "pose": "talk"
+     },
+     {
+      "id": "CLERK",
+      "x": 68,
+      "pose": "happy",
+      "flip": true
+     }
+    ]
+   },
+   "date": "1930",
+   "bubbles": [
+    {
+     "x": 80,
+     "y": 24,
+     "icon": "hourglass",
+     "t": 0.4,
+     "tail": [
+      70,
+      42
+     ],
+     "text": "temporary?"
+    }
+   ]
+  },
+  {
+   "id": "c03-s15",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "Over the next half century, the army took power again and again.",
+   "visual": {
+    "kind": "scroll",
+    "dates": [
+     "1930",
+     "1943",
+     "1955",
+     "1962",
+     "1966",
+     "1976"
+    ]
+   }
+  },
+  {
+   "id": "c03-s16",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "Elected governments came and went. And every new government tore up the plans of the one before it.",
+   "visual": {
+    "kind": "action",
+    "name": "ballot",
+    "item": "ELECTION"
+   },
+   "labels": [
+    {
+     "text": "plans torn up",
+     "x": 52,
+     "y": 22,
+     "at": 2.8,
+     "size": 72
+    }
+   ]
+  },
+  {
+   "id": "c03-s17",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "That pattern, more than any single policy, is the thread that runs through this whole story. Remember it.",
+   "visual": {
+    "kind": "gray",
+    "props": [],
+    "icon": "exclaim",
+    "iconX": 58,
+    "iconY": 50,
+    "iconScale": 0.8,
+    "bg": "street"
+   },
+   "labels": [
+    {
+     "text": "remember this",
+     "x": 52,
+     "y": 20,
+     "at": 3.8,
+     "size": 72,
+     "emph": "circle"
+    }
+   ]
+  },
+  {
+   "id": "c03-s18",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "But first, Argentina tried to fix its biggest weakness.",
+   "visual": {
+    "kind": "gray",
+    "props": [
+     {
+      "icon": "wheat",
+      "x": 52,
+      "y": 58,
+      "t": 0.3,
+      "scale": 1.4
+     }
+    ],
+    "bg": "pampas"
+   }
+  },
+  {
+   "id": "c03-s19",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "If selling food to the world was too risky, maybe the answer was to stop depending on the world altogether.",
+   "visual": {
+    "kind": "map",
+    "from": {
+     "lon": -20,
+     "lat": 15,
+     "zoom": 1.3
+    },
+    "events": [
+     {
+      "type": "fill",
+      "countries": [
+       "Argentina"
+      ],
+      "t": 2.0,
+      "color": "#e0a526"
+     },
+     {
+      "type": "callout",
+      "at": [
+       -58.38,
+       -34.6
+      ],
+      "t": 0,
+      "word": 14,
+      "focus": true,
+      "icon": "shield",
+      "label": "go it alone"
+     },
+     {
+      "type": "nation",
+      "at": [
+       -64,
+       -34
+      ],
+      "t": 0,
+      "word": 14,
+      "code": "ar"
+     }
+    ],
+    "to": {
+     "lon": -60,
+     "lat": -25,
+     "zoom": 3.0
+    }
+   }
+  },
+  {
+   "id": "c03-s20",
+   "type": "cta",
+   "speaker": "NARRATOR",
+   "text": "Quick pause. If you're enjoying the story so far, subscribe to the channel. It's free, and unlike the peso, it holds its value.",
+   "visual": {
+    "kind": "set",
+    "set": "sky"
+   },
+   "ctaText": "It's free. And unlike the peso, it holds its value.",
+   "mascot": {
+    "pose": "happy"
+   }
+  },
+  {
+   "id": "c04-s01",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "In 1946, Argentina elected a former army colonel named Juan Domingo Perón.",
+   "visual": {
+    "kind": "action",
+    "name": "ballot",
+    "item": "1946"
+   },
+   "date": "1946"
+  },
+  {
+   "id": "c04-s02",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "And no single person has shaped the country's economy more, for better or for worse, depending on who you ask.",
+   "visual": {
+    "kind": "gray",
+    "props": [
+     {
+      "icon": "scales",
+      "x": 52,
+      "y": 56,
+      "t": 0.4,
+      "scale": 0.6,
+      "anim": "shake"
+     }
+    ],
+    "bg": "plaza"
+   },
+   "mascot": {
+    "pose": "shrug"
+   },
+   "shots": [
+    {
+     "word": 10,
+     "visual": {
+      "kind": "gray",
+      "props": [
+       {
+        "icon": "scales",
+        "x": 52,
+        "y": 56,
+        "t": 0.05,
+        "scale": 0.6,
+        "anim": "shake"
+       }
+      ],
+      "cam": {
+       "x": 52,
+       "y": 56,
+       "from": 1.35,
+       "to": 1.5
+      },
+      "bg": "plaza"
+     }
+    }
+   ]
+  },
+  {
+   "id": "c04-s03",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "Perón's big idea was simple. Argentina should stop being a farm for Europe and start making things for itself.",
+   "visual": {
+    "kind": "gray",
+    "props": [
+     {
+      "icon": "wheat",
+      "x": 36,
+      "y": 58,
+      "t": 0.3,
+      "scale": 1.3
+     },
+     {
+      "icon": "factory",
+      "x": 64,
+      "y": 58,
+      "t": 2.6,
+      "scale": 1.4
+     }
+    ],
+    "bg": "estancia"
+   }
+  },
+  {
+   "id": "c04-s04",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "Instead of selling beef and buying cars, radios and machines from abroad, it would build its own factories and make them at home.",
+   "visual": {
+    "kind": "map",
+    "from": {
+     "lon": -63,
+     "lat": -33,
+     "zoom": 5.5
+    },
+    "events": [
+     {
+      "type": "arrow",
+      "from": [
+       -40,
+       -20
+      ],
+      "to": [
+       -58.38,
+       -34.6
+      ],
+      "t": 0.3,
+      "color": "#e0402b"
+     },
+     {
+      "type": "icon",
+      "at": [
+       -58.38,
+       -34.6
+      ],
+      "icon": "factory",
+      "t": 2.6,
+      "size": 0.8
+     },
+     {
+      "type": "icon",
+      "at": [
+       -64.18,
+       -31.42
+      ],
+      "icon": "factory",
+      "t": 3.2,
+      "size": 0.8
+     },
+     {
+      "type": "icon",
+      "at": [
+       -60.65,
+       -32.95
+      ],
+      "icon": "factory",
+      "t": 3.8,
+      "size": 0.8
+     },
+     {
+      "type": "callout",
+      "at": [
+       -58.38,
+       -34.6
+      ],
+      "t": 0,
+      "word": 17,
+      "focus": true,
+      "icon": "factory",
+      "label": "make it at home"
+     }
+    ],
+    "to": {
+     "lon": -61.90909090909091,
+     "lat": -33.36363636363637,
+     "zoom": 6.49
+    }
+   }
+  },
+  {
+   "id": "c04-s05",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "To protect those new factories, the government made imported goods expensive with high taxes and strict limits.",
+   "visual": {
+    "kind": "gray",
+    "props": [
+     {
+      "icon": "shield",
+      "x": 40,
+      "y": 56,
+      "t": 0.4,
+      "scale": 0.55
+     },
+     {
+      "icon": "factory",
+      "x": 64,
+      "y": 60,
+      "t": 0.8,
+      "scale": 1.3
+     }
+    ],
+    "bg": "street"
+   },
+   "shots": [
+    {
+     "word": 7,
+     "visual": {
+      "kind": "document",
+      "title": "Import Tariffs",
+      "seal": true,
+      "sub": "radios · cars · machines",
+      "stamp": "TAXED",
+      "stampAt": 1.0,
+      "bg": "bank"
+     }
+    }
+   ]
+  },
+  {
+   "id": "c04-s06",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "It bought the British-owned railways and put them in state hands.",
+   "visual": {
+    "kind": "action",
+    "name": "train",
+    "cargo": "flag"
+   },
+   "date": "1948"
+  },
+  {
+   "id": "c04-s07",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "It took control of the grain trade, buying crops from farmers at low prices and selling them abroad at higher ones,",
+   "visual": {
+    "kind": "gray",
+    "props": [
+     {
+      "icon": "wheat",
+      "x": 30,
+      "y": 58,
+      "t": 0.3,
+      "scale": 1.2
+     },
+     {
+      "icon": "coins",
+      "x": 52,
+      "y": 60,
+      "t": 1.6,
+      "scale": 0.4
+     },
+     {
+      "icon": "ship",
+      "x": 74,
+      "y": 58,
+      "t": 3.0,
+      "scale": 1.3
+     }
+    ],
+    "bg": "pampas"
+   },
+   "labels": [
+    {
+     "text": "buy low",
+     "x": 30,
+     "y": 22,
+     "at": 1.4,
+     "size": 58
+    },
+    {
+     "text": "sell high",
+     "x": 72,
+     "y": 22,
+     "at": 3.2,
+     "size": 58
+    }
+   ],
+   "shots": [
+    {
+     "word": 10,
+     "visual": {
+      "kind": "gray",
+      "props": [
+       {
+        "icon": "wheat",
+        "x": 30,
+        "y": 58,
+        "t": 0.05,
+        "scale": 1.2
+       },
+       {
+        "icon": "coins",
+        "x": 52,
+        "y": 60,
+        "t": 0.05,
+        "scale": 0.4
+       },
+       {
+        "icon": "ship",
+        "x": 74,
+        "y": 58,
+        "t": 0.05,
+        "scale": 1.3
+       }
+      ],
+      "cam": {
+       "x": 74,
+       "y": 58,
+       "from": 1.35,
+       "to": 1.5
+      },
+      "bg": "pampas"
+     }
+    }
+   ]
+  },
+  {
+   "id": "c04-s08",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "using the difference to pay for industry and social programmes.",
+   "visual": {
+    "kind": "gray",
+    "props": [
+     {
+      "icon": "factory",
+      "x": 40,
+      "y": 58,
+      "t": 0.2,
+      "scale": 1.3
+     },
+     {
+      "icon": "heart",
+      "x": 64,
+      "y": 56,
+      "t": 1.4,
+      "scale": 0.45
+     }
+    ],
+    "bg": "factory"
+   }
+  },
+  {
+   "id": "c04-s09",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "For working people, especially in the cities, life got noticeably better.",
+   "visual": {
+    "kind": "scene",
+    "set": "factory",
+    "cast": [
+     {
+      "id": "WORKER",
+      "x": 48,
+      "pose": "happy"
+     }
+    ]
+   }
+  },
+  {
+   "id": "c04-s10",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "Wages rose. Workers got paid holidays, pensions and new rights.",
+   "visual": {
+    "kind": "scene",
+    "set": "factory",
+    "cast": [
+     {
+      "id": "WORKER",
+      "x": 48,
+      "pose": "happy"
+     }
+    ]
+   },
+   "labels": [
+    {
+     "text": "wages ↑",
+     "x": 24,
+     "y": 30,
+     "at": 0.2,
+     "size": 72,
+     "color": "#9fe08a"
+    },
+    {
+     "text": "paid holidays",
+     "x": 48,
+     "y": 14,
+     "at": 1.2,
+     "size": 72
+    },
+    {
+     "text": "pensions",
+     "x": 70,
+     "y": 32,
+     "at": 2.2,
+     "size": 72
+    }
+   ]
+  },
+  {
+   "id": "c04-s11",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "Millions of Argentines felt, for the first time, that the country's wealth belonged to them too.",
+   "visual": {
+    "kind": "crowd",
+    "set": "street",
+    "action": "cheer",
+    "n": 9,
+    "seed": 19,
+    "cam": {
+     "x": 50,
+     "y": 55,
+     "from": 1.0,
+     "to": 1.1
+    }
+   }
+  },
+  {
+   "id": "c04-s12",
+   "type": "skit",
+   "speaker": "WORKER",
+   "text": "Boss, our new radios are ready! Made right here in Argentina!",
+   "visual": {
+    "kind": "scene",
+    "set": "factory",
+    "cast": [
+     {
+      "id": "WORKER",
+      "x": 32,
+      "pose": "happy"
+     },
+     {
+      "id": "FACTORY_OWNER",
+      "x": 68,
+      "pose": "talk",
+      "flip": true
+     }
+    ]
+   },
+   "date": "1950"
+  },
+  {
+   "id": "c04-s13",
+   "type": "skit",
+   "speaker": "FACTORY_OWNER",
+   "text": "Wonderful. How do they compare to the foreign ones?",
+   "visual": {
+    "kind": "scene",
+    "set": "factory",
+    "cast": [
+     {
+      "id": "WORKER",
+      "x": 32,
+      "pose": "talk"
+     },
+     {
+      "id": "FACTORY_OWNER",
+      "x": 68,
+      "pose": "talk",
+      "flip": true
+     }
+    ]
+   },
+   "date": "1950"
+  },
+  {
+   "id": "c04-s14",
+   "type": "skit",
+   "speaker": "WORKER",
+   "text": "Twice the price. But I helped build it, and next month I get my first paid holiday.",
+   "visual": {
+    "kind": "scene",
+    "set": "factory",
+    "cast": [
+     {
+      "id": "WORKER",
+      "x": 32,
+      "pose": "shrug"
+     },
+     {
+      "id": "FACTORY_OWNER",
+      "x": 68,
+      "pose": "confused",
+      "flip": true
+     }
+    ]
+   },
+   "date": "1950"
+  },
+  {
+   "id": "c04-s15",
+   "type": "skit",
+   "speaker": "FACTORY_OWNER",
+   "text": "And who will buy them?",
+   "visual": {
+    "kind": "scene",
+    "set": "factory",
+    "cast": [
+     {
+      "id": "WORKER",
+      "x": 32,
+      "pose": "talk"
+     },
+     {
+      "id": "FACTORY_OWNER",
+      "x": 68,
+      "pose": "confused",
+      "flip": true
+     }
+    ]
+   },
+   "date": "1950"
+  },
+  {
+   "id": "c04-s16",
+   "type": "skit",
+   "speaker": "WORKER",
+   "text": "Everyone. The foreign ones cost three times as much now.",
+   "visual": {
+    "kind": "scene",
+    "set": "factory",
+    "cast": [
+     {
+      "id": "WORKER",
+      "x": 32,
+      "pose": "point"
+     },
+     {
+      "id": "FACTORY_OWNER",
+      "x": 68,
+      "pose": "talk",
+      "flip": true
+     }
+    ]
+   },
+   "date": "1950"
+  },
+  {
+   "id": "c04-s17",
+   "type": "skit",
+   "speaker": "FACTORY_OWNER",
+   "text": "Then let's build another factory.",
+   "visual": {
+    "kind": "scene",
+    "set": "factory",
+    "cast": [
+     {
+      "id": "WORKER",
+      "x": 32,
+      "pose": "happy"
+     },
+     {
+      "id": "FACTORY_OWNER",
+      "x": 68,
+      "pose": "happy",
+      "flip": true
+     }
+    ]
+   },
+   "date": "1950"
+  },
+  {
+   "id": "c04-s18",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "This is where historians and economists still argue, and both sides have a real case.",
+   "visual": {
+    "kind": "action",
+    "name": "scales",
+    "left": {
+     "icon": "heart",
+     "label": "supporters"
+    },
+    "right": {
+     "icon": "shield",
+     "label": "critics"
+    }
+   },
+   "labels": []
+  },
+  {
+   "id": "c04-s19",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "Supporters say Perón gave ordinary workers dignity and a share of the national wealth that the old ranching elite never would have.",
+   "visual": {
+    "kind": "gray",
+    "props": [
+     {
+      "icon": "heart",
+      "x": 40,
+      "y": 56,
+      "t": 0.6,
+      "scale": 0.5
+     },
+     {
+      "icon": "coins",
+      "x": 64,
+      "y": 60,
+      "t": 2.6,
+      "scale": 0.45
+     }
+    ],
+    "bg": "plaza"
+   },
+   "labels": [
+    {
+     "text": "supporters say",
+     "x": 44,
+     "y": 20,
+     "at": 0.2,
+     "size": 72,
+     "color": "#9fe08a"
+    }
+   ],
+   "shots": [
+    {
+     "word": 6,
+     "visual": {
+      "kind": "photo",
+      "src": "archive/peron-evita.jpg",
+      "caption": "Juan and Eva Perón"
+     }
+    }
+   ]
+  },
+  {
+   "id": "c04-s20",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "They point out that the factories, unions and welfare system he built became the backbone of Argentina's middle class.",
+   "visual": {
+    "kind": "gray",
+    "props": [
+     {
+      "icon": "factory",
+      "x": 30,
+      "y": 58,
+      "t": 0.3,
+      "scale": 1.2
+     },
+     {
+      "icon": "house",
+      "x": 52,
+      "y": 58,
+      "t": 1.2,
+      "scale": 1.3
+     },
+     {
+      "icon": "heart",
+      "x": 74,
+      "y": 56,
+      "t": 2.2,
+      "scale": 0.4
+     }
+    ],
+    "bg": "estancia"
+   },
+   "shots": [
+    {
+     "word": 9,
+     "visual": {
+      "kind": "gray",
+      "props": [
+       {
+        "icon": "factory",
+        "x": 30,
+        "y": 58,
+        "t": 0.05,
+        "scale": 1.2
+       },
+       {
+        "icon": "house",
+        "x": 52,
+        "y": 58,
+        "t": 0.05,
+        "scale": 1.3
+       },
+       {
+        "icon": "heart",
+        "x": 74,
+        "y": 56,
+        "t": 0.05,
+        "scale": 0.4
+       }
+      ],
+      "cam": {
+       "x": 52,
+       "y": 58,
+       "from": 1.35,
+       "to": 1.5
+      },
+      "bg": "estancia"
+     }
+    }
+   ]
+  },
+  {
+   "id": "c04-s21",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "Critics say the plan had a hidden cost. Protected factories never had to compete, so many stayed inefficient.",
+   "visual": {
+    "kind": "gray",
+    "props": [
+     {
+      "icon": "shield",
+      "x": 40,
+      "y": 56,
+      "t": 0.4,
+      "scale": 0.5
+     },
+     {
+      "icon": "factory",
+      "x": 64,
+      "y": 60,
+      "t": 1.6,
+      "scale": 1.2,
+      "anim": "shake"
+     }
+    ],
+    "bg": "factory"
+   },
+   "labels": [
+    {
+     "text": "critics say",
+     "x": 44,
+     "y": 20,
+     "at": 0.2,
+     "size": 72,
+     "color": "#ff9b8a"
+    }
+   ],
+   "shots": [
+    {
+     "word": 9,
+     "visual": {
+      "kind": "gray",
+      "props": [
+       {
+        "icon": "shield",
+        "x": 40,
+        "y": 56,
+        "t": 0.05,
+        "scale": 0.5
+       },
+       {
+        "icon": "factory",
+        "x": 64,
+        "y": 60,
+        "t": 0.05,
+        "scale": 1.2,
+        "anim": "shake"
+       }
+      ],
+      "cam": {
+       "x": 64,
+       "y": 60,
+       "from": 1.35,
+       "to": 1.5
+      },
+      "bg": "factory"
+     }
+    }
+   ]
+  },
+  {
+   "id": "c04-s22",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "Paying farmers less discouraged them from growing more, just when the country needed exports to pay for factory machines.",
+   "visual": {
+    "kind": "gray",
+    "props": [
+     {
+      "icon": "wheat",
+      "x": 40,
+      "y": 60,
+      "t": 0.3,
+      "scale": 1.2
+     },
+     {
+      "icon": "banknotes",
+      "x": 64,
+      "y": 60,
+      "t": 2.0,
+      "scale": 1.2
+     }
+    ],
+    "bg": "fields"
+   },
+   "mascot": {
+    "pose": "confused"
+   },
+   "shots": [
+    {
+     "word": 9,
+     "visual": {
+      "kind": "gray",
+      "props": [
+       {
+        "icon": "wheat",
+        "x": 40,
+        "y": 60,
+        "t": 0.05,
+        "scale": 1.2
+       },
+       {
+        "icon": "banknotes",
+        "x": 64,
+        "y": 60,
+        "t": 0.05,
+        "scale": 1.2
+       }
+      ],
+      "cam": {
+       "x": 40,
+       "y": 60,
+       "from": 1.35,
+       "to": 1.5
+      },
+      "bg": "fields"
+     }
+    }
+   ]
+  },
+  {
+   "id": "c04-s23",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "And when the money ran short, the government did something that would become a very bad habit.",
+   "visual": {
+    "kind": "gray",
+    "props": [],
+    "icon": "question",
+    "iconX": 58,
+    "iconY": 50,
+    "iconScale": 0.8,
+    "bg": "factory"
+   },
+   "mascot": {
+    "pose": "confused"
+   }
+  },
+  {
+   "id": "c04-s24",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "It printed more of it.",
+   "visual": {
+    "kind": "action",
+    "name": "press"
+   },
+   "labels": [
+    {
+     "text": "PRINT",
+     "x": 30,
+     "y": 20,
+     "at": 0.3,
+     "size": 100,
+     "color": "#e0402b",
+     "emph": "box"
+    }
+   ]
+  },
+  {
+   "id": "c04-s25",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "In 1955, Perón himself was overthrown by another military coup. He went into exile for almost eighteen years.",
+   "visual": {
+    "kind": "action",
+    "name": "march",
+    "bg": "plaza"
+   },
+   "date": "1955",
+   "mood": "night"
+  },
+  {
+   "id": "c04-s26",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "But his movement never went away.",
+   "visual": {
+    "kind": "crowd",
+    "set": "street",
+    "action": "cheer",
+    "n": 8,
+    "seed": 23
+   }
+  },
+  {
+   "id": "c04-s27",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "For decades, Argentine politics would swing back and forth between his followers and his opponents,",
+   "visual": {
+    "kind": "action",
+    "name": "scales",
+    "left": {
+     "icon": "flag",
+     "label": "his followers"
+    },
+    "right": {
+     "icon": "flag",
+     "label": "his opponents"
+    }
+   }
+  },
+  {
+   "id": "c04-s28",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "each side undoing what the other had built.",
+   "visual": {
+    "kind": "gray",
+    "props": [
+     {
+      "icon": "factory",
+      "x": 40,
+      "y": 58,
+      "t": 0.2,
+      "scale": 1.2
+     },
+     {
+      "icon": "fire",
+      "x": 62,
+      "y": 60,
+      "t": 1.2,
+      "scale": 1.3
+     }
+    ],
+    "bg": "plaza"
+   },
+   "mascot": {
+    "pose": "angry"
+   }
+  },
+  {
+   "id": "c04-s29",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "And underneath all of that swinging, one problem kept growing quietly in the background.",
+   "visual": {
+    "kind": "gray",
+    "props": [
+     {
+      "icon": "banknotes",
+      "x": 52,
+      "y": 58,
+      "t": 0.4,
+      "scale": 1.5,
+      "anim": "pulse"
+     }
+    ],
+    "bg": "estancia"
+   },
+   "mascot": {
+    "pose": "talk"
+   }
+  },
+  {
+   "id": "c05-s01",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "That problem was inflation, prices rising year after year.",
+   "visual": {
+    "kind": "set",
+    "set": "shop",
+    "cam": {
+     "x": 40,
+     "y": 45,
+     "from": 1.0,
+     "to": 1.15
+    }
+   },
+   "labels": [
+    {
+     "text": "inflation",
+     "x": 44,
+     "y": 22,
+     "at": 1.0,
+     "size": 90,
+     "color": "#e0402b",
+     "emph": "underline"
+    }
+   ],
+   "mascot": {
+    "pose": "talk"
+   }
+  },
+  {
+   "id": "c05-s02",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "And to understand why it never went away, you need to understand a trap.",
+   "visual": {
+    "kind": "gray",
+    "props": [],
+    "icon": "question",
+    "iconX": 58,
+    "iconY": 50,
+    "iconScale": 0.8,
+    "bg": "street"
+   }
+  },
+  {
+   "id": "c05-s03",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "Imagine a government that promises more than it can afford: more jobs, more pensions, more support for factories.",
+   "visual": {
+    "kind": "document",
+    "title": "Government promises",
+    "seal": true,
+    "sub": "jobs · pensions · factories",
+    "bg": "plaza"
+   },
+   "labels": []
+  },
+  {
+   "id": "c05-s04",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "Taxes don't cover it. Borrowing is hard because lenders don't trust you.",
+   "visual": {
+    "kind": "gray",
+    "props": [
+     {
+      "icon": "bag",
+      "x": 38,
+      "y": 58,
+      "t": 0.2,
+      "scale": 0.45
+     },
+     {
+      "icon": "scales",
+      "x": 64,
+      "y": 56,
+      "t": 1.8,
+      "scale": 0.5,
+      "anim": "shake"
+     }
+    ],
+    "bg": "plaza"
+   }
+  },
+  {
+   "id": "c05-s05",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "So the central bank simply creates more money to pay the bills.",
+   "visual": {
+    "kind": "action",
+    "name": "press",
+    "bg": "bank"
+   }
+  },
+  {
+   "id": "c05-s06",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "For a while, it feels great. Everyone has more pesos.",
+   "visual": {
+    "kind": "gray",
+    "props": [
+     {
+      "icon": "banknotes",
+      "x": 34,
+      "y": 60,
+      "t": 0.2,
+      "scale": 1.2
+     },
+     {
+      "icon": "banknotes",
+      "x": 56,
+      "y": 56,
+      "t": 0.6,
+      "scale": 1.3
+     },
+     {
+      "icon": "banknotes",
+      "x": 76,
+      "y": 62,
+      "t": 1.0,
+      "scale": 1.1
+     }
+    ],
+    "bg": "countryside"
+   }
+  },
+  {
+   "id": "c05-s07",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "But there are no more goods in the shops than before. So shopkeepers raise prices.",
+   "visual": {
+    "kind": "set",
+    "set": "shop"
+   },
+   "labels": [
+    {
+     "text": "prices ↑",
+     "x": 40,
+     "y": 22,
+     "at": 2.8,
+     "size": 90,
+     "color": "#e0402b"
+    }
+   ],
+   "mascot": {
+    "pose": "confused"
+   }
+  },
+  {
+   "id": "c05-s08",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "Workers demand higher wages to keep up. The government prints even more to pay them. And round and round it goes.",
+   "visual": {
+    "kind": "action",
+    "name": "loop",
+    "items": [
+     {
+      "icon": "factory",
+      "label": "higher wages"
+     },
+     {
+      "icon": "press",
+      "label": "print more"
+     },
+     {
+      "icon": "banknotes",
+      "label": "higher prices"
+     }
+    ]
+   },
+   "labels": []
+  },
+  {
+   "id": "c05-s09",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "Through the 1950s, 60s and 70s, Argentina was stuck in this loop.",
+   "visual": {
+    "kind": "scroll",
+    "dates": [
+     "1950s",
+     "1960s",
+     "1970s"
+    ]
+   }
+  },
+  {
+   "id": "c05-s10",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "Civilian governments and military ones took turns, and almost all of them leaned on the printing press.",
+   "visual": {
+    "kind": "gray",
+    "props": [
+     {
+      "icon": "press",
+      "x": 52,
+      "y": 56,
+      "t": 0.6,
+      "scale": 2.2,
+      "anim": "none"
+     }
+    ],
+    "bg": "shop"
+   }
+  },
+  {
+   "id": "c05-s11",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "In 1976 the army seized power once more and ran a brutal dictatorship until 1983.",
+   "visual": {
+    "kind": "action",
+    "name": "march",
+    "bg": "plaza"
+   },
+   "date": "1976",
+   "mood": "night",
+   "shots": [
+    {
+     "word": 9,
+     "visual": {
+      "kind": "photo",
+      "src": "archive/junta-1976.jpg",
+      "caption": "The military junta, 1976"
+     }
+    }
+   ]
+  },
+  {
+   "id": "c05-s12",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "It borrowed heavily from foreign banks, and Argentina's debt ballooned.",
+   "visual": {
+    "kind": "map",
+    "from": {
+     "lon": -25,
+     "lat": 5,
+     "zoom": 1.7
+    },
+    "events": [
+     {
+      "type": "flow",
+      "path": [
+       [
+        -74.0,
+        40.7
+       ],
+       [
+        -40,
+        0
+       ],
+       [
+        -58.38,
+        -34.6
+       ]
+      ],
+      "t": 0.3,
+      "color": "#e0402b"
+     },
+     {
+      "type": "flow",
+      "path": [
+       [
+        -0.13,
+        51.5
+       ],
+       [
+        -25,
+        10
+       ],
+       [
+        -58.38,
+        -34.6
+       ]
+      ],
+      "t": 0.8,
+      "color": "#e0402b"
+     },
+     {
+      "type": "icon",
+      "at": [
+       -58.38,
+       -34.6
+      ],
+      "icon": "banknotes",
+      "t": 2.0,
+      "size": 0.9
+     },
+     {
+      "type": "callout",
+      "at": [
+       -74.0,
+       40.7
+      ],
+      "t": 0,
+      "word": 5,
+      "focus": false,
+      "icon": "banknotes",
+      "label": "foreign banks",
+      "side": "right"
+     },
+     {
+      "type": "callout",
+      "at": [
+       -58.38,
+       -34.6
+      ],
+      "t": 0,
+      "word": 9,
+      "focus": true,
+      "icon": "scales",
+      "label": "debt balloons",
+      "side": "left"
+     },
+     {
+      "type": "nation",
+      "at": [
+       -98,
+       39
+      ],
+      "t": 0,
+      "word": 4,
+      "code": "us"
+     },
+     {
+      "type": "nation",
+      "at": [
+       -2,
+       53
+      ],
+      "t": 0,
+      "word": 5,
+      "code": "gb"
+     }
+    ],
+    "to": {
+     "lon": -21.470588235294116,
+     "lat": 3.8235294117647056,
+     "zoom": 2.006
+    }
+   }
+  },
+  {
+   "id": "c05-s13",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "When the generals finally gave up power after losing the Falklands War against Britain in 1982,",
+   "visual": {
+    "kind": "map",
+    "from": {
+     "lon": -62,
+     "lat": -42,
+     "zoom": 5
+    },
+    "events": [
+     {
+      "type": "pin",
+      "at": [
+       -59.5,
+       -51.7
+      ],
+      "t": 1.2,
+      "label": "Falklands"
+     },
+     {
+      "type": "battle",
+      "at": [
+       -58.5,
+       -51.0
+      ],
+      "t": 2.4
+     },
+     {
+      "type": "callout",
+      "at": [
+       -59.5,
+       -51.7
+      ],
+      "t": 0,
+      "word": 10,
+      "focus": true,
+      "icon": "soldier",
+      "label": "Falklands War, 1982",
+      "side": "left",
+      "pos": "above",
+      "src": "archive/badges/falklands.jpg"
+     },
+     {
+      "type": "nation",
+      "at": [
+       -57.5,
+       -50.5
+      ],
+      "t": 0,
+      "word": 13,
+      "code": "gb"
+     },
+     {
+      "type": "nation",
+      "at": [
+       -68,
+       -40
+      ],
+      "t": 0,
+      "word": 2,
+      "code": "ar"
+     }
+    ],
+    "to": {
+     "lon": -61,
+     "lat": -47,
+     "zoom": 6.5
+    }
+   },
+   "date": "1982"
+  },
+  {
+   "id": "c05-s14",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "they left behind a mountain of debt and an economy close to breaking.",
+   "visual": {
+    "kind": "gray",
+    "props": [
+     {
+      "icon": "banknotes",
+      "x": 52,
+      "y": 58,
+      "t": 0.2,
+      "scale": 2.2,
+      "anim": "shake"
+     }
+    ],
+    "bg": "street"
+   },
+   "labels": [
+    {
+     "text": "mountain of debt",
+     "x": 52,
+     "y": 20,
+     "at": 1.6,
+     "size": 72
+    }
+   ],
+   "mascot": {
+    "pose": "confused"
+   }
+  },
+  {
+   "id": "c05-s15",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "The new democratic governments inherited that mess. They tried new currencies, price freezes and emergency plans. None of them stuck.",
+   "visual": {
+    "kind": "gray",
+    "props": [
+     {
+      "icon": "banknotes",
+      "x": 30,
+      "y": 58,
+      "t": 2.2,
+      "scale": 1.0
+     },
+     {
+      "icon": "scroll",
+      "x": 52,
+      "y": 58,
+      "t": 3.4,
+      "scale": 1.2
+     },
+     {
+      "icon": "hourglass",
+      "x": 74,
+      "y": 56,
+      "t": 4.4,
+      "scale": 0.35
+     }
+    ],
+    "bg": "skyline"
+   },
+   "date": "1983",
+   "mascot": {
+    "pose": "talk",
+    "poses": [
+     {
+      "t": 5.2,
+      "pose": "shrug"
+     }
+    ]
+   },
+   "shots": [
+    {
+     "word": 11,
+     "visual": {
+      "kind": "gray",
+      "props": [
+       {
+        "icon": "banknotes",
+        "x": 30,
+        "y": 58,
+        "t": 0.05,
+        "scale": 1.0
+       },
+       {
+        "icon": "scroll",
+        "x": 52,
+        "y": 58,
+        "t": 0.05,
+        "scale": 1.2
+       },
+       {
+        "icon": "hourglass",
+        "x": 74,
+        "y": 56,
+        "t": 0.05,
+        "scale": 0.35
+       }
+      ],
+      "cam": {
+       "x": 52,
+       "y": 58,
+       "from": 1.35,
+       "to": 1.5
+      },
+      "bg": "skyline"
+     }
+    }
+   ]
+  },
+  {
+   "id": "c05-s16",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "And in 1989, the loop finally spun out of control.",
+   "visual": {
+    "kind": "gray",
+    "props": [
+     {
+      "icon": "press",
+      "x": 52,
+      "y": 56,
+      "t": 0.2,
+      "scale": 2.2,
+      "anim": "shake"
+     }
+    ],
+    "bg": "plaza"
+   },
+   "date": "1989",
+   "mascot": {
+    "pose": "angry"
+   }
+  },
+  {
+   "id": "c05-s17",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "In July 1989 alone, prices rose by about two hundred percent. In one month.",
+   "visual": {
+    "kind": "crowd",
+    "set": "shop",
+    "action": "run",
+    "n": 8,
+    "seed": 31
+   },
+   "date": "July 1989"
+  },
+  {
+   "id": "c05-s18",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "Over the whole year, they rose by around five thousand percent.",
+   "visual": {
+    "kind": "action",
+    "name": "pricetag",
+    "from": 100,
+    "to": 5100,
+    "item": "1989"
+   },
+   "labels": [
+    {
+     "text": "5,000%",
+     "x": 50,
+     "y": 16,
+     "at": 2.0,
+     "size": 110,
+     "color": "#e0402b",
+     "emph": "circle"
+    }
+   ]
+  },
+  {
+   "id": "c05-s19",
+   "type": "skit",
+   "speaker": "SHOPPER",
+   "text": "Good morning! How much for the bread?",
+   "visual": {
+    "kind": "scene",
+    "set": "shop",
+    "cast": [
+     {
+      "id": "SHOPPER",
+      "x": 32,
+      "pose": "happy"
+     },
+     {
+      "id": "SHOPKEEPER",
+      "x": 68,
+      "pose": "talk",
+      "flip": true
+     }
+    ]
+   },
+   "date": "9 a.m."
+  },
+  {
+   "id": "c05-s20",
+   "type": "skit",
+   "speaker": "SHOPKEEPER",
+   "text": "Ten thousand australes.",
+   "visual": {
+    "kind": "scene",
+    "set": "shop",
+    "cast": [
+     {
+      "id": "SHOPPER",
+      "x": 32,
+      "pose": "talk"
+     },
+     {
+      "id": "SHOPKEEPER",
+      "x": 68,
+      "pose": "talk",
+      "flip": true
+     }
+    ]
+   },
+   "date": "9 a.m."
+  },
+  {
+   "id": "c05-s21",
+   "type": "skit",
+   "speaker": "SHOPPER",
+   "text": "Perfect, I'll come back after work.",
+   "visual": {
+    "kind": "scene",
+    "set": "shop",
+    "cast": [
+     {
+      "id": "SHOPPER",
+      "x": 32,
+      "pose": "happy"
+     },
+     {
+      "id": "SHOPKEEPER",
+      "x": 68,
+      "pose": "shrug",
+      "flip": true
+     }
+    ]
+   },
+   "date": "9 a.m."
+  },
+  {
+   "id": "c05-s22",
+   "type": "skit",
+   "speaker": "SHOPPER",
+   "text": "I'm back! Ten thousand, right?",
+   "visual": {
+    "kind": "scene",
+    "set": "shop",
+    "cast": [
+     {
+      "id": "SHOPPER",
+      "x": 32,
+      "pose": "happy"
+     },
+     {
+      "id": "SHOPKEEPER",
+      "x": 68,
+      "pose": "talk",
+      "flip": true
+     }
+    ]
+   },
+   "date": "5 p.m."
+  },
+  {
+   "id": "c05-s23",
+   "type": "skit",
+   "speaker": "SHOPKEEPER",
+   "text": "Twelve thousand.",
+   "visual": {
+    "kind": "scene",
+    "set": "shop",
+    "cast": [
+     {
+      "id": "SHOPPER",
+      "x": 32,
+      "pose": "confused"
+     },
+     {
+      "id": "SHOPKEEPER",
+      "x": 68,
+      "pose": "shrug",
+      "flip": true
+     }
+    ]
+   },
+   "date": "5 p.m."
+  },
+  {
+   "id": "c05-s24",
+   "type": "skit",
+   "speaker": "SHOPPER",
+   "text": "It's the same bread!",
+   "visual": {
+    "kind": "scene",
+    "set": "shop",
+    "cast": [
+     {
+      "id": "SHOPPER",
+      "x": 32,
+      "pose": "angry"
+     },
+     {
+      "id": "SHOPKEEPER",
+      "x": 68,
+      "pose": "talk",
+      "flip": true
+     }
+    ]
+   },
+   "date": "5 p.m."
+  },
+  {
+   "id": "c05-s25",
+   "type": "skit",
+   "speaker": "SHOPKEEPER",
+   "text": "Same bread. Different money.",
+   "visual": {
+    "kind": "scene",
+    "set": "shop",
+    "cast": [
+     {
+      "id": "SHOPPER",
+      "x": 32,
+      "pose": "angry"
+     },
+     {
+      "id": "SHOPKEEPER",
+      "x": 68,
+      "pose": "shrug",
+      "flip": true
+     }
+    ]
+   },
+   "date": "5 p.m."
+  },
+  {
+   "id": "c05-s26",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "That's not much of an exaggeration. People rushed to spend their salaries the day they got paid, before the money lost value.",
+   "visual": {
+    "kind": "set",
+    "set": "shop"
+   }
+  },
+  {
+   "id": "c05-s27",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "Supermarkets used loudspeakers to announce new prices during the day.",
+   "visual": {
+    "kind": "action",
+    "name": "pricetag",
+    "from": 1000,
+    "to": 1300,
+    "item": "NEW PRICE!"
+   },
+   "labels": [
+    {
+     "text": "NEW PRICES!",
+     "x": 44,
+     "y": 20,
+     "at": 1.0,
+     "size": 96,
+     "color": "#e0402b"
+    }
+   ]
+  },
+  {
+   "id": "c05-s28",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "Some shops simply closed, because by the time they restocked, they had lost money on everything they sold.",
+   "visual": {
+    "kind": "set",
+    "set": "shop"
+   },
+   "labels": [
+    {
+     "text": "CLOSED",
+     "x": 44,
+     "y": 24,
+     "at": 1.4,
+     "size": 110,
+     "color": "#e0402b",
+     "emph": "box"
+    }
+   ],
+   "mood": "night",
+   "mascot": {
+    "pose": "confused"
+   }
+  },
+  {
+   "id": "c05-s29",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "Argentina needed something drastic. And in 1991, it tried the most drastic idea of all.",
+   "visual": {
+    "kind": "gray",
+    "props": [],
+    "icon": "exclaim",
+    "iconX": 58,
+    "iconY": 50,
+    "iconScale": 0.8,
+    "bg": "shop"
+   },
+   "date": "1991"
+  },
+  {
+   "id": "c06-s01",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "The plan was called Convertibility. From 1991, one Argentine peso would be worth exactly one US dollar.",
+   "visual": {
+    "kind": "document",
+    "title": "Convertibility Law",
+    "seal": true,
+    "sub": "1 peso = 1 US dollar",
+    "stamp": "LAW",
+    "stampAt": 2.4,
+    "bg": "study"
+   },
+   "labels": []
+  },
+  {
+   "id": "c06-s02",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "Not roughly. Exactly. And by law, the central bank could only print a peso if it had a real dollar in the vault to back it.",
+   "visual": {
+    "kind": "action",
+    "name": "vault",
+    "item": "dollars"
+   }
+  },
+  {
+   "id": "c06-s03",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "In other words, Argentina took the printing press away from itself.",
+   "visual": {
+    "kind": "gray",
+    "props": [
+     {
+      "icon": "press",
+      "x": 52,
+      "y": 56,
+      "t": 0.2,
+      "scale": 2.2,
+      "anim": "none"
+     },
+     {
+      "icon": "stamp",
+      "x": 52,
+      "y": 60,
+      "t": 2.6,
+      "scale": 1.2
+     }
+    ],
+    "bg": "plaza"
+   },
+   "labels": [
+    {
+     "text": "locked",
+     "x": 52,
+     "y": 20,
+     "at": 2.8,
+     "size": 72
+    }
+   ]
+  },
+  {
+   "id": "c06-s04",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "And it worked. Almost overnight, inflation collapsed. Within a few years, prices were barely rising at all.",
+   "visual": {
+    "kind": "crowd",
+    "set": "shop",
+    "action": "cheer",
+    "n": 7,
+    "seed": 41
+   },
+   "labels": [
+    {
+     "text": "stable prices",
+     "x": 44,
+     "y": 22,
+     "at": 2.6,
+     "size": 72,
+     "color": "#9fe08a",
+     "emph": "underline"
+    }
+   ],
+   "shots": [
+    {
+     "word": 7,
+     "visual": {
+      "kind": "photo",
+      "src": "archive/menem.jpg",
+      "caption": "President Carlos Menem (right) at the White House"
+     }
+    }
+   ]
+  },
+  {
+   "id": "c06-s05",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "Foreign money poured back in.",
+   "visual": {
+    "kind": "map",
+    "from": {
+     "lon": -25,
+     "lat": 5,
+     "zoom": 1.7
+    },
+    "events": [
+     {
+      "type": "flow",
+      "path": [
+       [
+        -74.0,
+        40.7
+       ],
+       [
+        -40,
+        0
+       ],
+       [
+        -58.38,
+        -34.6
+       ]
+      ],
+      "t": 0.1,
+      "color": "#9fe08a"
+     },
+     {
+      "type": "flow",
+      "path": [
+       [
+        -3.7,
+        40.4
+       ],
+       [
+        -25,
+        0
+       ],
+       [
+        -58.38,
+        -34.6
+       ]
+      ],
+      "t": 0.4,
+      "color": "#9fe08a"
+     },
+     {
+      "type": "flow",
+      "path": [
+       [
+        -0.13,
+        51.5
+       ],
+       [
+        -25,
+        10
+       ],
+       [
+        -58.38,
+        -34.6
+       ]
+      ],
+      "t": 0.7,
+      "color": "#9fe08a"
+     },
+     {
+      "type": "callout",
+      "at": [
+       -58.38,
+       -34.6
+      ],
+      "t": 0,
+      "word": 1,
+      "focus": true,
+      "icon": "dollar",
+      "label": "money returns",
+      "src": "archive/badges/dollars.jpg"
+     }
+    ],
+    "to": {
+     "lon": -21.470588235294116,
+     "lat": 3.8235294117647056,
+     "zoom": 2.006
+    }
+   }
+  },
+  {
+   "id": "c06-s06",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "Around the same time, the government sold off state companies, from the phone network to the national airline.",
+   "visual": {
+    "kind": "document",
+    "title": "State companies",
+    "seal": true,
+    "sub": "phones · airline · railways",
+    "stamp": "SOLD",
+    "stampAt": 2.6,
+    "bg": "bank"
+   },
+   "date": "1990",
+   "labels": []
+  },
+  {
+   "id": "c06-s07",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "Argentines who had lived through 1989 could finally save in their own banks again.",
+   "visual": {
+    "kind": "scene",
+    "set": "bank",
+    "cast": [
+     {
+      "id": "CUSTOMER",
+      "x": 46,
+      "pose": "happy"
+     }
+    ]
+   }
+  },
+  {
+   "id": "c06-s08",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "But a currency tied to the dollar has a catch.",
+   "visual": {
+    "kind": "gray",
+    "props": [],
+    "icon": "question",
+    "iconX": 58,
+    "iconY": 50,
+    "iconScale": 0.8,
+    "bg": "countryside"
+   }
+  },
+  {
+   "id": "c06-s09",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "When the dollar got strong in the late 1990s, the peso got strong with it, whether that suited Argentina or not.",
+   "visual": {
+    "kind": "gray",
+    "props": [
+     {
+      "icon": "dollar",
+      "x": 40,
+      "y": 58,
+      "t": 0.4,
+      "scale": 1.5,
+      "anim": "pulse"
+     },
+     {
+      "icon": "banknotes",
+      "x": 64,
+      "y": 58,
+      "t": 1.6,
+      "scale": 1.2,
+      "anim": "pulse"
+     }
+    ],
+    "bg": "bank"
+   },
+   "labels": [
+    {
+     "text": "strong peso",
+     "x": 52,
+     "y": 20,
+     "at": 2.2,
+     "size": 72
+    }
+   ],
+   "shots": [
+    {
+     "word": 10,
+     "visual": {
+      "kind": "gray",
+      "props": [
+       {
+        "icon": "dollar",
+        "x": 40,
+        "y": 58,
+        "t": 0.05,
+        "scale": 1.5,
+        "anim": "pulse"
+       },
+       {
+        "icon": "banknotes",
+        "x": 64,
+        "y": 58,
+        "t": 0.05,
+        "scale": 1.2,
+        "anim": "pulse"
+       }
+      ],
+      "cam": {
+       "x": 40,
+       "y": 58,
+       "from": 1.35,
+       "to": 1.5
+      },
+      "bg": "bank"
+     }
+    }
+   ]
+  },
+  {
+   "id": "c06-s10",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "Its exports became expensive.",
+   "visual": {
+    "kind": "gray",
+    "props": [
+     {
+      "icon": "cattle",
+      "x": 40,
+      "y": 60,
+      "t": 0.1,
+      "scale": 1.2
+     },
+     {
+      "icon": "wheat",
+      "x": 62,
+      "y": 60,
+      "t": 0.3,
+      "scale": 1.2
+     }
+    ],
+    "bg": "fields"
+   },
+   "labels": [
+    {
+     "text": "too expensive",
+     "x": 52,
+     "y": 22,
+     "at": 0.6,
+     "size": 72,
+     "color": "#e0402b"
+    }
+   ],
+   "mascot": {
+    "pose": "confused"
+   }
+  },
+  {
+   "id": "c06-s11",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "Then in 1999, its biggest neighbour and trading partner, Brazil, cut the value of its own currency.",
+   "visual": {
+    "kind": "map",
+    "from": {
+     "lon": -60,
+     "lat": -25,
+     "zoom": 3.0
+    },
+    "events": [
+     {
+      "type": "fill",
+      "countries": [
+       "Brazil"
+      ],
+      "t": 0.6,
+      "color": "#5fb06a"
+     },
+     {
+      "type": "pin",
+      "at": [
+       -47.9,
+       -15.8
+      ],
+      "t": 1.2,
+      "label": "Brazil"
+     },
+     {
+      "type": "fill",
+      "countries": [
+       "Argentina"
+      ],
+      "t": 0,
+      "color": "#e0a526"
+     },
+     {
+      "type": "callout",
+      "at": [
+       -47.9,
+       -15.8
+      ],
+      "t": 0,
+      "word": 10,
+      "focus": true,
+      "icon": "banknotes",
+      "label": "Brazil devalues"
+     },
+     {
+      "type": "nation",
+      "at": [
+       -50,
+       -10
+      ],
+      "t": 0,
+      "word": 9,
+      "code": "br",
+      "label": "Brazil"
+     }
+    ],
+    "to": {
+     "lon": -58.0,
+     "lat": -25.666666666666668,
+     "zoom": 3.54
+    }
+   },
+   "date": "1999",
+   "mascot": {
+    "pose": "talk"
+   }
+  },
+  {
+   "id": "c06-s12",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "Suddenly, Brazilian goods were cheap and Argentine goods were not.",
+   "visual": {
+    "kind": "map",
+    "from": {
+     "lon": -58.0,
+     "lat": -25.666666666666668,
+     "zoom": 3.54
+    },
+    "events": [
+     {
+      "type": "callout",
+      "at": [
+       -47.9,
+       -15.8
+      ],
+      "t": 0,
+      "focus": false,
+      "icon": "banknotes",
+      "label": "Brazil devalues",
+      "persist": true
+     },
+     {
+      "type": "fill",
+      "countries": [
+       "Brazil"
+      ],
+      "t": 0,
+      "color": "#5fb06a"
+     },
+     {
+      "type": "fill",
+      "countries": [
+       "Argentina"
+      ],
+      "t": 0,
+      "color": "#e0a526"
+     },
+     {
+      "type": "flow",
+      "path": [
+       [
+        -47,
+        -22
+       ],
+       [
+        -55,
+        -30
+       ],
+       [
+        -58.38,
+        -34.6
+       ]
+      ],
+      "t": 0.4,
+      "color": "#9fe08a"
+     },
+     {
+      "type": "callout",
+      "at": [
+       -47.9,
+       -15.8
+      ],
+      "t": 0,
+      "word": 4,
+      "focus": false,
+      "icon": "bag",
+      "label": "cheap",
+      "side": "right"
+     },
+     {
+      "type": "callout",
+      "at": [
+       -58.38,
+       -34.6
+      ],
+      "t": 0,
+      "word": 9,
+      "focus": false,
+      "icon": "bag",
+      "label": "expensive",
+      "side": "left"
+     },
+     {
+      "type": "nation",
+      "at": [
+       -50,
+       -10
+      ],
+      "t": 0,
+      "word": 1,
+      "code": "br"
+     },
+     {
+      "type": "nation",
+      "at": [
+       -64,
+       -34
+      ],
+      "t": 0,
+      "word": 6,
+      "code": "ar"
+     }
+    ],
+    "to": {
+     "lon": -58.0,
+     "lat": -25.666666666666668,
+     "zoom": 3.54
+    }
+   },
+   "mascot": {
+    "pose": "confused"
+   }
+  },
+  {
+   "id": "c06-s13",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "Argentina slipped into recession.",
+   "visual": {
+    "kind": "gray",
+    "props": [],
+    "icon": "exclaim",
+    "iconX": 58,
+    "iconY": 50,
+    "iconScale": 0.8,
+    "bg": "plaza"
+   },
+   "labels": [
+    {
+     "text": "recession",
+     "x": 52,
+     "y": 20,
+     "at": 0.4,
+     "size": 96,
+     "color": "#e0402b",
+     "emph": "underline"
+    }
+   ],
+   "mascot": {
+    "pose": "confused"
+   }
+  },
+  {
+   "id": "c06-s14",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "To keep paying its bills and defend the one-to-one promise, the government borrowed more and more in dollars.",
+   "visual": {
+    "kind": "gray",
+    "props": [
+     {
+      "icon": "dollar",
+      "x": 30,
+      "y": 60,
+      "t": 1.6,
+      "scale": 1.2
+     },
+     {
+      "icon": "dollar",
+      "x": 52,
+      "y": 54,
+      "t": 2.4,
+      "scale": 1.4
+     },
+     {
+      "icon": "dollar",
+      "x": 74,
+      "y": 60,
+      "t": 3.2,
+      "scale": 1.6
+     }
+    ],
+    "bg": "street"
+   },
+   "mascot": {
+    "pose": "talk"
+   },
+   "shots": [
+    {
+     "word": 10,
+     "visual": {
+      "kind": "gray",
+      "props": [
+       {
+        "icon": "dollar",
+        "x": 30,
+        "y": 60,
+        "t": 0.05,
+        "scale": 1.2
+       },
+       {
+        "icon": "dollar",
+        "x": 52,
+        "y": 54,
+        "t": 0.05,
+        "scale": 1.4
+       },
+       {
+        "icon": "dollar",
+        "x": 74,
+        "y": 60,
+        "t": 0.05,
+        "scale": 1.6
+       }
+      ],
+      "cam": {
+       "x": 74,
+       "y": 60,
+       "from": 1.35,
+       "to": 1.5
+      },
+      "bg": "street"
+     }
+    }
+   ]
+  },
+  {
+   "id": "c06-s15",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "And investors began to wonder whether the promise could last.",
+   "visual": {
+    "kind": "gray",
+    "props": [],
+    "icon": "question",
+    "iconX": 58,
+    "iconY": 50,
+    "iconScale": 0.8,
+    "bg": "countryside"
+   },
+   "mascot": {
+    "pose": "confused"
+   }
+  },
+  {
+   "id": "c06-s16",
+   "type": "skit",
+   "speaker": "CUSTOMER",
+   "text": "Hello! I'd like to take out my savings, please.",
+   "visual": {
+    "kind": "scene",
+    "set": "bank",
+    "cast": [
+     {
+      "id": "CUSTOMER",
+      "x": 32,
+      "pose": "happy"
+     },
+     {
+      "id": "BANK_TELLER",
+      "x": 68,
+      "pose": "talk",
+      "flip": true
+     }
+    ]
+   },
+   "date": "2001"
+  },
+  {
+   "id": "c06-s17",
+   "type": "skit",
+   "speaker": "BANK_TELLER",
+   "text": "Of course. You can have two hundred and fifty pesos.",
+   "visual": {
+    "kind": "scene",
+    "set": "bank",
+    "cast": [
+     {
+      "id": "CUSTOMER",
+      "x": 32,
+      "pose": "talk"
+     },
+     {
+      "id": "BANK_TELLER",
+      "x": 68,
+      "pose": "talk",
+      "flip": true
+     }
+    ]
+   },
+   "date": "2001"
+  },
+  {
+   "id": "c06-s18",
+   "type": "skit",
+   "speaker": "CUSTOMER",
+   "text": "I have twenty thousand in here.",
+   "visual": {
+    "kind": "scene",
+    "set": "bank",
+    "cast": [
+     {
+      "id": "CUSTOMER",
+      "x": 32,
+      "pose": "confused"
+     },
+     {
+      "id": "BANK_TELLER",
+      "x": 68,
+      "pose": "talk",
+      "flip": true
+     }
+    ]
+   },
+   "date": "2001"
+  },
+  {
+   "id": "c06-s19",
+   "type": "skit",
+   "speaker": "BANK_TELLER",
+   "text": "Yes. Two hundred and fifty. This week.",
+   "visual": {
+    "kind": "scene",
+    "set": "bank",
+    "cast": [
+     {
+      "id": "CUSTOMER",
+      "x": 32,
+      "pose": "talk"
+     },
+     {
+      "id": "BANK_TELLER",
+      "x": 68,
+      "pose": "shrug",
+      "flip": true
+     }
+    ]
+   },
+   "date": "2001"
+  },
+  {
+   "id": "c06-s20",
+   "type": "skit",
+   "speaker": "CUSTOMER",
+   "text": "And next week?",
+   "visual": {
+    "kind": "scene",
+    "set": "bank",
+    "cast": [
+     {
+      "id": "CUSTOMER",
+      "x": 32,
+      "pose": "angry"
+     },
+     {
+      "id": "BANK_TELLER",
+      "x": 68,
+      "pose": "talk",
+      "flip": true
+     }
+    ]
+   },
+   "date": "2001"
+  },
+  {
+   "id": "c06-s21",
+   "type": "skit",
+   "speaker": "BANK_TELLER",
+   "text": "Two hundred and fifty. Probably.",
+   "visual": {
+    "kind": "scene",
+    "set": "bank",
+    "cast": [
+     {
+      "id": "CUSTOMER",
+      "x": 32,
+      "pose": "angry"
+     },
+     {
+      "id": "BANK_TELLER",
+      "x": 68,
+      "pose": "shrug",
+      "flip": true
+     }
+    ]
+   },
+   "date": "2001"
+  },
+  {
+   "id": "c06-s22",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "That was real. In December 2001, with people rushing to pull their money out,",
+   "visual": {
+    "kind": "crowd",
+    "set": "bank",
+    "action": "queue",
+    "n": 8,
+    "seed": 43,
+    "cam": {
+     "x": 30,
+     "y": 55,
+     "from": 1.0,
+     "to": 1.12
+    }
+   },
+   "date": "December 2001"
+  },
+  {
+   "id": "c06-s23",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "the government froze bank accounts and limited withdrawals to 250 pesos a week.",
+   "visual": {
+    "kind": "document",
+    "title": "Notice to customers",
+    "seal": true,
+    "sub": "withdrawals: 250 pesos a week",
+    "stamp": "FROZEN",
+    "stampAt": 2.0,
+    "bg": "plaza"
+   },
+   "labels": []
+  },
+  {
+   "id": "c06-s24",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "Argentines called it the corralito, the little fence. It made people furious.",
+   "visual": {
+    "kind": "action",
+    "name": "fence",
+    "bg": "bank"
+   },
+   "labels": [
+    {
+     "text": "corralito",
+     "x": 50,
+     "y": 14,
+     "at": 0.8,
+     "size": 90,
+     "color": "#f5c518"
+    },
+    {
+     "text": "= the little fence",
+     "x": 52,
+     "y": 26,
+     "at": 2.0,
+     "size": 56
+    }
+   ]
+  },
+  {
+   "id": "c06-s25",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "Protesters filled the streets banging pots and pans.",
+   "visual": {
+    "kind": "crowd",
+    "set": "street",
+    "action": "protest",
+    "n": 9,
+    "seed": 47,
+    "cam": {
+     "x": 50,
+     "y": 55,
+     "from": 1.0,
+     "to": 1.1
+    }
+   },
+   "mood": "night",
+   "labels": [
+    {
+     "text": "CLANG!",
+     "x": 30,
+     "y": 24,
+     "at": 0.5,
+     "size": 90,
+     "color": "#f5c518"
+    },
+    {
+     "text": "CLANG!",
+     "x": 66,
+     "y": 18,
+     "at": 1.2,
+     "size": 86,
+     "color": "#f5c518"
+    }
+   ]
+  },
+  {
+   "id": "c06-s26",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "The president resigned and left the palace by helicopter.",
+   "visual": {
+    "kind": "action",
+    "name": "helicopter"
+   }
+  },
+  {
+   "id": "c06-s27",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "In under two weeks, Argentina went through five presidents.",
+   "visual": {
+    "kind": "gray",
+    "props": [
+     {
+      "icon": "crown",
+      "x": 22,
+      "y": 58,
+      "t": 0.6,
+      "scale": 0.3
+     },
+     {
+      "icon": "crown",
+      "x": 36,
+      "y": 58,
+      "t": 1.1,
+      "scale": 0.3
+     },
+     {
+      "icon": "crown",
+      "x": 50,
+      "y": 58,
+      "t": 1.6,
+      "scale": 0.3
+     },
+     {
+      "icon": "crown",
+      "x": 64,
+      "y": 58,
+      "t": 2.1,
+      "scale": 0.3
+     },
+     {
+      "icon": "crown",
+      "x": 78,
+      "y": 58,
+      "t": 2.6,
+      "scale": 0.3
+     }
+    ],
+    "bg": "skyline"
+   },
+   "labels": [
+    {
+     "text": "5 presidents",
+     "x": 52,
+     "y": 22,
+     "at": 3.2,
+     "size": 72,
+     "emph": "underline"
+    }
+   ],
+   "mascot": {
+    "pose": "confused"
+   }
+  },
+  {
+   "id": "c06-s28",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "And the country stopped paying its debts: around 132 billion dollars, at the time the largest government default in history.",
+   "visual": {
+    "kind": "document",
+    "title": "Debt payment",
+    "seal": true,
+    "sub": "around US$132 billion",
+    "stamp": "DEFAULT",
+    "stampAt": 1.4,
+    "bg": "study"
+   },
+   "labels": []
+  },
+  {
+   "id": "c06-s29",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "The peso was cut loose from the dollar and lost most of its value.",
+   "visual": {
+    "kind": "gray",
+    "props": [
+     {
+      "icon": "scales",
+      "x": 52,
+      "y": 56,
+      "t": 0.2,
+      "scale": 0.6,
+      "anim": "shake"
+     }
+    ],
+    "bg": "street"
+   },
+   "mascot": {
+    "pose": "confused"
+   }
+  },
+  {
+   "id": "c06-s30",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "Savings people thought were safe in dollars were turned back into pesos worth a fraction as much.",
+   "visual": {
+    "kind": "gray",
+    "props": [
+     {
+      "icon": "dollar",
+      "x": 38,
+      "y": 58,
+      "t": 0.2,
+      "scale": 1.4
+     },
+     {
+      "icon": "banknotes",
+      "x": 66,
+      "y": 60,
+      "t": 2.6,
+      "scale": 0.8
+     }
+    ],
+    "bg": "countryside"
+   },
+   "mascot": {
+    "pose": "talk"
+   },
+   "shots": [
+    {
+     "word": 8,
+     "visual": {
+      "kind": "gray",
+      "props": [
+       {
+        "icon": "dollar",
+        "x": 38,
+        "y": 58,
+        "t": 0.05,
+        "scale": 1.4
+       },
+       {
+        "icon": "banknotes",
+        "x": 66,
+        "y": 60,
+        "t": 0.05,
+        "scale": 0.8
+       }
+      ],
+      "cam": {
+       "x": 38,
+       "y": 58,
+       "from": 1.35,
+       "to": 1.5
+      },
+      "bg": "countryside"
+     }
+    }
+   ]
+  },
+  {
+   "id": "c06-s31",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "Unemployment passed twenty percent. By late 2002, more than half of all Argentines were living below the poverty line.",
+   "visual": {
+    "kind": "gray",
+    "props": [
+     {
+      "icon": "factory",
+      "x": 52,
+      "y": 58,
+      "t": 0.2,
+      "scale": 1.4
+     }
+    ],
+    "bg": "bank"
+   },
+   "date": "2002",
+   "mascot": {
+    "pose": "confused"
+   },
+   "labels": [
+    {
+     "text": "20%+ unemployed",
+     "x": 50,
+     "y": 20,
+     "at": 0.6,
+     "size": 70
+    }
+   ]
+  },
+  {
+   "id": "c06-s32",
+   "type": "cta",
+   "speaker": "NARRATOR",
+   "text": "If this story is giving you something to think about, hit subscribe. No fences, no withdrawal limits.",
+   "visual": {
+    "kind": "set",
+    "set": "sky"
+   },
+   "ctaText": "No fences. No withdrawal limits.",
+   "mascot": {
+    "pose": "happy"
+   }
+  },
+  {
+   "id": "c07-s01",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "And then, just like in 1870, the grass came to the rescue. Or rather, the soybeans.",
+   "visual": {
+    "kind": "map",
+    "from": {
+     "lon": -63,
+     "lat": -33,
+     "zoom": 5.5
+    },
+    "events": [
+     {
+      "type": "scatter",
+      "around": [
+       -61.5,
+       -35.0
+      ],
+      "icon": "soy",
+      "n": 8,
+      "spread": 2.4,
+      "t": 2.6,
+      "size": 0.5
+     },
+     {
+      "type": "callout",
+      "at": [
+       -61.5,
+       -35.0
+      ],
+      "t": 0,
+      "word": 15,
+      "focus": true,
+      "icon": "soy",
+      "label": "soybeans",
+      "src": "archive/badges/soy.jpg"
+     }
+    ],
+    "to": {
+     "lon": -61.5,
+     "lat": -35,
+     "zoom": 7
+    },
+    "intro": "clouds"
+   },
+   "date": "2003",
+   "mascot": {
+    "pose": "talk",
+    "poses": [
+     {
+      "t": 3.0,
+      "pose": "happy"
+     }
+    ]
+   }
+  },
+  {
+   "id": "c07-s02",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "In the 2000s, China's booming cities needed food, and the price of soybeans soared.",
+   "visual": {
+    "kind": "map",
+    "from": {
+     "lon": 30,
+     "lat": -5,
+     "zoom": 1.2
+    },
+    "events": [
+     {
+      "type": "pin",
+      "at": [
+       121.47,
+       31.23
+      ],
+      "t": 0.6,
+      "label": "China"
+     },
+     {
+      "type": "flow",
+      "path": [
+       [
+        -58.38,
+        -34.6
+       ],
+       [
+        -20,
+        -38
+       ],
+       [
+        20,
+        -38
+       ],
+       [
+        80,
+        -15
+       ],
+       [
+        121.47,
+        31.23
+       ]
+      ],
+      "t": 1.4,
+      "color": "#9fe08a",
+      "width": 7
+     },
+     {
+      "type": "callout",
+      "at": [
+       121.47,
+       31.23
+      ],
+      "t": 0,
+      "word": 5,
+      "focus": false,
+      "icon": "house",
+      "label": "booming cities",
+      "side": "left",
+      "src": "archive/badges/shanghai.jpg"
+     },
+     {
+      "type": "callout",
+      "at": [
+       -61.5,
+       -35.0
+      ],
+      "t": 0,
+      "word": 12,
+      "focus": false,
+      "icon": "soy",
+      "label": "soy prices soar",
+      "side": "right",
+      "src": "archive/badges/soy.jpg"
+     },
+     {
+      "type": "nation",
+      "at": [
+       104,
+       35
+      ],
+      "t": 0,
+      "word": 3,
+      "code": "cn"
+     }
+    ],
+    "to": {
+     "lon": 35.0,
+     "lat": -6.666666666666667,
+     "zoom": 1.416
+    }
+   }
+  },
+  {
+   "id": "c07-s03",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "Argentina's farms were perfectly placed to grow them.",
+   "visual": {
+    "kind": "action",
+    "name": "harvest"
+   }
+  },
+  {
+   "id": "c07-s04",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "Money flowed back in, the economy grew fast, and for a few years it looked like the comeback story of the century.",
+   "visual": {
+    "kind": "gray",
+    "props": [
+     {
+      "icon": "coins",
+      "x": 40,
+      "y": 58,
+      "t": 0.3,
+      "scale": 0.5
+     },
+     {
+      "icon": "banknotes",
+      "x": 64,
+      "y": 58,
+      "t": 1.2,
+      "scale": 1.2
+     }
+    ],
+    "bg": "pampas"
+   },
+   "shots": [
+    {
+     "word": 8,
+     "visual": {
+      "kind": "action",
+      "name": "moneyrain",
+      "bg": "skyline"
+     },
+     "labels": [
+      {
+       "text": "comeback",
+       "x": 50,
+       "y": 16,
+       "at": 0.6,
+       "size": 72,
+       "color": "#9fe08a",
+       "emph": "underline"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c07-s05",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "But the old habits came back too. Governments spent heavily when times were good.",
+   "visual": {
+    "kind": "gray",
+    "props": [
+     {
+      "icon": "banknotes",
+      "x": 52,
+      "y": 58,
+      "t": 0.3,
+      "scale": 1.6,
+      "anim": "bob"
+     }
+    ],
+    "bg": "skyline"
+   },
+   "mascot": {
+    "pose": "confused"
+   }
+  },
+  {
+   "id": "c07-s06",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "When the commodity boom faded, they turned once again to printing money. Inflation crept back, then galloped.",
+   "visual": {
+    "kind": "gray",
+    "props": [
+     {
+      "icon": "press",
+      "x": 52,
+      "y": 56,
+      "t": 1.6,
+      "scale": 2.2,
+      "anim": "shake"
+     }
+    ],
+    "bg": "countryside"
+   },
+   "labels": [
+    {
+     "text": "inflation",
+     "x": 52,
+     "y": 20,
+     "at": 3.4,
+     "size": 72,
+     "color": "#e0402b"
+    }
+   ],
+   "mascot": {
+    "pose": "angry"
+   },
+   "shots": [
+    {
+     "word": 10,
+     "visual": {
+      "kind": "action",
+      "name": "press"
+     }
+    }
+   ]
+  },
+  {
+   "id": "c07-s07",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "In 2014, a long legal fight with foreign creditors pushed Argentina into default again.",
+   "visual": {
+    "kind": "gray",
+    "props": [
+     {
+      "icon": "scales",
+      "x": 40,
+      "y": 56,
+      "t": 0.4,
+      "scale": 0.5
+     },
+     {
+      "icon": "stamp",
+      "x": 64,
+      "y": 58,
+      "t": 2.6,
+      "scale": 1.2
+     }
+    ],
+    "bg": "plaza"
+   },
+   "date": "2014"
+  },
+  {
+   "id": "c07-s08",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "In 2020, it defaulted for the ninth time in its history.",
+   "visual": {
+    "kind": "gray",
+    "props": [
+     {
+      "icon": "stamp",
+      "x": 52,
+      "y": 56,
+      "t": 0.6,
+      "scale": 2.0,
+      "anim": "shake"
+     }
+    ],
+    "bg": "estancia"
+   },
+   "date": "2020",
+   "labels": [
+    {
+     "text": "default #9",
+     "x": 52,
+     "y": 22,
+     "at": 1.4,
+     "size": 90,
+     "emph": "circle"
+    }
+   ]
+  },
+  {
+   "id": "c07-s09",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "By the end of 2023, prices were rising at more than two hundred percent a year.",
+   "visual": {
+    "kind": "gray",
+    "props": [],
+    "icon": "exclaim",
+    "iconX": 58,
+    "iconY": 50,
+    "iconScale": 0.8,
+    "bg": "pampas"
+   },
+   "date": "2023",
+   "labels": [
+    {
+     "text": "211% a year",
+     "x": 52,
+     "y": 22,
+     "at": 1.8,
+     "size": 100,
+     "color": "#e0402b",
+     "emph": "box"
+    }
+   ]
+  },
+  {
+   "id": "c07-s10",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "And ordinary Argentines did what generations before them had learned to do.",
+   "visual": {
+    "kind": "set",
+    "set": "home"
+   }
+  },
+  {
+   "id": "c07-s11",
+   "type": "skit",
+   "speaker": "GRANDSON",
+   "text": "Grandma, why don't you put your savings in the bank?",
+   "visual": {
+    "kind": "scene",
+    "set": "home",
+    "cast": [
+     {
+      "id": "GRANDSON",
+      "x": 32,
+      "pose": "talk"
+     },
+     {
+      "id": "GRANDMOTHER",
+      "x": 68,
+      "pose": "talk",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "icon": "dollar",
+      "x": 50,
+      "y": 70,
+      "t": 2.0,
+      "scale": 1.2
+     }
+    ]
+   }
+  },
+  {
+   "id": "c07-s12",
+   "type": "skit",
+   "speaker": "GRANDMOTHER",
+   "text": "I did. In 1989. And in 2001.",
+   "visual": {
+    "kind": "scene",
+    "set": "home",
+    "cast": [
+     {
+      "id": "GRANDSON",
+      "x": 32,
+      "pose": "confused"
+     },
+     {
+      "id": "GRANDMOTHER",
+      "x": 68,
+      "pose": "shrug",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "icon": "dollar",
+      "x": 50,
+      "y": 70,
+      "t": 2.0,
+      "scale": 1.2
+     }
+    ]
+   }
+  },
+  {
+   "id": "c07-s13",
+   "type": "skit",
+   "speaker": "GRANDSON",
+   "text": "So where is your money now?",
+   "visual": {
+    "kind": "scene",
+    "set": "home",
+    "cast": [
+     {
+      "id": "GRANDSON",
+      "x": 32,
+      "pose": "talk"
+     },
+     {
+      "id": "GRANDMOTHER",
+      "x": 68,
+      "pose": "talk",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "icon": "dollar",
+      "x": 50,
+      "y": 70,
+      "t": 2.0,
+      "scale": 1.2
+     }
+    ]
+   }
+  },
+  {
+   "id": "c07-s14",
+   "type": "skit",
+   "speaker": "GRANDMOTHER",
+   "text": "Somewhere safe.",
+   "visual": {
+    "kind": "scene",
+    "set": "home",
+    "cast": [
+     {
+      "id": "GRANDSON",
+      "x": 32,
+      "pose": "confused"
+     },
+     {
+      "id": "GRANDMOTHER",
+      "x": 68,
+      "pose": "happy",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "icon": "dollar",
+      "x": 50,
+      "y": 70,
+      "t": 2.0,
+      "scale": 1.2
+     }
+    ]
+   },
+   "bubbles": [
+    {
+     "x": 80,
+     "y": 22,
+     "icon": "dollar",
+     "t": 0.3,
+     "tail": [
+      70,
+      42
+     ],
+     "text": "in dollars"
+    }
+   ]
+  },
+  {
+   "id": "c07-s15",
+   "type": "skit",
+   "speaker": "GRANDSON",
+   "text": "In pesos?",
+   "visual": {
+    "kind": "scene",
+    "set": "home",
+    "cast": [
+     {
+      "id": "GRANDSON",
+      "x": 32,
+      "pose": "talk"
+     },
+     {
+      "id": "GRANDMOTHER",
+      "x": 68,
+      "pose": "talk",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "icon": "dollar",
+      "x": 50,
+      "y": 70,
+      "t": 2.0,
+      "scale": 1.2
+     }
+    ]
+   }
+  },
+  {
+   "id": "c07-s16",
+   "type": "skit",
+   "speaker": "GRANDMOTHER",
+   "text": "Don't be ridiculous. In dollars.",
+   "visual": {
+    "kind": "scene",
+    "set": "home",
+    "cast": [
+     {
+      "id": "GRANDSON",
+      "x": 32,
+      "pose": "confused"
+     },
+     {
+      "id": "GRANDMOTHER",
+      "x": 68,
+      "pose": "angry",
+      "flip": true
+     }
+    ],
+    "props": [
+     {
+      "icon": "dollar",
+      "x": 50,
+      "y": 70,
+      "t": 2.0,
+      "scale": 1.2
+     }
+    ]
+   }
+  },
+  {
+   "id": "c07-s17",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "Economists estimate Argentines hold a huge amount of their savings in US dollars outside the banking system,",
+   "visual": {
+    "kind": "gray",
+    "props": [
+     {
+      "icon": "dollar",
+      "x": 26,
+      "y": 54,
+      "t": 0.4,
+      "scale": 1.3
+     },
+     {
+      "icon": "dollar",
+      "x": 38,
+      "y": 64,
+      "t": 0.8,
+      "scale": 1.3
+     },
+     {
+      "icon": "dollar",
+      "x": 50,
+      "y": 54,
+      "t": 1.2000000000000002,
+      "scale": 1.3
+     },
+     {
+      "icon": "dollar",
+      "x": 62,
+      "y": 64,
+      "t": 1.6,
+      "scale": 1.3
+     },
+     {
+      "icon": "dollar",
+      "x": 74,
+      "y": 54,
+      "t": 2.0,
+      "scale": 1.3
+     }
+    ],
+    "bg": "skyline"
+   },
+   "shots": [
+    {
+     "word": 8,
+     "visual": {
+      "kind": "gray",
+      "props": [
+       {
+        "icon": "dollar",
+        "x": 26,
+        "y": 54,
+        "t": 0.05,
+        "scale": 1.3
+       },
+       {
+        "icon": "dollar",
+        "x": 38,
+        "y": 64,
+        "t": 0.05,
+        "scale": 1.3
+       },
+       {
+        "icon": "dollar",
+        "x": 50,
+        "y": 54,
+        "t": 0.05,
+        "scale": 1.3
+       },
+       {
+        "icon": "dollar",
+        "x": 62,
+        "y": 64,
+        "t": 0.05,
+        "scale": 1.3
+       },
+       {
+        "icon": "dollar",
+        "x": 74,
+        "y": 54,
+        "t": 0.05,
+        "scale": 1.3
+       }
+      ],
+      "cam": {
+       "x": 26,
+       "y": 54,
+       "from": 1.35,
+       "to": 1.5
+      },
+      "bg": "skyline"
+     }
+    }
+   ]
+  },
+  {
+   "id": "c07-s18",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "in safety boxes, in drawers and under mattresses.",
+   "visual": {
+    "kind": "action",
+    "name": "mattress"
+   },
+   "labels": [
+    {
+     "text": "safety boxes",
+     "x": 30,
+     "y": 20,
+     "at": 0.2,
+     "size": 56
+    },
+    {
+     "text": "drawers",
+     "x": 52,
+     "y": 30,
+     "at": 1.0,
+     "size": 56
+    },
+    {
+     "text": "mattresses",
+     "x": 72,
+     "y": 20,
+     "at": 1.8,
+     "size": 56
+    }
+   ]
+  },
+  {
+   "id": "c07-s19",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "When a country's own people won't hold its money, that tells you everything about trust.",
+   "visual": {
+    "kind": "gray",
+    "props": [
+     {
+      "icon": "heart",
+      "x": 52,
+      "y": 56,
+      "t": 0.3,
+      "scale": 0.6,
+      "anim": "shake"
+     }
+    ],
+    "bg": "countryside"
+   },
+   "labels": [
+    {
+     "text": "trust",
+     "x": 52,
+     "y": 20,
+     "at": 3.0,
+     "size": 96,
+     "emph": "underline"
+    }
+   ],
+   "shots": [
+    {
+     "word": 9,
+     "visual": {
+      "kind": "gray",
+      "props": [
+       {
+        "icon": "heart",
+        "x": 52,
+        "y": 56,
+        "t": 0.05,
+        "scale": 0.6,
+        "anim": "shake"
+       }
+      ],
+      "cam": {
+       "x": 52,
+       "y": 56,
+       "from": 1.35,
+       "to": 1.5
+      },
+      "bg": "countryside"
+     }
+    }
+   ]
+  },
+  {
+   "id": "c07-s20",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "In late 2023, Argentines elected Javier Milei, an economist who campaigned with a chainsaw as a symbol of cutting government spending.",
+   "visual": {
+    "kind": "action",
+    "name": "ballot",
+    "item": "2023"
+   },
+   "date": "Late 2023",
+   "labels": [
+    {
+     "text": "Javier Milei",
+     "x": 52,
+     "y": 20,
+     "at": 0.8,
+     "size": 80,
+     "color": "#f5c518"
+    }
+   ],
+   "shots": [
+    {
+     "word": 13,
+     "visual": {
+      "kind": "gray",
+      "props": [
+       {
+        "icon": "chainsaw",
+        "x": 52,
+        "y": 58,
+        "t": 0.1,
+        "scale": 2.4
+       }
+      ],
+      "bg": "plaza"
+     }
+    }
+   ]
+  },
+  {
+   "id": "c07-s21",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "His government slashed spending and stopped financing the budget by printing money.",
+   "visual": {
+    "kind": "action",
+    "name": "chainsaw",
+    "item": "SPENDING"
+   },
+   "labels": []
+  },
+  {
+   "id": "c07-s22",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "Inflation fell sharply: from about 118 percent in 2024 to about 31.5 percent in 2025, the lowest in years,",
+   "visual": {
+    "kind": "action",
+    "name": "bars",
+    "bars": [
+     {
+      "label": "2023",
+      "value": 211.4,
+      "color": "#e0402b"
+     },
+     {
+      "label": "2024",
+      "value": 117.8,
+      "color": "#e88a3a"
+     },
+     {
+      "label": "2025",
+      "value": 31.5,
+      "color": "#5fb06a"
+     }
+    ]
+   },
+   "date": "2025",
+   "labels": []
+  },
+  {
+   "id": "c07-s23",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "though it was still running at around a third a year by mid-2026.",
+   "visual": {
+    "kind": "gray",
+    "props": [
+     {
+      "icon": "hourglass",
+      "x": 52,
+      "y": 56,
+      "t": 0.4,
+      "scale": 0.5
+     }
+    ],
+    "bg": "estancia"
+   },
+   "date": "2026",
+   "labels": [
+    {
+     "text": "about 33% a year",
+     "x": 52,
+     "y": 22,
+     "at": 0.8,
+     "size": 72
+    }
+   ]
+  },
+  {
+   "id": "c07-s24",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "Supporters say this is the first serious attempt in decades to break the cycle.",
+   "visual": {
+    "kind": "gray",
+    "props": [
+     {
+      "icon": "scales",
+      "x": 52,
+      "y": 56,
+      "t": 0.2,
+      "scale": 0.55
+     }
+    ],
+    "bg": "pampas"
+   },
+   "labels": [
+    {
+     "text": "supporters say",
+     "x": 44,
+     "y": 20,
+     "at": 0.2,
+     "size": 72,
+     "color": "#9fe08a"
+    }
+   ]
+  },
+  {
+   "id": "c07-s25",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "Critics point to the pain of the cuts, on wages, pensions and public services, and argue the gains could still unravel.",
+   "visual": {
+    "kind": "gray",
+    "props": [
+     {
+      "icon": "scales",
+      "x": 52,
+      "y": 56,
+      "t": 0.2,
+      "scale": 0.55,
+      "anim": "shake"
+     }
+    ],
+    "bg": "skyline"
+   },
+   "labels": [
+    {
+     "text": "critics say",
+     "x": 44,
+     "y": 20,
+     "at": 0.2,
+     "size": 72,
+     "color": "#ff9b8a"
+    }
+   ],
+   "shots": [
+    {
+     "word": 10,
+     "visual": {
+      "kind": "gray",
+      "props": [
+       {
+        "icon": "scales",
+        "x": 52,
+        "y": 56,
+        "t": 0.05,
+        "scale": 0.55,
+        "anim": "shake"
+       }
+      ],
+      "cam": {
+       "x": 52,
+       "y": 56,
+       "from": 1.35,
+       "to": 1.5
+      },
+      "bg": "skyline"
+     }
+    }
+   ]
+  },
+  {
+   "id": "c07-s26",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "Economists will be arguing about it for years.",
+   "visual": {
+    "kind": "gray",
+    "props": [],
+    "icon": "question",
+    "iconX": 58,
+    "iconY": 50,
+    "iconScale": 0.8,
+    "bg": "countryside"
+   },
+   "mascot": {
+    "pose": "shrug"
+   }
+  },
+  {
+   "id": "c07-s27",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "Which brings us back to our question. Why did a country that was once richer than France keep falling?",
+   "visual": {
+    "kind": "map",
+    "from": {
+     "lon": -20,
+     "lat": 15,
+     "zoom": 1.3
+    },
+    "events": [
+     {
+      "type": "fill",
+      "countries": [
+       "Argentina"
+      ],
+      "t": 1.6,
+      "color": "#e0a526"
+     },
+     {
+      "type": "pin",
+      "at": [
+       -58.38,
+       -34.6
+      ],
+      "t": 2.4
+     },
+     {
+      "type": "callout",
+      "at": [
+       -58.38,
+       -34.6
+      ],
+      "t": 0,
+      "word": 18,
+      "focus": true,
+      "icon": "question",
+      "label": "why?"
+     },
+     {
+      "type": "nation",
+      "at": [
+       2.5,
+       46.5
+      ],
+      "t": 0,
+      "word": 16,
+      "code": "fr",
+      "label": "France"
+     }
+    ],
+    "to": {
+     "lon": -60,
+     "lat": -25,
+     "zoom": 3.0
+    }
+   },
+   "mascot": {
+    "pose": "confused"
+   }
+  },
+  {
+   "id": "c08-s01",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "Let's put the whole story together.",
+   "visual": {
+    "kind": "scroll",
+    "dates": [
+     "1870",
+     "1930",
+     "1946",
+     "1989",
+     "2001",
+     "Today"
+    ],
+    "highlight": 5
+   }
+  },
+  {
+   "id": "c08-s02",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "A sea of grass. British railways all pointing to one port. Frozen beef sailing to London.",
+   "visual": {
+    "kind": "map",
+    "from": {
+     "lon": -63,
+     "lat": -33,
+     "zoom": 5.5
+    },
+    "events": [
+     {
+      "type": "flow",
+      "path": [
+       [
+        -58.38,
+        -34.6
+       ],
+       [
+        -60.65,
+        -32.95
+       ],
+       [
+        -64.18,
+        -31.42
+       ]
+      ],
+      "t": 0,
+      "color": "#ffffff"
+     },
+     {
+      "type": "flow",
+      "path": [
+       [
+        -58.38,
+        -34.6
+       ],
+       [
+        -63,
+        -33.5
+       ],
+       [
+        -68.83,
+        -32.89
+       ]
+      ],
+      "t": 0,
+      "color": "#ffffff"
+     },
+     {
+      "type": "flow",
+      "path": [
+       [
+        -58.38,
+        -34.6
+       ],
+       [
+        -60.5,
+        -36.5
+       ],
+       [
+        -62.27,
+        -38.72
+       ]
+      ],
+      "t": 0,
+      "color": "#ffffff"
+     },
+     {
+      "type": "flow",
+      "path": [
+       [
+        -60.65,
+        -32.95
+       ],
+       [
+        -63.5,
+        -29
+       ],
+       [
+        -65.2,
+        -26.8
+       ]
+      ],
+      "t": 0,
+      "color": "#ffffff"
+     },
+     {
+      "type": "move",
+      "path": [
+       [
+        -58.38,
+        -34.6
+       ],
+       [
+        -30,
+        0
+       ],
+       [
+        -15,
+        35
+       ],
+       [
+        -0.13,
+        51.5
+       ]
+      ],
+      "icon": "ship",
+      "t": 2.6,
+      "dur": 3
+     },
+     {
+      "type": "callout",
+      "at": [
+       -61.5,
+       -35.0
+      ],
+      "t": 0,
+      "word": 3,
+      "focus": false,
+      "icon": "wheat",
+      "label": "a sea of grass",
+      "src": "archive/badges/pampas.jpg"
+     }
+    ],
+    "to": {
+     "lon": -45,
+     "lat": -10,
+     "zoom": 2.2
+    }
+   },
+   "mascot": {
+    "pose": "talk"
+   }
+  },
+  {
+   "id": "c08-s03",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "Millions of immigrants and a city that called itself the Paris of South America.",
+   "visual": {
+    "kind": "crowd",
+    "set": "port",
+    "action": "stand",
+    "n": 8,
+    "seed": 67,
+    "cam": {
+     "x": 50,
+     "y": 60,
+     "from": 1.0,
+     "to": 1.12
+    }
+   }
+  },
+  {
+   "id": "c08-s04",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "A crash in New York, a coup in Buenos Aires. Factories, wages, and a printing press.",
+   "visual": {
+    "kind": "action",
+    "name": "crash",
+    "item": "NEW YORK, 1929"
+   },
+   "shots": [
+    {
+     "word": 10,
+     "visual": {
+      "kind": "gray",
+      "props": [
+       {
+        "icon": "factory",
+        "x": 30,
+        "y": 58,
+        "t": 0.1,
+        "scale": 1.0
+       },
+       {
+        "icon": "coins",
+        "x": 52,
+        "y": 60,
+        "t": 0.6,
+        "scale": 0.4
+       },
+       {
+        "icon": "press",
+        "x": 74,
+        "y": 56,
+        "t": 1.1,
+        "scale": 1.5
+       }
+      ],
+      "bg": "countryside"
+     }
+    }
+   ]
+  },
+  {
+   "id": "c08-s05",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "Prices that changed between breakfast and dinner. One peso for one dollar.",
+   "visual": {
+    "kind": "set",
+    "set": "shop"
+   }
+  },
+  {
+   "id": "c08-s06",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "A little fence around everyone's savings. And a grandmother's mattress full of dollars.",
+   "visual": {
+    "kind": "action",
+    "name": "fence",
+    "bg": "street"
+   },
+   "shots": [
+    {
+     "word": 6,
+     "visual": {
+      "kind": "action",
+      "name": "mattress"
+     }
+    }
+   ]
+  },
+  {
+   "id": "c08-s07",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "So what actually happened to Argentina? There's no single villain. Most economists point to three problems that fed on each other.",
+   "visual": {
+    "kind": "gray",
+    "props": [],
+    "icon": "question",
+    "iconX": 58,
+    "iconY": 50,
+    "iconScale": 0.8,
+    "bg": "pampas"
+   },
+   "mascot": {
+    "pose": "confused",
+    "poses": [
+     {
+      "t": 3.0,
+      "pose": "point"
+     }
+    ]
+   }
+  },
+  {
+   "id": "c08-s08",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "First, the country got rich selling a few crops to a few buyers.",
+   "visual": {
+    "kind": "gray",
+    "props": [
+     {
+      "icon": "wheat",
+      "x": 40,
+      "y": 60,
+      "t": 0.6,
+      "scale": 1.2
+     },
+     {
+      "icon": "cattle",
+      "x": 64,
+      "y": 60,
+      "t": 1.0,
+      "scale": 1.2
+     }
+    ],
+    "bg": "pampas"
+   },
+   "labels": [
+    {
+     "text": "1. few exports",
+     "x": 50,
+     "y": 20,
+     "at": 0.2,
+     "size": 72,
+     "color": "#f5c518",
+     "emph": "underline"
+    }
+   ]
+  },
+  {
+   "id": "c08-s09",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "That made it wealthy when prices were high, and fragile when they fell.",
+   "visual": {
+    "kind": "gray",
+    "props": [
+     {
+      "icon": "scales",
+      "x": 52,
+      "y": 56,
+      "t": 0.2,
+      "scale": 0.55,
+      "anim": "shake"
+     }
+    ],
+    "bg": "estancia"
+   }
+  },
+  {
+   "id": "c08-s10",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "It never fully built the wide base of industries and skills that keeps richer countries steady through bad years.",
+   "visual": {
+    "kind": "gray",
+    "props": [
+     {
+      "icon": "factory",
+      "x": 40,
+      "y": 58,
+      "t": 1.6,
+      "scale": 1.2
+     },
+     {
+      "icon": "book",
+      "x": 64,
+      "y": 56,
+      "t": 2.6,
+      "scale": 0.35
+     }
+    ],
+    "bg": "factory"
+   },
+   "shots": [
+    {
+     "word": 9,
+     "visual": {
+      "kind": "gray",
+      "props": [
+       {
+        "icon": "factory",
+        "x": 40,
+        "y": 58,
+        "t": 0.05,
+        "scale": 1.2
+       },
+       {
+        "icon": "book",
+        "x": 64,
+        "y": 56,
+        "t": 0.05,
+        "scale": 0.35
+       }
+      ],
+      "cam": {
+       "x": 40,
+       "y": 58,
+       "from": 1.35,
+       "to": 1.5
+      },
+      "bg": "factory"
+     }
+    }
+   ]
+  },
+  {
+   "id": "c08-s11",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "Second, the rules never stayed the same for long.",
+   "visual": {
+    "kind": "gray",
+    "props": [
+     {
+      "icon": "scroll",
+      "x": 52,
+      "y": 58,
+      "t": 0.4,
+      "scale": 1.4,
+      "anim": "shake"
+     }
+    ],
+    "bg": "plaza"
+   },
+   "labels": [
+    {
+     "text": "2. policy swings",
+     "x": 50,
+     "y": 20,
+     "at": 0.2,
+     "size": 72,
+     "color": "#f5c518",
+     "emph": "underline"
+    }
+   ]
+  },
+  {
+   "id": "c08-s12",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "Coups, counter-coups and governments that undid each other's work meant no plan lasted long enough to pay off.",
+   "visual": {
+    "kind": "gray",
+    "props": [
+     {
+      "icon": "flag",
+      "x": 34,
+      "y": 58,
+      "t": 0.2,
+      "scale": 1.3
+     },
+     {
+      "icon": "scroll",
+      "x": 54,
+      "y": 58,
+      "t": 1.6,
+      "scale": 1.2
+     },
+     {
+      "icon": "fire",
+      "x": 72,
+      "y": 60,
+      "t": 2.6,
+      "scale": 1.2
+     }
+    ],
+    "bg": "pampas"
+   },
+   "shots": [
+    {
+     "word": 9,
+     "visual": {
+      "kind": "gray",
+      "props": [
+       {
+        "icon": "flag",
+        "x": 34,
+        "y": 58,
+        "t": 0.05,
+        "scale": 1.3
+       },
+       {
+        "icon": "scroll",
+        "x": 54,
+        "y": 58,
+        "t": 0.05,
+        "scale": 1.2
+       },
+       {
+        "icon": "fire",
+        "x": 72,
+        "y": 60,
+        "t": 0.05,
+        "scale": 1.2
+       }
+      ],
+      "cam": {
+       "x": 34,
+       "y": 58,
+       "from": 1.35,
+       "to": 1.5
+      },
+      "bg": "pampas"
+     }
+    }
+   ]
+  },
+  {
+   "id": "c08-s13",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "Investors, farmers and families learned not to plan more than a few years ahead.",
+   "visual": {
+    "kind": "gray",
+    "props": [
+     {
+      "icon": "hourglass",
+      "x": 52,
+      "y": 56,
+      "t": 0.4,
+      "scale": 0.5,
+      "anim": "spin"
+     }
+    ],
+    "bg": "skyline"
+   }
+  },
+  {
+   "id": "c08-s14",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "And third, again and again, governments paid their bills by printing money.",
+   "visual": {
+    "kind": "action",
+    "name": "press"
+   },
+   "labels": [
+    {
+     "text": "3. no trust in money",
+     "x": 50,
+     "y": 20,
+     "at": 0.2,
+     "size": 72,
+     "color": "#f5c518",
+     "emph": "underline"
+    }
+   ]
+  },
+  {
+   "id": "c08-s15",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "Every time, prices rose, savings melted, and trust broke a little more.",
+   "visual": {
+    "kind": "gray",
+    "props": [
+     {
+      "icon": "banknotes",
+      "x": 40,
+      "y": 60,
+      "t": 0.4,
+      "scale": 1.2,
+      "anim": "shake"
+     },
+     {
+      "icon": "heart",
+      "x": 64,
+      "y": 56,
+      "t": 2.4,
+      "scale": 0.4,
+      "anim": "shake"
+     }
+    ],
+    "bg": "estancia"
+   },
+   "mascot": {
+    "pose": "confused"
+   }
+  },
+  {
+   "id": "c08-s16",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "Once people stop trusting a country's money, it is incredibly hard to win them back. Argentina has spent more than half a century trying.",
+   "visual": {
+    "kind": "gray",
+    "props": [
+     {
+      "icon": "heart",
+      "x": 40,
+      "y": 56,
+      "t": 0.4,
+      "scale": 0.45
+     },
+     {
+      "icon": "hourglass",
+      "x": 64,
+      "y": 56,
+      "t": 3.6,
+      "scale": 0.4
+     }
+    ],
+    "bg": "countryside"
+   },
+   "shots": [
+    {
+     "word": 15,
+     "visual": {
+      "kind": "gray",
+      "props": [
+       {
+        "icon": "heart",
+        "x": 40,
+        "y": 56,
+        "t": 0.05,
+        "scale": 0.45
+       },
+       {
+        "icon": "hourglass",
+        "x": 64,
+        "y": 56,
+        "t": 0.05,
+        "scale": 0.4
+       }
+      ],
+      "cam": {
+       "x": 40,
+       "y": 56,
+       "from": 1.35,
+       "to": 1.5
+      },
+      "bg": "countryside"
+     }
+    }
+   ]
+  },
+  {
+   "id": "c08-s17",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "The lesson isn't really about Argentina.",
+   "visual": {
+    "kind": "map",
+    "from": {
+     "lon": -60,
+     "lat": -25,
+     "zoom": 3.0
+    },
+    "events": [
+     {
+      "type": "pin",
+      "at": [
+       -58.38,
+       -34.6
+      ],
+      "t": 0
+     }
+    ],
+    "to": {
+     "lon": -20,
+     "lat": 15,
+     "zoom": 1.3
+    }
+   }
+  },
+  {
+   "id": "c08-s18",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "Natural wealth can make a country rich for a while. What keeps it rich are boring things:",
+   "visual": {
+    "kind": "gray",
+    "props": [
+     {
+      "icon": "coins",
+      "x": 52,
+      "y": 58,
+      "t": 0.4,
+      "scale": 0.55
+     }
+    ],
+    "bg": "plaza"
+   },
+   "shots": [
+    {
+     "word": 10,
+     "visual": {
+      "kind": "gray",
+      "props": [
+       {
+        "icon": "coins",
+        "x": 52,
+        "y": 58,
+        "t": 0.05,
+        "scale": 0.55
+       }
+      ],
+      "cam": {
+       "x": 52,
+       "y": 58,
+       "from": 1.35,
+       "to": 1.5
+      },
+      "bg": "plaza"
+     }
+    }
+   ]
+  },
+  {
+   "id": "c08-s19",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "stable rules, money people trust, and an economy that doesn't depend on one lucky product.",
+   "visual": {
+    "kind": "gray",
+    "props": [
+     {
+      "icon": "scroll",
+      "x": 30,
+      "y": 58,
+      "t": 0.1,
+      "scale": 1.1
+     },
+     {
+      "icon": "banknotes",
+      "x": 52,
+      "y": 60,
+      "t": 1.2,
+      "scale": 1.0
+     },
+     {
+      "icon": "factory",
+      "x": 74,
+      "y": 58,
+      "t": 2.6,
+      "scale": 1.1
+     }
+    ],
+    "bg": "pampas"
+   },
+   "shots": [
+    {
+     "word": 7,
+     "visual": {
+      "kind": "gray",
+      "props": [
+       {
+        "icon": "scroll",
+        "x": 30,
+        "y": 58,
+        "t": 0.05,
+        "scale": 1.1
+       },
+       {
+        "icon": "banknotes",
+        "x": 52,
+        "y": 60,
+        "t": 0.05,
+        "scale": 1.0
+       },
+       {
+        "icon": "factory",
+        "x": 74,
+        "y": 58,
+        "t": 0.05,
+        "scale": 1.1
+       }
+      ],
+      "cam": {
+       "x": 30,
+       "y": 58,
+       "from": 1.35,
+       "to": 1.5
+      },
+      "bg": "pampas"
+     }
+    }
+   ]
+  },
+  {
+   "id": "c08-s20",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "Argentina still has the Pampas. It still has the soil, the farms and some of the most educated people in Latin America.",
+   "visual": {
+    "kind": "map",
+    "from": {
+     "lon": -61.5,
+     "lat": -35,
+     "zoom": 7
+    },
+    "events": [
+     {
+      "type": "scatter",
+      "around": [
+       -61.5,
+       -35.0
+      ],
+      "icon": "wheat",
+      "n": 6,
+      "spread": 2.2,
+      "t": 0.4,
+      "size": 0.45
+     },
+     {
+      "type": "scatter",
+      "around": [
+       -60,
+       -36
+      ],
+      "icon": "cattle",
+      "n": 4,
+      "spread": 1.6,
+      "t": 1.4,
+      "size": 0.5
+     },
+     {
+      "type": "callout",
+      "at": [
+       -61,
+       -35
+      ],
+      "t": 0,
+      "word": 9,
+      "focus": false,
+      "icon": "wheat",
+      "label": "the soil",
+      "side": "left",
+      "src": "archive/badges/pampas.jpg"
+     },
+     {
+      "type": "callout",
+      "at": [
+       -58.38,
+       -34.6
+      ],
+      "t": 0,
+      "word": 17,
+      "focus": true,
+      "icon": "book",
+      "label": "educated people",
+      "side": "right"
+     },
+     {
+      "type": "nation",
+      "at": [
+       -64,
+       -34
+      ],
+      "t": 0,
+      "word": 0,
+      "code": "ar"
+     }
+    ],
+    "to": {
+     "lon": -62,
+     "lat": -34,
+     "zoom": 5
+    }
+   }
+  },
+  {
+   "id": "c08-s21",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "Whether it can finally hold on to its wealth this time is a question nobody can answer yet.",
+   "visual": {
+    "kind": "gray",
+    "props": [],
+    "icon": "question",
+    "iconX": 58,
+    "iconY": 50,
+    "iconScale": 0.8,
+    "bg": "skyline"
+   },
+   "mascot": {
+    "pose": "shrug"
+   }
+  },
+  {
+   "id": "c08-s22",
+   "type": "cta",
+   "speaker": "NARRATOR",
+   "text": "If you made it all the way here, thank you. Subscribe to Farthing Explains for more stories about how money makes and breaks countries.",
+   "visual": {
+    "kind": "set",
+    "set": "sky"
+   },
+   "ctaText": "Thanks for watching. Subscribe to Farthing Explains.",
+   "mascot": {
+    "pose": "happy"
+   }
+  },
+  {
+   "id": "c08-s23",
+   "type": "narration",
+   "speaker": "NARRATOR",
+   "text": "Next time, we'll look at a country with almost no natural resources at all that somehow became one of the richest on Earth. See you there.",
+   "visual": {
+    "kind": "map",
+    "from": {
+     "lon": -60,
+     "lat": -25,
+     "zoom": 3.0
+    },
+    "events": [],
+    "to": {
+     "lon": 10,
+     "lat": 30,
+     "zoom": 1.2
+    }
+   }
+  }
+ ]
+}

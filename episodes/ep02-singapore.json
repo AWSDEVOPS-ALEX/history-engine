@@ -1,0 +1,4625 @@
+{
+  "title": "Singapore Had Nothing. Now It's Richer Than America.",
+  "fps": 30,
+  "mascot": {
+    "skin": "#e8c09a",
+    "robe": "#2b4a6b",
+    "trim": "#f2d27a",
+    "hair": "#2b2622",
+    "hat": "scholar",
+    "hatColor": "#2b4a6b",
+    "staff": "chronicler"
+  },
+  "narratorVoice": "",
+  "cast": [
+    {
+      "id": "NARRATOR",
+      "look": {},
+      "voice": ""
+    },
+    {
+      "id": "MOTHER_1",
+      "look": {
+        "skin": "#c89060",
+        "robe": "#8a4a2a",
+        "trim": "#c9a95a",
+        "hair": "#1e1a17",
+        "bun": true
+      }
+    },
+    {
+      "id": "FATHER_1",
+      "look": {
+        "skin": "#d0a070",
+        "robe": "#2b4a3a",
+        "trim": "#7fae7a",
+        "hair": "#1e1a17"
+      }
+    },
+    {
+      "id": "BRIT_OFF",
+      "look": {
+        "skin": "#f0d8b8",
+        "robe": "#8a0020",
+        "trim": "#c9a95a",
+        "hair": "#a08060",
+        "hat": "tallhat",
+        "hatColor": "#1e1a17"
+      }
+    },
+    {
+      "id": "SG_CLERK",
+      "look": {
+        "skin": "#c89060",
+        "robe": "#2b4a6b",
+        "trim": "#f2d27a",
+        "hair": "#1e1a17"
+      }
+    },
+    {
+      "id": "DAUGHTER",
+      "look": {
+        "skin": "#c89060",
+        "robe": "#7a3b7a",
+        "trim": "#c9a95a",
+        "hair": "#1e1a17",
+        "bun": true
+      }
+    },
+    {
+      "id": "FATHER_2",
+      "look": {
+        "skin": "#d0a070",
+        "robe": "#2b4a3a",
+        "trim": "#7fae7a",
+        "hair": "#1e1a17",
+        "glasses": true
+      }
+    },
+    {
+      "id": "SON",
+      "look": {
+        "skin": "#c89060",
+        "robe": "#2b4a6b",
+        "trim": "#f2d27a",
+        "hair": "#1e1a17"
+      }
+    },
+    {
+      "id": "MOTHER_2",
+      "look": {
+        "skin": "#c89060",
+        "robe": "#8a4a2a",
+        "trim": "#c9a95a",
+        "hair": "#1e1a17",
+        "bun": true,
+        "glasses": true
+      }
+    },
+    {
+      "id": "EXEC",
+      "look": {
+        "skin": "#f0d8b8",
+        "robe": "#2b4a6b",
+        "trim": "#c9a95a",
+        "hair": "#a08060",
+        "glasses": true
+      }
+    },
+    {
+      "id": "EDB_OFF",
+      "look": {
+        "skin": "#c89060",
+        "robe": "#2b4a6b",
+        "trim": "#f2d27a",
+        "hair": "#1e1a17"
+      }
+    },
+    {
+      "id": "CUSTOMER",
+      "look": {
+        "skin": "#e8c09a",
+        "robe": "#a04020",
+        "trim": "#f2d27a",
+        "hair": "#1e1a17"
+      }
+    },
+    {
+      "id": "SALESMAN",
+      "look": {
+        "skin": "#c89060",
+        "robe": "#2b4a6b",
+        "trim": "#c9a95a",
+        "hair": "#1e1a17",
+        "glasses": true
+      }
+    },
+    {
+      "id": "LEE_KY",
+      "name": "Lee Kuan Yew",
+      "look": {
+        "skin": "#c8a070",
+        "robe": "#1a1a2e",
+        "trim": "#2e2e4e",
+        "hat": "none",
+        "beard": "none",
+        "hair": "#1a1a1a",
+        "glasses": false,
+        "prop": "scroll",
+        "staff": "none"
+      },
+      "voice": ""
+    }
+  ],
+  "sfxMode": "scenes",
+  "sfxVolume": 0.7,
+  "music": "music/bed.mp3",
+  "musicVolume": 0.08,
+  "segments": [
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "On the ninth of August 1965, a prime minister sat in front of television cameras and broke down in tears.",
+      "visual": {
+        "kind": "scene",
+        "set": "palace",
+        "cam": {
+          "x": 50,
+          "y": 50,
+          "from": 1.0,
+          "to": 1.08
+        },
+        "cast": [
+          {
+            "id": "LEE_KY",
+            "x": 50,
+            "pose": "confused",
+            "flip": false
+          }
+        ],
+        "props": [
+          {
+            "icon": "scroll",
+            "x": 72,
+            "y": 68,
+            "scale": 0.7,
+            "anim": "none"
+          }
+        ]
+      },
+      "date": "1965",
+      "id": "hook-s01"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "His country had just been thrown out of the nation it had joined only two years earlier. It was now on its own.",
+      "visual": {
+        "kind": "map",
+        "from": {
+          "lon": 109,
+          "lat": 4,
+          "zoom": 4.2
+        },
+        "to": {
+          "lon": 103.82,
+          "lat": 1.35,
+          "zoom": 9
+        },
+        "events": [
+          {
+            "type": "fill",
+            "countries": [
+              "MYS"
+            ],
+            "t": 0,
+            "color": "#c0392b",
+            "stagger": 0
+          },
+          {
+            "type": "pulse",
+            "at": [
+              103.82,
+              1.35
+            ],
+            "t": 0.5,
+            "color": "#f39c12"
+          },
+          {
+            "type": "nation",
+            "at": [
+              103.82,
+              1.35
+            ],
+            "t": 1.0,
+            "code": "sg",
+            "label": "Singapore \u2014 alone"
+          },
+          {
+            "type": "label",
+            "at": [
+              109.5,
+              4.0
+            ],
+            "t": 0.8,
+            "text": "EXPELLED",
+            "size": 32,
+            "color": "#e74c3c",
+            "caps": true
+          }
+        ]
+      },
+      "date": "1965",
+      "id": "hook-s02"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "And on paper, it had almost no chance.",
+      "visual": {
+        "kind": "action",
+        "name": "scales",
+        "left": {
+          "icon": "crown",
+          "label": "The odds"
+        },
+        "right": {
+          "icon": "coins",
+          "label": "Singapore"
+        },
+        "tilt": 35,
+        "bg": "night-city"
+      },
+      "mascot": {
+        "pose": "confused"
+      },
+      "id": "hook-s03"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "It was a small island, smaller than the city of London. No oil. No gold. No farmland. Not even enough fresh water for its own people.",
+      "visual": {
+        "kind": "map",
+        "from": {
+          "lon": 103.82,
+          "lat": 1.35,
+          "zoom": 5
+        },
+        "to": {
+          "lon": 103.82,
+          "lat": 1.35,
+          "zoom": 6
+        },
+        "events": [
+          {
+            "type": "nation",
+            "at": [
+              103.82,
+              1.35
+            ],
+            "t": 0,
+            "code": "sg",
+            "label": "Singapore"
+          },
+          {
+            "type": "pulse",
+            "at": [
+              103.82,
+              1.35
+            ],
+            "t": 0,
+            "color": "#e74c3c"
+          },
+          {
+            "type": "callout",
+            "at": [
+              96.0,
+              8.0
+            ],
+            "t": 0.3,
+            "icon": "oil",
+            "label": "NO OIL",
+            "side": "right"
+          },
+          {
+            "type": "callout",
+            "at": [
+              112.0,
+              7.0
+            ],
+            "t": 0.7,
+            "icon": "gold",
+            "label": "NO GOLD",
+            "side": "left"
+          },
+          {
+            "type": "callout",
+            "at": [
+              96.0,
+              -6.0
+            ],
+            "t": 1.1,
+            "icon": "wheat",
+            "label": "NO FARMLAND",
+            "side": "right"
+          },
+          {
+            "type": "callout",
+            "at": [
+              112.0,
+              -6.0
+            ],
+            "t": 1.5,
+            "icon": "water",
+            "label": "NO WATER",
+            "side": "left"
+          }
+        ]
+      },
+      "id": "hook-s04"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Nearly one in ten workers had no job. Many families lived in crowded wooden slums that could burn down in an afternoon.",
+      "visual": {
+        "kind": "crowd",
+        "set": "village",
+        "n": 9,
+        "action": "stand",
+        "seed": 7,
+        "props": [
+          {
+            "icon": "house",
+            "x": 15,
+            "y": 55,
+            "scale": 0.7,
+            "anim": "none"
+          },
+          {
+            "icon": "house",
+            "x": 82,
+            "y": 58,
+            "scale": 0.65,
+            "anim": "none"
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "confused"
+      },
+      "id": "hook-s05"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "The average person earned around five hundred dollars a year. About the same as Mexico or South Africa at the time.",
+      "visual": {
+        "kind": "action",
+        "name": "bars",
+        "bg": "street",
+        "bars": [
+          {
+            "label": "Singapore",
+            "value": 500,
+            "color": "#c0392b",
+            "flag": "sg"
+          },
+          {
+            "label": "Mexico",
+            "value": 490,
+            "color": "#e67e22"
+          },
+          {
+            "label": "USA",
+            "value": 3600,
+            "color": "#3498db",
+            "flag": "us"
+          },
+          {
+            "label": "UK",
+            "value": 1400,
+            "color": "#2ecc71",
+            "flag": "gb"
+          }
+        ],
+        "hideValues": false,
+        "labels": [
+          {
+            "text": "GDP per person, 1965 (USD)",
+            "x": 50,
+            "y": 10,
+            "at": 0.4,
+            "size": 54
+          }
+        ]
+      },
+      "id": "hook-s06"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "That country was Singapore.",
+      "visual": {
+        "kind": "map",
+        "from": {
+          "lon": 103.82,
+          "lat": 1.35,
+          "zoom": 4
+        },
+        "to": {
+          "lon": 103.82,
+          "lat": 1.35,
+          "zoom": 9
+        },
+        "events": [
+          {
+            "type": "nation",
+            "at": [
+              103.82,
+              1.35
+            ],
+            "t": 0.3,
+            "code": "sg",
+            "label": "Singapore"
+          },
+          {
+            "type": "pulse",
+            "at": [
+              103.82,
+              1.35
+            ],
+            "t": 0.3,
+            "color": "#f39c12"
+          },
+          {
+            "type": "pulse",
+            "at": [
+              103.82,
+              1.35
+            ],
+            "t": 1.1,
+            "color": "#e74c3c"
+          },
+          {
+            "type": "label",
+            "at": [
+              103.82,
+              2.2
+            ],
+            "t": 0.6,
+            "text": "SINGAPORE",
+            "size": 36,
+            "color": "#f1c40f",
+            "caps": true
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "talk"
+      },
+      "id": "hook-s07"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Now look at it today. In 2026, the average Singaporean produces more than a hundred and seven thousand dollars a year.",
+      "visual": {
+        "kind": "action",
+        "name": "bars",
+        "bg": "skyline",
+        "bars": [
+          {
+            "label": "Singapore",
+            "value": 107000,
+            "color": "#f2d27a",
+            "flag": "sg"
+          },
+          {
+            "label": "USA",
+            "value": 86000,
+            "color": "#3498db",
+            "flag": "us"
+          },
+          {
+            "label": "UK",
+            "value": 49000,
+            "color": "#2ecc71",
+            "flag": "gb"
+          },
+          {
+            "label": "Germany",
+            "value": 55000,
+            "color": "#e67e22",
+            "flag": "de"
+          }
+        ],
+        "hideValues": false,
+        "labels": [
+          {
+            "text": "GDP per person, 2026 (USD)",
+            "x": 50,
+            "y": 10,
+            "at": 0.4,
+            "size": 54
+          }
+        ]
+      },
+      "id": "hook-s08"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "That is more than the average American. More than the British, the French and the Germans. One of the highest figures on Earth.",
+      "visual": {
+        "kind": "action",
+        "name": "bars",
+        "bars": [
+          {
+            "label": "Singapore",
+            "value": 107000,
+            "color": "#e74c3c",
+            "flag": "sg"
+          },
+          {
+            "label": "USA",
+            "value": 80000,
+            "color": "#3498db",
+            "flag": "us"
+          },
+          {
+            "label": "Germany",
+            "value": 54000,
+            "color": "#f1c40f",
+            "flag": "de"
+          },
+          {
+            "label": "UK",
+            "value": 49000,
+            "color": "#2ecc71",
+            "flag": "gb"
+          },
+          {
+            "label": "France",
+            "value": 46000,
+            "color": "#9b59b6",
+            "flag": "fr"
+          }
+        ],
+        "bg": "market"
+      },
+      "mascot": {
+        "pose": "happy"
+      },
+      "id": "hook-s09"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "It has one of the busiest ports in the world, one of the cleanest governments in the world, and most families own their own home.",
+      "visual": {
+        "kind": "crowd",
+        "set": "skyline",
+        "action": "cheer",
+        "n": 10,
+        "seed": 22
+      },
+      "id": "hook-s10"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "So how does a swamp with nothing go from five hundred dollars to more than a hundred thousand in one lifetime?",
+      "visual": {
+        "kind": "action",
+        "name": "pricetag",
+        "from": 500,
+        "to": 107000,
+        "prefix": "$",
+        "suffix": "/yr",
+        "item": "GDP per person",
+        "bg": "bank"
+      },
+      "mascot": {
+        "pose": "confused"
+      },
+      "id": "hook-s11"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "It wasn't oil. It wasn't luck. And it definitely wasn't easy.",
+      "visual": {
+        "kind": "action",
+        "name": "scales",
+        "left": {
+          "icon": "coins",
+          "label": "Oil / Luck"
+        },
+        "right": {
+          "icon": "book",
+          "label": "Rules + Trade"
+        },
+        "tilt": -28,
+        "bg": "desert"
+      },
+      "id": "hook-s12"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "To understand it, we have to go back to the moment someone first noticed this little island was in exactly the right place.",
+      "visual": {
+        "kind": "scroll",
+        "dates": [
+          "1819",
+          "1959",
+          "1965",
+          "1971",
+          "Today"
+        ],
+        "roll": "close"
+      },
+      "date": "1819",
+      "id": "hook-s13"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Look at a map of Asia.",
+      "visual": {
+        "kind": "map",
+        "from": {
+          "lon": 95.0,
+          "lat": 10.0,
+          "zoom": 2.5
+        },
+        "to": {
+          "lon": 103.82,
+          "lat": 5.0,
+          "zoom": 3.5
+        },
+        "events": [
+          {
+            "type": "nation",
+            "at": [
+              80.0,
+              20.0
+            ],
+            "t": 0,
+            "code": "in",
+            "label": "India"
+          },
+          {
+            "type": "nation",
+            "at": [
+              116.0,
+              35.0
+            ],
+            "t": 0.5,
+            "code": "cn",
+            "label": "China"
+          },
+          {
+            "type": "fill",
+            "countries": [
+              "IDN",
+              "MYS",
+              "THA",
+              "MMR",
+              "VNM"
+            ],
+            "t": 0.8,
+            "color": "#2c3e50"
+          },
+          {
+            "type": "label",
+            "at": [
+              110.0,
+              5.0
+            ],
+            "t": 1.0,
+            "text": "SOUTHEAST ASIA",
+            "size": 22,
+            "color": "#f1c40f",
+            "caps": true
+          },
+          {
+            "type": "label",
+            "at": [
+              103.82,
+              1.35
+            ],
+            "t": 1.2,
+            "text": "HERE",
+            "size": 28,
+            "color": "#e74c3c",
+            "caps": true
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "point"
+      },
+      "id": "ch1-s01"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Between India and China there is a narrow strip of sea called the Strait of Malacca.",
+      "visual": {
+        "kind": "map",
+        "from": {
+          "lon": 100,
+          "lat": 10,
+          "zoom": 1.8
+        },
+        "to": {
+          "lon": 109,
+          "lat": 4,
+          "zoom": 4.2
+        },
+        "events": [
+          {
+            "type": "label",
+            "at": [
+              77,
+              20
+            ],
+            "t": 0,
+            "word": 0,
+            "text": "India",
+            "size": 36,
+            "caps": true,
+            "style": "region"
+          },
+          {
+            "type": "label",
+            "at": [
+              110,
+              32
+            ],
+            "t": 0,
+            "word": 0,
+            "text": "China",
+            "size": 36,
+            "caps": true,
+            "style": "region"
+          },
+          {
+            "type": "label",
+            "at": [
+              100,
+              3
+            ],
+            "t": 0,
+            "word": 5,
+            "text": "Strait of Malacca",
+            "size": 36,
+            "caps": true,
+            "style": "region"
+          },
+          {
+            "type": "flow",
+            "path": [
+              [
+                73,
+                20
+              ],
+              [
+                82,
+                8
+              ],
+              [
+                100,
+                3
+              ],
+              [
+                103,
+                2
+              ]
+            ],
+            "t": 0,
+            "word": 8,
+            "color": "#2255aa",
+            "width": 2.5
+          }
+        ]
+      },
+      "id": "ch1-s02"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Every ship from China to India passed through one narrow strait.",
+      "visual": {
+        "kind": "gray",
+        "icon": "globe"
+      },
+      "id": "ch1-s03"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "And right at the bottom of that strait, at the very tip of the Malay Peninsula, sits one small island.",
+      "visual": {
+        "kind": "map",
+        "from": {
+          "lon": 104,
+          "lat": 2,
+          "zoom": 5.5
+        },
+        "to": {
+          "lon": 103.82,
+          "lat": 1.35,
+          "zoom": 9
+        },
+        "events": [
+          {
+            "type": "pulse",
+            "at": [
+              103.82,
+              1.35
+            ],
+            "t": 0,
+            "color": "#f39c12"
+          },
+          {
+            "type": "pulse",
+            "at": [
+              103.82,
+              1.35
+            ],
+            "t": 1.2,
+            "color": "#f39c12"
+          },
+          {
+            "type": "pin",
+            "at": [
+              103.82,
+              1.35
+            ],
+            "t": 0.5,
+            "label": "Singapore",
+            "color": "#f39c12"
+          },
+          {
+            "type": "arrow",
+            "from": [
+              103.82,
+              3.5
+            ],
+            "to": [
+              103.82,
+              1.5
+            ],
+            "t": 0.8,
+            "color": "#ffffff"
+          }
+        ]
+      },
+      "id": "ch1-s04"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "In 1819, a British official named Stamford Raffles landed there and set up a trading post for the British East India Company.",
+      "visual": {
+        "kind": "scene",
+        "set": "port",
+        "cam": {
+          "x": 50,
+          "y": 50,
+          "from": 1.0,
+          "to": 1.06
+        },
+        "cast": [
+          {
+            "id": "BRIT_OFF",
+            "x": 38,
+            "pose": "point",
+            "flip": false
+          }
+        ],
+        "props": [
+          {
+            "icon": "flag",
+            "x": 65,
+            "y": 55,
+            "scale": 0.9,
+            "anim": "bob"
+          }
+        ]
+      },
+      "date": "1819",
+      "id": "ch1-s05"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "His idea was simple. Make it a free port. No taxes on trade. Let every ship stop, buy, sell and move on.",
+      "visual": {
+        "kind": "document",
+        "title": "FREE PORT",
+        "sub": "No taxes. All ships welcome.",
+        "seal": true,
+        "bg": "study"
+      },
+      "date": "1819",
+      "id": "ch1-s06"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "It worked. Merchants came from China, India, the Malay world, the Middle East and Europe.",
+      "visual": {
+        "kind": "map",
+        "from": {
+          "lon": 103.82,
+          "lat": 1.35,
+          "zoom": 9
+        },
+        "to": {
+          "lon": 109,
+          "lat": 4,
+          "zoom": 4.2
+        },
+        "events": [
+          {
+            "type": "move",
+            "path": [
+              [
+                110,
+                22
+              ],
+              [
+                103.82,
+                1.35
+              ]
+            ],
+            "t": 0,
+            "word": 0,
+            "icon": "ship",
+            "dur": 2.0,
+            "trail": true
+          },
+          {
+            "type": "move",
+            "path": [
+              [
+                74,
+                15
+              ],
+              [
+                103.82,
+                1.35
+              ]
+            ],
+            "t": 0,
+            "word": 2,
+            "icon": "ship",
+            "dur": 2.0,
+            "trail": true
+          },
+          {
+            "type": "move",
+            "path": [
+              [
+                115,
+                4
+              ],
+              [
+                103.82,
+                1.35
+              ]
+            ],
+            "t": 0,
+            "word": 4,
+            "icon": "ship",
+            "dur": 2.0,
+            "trail": true
+          },
+          {
+            "type": "move",
+            "path": [
+              [
+                55,
+                25
+              ],
+              [
+                103.82,
+                1.35
+              ]
+            ],
+            "t": 0,
+            "word": 6,
+            "icon": "ship",
+            "dur": 2.0,
+            "trail": true
+          },
+          {
+            "type": "callout",
+            "at": [
+              103.82,
+              1.35
+            ],
+            "t": 0,
+            "word": 8,
+            "label": "Free port - no taxes",
+            "side": "right",
+            "persist": false,
+            "focus": true,
+            "icon": "banknotes"
+          }
+        ]
+      },
+      "id": "ch1-s07"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Within decades, Singapore became one of the great trading hubs of the British empire.",
+      "visual": {
+        "kind": "gray",
+        "icon": "globe"
+      },
+      "id": "ch1-s08"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "But here's the catch. Singapore didn't make much. It moved other people's goods.",
+      "visual": {
+        "kind": "action",
+        "name": "scales",
+        "left": {
+          "icon": "ship",
+          "label": "Imports"
+        },
+        "right": {
+          "icon": "gold",
+          "label": "Exports"
+        },
+        "tilt": 0,
+        "bg": "sea"
+      },
+      "mascot": {
+        "pose": "confused"
+      },
+      "id": "ch1-s09"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "It bought rubber and tin from the Malayan mainland and sold them on. It earned a living as a middleman.",
+      "visual": {
+        "kind": "map",
+        "from": {
+          "lon": 103.82,
+          "lat": 3.0,
+          "zoom": 6
+        },
+        "to": {
+          "lon": 103.82,
+          "lat": 2.0,
+          "zoom": 7
+        },
+        "events": [
+          {
+            "type": "label",
+            "at": [
+              104.0,
+              3.5
+            ],
+            "t": 0,
+            "text": "RUBBER",
+            "size": 22,
+            "color": "#27ae60",
+            "caps": true
+          },
+          {
+            "type": "label",
+            "at": [
+              101.5,
+              4.0
+            ],
+            "t": 0.3,
+            "text": "TIN",
+            "size": 22,
+            "color": "#95a5a6",
+            "caps": true
+          },
+          {
+            "type": "move",
+            "path": [
+              [
+                103.5,
+                3.8
+              ],
+              [
+                103.82,
+                1.35
+              ]
+            ],
+            "icon": "train",
+            "t": 0.5,
+            "dur": 2.5,
+            "trail": true,
+            "label": "To Singapore"
+          },
+          {
+            "type": "nation",
+            "at": [
+              103.82,
+              1.35
+            ],
+            "t": 1.5,
+            "code": "sg"
+          }
+        ]
+      },
+      "id": "ch1-s10"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "And the British army and navy based there spent a lot of money and gave a lot of jobs.",
+      "visual": {
+        "kind": "scene",
+        "set": "battlefield",
+        "cast": [
+          {
+            "id": "BRIT_OFF",
+            "x": 40,
+            "pose": "point",
+            "flip": false
+          },
+          {
+            "id": "SG_CLERK",
+            "x": 62,
+            "pose": "talk",
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "icon": "flag",
+            "x": 75,
+            "y": 45,
+            "scale": 0.8,
+            "anim": "bob"
+          }
+        ]
+      },
+      "id": "ch1-s11"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "By the 1950s, that model was running out of road. The population had exploded, and there weren't nearly enough jobs or homes.",
+      "visual": {
+        "kind": "crowd",
+        "set": "street",
+        "n": 11,
+        "action": "stand",
+        "seed": 12,
+        "props": [
+          {
+            "icon": "house",
+            "x": 85,
+            "y": 55,
+            "scale": 0.6,
+            "anim": "none"
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "confused"
+      },
+      "id": "ch1-s12"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "In 1959, around two hundred thousand people were unemployed. That's roughly one in seven people on the whole island.",
+      "visual": {
+        "kind": "map",
+        "from": {
+          "lon": 103.82,
+          "lat": 1.35,
+          "zoom": 9
+        },
+        "to": {
+          "lon": 103.82,
+          "lat": 1.3,
+          "zoom": 11
+        },
+        "events": [
+          {
+            "type": "scatter",
+            "around": [
+              103.82,
+              1.35
+            ],
+            "icon": "house",
+            "n": 12,
+            "spread": 0.08,
+            "t": 0,
+            "size": 24
+          },
+          {
+            "type": "callout",
+            "at": [
+              103.6,
+              1.5
+            ],
+            "t": 0.3,
+            "label": "200,000 jobless",
+            "icon": "coins",
+            "side": "left",
+            "persist": true
+          },
+          {
+            "type": "callout",
+            "at": [
+              104.0,
+              1.2
+            ],
+            "t": 1.5,
+            "label": "1 in 7 workers",
+            "icon": "question",
+            "side": "right",
+            "persist": true
+          },
+          {
+            "type": "counter",
+            "at": [
+              103.82,
+              1.6
+            ],
+            "from": 0,
+            "to": 200000,
+            "t": 0.5,
+            "dur": 2.5,
+            "prefix": "",
+            "suffix": " unemployed"
+          }
+        ]
+      },
+      "date": "1959",
+      "id": "ch1-s13"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Two hundred thousand unemployed. Hundreds of thousands more in squatter huts.",
+      "visual": {
+        "kind": "gray",
+        "icon": "question"
+      },
+      "id": "ch1-s14"
+    },
+    {
+      "type": "skit",
+      "speaker": "MOTHER_1",
+      "text": "Why are we sleeping in shifts again?",
+      "visual": {
+        "kind": "scene",
+        "set": "home",
+        "cast": [
+          {
+            "id": "MOTHER_1",
+            "x": 35,
+            "pose": "talk"
+          },
+          {
+            "id": "FATHER_1",
+            "x": 65,
+            "pose": "confused",
+            "flip": true
+          }
+        ]
+      },
+      "id": "ch1-s15"
+    },
+    {
+      "type": "skit",
+      "speaker": "FATHER_1",
+      "text": "Because there are eleven of us and one room.",
+      "visual": {
+        "kind": "scene",
+        "set": "home",
+        "cast": [
+          {
+            "id": "MOTHER_1",
+            "x": 35,
+            "pose": "confused"
+          },
+          {
+            "id": "FATHER_1",
+            "x": 65,
+            "pose": "talk",
+            "flip": true
+          }
+        ]
+      },
+      "id": "ch1-s16"
+    },
+    {
+      "type": "skit",
+      "speaker": "MOTHER_1",
+      "text": "Eleven people. One room. Singapore in 1959.",
+      "visual": {
+        "kind": "gray",
+        "icon": "question"
+      },
+      "id": "ch1-s17"
+    },
+    {
+      "type": "skit",
+      "speaker": "FATHER_1",
+      "text": "Then we sleep in very short shifts.",
+      "visual": {
+        "kind": "scene",
+        "set": "home",
+        "cast": [
+          {
+            "id": "MOTHER_1",
+            "x": 35,
+            "pose": "happy"
+          },
+          {
+            "id": "FATHER_1",
+            "x": 65,
+            "pose": "talk",
+            "flip": true
+          }
+        ]
+      },
+      "id": "ch1-s18"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "That same year, 1959, Singapore won the right to govern itself. The new government, led by Lee Kuan Yew, inherited every one of those problems.",
+      "visual": {
+        "kind": "scene",
+        "set": "study",
+        "cam": {
+          "x": 50,
+          "y": 50,
+          "from": 1.0,
+          "to": 1.06
+        },
+        "cast": [
+          {
+            "id": "LEE_KY",
+            "x": 50,
+            "pose": "happy",
+            "flip": false
+          }
+        ],
+        "props": [
+          {
+            "icon": "scroll",
+            "x": 72,
+            "y": 68,
+            "scale": 0.65,
+            "anim": "none"
+          }
+        ]
+      },
+      "date": "1959",
+      "id": "ch1-s19"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "In May 1961, a fire swept through the wooden village of Bukit Ho Swee. Around sixteen thousand people lost their homes in a single day.",
+      "visual": {
+        "kind": "crowd",
+        "set": "fields",
+        "action": "run",
+        "n": 14,
+        "seed": 11
+      },
+      "date": "1961",
+      "id": "ch1-s20"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "The Housing and Development Board had been set up just a year earlier. It had the families rehoused in new concrete flats within about nine months.",
+      "visual": {
+        "kind": "action",
+        "name": "bars",
+        "bars": [
+          {
+            "label": "Rehoused",
+            "value": 16000,
+            "color": "#27ae60"
+          },
+          {
+            "label": "Time (months)",
+            "value": 9,
+            "color": "#3498db"
+          }
+        ],
+        "bg": "home"
+      },
+      "mascot": {
+        "pose": "happy"
+      },
+      "id": "ch1-s21"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Remember that. It's the first clue to how this country works.",
+      "visual": {
+        "kind": "gray",
+        "icon": "question",
+        "cam": {
+          "x": 50,
+          "y": 50,
+          "from": 1.0,
+          "to": 1.08
+        }
+      },
+      "mascot": {
+        "pose": "point"
+      },
+      "id": "ch1-s22"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "But the government knew housing alone wouldn't fix anything. Singapore needed jobs, and it believed it couldn't survive as a tiny island on its own.",
+      "visual": {
+        "kind": "scene",
+        "set": "fields",
+        "cast": [
+          {
+            "id": "LEE_KY",
+            "x": 45,
+            "pose": "confused"
+          },
+          {
+            "id": "EDB_OFF",
+            "x": 62,
+            "pose": "point",
+            "flip": true
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "confused"
+      },
+      "id": "ch1-s23"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "So in 1963, Singapore joined its neighbours to form a new country: Malaysia.",
+      "visual": {
+        "kind": "map",
+        "from": {
+          "lon": 103.82,
+          "lat": 1.3,
+          "zoom": 11
+        },
+        "to": {
+          "lon": 109,
+          "lat": 4,
+          "zoom": 4.8
+        },
+        "events": [
+          {
+            "type": "fill",
+            "countries": [
+              "MYS",
+              "SGP"
+            ],
+            "t": 0,
+            "color": "#2ecc71"
+          },
+          {
+            "type": "nation",
+            "at": [
+              109,
+              4
+            ],
+            "t": 0,
+            "code": "my",
+            "label": "Malaysia"
+          },
+          {
+            "type": "nation",
+            "at": [
+              103.82,
+              1.35
+            ],
+            "t": 0,
+            "code": "sg",
+            "label": "Singapore"
+          },
+          {
+            "type": "callout",
+            "at": [
+              109,
+              3
+            ],
+            "t": 0.5,
+            "label": "Malaysia + Singapore",
+            "side": "right",
+            "persist": false,
+            "icon": "shield"
+          },
+          {
+            "type": "label",
+            "at": [
+              108.0,
+              6.5
+            ],
+            "t": 1.0,
+            "text": "ONE NATION",
+            "size": 26,
+            "color": "#f1c40f",
+            "caps": true
+          },
+          {
+            "type": "flow",
+            "path": [
+              [
+                103.82,
+                1.35
+              ],
+              [
+                109,
+                4
+              ]
+            ],
+            "t": 1.2,
+            "color": "#2ecc71",
+            "width": 2
+          }
+        ]
+      },
+      "date": "1963",
+      "id": "ch1-s24"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "A big market. A big hinterland. Safety in numbers.",
+      "visual": {
+        "kind": "map",
+        "from": {
+          "lon": 108.0,
+          "lat": 4.0,
+          "zoom": 4
+        },
+        "to": {
+          "lon": 108.0,
+          "lat": 4.0,
+          "zoom": 5
+        },
+        "events": [
+          {
+            "type": "fill",
+            "countries": [
+              "MYS",
+              "SGP"
+            ],
+            "t": 0,
+            "color": "#2ecc71"
+          },
+          {
+            "type": "nation",
+            "at": [
+              109.5,
+              4.5
+            ],
+            "t": 0.5,
+            "code": "my",
+            "label": "Malaysia"
+          },
+          {
+            "type": "nation",
+            "at": [
+              103.82,
+              1.35
+            ],
+            "t": 0.5,
+            "code": "sg"
+          },
+          {
+            "type": "label",
+            "at": [
+              108.0,
+              6.5
+            ],
+            "t": 1.0,
+            "text": "ONE COUNTRY",
+            "size": 26,
+            "color": "#f1c40f",
+            "caps": true
+          }
+        ]
+      },
+      "id": "ch1-s25"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "It lasted less than two years.",
+      "visual": {
+        "kind": "action",
+        "name": "crash",
+        "from": 100,
+        "to": 0,
+        "prefix": "",
+        "suffix": "% union",
+        "item": "Malaysia-Singapore",
+        "bg": "fields"
+      },
+      "mascot": {
+        "pose": "confused"
+      },
+      "id": "ch1-s26"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "From the start, the marriage was unhappy.",
+      "visual": {
+        "kind": "scene",
+        "set": "plaza",
+        "cast": [
+          {
+            "id": "LEE_KY",
+            "x": 35,
+            "pose": "angry"
+          },
+          {
+            "id": "BRIT_OFF",
+            "x": 65,
+            "pose": "angry",
+            "flip": true
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "confused"
+      },
+      "id": "ch2-s01"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Singapore's leaders and the leaders in Kuala Lumpur disagreed about politics, about money, and above all about how a country of many races should be run.",
+      "visual": {
+        "kind": "scene",
+        "set": "palace",
+        "cast": [
+          {
+            "id": "LEE_KY",
+            "x": 32,
+            "pose": "point"
+          },
+          {
+            "id": "BRIT_OFF",
+            "x": 68,
+            "pose": "shrug",
+            "flip": true
+          }
+        ]
+      },
+      "id": "ch2-s02"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "In 1964, riots between communities broke out in Singapore, and people were killed.",
+      "visual": {
+        "kind": "crowd",
+        "set": "street",
+        "action": "protest",
+        "n": 14,
+        "seed": 4
+      },
+      "date": "1964",
+      "id": "ch2-s03"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Malaysia's prime minister decided the only way to avoid more bloodshed was to cut Singapore loose.",
+      "visual": {
+        "kind": "map",
+        "from": {
+          "lon": 108.0,
+          "lat": 4.0,
+          "zoom": 5
+        },
+        "to": {
+          "lon": 103.82,
+          "lat": 1.35,
+          "zoom": 8
+        },
+        "events": [
+          {
+            "type": "fill",
+            "countries": [
+              "MYS"
+            ],
+            "t": 0,
+            "color": "#c0392b"
+          },
+          {
+            "type": "nation",
+            "at": [
+              109.5,
+              4.5
+            ],
+            "t": 0.3,
+            "code": "my",
+            "label": "Malaysia"
+          },
+          {
+            "type": "arrow",
+            "from": [
+              109.5,
+              3.0
+            ],
+            "to": [
+              103.82,
+              1.5
+            ],
+            "t": 0.8,
+            "color": "#e74c3c"
+          },
+          {
+            "type": "label",
+            "at": [
+              106.5,
+              2.2
+            ],
+            "t": 1.0,
+            "text": "OUT",
+            "size": 42,
+            "color": "#e74c3c",
+            "caps": true
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "angry"
+      },
+      "id": "ch2-s04"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "The deal was negotiated in secret. On the morning of the ninth of August 1965, it was announced on the radio.",
+      "visual": {
+        "kind": "scene",
+        "set": "night-city",
+        "cast": [
+          {
+            "id": "MOTHER_1",
+            "x": 50,
+            "pose": "confused"
+          }
+        ],
+        "props": [
+          {
+            "icon": "scroll",
+            "x": 72,
+            "y": 65,
+            "scale": 0.65,
+            "anim": "none"
+          }
+        ]
+      },
+      "date": "1965",
+      "id": "ch2-s05"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Singapore was out.",
+      "visual": {
+        "kind": "map",
+        "from": {
+          "lon": 103.82,
+          "lat": 1.35,
+          "zoom": 7
+        },
+        "to": {
+          "lon": 103.82,
+          "lat": 1.35,
+          "zoom": 10
+        },
+        "events": [
+          {
+            "type": "fill",
+            "countries": [
+              "MYS"
+            ],
+            "t": 0,
+            "color": "#c0392b"
+          },
+          {
+            "type": "nation",
+            "at": [
+              103.82,
+              1.35
+            ],
+            "t": 0,
+            "code": "sg",
+            "label": "Singapore \u2014 alone"
+          },
+          {
+            "type": "pulse",
+            "at": [
+              103.82,
+              1.35
+            ],
+            "t": 0,
+            "color": "#e74c3c"
+          },
+          {
+            "type": "label",
+            "at": [
+              106.5,
+              2.5
+            ],
+            "t": 0.5,
+            "text": "OUT",
+            "size": 48,
+            "color": "#e74c3c",
+            "caps": true
+          },
+          {
+            "type": "pulse",
+            "at": [
+              103.82,
+              1.35
+            ],
+            "t": 0.9,
+            "color": "#f39c12"
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "angry"
+      },
+      "id": "ch2-s06"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Lee Kuan Yew faced the cameras. He was fighting back tears.",
+      "visual": {
+        "kind": "gray",
+        "icon": "question"
+      },
+      "date": "1965",
+      "id": "ch2-s07"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "He had spent years arguing that Singapore could not survive alone. Now it had to.",
+      "visual": {
+        "kind": "scene",
+        "set": "desert",
+        "cast": [
+          {
+            "id": "LEE_KY",
+            "x": 50,
+            "pose": "confused"
+          }
+        ],
+        "props": [
+          {
+            "icon": "question",
+            "x": 72,
+            "y": 42,
+            "scale": 0.7,
+            "anim": "pulse"
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "confused"
+      },
+      "id": "ch2-s08"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Think about what was lost overnight. The big market of the Malaysian mainland was now a foreign country, with its own tariffs.",
+      "visual": {
+        "kind": "map",
+        "from": {
+          "lon": 109,
+          "lat": 4,
+          "zoom": 4.8
+        },
+        "to": {
+          "lon": 103.82,
+          "lat": 1.35,
+          "zoom": 9
+        },
+        "events": [
+          {
+            "type": "fill",
+            "countries": [
+              "MYS"
+            ],
+            "t": 0,
+            "color": "#7f8c8d"
+          },
+          {
+            "type": "nation",
+            "at": [
+              103.82,
+              1.35
+            ],
+            "t": 0,
+            "code": "sg"
+          },
+          {
+            "type": "callout",
+            "at": [
+              103.82,
+              1.35
+            ],
+            "t": 0.3,
+            "label": "Singapore alone",
+            "side": "right",
+            "persist": true,
+            "icon": "island"
+          },
+          {
+            "type": "callout",
+            "at": [
+              103.3,
+              1.9
+            ],
+            "t": 0.8,
+            "label": "No Malay market",
+            "side": "left",
+            "persist": true
+          },
+          {
+            "type": "label",
+            "at": [
+              108.0,
+              0.5
+            ],
+            "t": 1.3,
+            "text": "FOREIGN TERRITORY",
+            "size": 18,
+            "color": "#e74c3c",
+            "caps": true
+          }
+        ]
+      },
+      "id": "ch2-s09"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Next door, Indonesia was in an undeclared conflict with Malaysia, and trade with Singapore had been badly disrupted.",
+      "visual": {
+        "kind": "map",
+        "from": {
+          "lon": 108.0,
+          "lat": 1.0,
+          "zoom": 4
+        },
+        "to": {
+          "lon": 108.0,
+          "lat": 1.0,
+          "zoom": 5
+        },
+        "events": [
+          {
+            "type": "nation",
+            "at": [
+              115.0,
+              -2.5
+            ],
+            "t": 0,
+            "code": "id",
+            "label": "Indonesia"
+          },
+          {
+            "type": "nation",
+            "at": [
+              109.5,
+              4.5
+            ],
+            "t": 0.3,
+            "code": "my",
+            "label": "Malaysia"
+          },
+          {
+            "type": "battle",
+            "at": [
+              109.0,
+              1.0
+            ],
+            "t": 0.8
+          },
+          {
+            "type": "label",
+            "at": [
+              109.0,
+              -0.5
+            ],
+            "t": 1.2,
+            "text": "KONFRONTASI",
+            "size": 22,
+            "color": "#e74c3c",
+            "caps": true
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "confused"
+      },
+      "id": "ch2-s10"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "The island imported most of its food. It drew much of its water through pipes from across the border, from the very neighbour that had just shown it the door.",
+      "visual": {
+        "kind": "map",
+        "from": {
+          "lon": 103.82,
+          "lat": 2.0,
+          "zoom": 7
+        },
+        "to": {
+          "lon": 103.82,
+          "lat": 1.5,
+          "zoom": 9
+        },
+        "events": [
+          {
+            "type": "flow",
+            "path": [
+              [
+                103.82,
+                1.75
+              ],
+              [
+                103.82,
+                1.35
+              ]
+            ],
+            "t": 0,
+            "color": "#3498db",
+            "width": 4
+          },
+          {
+            "type": "label",
+            "at": [
+              103.6,
+              1.6
+            ],
+            "t": 0.5,
+            "text": "WATER",
+            "size": 22,
+            "color": "#3498db",
+            "caps": true
+          },
+          {
+            "type": "move",
+            "path": [
+              [
+                103.5,
+                2.2
+              ],
+              [
+                103.82,
+                1.35
+              ]
+            ],
+            "icon": "wheat",
+            "t": 0.8,
+            "dur": 2.0,
+            "trail": true,
+            "label": "Food"
+          },
+          {
+            "type": "nation",
+            "at": [
+              103.82,
+              1.35
+            ],
+            "t": 0,
+            "code": "sg"
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "confused"
+      },
+      "id": "ch2-s11"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "And then, two years later, came the second blow.",
+      "visual": {
+        "kind": "action",
+        "name": "voyage",
+        "from": 100,
+        "to": 55,
+        "prefix": "",
+        "suffix": "%",
+        "item": "Second blow incoming",
+        "bg": "night-city",
+        "cycle": false
+      },
+      "id": "ch2-s12"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Britain was running short of money and pulling back from Asia. In 1967 it announced it would close its bases east of Suez. Soon after, it brought the deadline forward to 1971.",
+      "visual": {
+        "kind": "map",
+        "from": {
+          "lon": 103.82,
+          "lat": 1.35,
+          "zoom": 6
+        },
+        "to": {
+          "lon": 80.0,
+          "lat": 20.0,
+          "zoom": 3
+        },
+        "events": [
+          {
+            "type": "nation",
+            "at": [
+              103.82,
+              1.35
+            ],
+            "t": 0,
+            "code": "gb",
+            "label": "British bases"
+          },
+          {
+            "type": "fill",
+            "countries": [
+              "GBR"
+            ],
+            "t": 0,
+            "color": "#e74c3c"
+          },
+          {
+            "type": "move",
+            "path": [
+              [
+                103.82,
+                1.35
+              ],
+              [
+                0.0,
+                51.5
+              ]
+            ],
+            "icon": "ship",
+            "t": 0.5,
+            "dur": 3.5,
+            "trail": true,
+            "label": "Britain leaving"
+          },
+          {
+            "type": "label",
+            "at": [
+              60.0,
+              20.0
+            ],
+            "t": 1.5,
+            "text": "EAST OF SUEZ WITHDRAWAL",
+            "size": 20,
+            "color": "#e74c3c",
+            "caps": true
+          },
+          {
+            "type": "callout",
+            "at": [
+              103.82,
+              1.35
+            ],
+            "t": 2.0,
+            "label": "30,000 jobs gone",
+            "icon": "coins",
+            "side": "right",
+            "persist": true
+          }
+        ]
+      },
+      "date": "1967",
+      "id": "ch2-s13"
+    },
+    {
+      "type": "skit",
+      "speaker": "BRIT_OFF",
+      "text": "I'm afraid we're leaving.",
+      "visual": {
+        "kind": "scene",
+        "set": "study",
+        "cast": [
+          {
+            "id": "BRIT_OFF",
+            "x": 32,
+            "pose": "talk"
+          },
+          {
+            "id": "SG_CLERK",
+            "x": 68,
+            "pose": "confused",
+            "flip": true
+          }
+        ]
+      },
+      "id": "ch2-s14"
+    },
+    {
+      "type": "skit",
+      "speaker": "SG_CLERK",
+      "text": "When?",
+      "visual": {
+        "kind": "scene",
+        "set": "study",
+        "cast": [
+          {
+            "id": "BRIT_OFF",
+            "x": 32,
+            "pose": "happy"
+          },
+          {
+            "id": "SG_CLERK",
+            "x": 68,
+            "pose": "talk",
+            "flip": true
+          }
+        ]
+      },
+      "id": "ch2-s15"
+    },
+    {
+      "type": "skit",
+      "speaker": "BRIT_OFF",
+      "text": "1971. The British are leaving.",
+      "visual": {
+        "kind": "gray",
+        "icon": "question"
+      },
+      "id": "ch2-s16"
+    },
+    {
+      "type": "skit",
+      "speaker": "SG_CLERK",
+      "text": "How many jobs is that?",
+      "visual": {
+        "kind": "scene",
+        "set": "study",
+        "cast": [
+          {
+            "id": "BRIT_OFF",
+            "x": 32,
+            "pose": "confused"
+          },
+          {
+            "id": "SG_CLERK",
+            "x": 68,
+            "pose": "talk",
+            "flip": true
+          }
+        ]
+      },
+      "id": "ch2-s17"
+    },
+    {
+      "type": "skit",
+      "speaker": "BRIT_OFF",
+      "text": "About thirty thousand jobs. A fifth of the economy.",
+      "visual": {
+        "kind": "gray",
+        "icon": "coins"
+      },
+      "id": "ch2-s18"
+    },
+    {
+      "type": "skit",
+      "speaker": "SG_CLERK",
+      "text": "And how much of the economy?",
+      "visual": {
+        "kind": "scene",
+        "set": "study",
+        "cast": [
+          {
+            "id": "BRIT_OFF",
+            "x": 32,
+            "pose": "happy"
+          },
+          {
+            "id": "SG_CLERK",
+            "x": 68,
+            "pose": "talk",
+            "flip": true
+          }
+        ]
+      },
+      "id": "ch2-s19"
+    },
+    {
+      "type": "skit",
+      "speaker": "BRIT_OFF",
+      "text": "Roughly a fifth.",
+      "visual": {
+        "kind": "scene",
+        "set": "study",
+        "cast": [
+          {
+            "id": "BRIT_OFF",
+            "x": 32,
+            "pose": "talk"
+          },
+          {
+            "id": "SG_CLERK",
+            "x": 68,
+            "pose": "confused",
+            "flip": true
+          }
+        ]
+      },
+      "id": "ch2-s20"
+    },
+    {
+      "type": "skit",
+      "speaker": "SG_CLERK",
+      "text": "No hinterland. No resources. No big market. And now, no army base.",
+      "visual": {
+        "kind": "gray",
+        "icon": "coins"
+      },
+      "id": "ch2-s21"
+    },
+    {
+      "type": "skit",
+      "speaker": "BRIT_OFF",
+      "text": "Good luck.",
+      "visual": {
+        "kind": "scene",
+        "set": "study",
+        "cast": [
+          {
+            "id": "BRIT_OFF",
+            "x": 32,
+            "pose": "happy"
+          },
+          {
+            "id": "SG_CLERK",
+            "x": 68,
+            "pose": "angry",
+            "flip": true
+          }
+        ]
+      },
+      "id": "ch2-s22"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "That's not an exaggeration. The British military accounted for about a fifth of Singapore's economy and more than thirty thousand jobs.",
+      "visual": {
+        "kind": "action",
+        "name": "bars",
+        "bars": [
+          {
+            "label": "Jobs lost",
+            "value": 30000,
+            "color": "#e74c3c"
+          },
+          {
+            "label": "Economy %",
+            "value": 20,
+            "color": "#e67e22"
+          }
+        ],
+        "bg": "factory"
+      },
+      "mascot": {
+        "pose": "confused"
+      },
+      "id": "ch2-s23"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "No hinterland. No resources. A shaky water supply. And the biggest employer packing its bags.",
+      "visual": {
+        "kind": "action",
+        "name": "scales",
+        "left": {
+          "icon": "exclaim",
+          "label": "Problems"
+        },
+        "right": {
+          "icon": "coins",
+          "label": "Resources"
+        },
+        "tilt": 42,
+        "bg": "pampas"
+      },
+      "mascot": {
+        "pose": "angry"
+      },
+      "id": "ch2-s24"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Most experts at the time would not have bet on Singapore.",
+      "visual": {
+        "kind": "gray",
+        "icon": "question"
+      },
+      "mascot": {
+        "pose": "point"
+      },
+      "id": "ch2-s25"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Quick pause. If you're enjoying this, subscribe to Farthing Explains. It's free, and it takes up even less space than Singapore.",
+      "visual": {
+        "kind": "crowd",
+        "set": "plaza",
+        "n": 7,
+        "action": "cheer",
+        "seed": 5
+      },
+      "mascot": {
+        "pose": "happy"
+      },
+      "id": "ch2-s26"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Start with the scariest problem: water.",
+      "visual": {
+        "kind": "gray",
+        "icon": "coins",
+        "props": [
+          {
+            "icon": "coins",
+            "x": 50,
+            "y": 44,
+            "scale": 1.4,
+            "anim": "pulse"
+          }
+        ],
+        "cam": {
+          "x": 50,
+          "y": 50,
+          "from": 1.0,
+          "to": 1.1
+        }
+      },
+      "mascot": {
+        "pose": "point"
+      },
+      "id": "ch3-s01"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Singapore gets plenty of rain, but it's too small to store much of it. So it relied on pipes from the Malaysian state of Johor.",
+      "visual": {
+        "kind": "map",
+        "from": {
+          "lon": 103.82,
+          "lat": 1.7,
+          "zoom": 8
+        },
+        "to": {
+          "lon": 103.82,
+          "lat": 1.5,
+          "zoom": 10
+        },
+        "events": [
+          {
+            "type": "flow",
+            "path": [
+              [
+                103.78,
+                1.76
+              ],
+              [
+                103.78,
+                1.35
+              ]
+            ],
+            "t": 0,
+            "color": "#3498db",
+            "width": 5
+          },
+          {
+            "type": "label",
+            "at": [
+              103.5,
+              1.6
+            ],
+            "t": 0.5,
+            "text": "JOHOR PIPES",
+            "size": 20,
+            "color": "#3498db",
+            "caps": true
+          },
+          {
+            "type": "nation",
+            "at": [
+              103.82,
+              1.35
+            ],
+            "t": 0.3,
+            "code": "sg"
+          },
+          {
+            "type": "nation",
+            "at": [
+              103.78,
+              1.78
+            ],
+            "t": 0.3,
+            "code": "my",
+            "label": "Johor, Malaysia"
+          }
+        ]
+      },
+      "id": "ch3-s02"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Under a deal signed in 1962, Singapore can draw up to 250 million gallons a day from the Johor River, at a price of three Malaysian cents per thousand gallons.",
+      "visual": {
+        "kind": "map",
+        "from": {
+          "lon": 103.82,
+          "lat": 1.35,
+          "zoom": 9
+        },
+        "to": {
+          "lon": 103.7,
+          "lat": 1.9,
+          "zoom": 7.5
+        },
+        "events": [
+          {
+            "type": "flow",
+            "path": [
+              [
+                103.5,
+                1.6
+              ],
+              [
+                103.82,
+                1.35
+              ]
+            ],
+            "t": 0,
+            "word": 0,
+            "color": "#44aaff",
+            "width": 2.5
+          },
+          {
+            "type": "callout",
+            "at": [
+              103.5,
+              1.6
+            ],
+            "t": 0,
+            "word": 0,
+            "label": "Johor River",
+            "side": "left",
+            "persist": true,
+            "focus": false,
+            "icon": "water"
+          },
+          {
+            "type": "nation",
+            "at": [
+              103.5,
+              1.6
+            ],
+            "t": 0,
+            "word": 0,
+            "code": "my"
+          },
+          {
+            "type": "nation",
+            "at": [
+              103.82,
+              1.35
+            ],
+            "t": 0,
+            "word": 0,
+            "code": "sg"
+          },
+          {
+            "type": "callout",
+            "at": [
+              103.65,
+              1.4
+            ],
+            "t": 0,
+            "word": 8,
+            "label": "1962 water deal",
+            "side": "right",
+            "persist": false,
+            "focus": false,
+            "icon": "scroll"
+          }
+        ]
+      },
+      "date": "1962",
+      "id": "ch3-s03"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "That price has not changed since 1962. The deal runs until 2061. And Johor still supplies around forty percent of Singapore's water.",
+      "visual": {
+        "kind": "document",
+        "title": "WATER DEAL",
+        "sub": "3 Malaysian cents per 1,000 gallons",
+        "stamp": "1962\u20132061",
+        "stampAt": 1.2,
+        "seal": true,
+        "bg": "study"
+      },
+      "id": "ch3-s04"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "But every Singaporean leader knew that a country whose taps can be turned off by a neighbour is not fully free.",
+      "visual": {
+        "kind": "action",
+        "name": "vault",
+        "item": "Water supply",
+        "bg": "battlefield"
+      },
+      "mascot": {
+        "pose": "confused"
+      },
+      "id": "ch3-s05"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "So Singapore spent decades building what it calls its four national taps: rain caught in reservoirs, water from Johor, seawater turned fresh, and the strangest one of all.",
+      "visual": {
+        "kind": "gray",
+        "icon": "coins",
+        "props": [
+          {
+            "icon": "coins",
+            "x": 25,
+            "y": 45,
+            "scale": 0.8,
+            "anim": "bob"
+          },
+          {
+            "icon": "ship",
+            "x": 42,
+            "y": 45,
+            "scale": 0.8,
+            "anim": "bob"
+          },
+          {
+            "icon": "factory",
+            "x": 59,
+            "y": 45,
+            "scale": 0.8,
+            "anim": "bob"
+          },
+          {
+            "icon": "bulb",
+            "x": 76,
+            "y": 45,
+            "scale": 0.8,
+            "anim": "pulse"
+          }
+        ],
+        "cam": {
+          "x": 50,
+          "y": 50,
+          "from": 0.95,
+          "to": 1.05
+        }
+      },
+      "id": "ch3-s06"
+    },
+    {
+      "type": "skit",
+      "speaker": "DAUGHTER",
+      "text": "Dad, where does this water come from?",
+      "visual": {
+        "kind": "scene",
+        "set": "home",
+        "cast": [
+          {
+            "id": "DAUGHTER",
+            "x": 35,
+            "pose": "talk"
+          },
+          {
+            "id": "FATHER_2",
+            "x": 65,
+            "pose": "happy",
+            "flip": true
+          }
+        ]
+      },
+      "id": "ch3-s07"
+    },
+    {
+      "type": "skit",
+      "speaker": "FATHER_2",
+      "text": "Some of it comes from the sewers.",
+      "visual": {
+        "kind": "scene",
+        "set": "home",
+        "cast": [
+          {
+            "id": "DAUGHTER",
+            "x": 35,
+            "pose": "confused"
+          },
+          {
+            "id": "FATHER_2",
+            "x": 65,
+            "pose": "talk",
+            "flip": true
+          }
+        ]
+      },
+      "id": "ch3-s08"
+    },
+    {
+      "type": "skit",
+      "speaker": "DAUGHTER",
+      "text": "I'm not thirsty anymore.",
+      "visual": {
+        "kind": "scene",
+        "set": "home",
+        "cast": [
+          {
+            "id": "DAUGHTER",
+            "x": 35,
+            "pose": "angry"
+          },
+          {
+            "id": "FATHER_2",
+            "x": 65,
+            "pose": "happy",
+            "flip": true
+          }
+        ]
+      },
+      "id": "ch3-s09"
+    },
+    {
+      "type": "skit",
+      "speaker": "FATHER_2",
+      "text": "Recycled. Filtered. Cleaned to drinking-water standards.",
+      "visual": {
+        "kind": "gray",
+        "icon": "question"
+      },
+      "id": "ch3-s10"
+    },
+    {
+      "type": "skit",
+      "speaker": "DAUGHTER",
+      "text": "They gave toilet water a brand name?",
+      "visual": {
+        "kind": "scene",
+        "set": "home",
+        "cast": [
+          {
+            "id": "DAUGHTER",
+            "x": 35,
+            "pose": "talk"
+          },
+          {
+            "id": "FATHER_2",
+            "x": 65,
+            "pose": "happy",
+            "flip": true
+          }
+        ]
+      },
+      "id": "ch3-s11"
+    },
+    {
+      "type": "skit",
+      "speaker": "FATHER_2",
+      "text": "And it works.",
+      "visual": {
+        "kind": "scene",
+        "set": "home",
+        "cast": [
+          {
+            "id": "DAUGHTER",
+            "x": 35,
+            "pose": "happy"
+          },
+          {
+            "id": "FATHER_2",
+            "x": 65,
+            "pose": "talk",
+            "flip": true
+          }
+        ]
+      },
+      "id": "ch3-s12"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "It really does. Recycled water called NEWater now meets up to forty percent of Singapore's demand. Most goes to factories, but some is topped up into the reservoirs.",
+      "visual": {
+        "kind": "action",
+        "name": "bars",
+        "bars": [
+          {
+            "label": "NEWater",
+            "value": 40,
+            "color": "#3498db"
+          },
+          {
+            "label": "Johor",
+            "value": 40,
+            "color": "#2ecc71"
+          },
+          {
+            "label": "Desalination",
+            "value": 10,
+            "color": "#e67e22"
+          },
+          {
+            "label": "Rainfall",
+            "value": 10,
+            "color": "#9b59b6"
+          }
+        ],
+        "bg": "countryside"
+      },
+      "mascot": {
+        "pose": "happy"
+      },
+      "id": "ch3-s13"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Next, homes.",
+      "visual": {
+        "kind": "set",
+        "set": "home",
+        "cam": {
+          "x": 50,
+          "y": 50,
+          "from": 1.1,
+          "to": 1.0
+        },
+        "props": [
+          {
+            "icon": "house",
+            "x": 50,
+            "y": 50,
+            "scale": 1.2,
+            "anim": "bob"
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "point"
+      },
+      "id": "ch3-s14"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Remember that fire at Bukit Ho Swee? The Housing and Development Board kept building at that speed, block after block, for decades.",
+      "visual": {
+        "kind": "crowd",
+        "set": "skyline",
+        "action": "stand",
+        "n": 10,
+        "seed": 14
+      },
+      "id": "ch3-s15"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Then came the clever part. The government didn't want Singaporeans to rent. It wanted them to own.",
+      "visual": {
+        "kind": "action",
+        "name": "vault",
+        "item": "Your flat",
+        "bg": "village"
+      },
+      "mascot": {
+        "pose": "point"
+      },
+      "id": "ch3-s16"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Families could buy their flat using money from their own pension fund.",
+      "visual": {
+        "kind": "gray",
+        "icon": "coins"
+      },
+      "date": "1968",
+      "id": "ch3-s17"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Every worker had to save part of their wages in that fund, and their employer added more. That gave the country a mountain of savings to invest, and gave families a stake in the country's future.",
+      "visual": {
+        "kind": "action",
+        "name": "moneyrain",
+        "bg": "bank"
+      },
+      "id": "ch3-s18"
+    },
+    {
+      "type": "skit",
+      "speaker": "SON",
+      "text": "Mum, is this flat really ours?",
+      "visual": {
+        "kind": "scene",
+        "set": "home",
+        "cast": [
+          {
+            "id": "SON",
+            "x": 35,
+            "pose": "happy"
+          },
+          {
+            "id": "MOTHER_2",
+            "x": 65,
+            "pose": "talk",
+            "flip": true
+          }
+        ]
+      },
+      "id": "ch3-s19"
+    },
+    {
+      "type": "skit",
+      "speaker": "MOTHER_2",
+      "text": "Ours, and the bank's, and your father's pension's.",
+      "visual": {
+        "kind": "scene",
+        "set": "home",
+        "cast": [
+          {
+            "id": "SON",
+            "x": 35,
+            "pose": "confused"
+          },
+          {
+            "id": "MOTHER_2",
+            "x": 65,
+            "pose": "talk",
+            "flip": true
+          }
+        ]
+      },
+      "id": "ch3-s20"
+    },
+    {
+      "type": "skit",
+      "speaker": "SON",
+      "text": "Over eighty percent of Singaporeans own their home. Using their own pension savings.",
+      "visual": {
+        "kind": "gray",
+        "icon": "shield"
+      },
+      "id": "ch3-s21"
+    },
+    {
+      "type": "skit",
+      "speaker": "MOTHER_2",
+      "text": "It's ours.",
+      "visual": {
+        "kind": "scene",
+        "set": "home",
+        "cast": [
+          {
+            "id": "SON",
+            "x": 35,
+            "pose": "happy"
+          },
+          {
+            "id": "MOTHER_2",
+            "x": 65,
+            "pose": "talk",
+            "flip": true
+          }
+        ]
+      },
+      "id": "ch3-s22"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Today more than eighty percent of Singaporeans live in public housing, and the vast majority of those flats are owned by the families living in them.",
+      "visual": {
+        "kind": "crowd",
+        "set": "night-city",
+        "action": "cheer",
+        "n": 10,
+        "seed": 19
+      },
+      "id": "ch3-s23"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "And third: the iron rules.",
+      "visual": {
+        "kind": "gray",
+        "icon": "shield",
+        "props": [
+          {
+            "icon": "shield",
+            "x": 50,
+            "y": 44,
+            "scale": 1.4,
+            "anim": "pulse"
+          }
+        ],
+        "cam": {
+          "x": 50,
+          "y": 50,
+          "from": 1.0,
+          "to": 1.1
+        }
+      },
+      "mascot": {
+        "pose": "point"
+      },
+      "id": "ch3-s24"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Singapore decided corruption would be treated as a serious crime, not a cost of doing business. A tough anti-corruption law was passed in 1960, and an independent bureau was given real teeth.",
+      "visual": {
+        "kind": "document",
+        "title": "Prevention of Corruption Act",
+        "subtitle": "Singapore, 1960",
+        "bg": "study"
+      },
+      "date": "1960",
+      "id": "ch3-s25"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Today Transparency International ranks Singapore the third least corrupt country in the world.",
+      "visual": {
+        "kind": "action",
+        "name": "bars",
+        "bars": [
+          {
+            "label": "Singapore",
+            "value": 95,
+            "color": "#27ae60"
+          },
+          {
+            "label": "USA",
+            "value": 69,
+            "color": "#3498db",
+            "flag": "us"
+          },
+          {
+            "label": "Nigeria",
+            "value": 24,
+            "color": "#e74c3c"
+          }
+        ],
+        "bg": "palace",
+        "hideValues": false
+      },
+      "mascot": {
+        "pose": "happy"
+      },
+      "id": "ch3-s26"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "It also tamed its labour disputes. New laws in the late 1960s limited strikes, and by the late 1970s strikes had almost disappeared.",
+      "visual": {
+        "kind": "action",
+        "name": "bars",
+        "bars": [
+          {
+            "label": "1965 strikes",
+            "value": 100,
+            "color": "#e74c3c"
+          },
+          {
+            "label": "1975 strikes",
+            "value": 30,
+            "color": "#e67e22"
+          },
+          {
+            "label": "1980 strikes",
+            "value": 2,
+            "color": "#27ae60"
+          }
+        ],
+        "bg": "study"
+      },
+      "id": "ch3-s27"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Critics say these rules came with a price, and we'll get to that. But for a foreign company deciding where to build a factory, the message was clear.",
+      "visual": {
+        "kind": "scene",
+        "set": "desert",
+        "cast": [
+          {
+            "id": "EXEC",
+            "x": 40,
+            "pose": "point"
+          },
+          {
+            "id": "LEE_KY",
+            "x": 62,
+            "pose": "talk",
+            "flip": true
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "point"
+      },
+      "id": "ch3-s28"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "The rules are the rules. No exceptions. No cash in the envelope.",
+      "visual": {
+        "kind": "gray",
+        "icon": "shield"
+      },
+      "mascot": {
+        "pose": "happy"
+      },
+      "id": "ch3-s29"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Most poor countries in the 1960s were suspicious of big foreign companies. They put up tariffs, protected local firms and tried to make everything at home.",
+      "visual": {
+        "kind": "action",
+        "name": "scales",
+        "item": "Foreign investment",
+        "bg": "port"
+      },
+      "mascot": {
+        "pose": "talk"
+      },
+      "id": "ch4-s01"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Argentina did exactly that, as we saw in our last episode.",
+      "visual": {
+        "kind": "map",
+        "from": {
+          "lon": -63.0,
+          "lat": -35.0,
+          "zoom": 4
+        },
+        "to": {
+          "lon": -63.0,
+          "lat": -35.0,
+          "zoom": 5
+        },
+        "events": [
+          {
+            "type": "nation",
+            "at": [
+              -63.0,
+              -35.0
+            ],
+            "t": 0,
+            "code": "ar",
+            "label": "Argentina"
+          },
+          {
+            "type": "fill",
+            "countries": [
+              "ARG"
+            ],
+            "t": 0,
+            "color": "#c0392b"
+          },
+          {
+            "type": "label",
+            "at": [
+              -63.0,
+              -38.0
+            ],
+            "t": 0.8,
+            "text": "NATIONALISED",
+            "size": 22,
+            "color": "#e74c3c",
+            "caps": true
+          },
+          {
+            "type": "label",
+            "at": [
+              -63.0,
+              -41.0
+            ],
+            "t": 1.2,
+            "text": "CLOSED BORDERS",
+            "size": 18,
+            "color": "#e74c3c",
+            "caps": true
+          },
+          {
+            "type": "callout",
+            "at": [
+              -63.0,
+              -33.0
+            ],
+            "t": 1.5,
+            "label": "Ep 01",
+            "icon": "scroll",
+            "side": "right"
+          }
+        ]
+      },
+      "id": "ch4-s02"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Singapore did the opposite. It went looking for the biggest companies in the world and asked them to come.",
+      "visual": {
+        "kind": "scene",
+        "set": "market",
+        "cast": [
+          {
+            "id": "LEE_KY",
+            "x": 40,
+            "pose": "happy"
+          },
+          {
+            "id": "EXEC",
+            "x": 65,
+            "pose": "happy",
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "icon": "coins",
+            "x": 52,
+            "y": 68,
+            "scale": 0.7,
+            "anim": "bob"
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "point"
+      },
+      "id": "ch4-s03"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "The job went to the Economic Development Board, set up in 1961 on the advice of a Dutch economist, Albert Winsemius.",
+      "visual": {
+        "kind": "document",
+        "title": "ECONOMIC DEVELOPMENT BOARD",
+        "sub": "Est. 1961 \u2014 Albert Winsemius, adviser",
+        "seal": true,
+        "bg": "study"
+      },
+      "date": "1961",
+      "id": "ch4-s04"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Its first big project was a swamp in the west of the island called Jurong. Crocodiles in the creeks. Almost nothing else.",
+      "visual": {
+        "kind": "map",
+        "from": {
+          "lon": 103.82,
+          "lat": 1.35,
+          "zoom": 9
+        },
+        "to": {
+          "lon": 103.7,
+          "lat": 1.33,
+          "zoom": 12
+        },
+        "events": [
+          {
+            "type": "callout",
+            "at": [
+              103.68,
+              1.32
+            ],
+            "t": 0,
+            "label": "Jurong \u2014 swamp",
+            "icon": "wheat",
+            "side": "left",
+            "persist": true,
+            "focus": true,
+            "zoom": 12
+          },
+          {
+            "type": "scatter",
+            "around": [
+              103.68,
+              1.32
+            ],
+            "icon": "cattle",
+            "n": 5,
+            "spread": 0.03,
+            "t": 0.8,
+            "size": 28
+          },
+          {
+            "type": "label",
+            "at": [
+              103.68,
+              1.28
+            ],
+            "t": 1.2,
+            "text": "CROCODILES",
+            "size": 22,
+            "color": "#27ae60",
+            "caps": true
+          },
+          {
+            "type": "pulse",
+            "at": [
+              103.68,
+              1.32
+            ],
+            "t": 2.0,
+            "color": "#e67e22"
+          }
+        ]
+      },
+      "id": "ch4-s05"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "The government drained it, flattened hills, laid roads and built an industrial estate before there were any tenants. Critics called it Goh's Folly, after the finance minister.",
+      "visual": {
+        "kind": "action",
+        "name": "march",
+        "bg": "estancia",
+        "reverse": false
+      },
+      "mascot": {
+        "pose": "confused"
+      },
+      "id": "ch4-s06"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "At first, almost nobody came. Goh Keng Swee flew around the world begging.",
+      "visual": {
+        "kind": "gray",
+        "icon": "question"
+      },
+      "mascot": {
+        "pose": "confused"
+      },
+      "id": "ch4-s07"
+    },
+    {
+      "type": "skit",
+      "speaker": "EXEC",
+      "text": "So why should I build my factory here?",
+      "visual": {
+        "kind": "scene",
+        "set": "factory",
+        "cast": [
+          {
+            "id": "EXEC",
+            "x": 35,
+            "pose": "talk"
+          },
+          {
+            "id": "EDB_OFF",
+            "x": 65,
+            "pose": "happy",
+            "flip": true
+          }
+        ]
+      },
+      "id": "ch4-s08"
+    },
+    {
+      "type": "skit",
+      "speaker": "EDB_OFF",
+      "text": "Our workers speak English. The land is ready. Power and water are connected.",
+      "visual": {
+        "kind": "scene",
+        "set": "factory",
+        "cast": [
+          {
+            "id": "EXEC",
+            "x": 35,
+            "pose": "happy"
+          },
+          {
+            "id": "EDB_OFF",
+            "x": 65,
+            "pose": "talk",
+            "flip": true
+          }
+        ]
+      },
+      "id": "ch4-s09"
+    },
+    {
+      "type": "skit",
+      "speaker": "EXEC",
+      "text": "And taxes?",
+      "visual": {
+        "kind": "scene",
+        "set": "factory",
+        "cast": [
+          {
+            "id": "EXEC",
+            "x": 35,
+            "pose": "talk"
+          },
+          {
+            "id": "EDB_OFF",
+            "x": 65,
+            "pose": "happy",
+            "flip": true
+          }
+        ]
+      },
+      "id": "ch4-s10"
+    },
+    {
+      "type": "skit",
+      "speaker": "EDB_OFF",
+      "text": "Up to ninety percent off your profits tax. For ten years.",
+      "visual": {
+        "kind": "gray",
+        "icon": "coins"
+      },
+      "id": "ch4-s11"
+    },
+    {
+      "type": "skit",
+      "speaker": "EXEC",
+      "text": "And bribes?",
+      "visual": {
+        "kind": "scene",
+        "set": "factory",
+        "cast": [
+          {
+            "id": "EXEC",
+            "x": 35,
+            "pose": "talk"
+          },
+          {
+            "id": "EDB_OFF",
+            "x": 65,
+            "pose": "angry",
+            "flip": true
+          }
+        ]
+      },
+      "id": "ch4-s12"
+    },
+    {
+      "type": "skit",
+      "speaker": "EDB_OFF",
+      "text": "Try one and you'll go to jail.",
+      "visual": {
+        "kind": "scene",
+        "set": "factory",
+        "cast": [
+          {
+            "id": "EXEC",
+            "x": 35,
+            "pose": "confused"
+          },
+          {
+            "id": "EDB_OFF",
+            "x": 65,
+            "pose": "talk",
+            "flip": true
+          }
+        ]
+      },
+      "id": "ch4-s13"
+    },
+    {
+      "type": "skit",
+      "speaker": "EXEC",
+      "text": "Where do I sign?",
+      "visual": {
+        "kind": "scene",
+        "set": "factory",
+        "cast": [
+          {
+            "id": "EXEC",
+            "x": 35,
+            "pose": "happy"
+          },
+          {
+            "id": "EDB_OFF",
+            "x": 65,
+            "pose": "happy",
+            "flip": true
+          }
+        ]
+      },
+      "id": "ch4-s14"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Tax holidays. Ready land. English-speaking workers. The pitch was real.",
+      "visual": {
+        "kind": "gray",
+        "icon": "coins"
+      },
+      "date": "1967",
+      "id": "ch4-s15"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "From 1968, the big names started to arrive. National Semiconductor came first, and Texas Instruments, Hewlett-Packard and General Electric followed.",
+      "visual": {
+        "kind": "crowd",
+        "set": "factory",
+        "n": 10,
+        "action": "stand",
+        "seed": 2,
+        "props": [
+          {
+            "icon": "factory",
+            "x": 15,
+            "y": 55,
+            "scale": 0.7,
+            "anim": "none"
+          },
+          {
+            "icon": "factory",
+            "x": 82,
+            "y": 58,
+            "scale": 0.65,
+            "anim": "none"
+          }
+        ]
+      },
+      "date": "1968",
+      "mascot": {
+        "pose": "happy"
+      },
+      "id": "ch4-s16"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "By the end of the 1960s, Jurong had 181 factories in production. Goh's Folly wasn't a folly anymore.",
+      "visual": {
+        "kind": "crowd",
+        "set": "sea",
+        "action": "cheer",
+        "n": 10,
+        "seed": 33
+      },
+      "id": "ch4-s17"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "The British bases were turned into something useful too. Their land was converted for business, and their naval dockyards became commercial shipyards.",
+      "visual": {
+        "kind": "action",
+        "name": "voyage",
+        "bg": "sea",
+        "cargo": "empty"
+      },
+      "id": "ch4-s18"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Basic goods. Electronics. Finance. Services. Each decade, one rung higher.",
+      "visual": {
+        "kind": "gray",
+        "icon": "star"
+      },
+      "id": "ch4-s19"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "By the 1980s, Singapore was the world's leading producer of hard disk drives.",
+      "visual": {
+        "kind": "action",
+        "name": "bars",
+        "bars": [
+          {
+            "label": "Singapore",
+            "value": 60,
+            "color": "#e74c3c"
+          },
+          {
+            "label": "Rest of world",
+            "value": 40,
+            "color": "#7f8c8d"
+          }
+        ],
+        "bg": "skyline",
+        "hideValues": false
+      },
+      "mascot": {
+        "pose": "happy"
+      },
+      "id": "ch4-s20"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "From 1965 to the mid-1980s, the economy grew by around ten percent a year.",
+      "visual": {
+        "kind": "action",
+        "name": "pricetag",
+        "from": 500,
+        "to": 13000,
+        "prefix": "$",
+        "suffix": "/yr",
+        "item": "GDP per person by 1990",
+        "bg": "bank"
+      },
+      "id": "ch4-s21"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "The port never stopped. In 2025, the second busiest container port on earth.",
+      "visual": {
+        "kind": "gray",
+        "icon": "globe"
+      },
+      "id": "ch4-s22"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "And from the 1970s, banks followed the ships. Singapore turned itself into a financial centre for the whole region.",
+      "visual": {
+        "kind": "map",
+        "from": {
+          "lon": 103.82,
+          "lat": 1.35,
+          "zoom": 5
+        },
+        "to": {
+          "lon": 103.82,
+          "lat": 1.35,
+          "zoom": 7
+        },
+        "events": [
+          {
+            "type": "move",
+            "path": [
+              [
+                80.0,
+                20.0
+              ],
+              [
+                103.82,
+                1.35
+              ]
+            ],
+            "icon": "banknotes",
+            "t": 0,
+            "dur": 2.5,
+            "trail": true,
+            "label": "Capital from India"
+          },
+          {
+            "type": "move",
+            "path": [
+              [
+                121.0,
+                25.0
+              ],
+              [
+                103.82,
+                1.35
+              ]
+            ],
+            "icon": "banknotes",
+            "t": 0.4,
+            "dur": 2.5,
+            "trail": true,
+            "label": "Capital from Asia"
+          },
+          {
+            "type": "move",
+            "path": [
+              [
+                0.0,
+                51.5
+              ],
+              [
+                103.82,
+                1.35
+              ]
+            ],
+            "icon": "banknotes",
+            "t": 0.8,
+            "dur": 3.0,
+            "trail": true,
+            "label": "Capital from Europe"
+          },
+          {
+            "type": "nation",
+            "at": [
+              103.82,
+              1.35
+            ],
+            "t": 1.5,
+            "code": "sg",
+            "label": "Financial hub"
+          }
+        ]
+      },
+      "id": "ch4-s23"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "The result? Around five hundred dollars per person in 1965. Around thirteen thousand by 1990. Around fifty-six thousand by 2015. More than a hundred and seven thousand today.",
+      "visual": {
+        "kind": "action",
+        "name": "bars",
+        "bg": "street",
+        "item": "Singapore GDP per person (USD)",
+        "cycle": true
+      },
+      "id": "ch4-s24"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "So is Singapore a paradise? Ask Singaporeans, and many will tell you it's more complicated.",
+      "visual": {
+        "kind": "action",
+        "name": "scales",
+        "left": {
+          "icon": "crown",
+          "label": "Wealth"
+        },
+        "right": {
+          "icon": "exclaim",
+          "label": "Cost"
+        },
+        "tilt": 0,
+        "bg": "skyline"
+      },
+      "mascot": {
+        "pose": "confused"
+      },
+      "id": "ch5-s01"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Start with the cost of living. Land is scarce, so almost everything that needs space is expensive.",
+      "visual": {
+        "kind": "action",
+        "name": "pricetag",
+        "from": 1,
+        "to": 10,
+        "prefix": "",
+        "suffix": "x global avg",
+        "item": "Cost of living",
+        "bg": "market"
+      },
+      "id": "ch5-s02"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Want a car? Before you even buy one, you need a government permit just to own it for ten years.",
+      "visual": {
+        "kind": "document",
+        "title": "CERTIFICATE OF ENTITLEMENT",
+        "sub": "Required to own a car. Valid 10 years.",
+        "stamp": "$132,000",
+        "stampAt": 1.5,
+        "bg": "street"
+      },
+      "mascot": {
+        "pose": "confused"
+      },
+      "id": "ch5-s03"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "In October 2026, the permit for a small car cost about 132,000 Singapore dollars. That's the permit. Not the car.",
+      "visual": {
+        "kind": "action",
+        "name": "pricetag",
+        "bg": "shop",
+        "item": "COE permit, Cat A, Oct 2026 (SGD)",
+        "from_": 50000,
+        "to": 132000
+      },
+      "id": "ch5-s04"
+    },
+    {
+      "type": "skit",
+      "speaker": "CUSTOMER",
+      "text": "How much for this little car?",
+      "visual": {
+        "kind": "scene",
+        "set": "shop",
+        "cast": [
+          {
+            "id": "CUSTOMER",
+            "x": 35,
+            "pose": "talk"
+          },
+          {
+            "id": "SALESMAN",
+            "x": 65,
+            "pose": "happy",
+            "flip": true
+          }
+        ]
+      },
+      "id": "ch5-s05"
+    },
+    {
+      "type": "skit",
+      "speaker": "SALESMAN",
+      "text": "The car, or the right to drive the car?",
+      "visual": {
+        "kind": "scene",
+        "set": "shop",
+        "cast": [
+          {
+            "id": "CUSTOMER",
+            "x": 35,
+            "pose": "confused"
+          },
+          {
+            "id": "SALESMAN",
+            "x": 65,
+            "pose": "talk",
+            "flip": true
+          }
+        ]
+      },
+      "id": "ch5-s06"
+    },
+    {
+      "type": "skit",
+      "speaker": "CUSTOMER",
+      "text": "There's a difference?",
+      "visual": {
+        "kind": "scene",
+        "set": "shop",
+        "cast": [
+          {
+            "id": "CUSTOMER",
+            "x": 35,
+            "pose": "confused"
+          },
+          {
+            "id": "SALESMAN",
+            "x": 65,
+            "pose": "happy",
+            "flip": true
+          }
+        ]
+      },
+      "id": "ch5-s07"
+    },
+    {
+      "type": "skit",
+      "speaker": "SALESMAN",
+      "text": "A hundred and thirty thousand dollars. Just for the right to drive.",
+      "visual": {
+        "kind": "gray",
+        "icon": "coins"
+      },
+      "id": "ch5-s08"
+    },
+    {
+      "type": "skit",
+      "speaker": "CUSTOMER",
+      "text": "I'll take the bus.",
+      "visual": {
+        "kind": "scene",
+        "set": "shop",
+        "cast": [
+          {
+            "id": "CUSTOMER",
+            "x": 35,
+            "pose": "talk"
+          },
+          {
+            "id": "SALESMAN",
+            "x": 65,
+            "pose": "happy",
+            "flip": true
+          }
+        ]
+      },
+      "id": "ch5-s09"
+    },
+    {
+      "type": "skit",
+      "speaker": "SALESMAN",
+      "text": "Everyone says that. The bus is very good.",
+      "visual": {
+        "kind": "scene",
+        "set": "shop",
+        "cast": [
+          {
+            "id": "CUSTOMER",
+            "x": 35,
+            "pose": "happy"
+          },
+          {
+            "id": "SALESMAN",
+            "x": 65,
+            "pose": "talk",
+            "flip": true
+          }
+        ]
+      },
+      "id": "ch5-s10"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "The work is intense too. In 2015, Singaporeans worked around 2,300 hours a year, far more than most people in Europe.",
+      "visual": {
+        "kind": "action",
+        "name": "bars",
+        "bars": [
+          {
+            "label": "Singapore",
+            "value": 2300,
+            "color": "#e74c3c"
+          },
+          {
+            "label": "Germany",
+            "value": 1340,
+            "color": "#f1c40f",
+            "flag": "de"
+          },
+          {
+            "label": "France",
+            "value": 1480,
+            "color": "#3498db",
+            "flag": "fr"
+          },
+          {
+            "label": "USA",
+            "value": 1800,
+            "color": "#9b59b6",
+            "flag": "us"
+          }
+        ],
+        "bg": "night-city"
+      },
+      "mascot": {
+        "pose": "confused"
+      },
+      "id": "ch5-s11"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "The wealth isn't spread evenly. Inequality is high for a rich country, and the economy depends heavily on foreign workers, many of them on low wages.",
+      "visual": {
+        "kind": "action",
+        "name": "bars",
+        "bars": [
+          {
+            "label": "Top 10%",
+            "value": 85,
+            "color": "#f1c40f"
+          },
+          {
+            "label": "Middle",
+            "value": 45,
+            "color": "#e67e22"
+          },
+          {
+            "label": "Bottom 10%",
+            "value": 12,
+            "color": "#e74c3c"
+          }
+        ],
+        "bg": "village",
+        "hideValues": false
+      },
+      "id": "ch5-s12"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "One party. Every election. Since 1959.",
+      "visual": {
+        "kind": "gray",
+        "icon": "shield"
+      },
+      "id": "ch5-s13"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Critics, including press-freedom groups, say the media and the opposition have operated under tight limits for decades.",
+      "visual": {
+        "kind": "action",
+        "name": "scroll",
+        "item": "Press freedom",
+        "bg": "street"
+      },
+      "mascot": {
+        "pose": "confused"
+      },
+      "id": "ch5-s14"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Supporters say that same stability is exactly what made the wealth possible.",
+      "visual": {
+        "kind": "gray",
+        "icon": "shield"
+      },
+      "mascot": {
+        "pose": "point"
+      },
+      "id": "ch5-s15"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Remember Argentina, where every new government undid the last one's work? Singapore is close to the opposite.",
+      "visual": {
+        "kind": "action",
+        "name": "loop",
+        "items": [
+          {
+            "icon": "crown",
+            "label": "New govt"
+          },
+          {
+            "icon": "chainsaw",
+            "label": "Undo it"
+          },
+          {
+            "icon": "crown",
+            "label": "New govt"
+          },
+          {
+            "icon": "chainsaw",
+            "label": "Undo it"
+          }
+        ],
+        "bg": "pampas"
+      },
+      "id": "ch5-s16"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "There's one more risk. A country that lives by trade can also be hurt by trade. When the world economy stumbles, Singapore feels it fast.",
+      "visual": {
+        "kind": "action",
+        "name": "crash",
+        "from": 100,
+        "to": 65,
+        "prefix": "",
+        "suffix": "%",
+        "item": "Trade exposed to global shocks",
+        "bg": "port",
+        "cycle": true
+      },
+      "mascot": {
+        "pose": "confused"
+      },
+      "id": "ch5-s17"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "That's the bargain. Extraordinary wealth and order, paid for with high costs, hard work and a lot of trust in the people in charge.",
+      "visual": {
+        "kind": "action",
+        "name": "scales",
+        "left": {
+          "icon": "crown",
+          "label": "Wealth + Order"
+        },
+        "right": {
+          "icon": "book",
+          "label": "Freedom + Cost"
+        },
+        "tilt": -15,
+        "bg": "fields"
+      },
+      "mascot": {
+        "pose": "talk"
+      },
+      "id": "ch5-s18"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "So let's put it together.",
+      "visual": {
+        "kind": "scroll",
+        "roll": "open"
+      },
+      "mascot": {
+        "pose": "point"
+      },
+      "id": "ch6-s01"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "A swamp in the right place. A free port. A fire that taught the government to build fast. A divorce nobody wanted. An army that packed up and left.",
+      "visual": {
+        "kind": "scroll",
+        "dates": [
+          "Free port 1819",
+          "Fire 1961",
+          "Kicked out 1965",
+          "British leave 1971"
+        ],
+        "roll": "close"
+      },
+      "id": "ch6-s02"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "So how did a country with nothing get richer than America? Most economists point to a few things working together.",
+      "visual": {
+        "kind": "action",
+        "name": "bars",
+        "bars": [
+          {
+            "label": "1965",
+            "value": 500,
+            "color": "#e74c3c"
+          },
+          {
+            "label": "2026",
+            "value": 107000,
+            "color": "#27ae60"
+          }
+        ],
+        "bg": "skyline"
+      },
+      "mascot": {
+        "pose": "confused"
+      },
+      "id": "ch6-s03"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "First, it turned its weakness into a sales pitch. With no natural resources to fight over, it sold the one thing it could control: being the easiest, safest, cleanest place in Asia to do business.",
+      "visual": {
+        "kind": "action",
+        "name": "loop",
+        "bg": "plaza",
+        "items": [
+          {
+            "icon": "shield",
+            "label": "No corruption"
+          },
+          {
+            "icon": "factory",
+            "label": "Ready land"
+          },
+          {
+            "icon": "banknotes",
+            "label": "Tax relief"
+          },
+          {
+            "icon": "gold",
+            "label": "Open doors"
+          }
+        ]
+      },
+      "id": "ch6-s04"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Second, it opened its doors when most poor countries were closing theirs. Instead of protecting weak local firms, it brought in the world's best companies and learned from them.",
+      "visual": {
+        "kind": "map",
+        "from": {
+          "lon": 103.82,
+          "lat": 1.35,
+          "zoom": 3
+        },
+        "to": {
+          "lon": 103.82,
+          "lat": 1.35,
+          "zoom": 5
+        },
+        "events": [
+          {
+            "type": "move",
+            "path": [
+              [
+                0.0,
+                51.5
+              ],
+              [
+                103.82,
+                1.35
+              ]
+            ],
+            "icon": "ship",
+            "t": 0,
+            "dur": 3.0,
+            "trail": true
+          },
+          {
+            "type": "move",
+            "path": [
+              [
+                80.0,
+                20.0
+              ],
+              [
+                103.82,
+                1.35
+              ]
+            ],
+            "icon": "ship",
+            "t": 0.3,
+            "dur": 2.5,
+            "trail": true
+          },
+          {
+            "type": "move",
+            "path": [
+              [
+                121.0,
+                23.0
+              ],
+              [
+                103.82,
+                1.35
+              ]
+            ],
+            "icon": "ship",
+            "t": 0.6,
+            "dur": 2.5,
+            "trail": true
+          },
+          {
+            "type": "nation",
+            "at": [
+              103.82,
+              1.35
+            ],
+            "t": 1.0,
+            "code": "sg",
+            "label": "Open for business"
+          },
+          {
+            "type": "nation",
+            "at": [
+              0.0,
+              51.5
+            ],
+            "t": 0,
+            "code": "gb"
+          },
+          {
+            "type": "nation",
+            "at": [
+              80.0,
+              20.0
+            ],
+            "t": 0.3,
+            "code": "in"
+          },
+          {
+            "type": "nation",
+            "at": [
+              121.0,
+              23.0
+            ],
+            "t": 0.6,
+            "code": "cn"
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "point"
+      },
+      "id": "ch6-s05"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Third, it kept the rules stable. Low corruption, plans that lasted decades, and money that people trusted.",
+      "visual": {
+        "kind": "document",
+        "title": "LONG-TERM PLAN",
+        "sub": "Low corruption. Rules that last.",
+        "seal": true,
+        "stamp": "DECADE 1  DECADE 2  DECADE 3",
+        "stampAt": 1.2,
+        "bg": "study"
+      },
+      "mascot": {
+        "pose": "happy"
+      },
+      "id": "ch6-s06"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "And fourth, it gave ordinary people a stake. Compulsory savings and home ownership meant most families owned a piece of the country's success.",
+      "visual": {
+        "kind": "crowd",
+        "set": "home",
+        "n": 7,
+        "action": "cheer",
+        "seed": 4,
+        "props": [
+          {
+            "icon": "house",
+            "x": 50,
+            "y": 50,
+            "scale": 0.9,
+            "anim": "bob"
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "happy"
+      },
+      "id": "ch6-s07"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Singapore's own leaders will tell you there's a fifth ingredient: paranoia. A small country that never feels safe never stops planning.",
+      "visual": {
+        "kind": "scene",
+        "set": "night-city",
+        "cast": [
+          {
+            "id": "LEE_KY",
+            "x": 50,
+            "pose": "confused"
+          }
+        ],
+        "props": [
+          {
+            "icon": "question",
+            "x": 28,
+            "y": 40,
+            "scale": 0.7,
+            "anim": "pulse"
+          },
+          {
+            "icon": "question",
+            "x": 72,
+            "y": 42,
+            "scale": 0.65,
+            "anim": "pulse"
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "confused"
+      },
+      "id": "ch6-s08"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "That's the real contrast with Argentina. Argentina was born rich and kept losing trust. Singapore was born poor and built trust brick by brick.",
+      "visual": {
+        "kind": "action",
+        "name": "scales",
+        "bg": "desert",
+        "tilt": -18,
+        "left": {
+          "icon": "broken",
+          "label": "Argentina: lost trust"
+        },
+        "right": {
+          "icon": "shield",
+          "label": "Singapore: built trust"
+        }
+      },
+      "id": "ch6-s09"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Natural wealth can make you rich for a while. Trust, it turns out, compounds.",
+      "visual": {
+        "kind": "action",
+        "name": "bars",
+        "bars": [
+          {
+            "label": "Oil wealth",
+            "value": 60,
+            "color": "#e67e22"
+          },
+          {
+            "label": "Built trust",
+            "value": 100,
+            "color": "#27ae60"
+          }
+        ],
+        "bg": "bank"
+      },
+      "mascot": {
+        "pose": "happy"
+      },
+      "id": "ch6-s10"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "If you made it this far, thank you. Subscribe to Farthing Explains for more stories about how money makes and breaks countries.",
+      "visual": {
+        "kind": "crowd",
+        "set": "pampas",
+        "action": "cheer",
+        "n": 14,
+        "seed": 42
+      },
+      "id": "ch6-s11"
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Next time: a small island that makes almost all of the world's most advanced computer chips, and why that makes it one of the most valuable, and most nervous, places on Earth. See you there.",
+      "visual": {
+        "kind": "map",
+        "from": {
+          "lon": 121,
+          "lat": 23.5,
+          "zoom": 7
+        },
+        "to": {
+          "lon": 121,
+          "lat": 23.5,
+          "zoom": 10
+        },
+        "events": [
+          {
+            "type": "nation",
+            "at": [
+              120.96,
+              23.69
+            ],
+            "t": 0,
+            "code": "tw",
+            "label": "Taiwan"
+          },
+          {
+            "type": "fill",
+            "countries": [
+              "TWN"
+            ],
+            "t": 0,
+            "color": "#3498db"
+          },
+          {
+            "type": "callout",
+            "at": [
+              120.96,
+              23.69
+            ],
+            "t": 0.8,
+            "label": "90% of advanced chips",
+            "icon": "factory",
+            "side": "right",
+            "persist": true
+          },
+          {
+            "type": "label",
+            "at": [
+              120.96,
+              25.5
+            ],
+            "t": 1.5,
+            "text": "NEXT EPISODE",
+            "size": 28,
+            "color": "#f1c40f",
+            "caps": true
+          },
+          {
+            "type": "pulse",
+            "at": [
+              120.96,
+              23.69
+            ],
+            "t": 0.3,
+            "color": "#f39c12"
+          }
+        ]
+      },
+      "id": "ch6-s12"
+    }
+  ]
+}

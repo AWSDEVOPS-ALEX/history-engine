@@ -1,0 +1,886 @@
+{
+  "title": "Mali Empire, 1-minute test",
+  "fps": 30,
+  "mascot": {
+    "skin": "#c68e5e",
+    "robe": "#2f7f7a",
+    "trim": "#e0b84a",
+    "hat": "cap",
+    "hatColor": "#7a3b2e",
+    "glasses": true,
+    "staff": "chronicler",
+    "satchel": true,
+    "belt": "#7a3b2e",
+    "pattern": "stripes",
+    "sandals": true,
+    "prop": "none"
+  },
+  "narratorVoice": "",
+  "cast": [
+    {
+      "id": "MANSA_MUSA",
+      "name": "Mansa Musa",
+      "voice": "",
+      "look": {
+        "skin": "#6b4428",
+        "robe": "#e3b23c",
+        "trim": "#7a3b2e",
+        "hat": "crown",
+        "beard": "short",
+        "beardColor": "#1f1712",
+        "prop": "staff"
+      }
+    },
+    {
+      "id": "CAIRO_OFFICIAL",
+      "name": "Cairo official",
+      "voice": "",
+      "look": {
+        "skin": "#c58f62",
+        "robe": "#4f6d8f",
+        "trim": "#d9b44a",
+        "hat": "turban",
+        "hatColor": "#f1ece0",
+        "beard": "long",
+        "beardColor": "#8c8c8c",
+        "prop": "scroll"
+      }
+    },
+    {
+      "id": "SUNDIATA",
+      "name": "Sundiata Keita",
+      "look": {
+        "skin": "#5e3b24",
+        "robe": "#8e3b2e",
+        "trim": "#e0b84a",
+        "hat": "cap",
+        "hatColor": "#b23a2a",
+        "beard": "short",
+        "beardColor": "#1f1712"
+      },
+      "voice": ""
+    }
+  ],
+  "segments": [
+    {
+      "id": "c01-s01",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "In 1324, a king from West Africa set off for Mecca with so much gold that he broke the economy of Cairo.",
+      "date": "1324",
+      "mascot": {
+        "pose": "talk",
+        "poses": [
+          {
+            "t": 2.2,
+            "pose": "point"
+          }
+        ]
+      },
+      "visual": {
+        "kind": "map",
+        "from": {
+          "lon": 12,
+          "lat": 22,
+          "zoom": 1.25
+        },
+        "to": {
+          "lon": -5,
+          "lat": 15,
+          "zoom": 3.6
+        },
+        "events": [
+          {
+            "type": "fill",
+            "countries": [
+              "Mali",
+              "Guinea",
+              "Senegal",
+              "Gambia",
+              "Mauritania"
+            ],
+            "color": "#e0a526",
+            "t": 2.2,
+            "stagger": 0.25
+          },
+          {
+            "type": "label",
+            "at": [
+              -7,
+              21
+            ],
+            "text": "Mali Empire",
+            "t": 2.8,
+            "size": 80,
+            "caps": true,
+            "style": "region",
+            "rotate": -6
+          },
+          {
+            "type": "scatter",
+            "around": [
+              -7,
+              13
+            ],
+            "icon": "gold",
+            "n": 6,
+            "spread": 3,
+            "t": 3.4,
+            "size": 0.55
+          },
+          {
+            "type": "icon",
+            "at": [
+              -8.4,
+              11.4
+            ],
+            "icon": "crown",
+            "t": 3.0,
+            "size": 0.8
+          },
+          {
+            "type": "flag",
+            "at": [
+              -8.4,
+              11.4
+            ],
+            "t": 3.6,
+            "color": "#e0a526"
+          },
+          {
+            "type": "pin",
+            "at": [
+              -8.4,
+              11.4
+            ],
+            "t": 1.4,
+            "label": "Niani"
+          },
+          {
+            "type": "medallion",
+            "at": [
+              -8.4,
+              11.4
+            ],
+            "t": 2.2,
+            "src": "archive/mansa-musa.jpg",
+            "offset": [
+              -360,
+              90
+            ],
+            "size": 230,
+            "label": "Mansa Musa"
+          }
+        ],
+        "intro": "clouds",
+        "introDur": 2.2
+      },
+      "labels": []
+    },
+    {
+      "id": "c01-s02",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Tons of it. Carried across the desert by camels, and handed out like candy.",
+      "mascot": {
+        "pose": "talk",
+        "side": "left"
+      },
+      "visual": {
+        "kind": "gray",
+        "icon": "coins",
+        "iconX": 60,
+        "iconY": 58,
+        "props": [
+          {
+            "icon": "camel",
+            "x": 38,
+            "y": 66,
+            "t": 1.0,
+            "scale": 1.2
+          },
+          {
+            "icon": "bag",
+            "x": 84,
+            "y": 62,
+            "t": 2.0,
+            "scale": 0.45,
+            "anim": "bob"
+          }
+        ]
+      },
+      "labels": [
+        {
+          "text": "tons",
+          "x": 72,
+          "y": 20,
+          "at": 0.4,
+          "size": 70,
+          "color": "#f2a13a"
+        },
+        {
+          "text": "of gold",
+          "x": 74,
+          "y": 31,
+          "at": 0.9,
+          "size": 70,
+          "color": "#f2c230",
+          "emph": "underline"
+        }
+      ]
+    },
+    {
+      "id": "c01-s03",
+      "type": "skit",
+      "speaker": "CAIRO_OFFICIAL",
+      "text": "Your Majesty, you have given gold to every merchant in Cairo.",
+      "date": "1324",
+      "visual": {
+        "kind": "scene",
+        "set": "palace",
+        "cast": [
+          {
+            "id": "CAIRO_OFFICIAL",
+            "x": 30,
+            "pose": "talk"
+          },
+          {
+            "id": "MANSA_MUSA",
+            "x": 70,
+            "pose": "happy",
+            "flip": true,
+            "enter": "right"
+          }
+        ],
+        "props": [
+          {
+            "icon": "chest",
+            "x": 50,
+            "y": 78,
+            "t": 0,
+            "scale": 0.42,
+            "anim": "none"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c01-s04",
+      "type": "skit",
+      "speaker": "MANSA_MUSA",
+      "text": "Generosity is the duty of a king.",
+      "date": "1324",
+      "visual": {
+        "kind": "scene",
+        "set": "palace",
+        "cast": [
+          {
+            "id": "CAIRO_OFFICIAL",
+            "x": 30,
+            "pose": "talk"
+          },
+          {
+            "id": "MANSA_MUSA",
+            "x": 70,
+            "pose": "happy",
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "icon": "chest",
+            "x": 50,
+            "y": 78,
+            "t": 0,
+            "scale": 0.42,
+            "anim": "none"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c01-s05",
+      "type": "skit",
+      "speaker": "CAIRO_OFFICIAL",
+      "text": "Gold is now cheaper than bread.",
+      "date": "1324",
+      "visual": {
+        "kind": "scene",
+        "set": "palace",
+        "cast": [
+          {
+            "id": "CAIRO_OFFICIAL",
+            "x": 30,
+            "pose": "shrug"
+          },
+          {
+            "id": "MANSA_MUSA",
+            "x": 70,
+            "pose": "talk",
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "icon": "chest",
+            "x": 50,
+            "y": 78,
+            "t": 0,
+            "scale": 0.42,
+            "anim": "none"
+          },
+          {
+            "icon": "exclaim",
+            "x": 30,
+            "y": 34,
+            "t": 0.5,
+            "scale": 0.55,
+            "anim": "shake"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c01-s06",
+      "type": "skit",
+      "speaker": "MANSA_MUSA",
+      "text": "Ah. Is that... a problem?",
+      "date": "1324",
+      "visual": {
+        "kind": "scene",
+        "set": "palace",
+        "cast": [
+          {
+            "id": "CAIRO_OFFICIAL",
+            "x": 30,
+            "pose": "angry"
+          },
+          {
+            "id": "MANSA_MUSA",
+            "x": 70,
+            "pose": "confused",
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "icon": "chest",
+            "x": 50,
+            "y": 78,
+            "t": 0,
+            "scale": 0.42,
+            "anim": "none"
+          },
+          {
+            "icon": "question",
+            "x": 70,
+            "y": 30,
+            "t": 0.4,
+            "scale": 0.4,
+            "anim": "bob"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c01-s07",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "This really happened. Twelve years later, a writer in Cairo reported that the value of gold there still had not recovered.",
+      "mascot": {
+        "pose": "confused",
+        "side": "left"
+      },
+      "visual": {
+        "kind": "gray",
+        "icon": "question",
+        "iconX": 64,
+        "iconY": 46,
+        "iconScale": 0.6,
+        "props": [
+          {
+            "icon": "scroll",
+            "x": 44,
+            "y": 64,
+            "t": 1.0,
+            "scale": 1.3
+          },
+          {
+            "icon": "hourglass",
+            "x": 84,
+            "y": 60,
+            "t": 2.4,
+            "scale": 0.42,
+            "anim": "spin"
+          }
+        ]
+      },
+      "labels": [
+        {
+          "text": "this really happened",
+          "x": 60,
+          "y": 16,
+          "at": 0.3,
+          "size": 62,
+          "emph": "underline"
+        }
+      ]
+    },
+    {
+      "id": "c01-s08",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "His caravan crossed the Sahara, stopped in Cairo, and finally reached Mecca, handing out gold the whole way.",
+      "date": "1324",
+      "mascot": {
+        "pose": "point",
+        "poses": [
+          {
+            "t": 4.5,
+            "pose": "happy"
+          }
+        ]
+      },
+      "visual": {
+        "kind": "map",
+        "from": {
+          "lon": -5,
+          "lat": 15,
+          "zoom": 3.6
+        },
+        "keys": [
+          {
+            "t": 2.5,
+            "view": {
+              "lon": 10,
+              "lat": 22,
+              "zoom": 2.6
+            }
+          },
+          {
+            "t": 6.0,
+            "view": {
+              "lon": 24,
+              "lat": 24,
+              "zoom": 2.8
+            }
+          }
+        ],
+        "events": [
+          {
+            "type": "move",
+            "path": [
+              [
+                -8.4,
+                11.4
+              ],
+              [
+                -3.0,
+                16.77
+              ],
+              [
+                10,
+                26
+              ],
+              [
+                31.2,
+                30.0
+              ],
+              [
+                39.8,
+                21.4
+              ]
+            ],
+            "icon": "camel",
+            "count": 5,
+            "t": 0.3,
+            "dur": 6.5,
+            "label": "the caravan"
+          },
+          {
+            "type": "label",
+            "at": [
+              -1,
+              25
+            ],
+            "text": "SAHARA",
+            "t": 1.4,
+            "size": 90,
+            "caps": true,
+            "style": "region",
+            "rotate": -4
+          },
+          {
+            "type": "scatter",
+            "around": [
+              31.2,
+              30.0
+            ],
+            "icon": "gold",
+            "n": 7,
+            "spread": 2.2,
+            "t": 4.2,
+            "size": 0.45
+          },
+          {
+            "type": "icon",
+            "at": [
+              39.8,
+              21.4
+            ],
+            "icon": "mosque",
+            "t": 5.8,
+            "size": 0.9,
+            "label": "Mecca"
+          },
+          {
+            "type": "scatter",
+            "around": [
+              2,
+              22
+            ],
+            "icon": "tent",
+            "n": 4,
+            "spread": 5,
+            "t": 1.6,
+            "size": 0.5
+          },
+          {
+            "type": "pin",
+            "at": [
+              31.2,
+              30.0
+            ],
+            "t": 3.6,
+            "label": "Cairo"
+          }
+        ]
+      },
+      "labels": []
+    },
+    {
+      "id": "c01-s09b",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Salt came south from the desert mines, gold went north to the Mediterranean, and Mali sat right in the middle, taxing both.",
+      "mascot": {
+        "pose": "talk",
+        "poses": [
+          {
+            "t": 5.5,
+            "pose": "happy"
+          }
+        ]
+      },
+      "visual": {
+        "kind": "map",
+        "from": {
+          "lon": -6.5,
+          "lat": 17.5,
+          "zoom": 5.0
+        },
+        "to": {
+          "lon": -6.5,
+          "lat": 17.0,
+          "zoom": 5.6
+        },
+        "events": [
+          {
+            "type": "icon",
+            "at": [
+              -4.4,
+              23.6
+            ],
+            "icon": "salt",
+            "t": 0.3,
+            "size": 0.9,
+            "label": "salt"
+          },
+          {
+            "type": "move",
+            "path": [
+              [
+                -4.4,
+                23.6
+              ],
+              [
+                -3.6,
+                20
+              ],
+              [
+                -3.0,
+                16.77
+              ]
+            ],
+            "icon": "camel",
+            "count": 3,
+            "t": 0.9,
+            "dur": 3.2,
+            "color": "#f4f1ea"
+          },
+          {
+            "type": "icon",
+            "at": [
+              -11.2,
+              13.6
+            ],
+            "icon": "gold",
+            "t": 2.2,
+            "size": 0.9,
+            "label": "gold"
+          },
+          {
+            "type": "flow",
+            "path": [
+              [
+                -11.2,
+                13.6
+              ],
+              [
+                -8,
+                12.65
+              ],
+              [
+                -3.0,
+                16.77
+              ],
+              [
+                -4.3,
+                25
+              ],
+              [
+                -4.3,
+                31.3
+              ]
+            ],
+            "t": 2.6,
+            "color": "#ffd34d"
+          },
+          {
+            "type": "flow",
+            "path": [
+              [
+                -4.4,
+                23.6
+              ],
+              [
+                -3.6,
+                20
+              ],
+              [
+                -3.0,
+                16.77
+              ],
+              [
+                -8.0,
+                12.65
+              ]
+            ],
+            "t": 1.4,
+            "color": "#ffffff"
+          },
+          {
+            "type": "label",
+            "at": [
+              -20,
+              15.5
+            ],
+            "text": "TAX!",
+            "t": 4.6,
+            "size": 74,
+            "caps": true,
+            "color": "#ffd34d"
+          },
+          {
+            "type": "scatter",
+            "around": [
+              -7.4,
+              9.6
+            ],
+            "icon": "gold",
+            "n": 5,
+            "spread": 0.9,
+            "t": 5.4,
+            "size": 0.4
+          },
+          {
+            "type": "icon",
+            "at": [
+              -7.4,
+              10.6
+            ],
+            "icon": "castle",
+            "t": 3.8,
+            "size": 0.9
+          },
+          {
+            "type": "pin",
+            "at": [
+              -3.0,
+              16.77
+            ],
+            "t": 1.0,
+            "label": "Timbuktu"
+          }
+        ]
+      },
+      "labels": []
+    },
+    {
+      "id": "c01-s11b",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Around 1235, his army met the Sosso king Sumanguru near Kirina, and the battle that followed decided who would rule the region.",
+      "date": "c. 1235",
+      "mascot": {
+        "pose": "talk",
+        "poses": [
+          {
+            "t": 3.0,
+            "pose": "angry"
+          }
+        ]
+      },
+      "visual": {
+        "kind": "map",
+        "from": {
+          "lon": -7.9,
+          "lat": 13.1,
+          "zoom": 28
+        },
+        "to": {
+          "lon": -7.7,
+          "lat": 13.0,
+          "zoom": 36
+        },
+        "events": [
+          {
+            "type": "move",
+            "path": [
+              [
+                -9.4,
+                12.2
+              ],
+              [
+                -8.6,
+                12.5
+              ],
+              [
+                -7.85,
+                12.82
+              ]
+            ],
+            "icon": "soldier",
+            "count": 6,
+            "t": 0.3,
+            "dur": 3.0,
+            "color": "#b23a2a",
+            "label": "Sundiata"
+          },
+          {
+            "type": "move",
+            "path": [
+              [
+                -6.6,
+                14.1
+              ],
+              [
+                -7.1,
+                13.6
+              ],
+              [
+                -7.38,
+                13.0
+              ]
+            ],
+            "icon": "horse",
+            "count": 5,
+            "t": 0.6,
+            "dur": 3.0,
+            "color": "#2d5a7b",
+            "label": "Sumanguru"
+          },
+          {
+            "type": "battle",
+            "at": [
+              -7.6,
+              12.9
+            ],
+            "t": 3.4
+          },
+          {
+            "type": "label",
+            "at": [
+              -7.6,
+              13.55
+            ],
+            "text": "Kirina",
+            "t": 3.6,
+            "size": 56
+          },
+          {
+            "type": "label",
+            "at": [
+              -6.9,
+              13.32
+            ],
+            "text": "Niger",
+            "t": 0.5,
+            "size": 44,
+            "color": "#cfe8ff"
+          },
+          {
+            "type": "flag",
+            "at": [
+              -9.4,
+              12.2
+            ],
+            "t": 0.2,
+            "color": "#b23a2a"
+          },
+          {
+            "type": "flag",
+            "at": [
+              -6.6,
+              14.1
+            ],
+            "t": 0.4,
+            "color": "#2d5a7b"
+          },
+          {
+            "type": "flag",
+            "at": [
+              -7.55,
+              12.95
+            ],
+            "t": 5.0,
+            "color": "#b23a2a"
+          }
+        ],
+        "rivers": [
+          {
+            "points": [
+              [
+                -10.7,
+                9.1
+              ],
+              [
+                -8.0,
+                12.65
+              ],
+              [
+                -6.27,
+                13.43
+              ],
+              [
+                -4.2,
+                14.5
+              ]
+            ],
+            "at": 0
+          }
+        ]
+      }
+    }
+  ]
+}
