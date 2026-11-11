@@ -18,7 +18,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@fontsource/inter": "^5.1.0",
+    "@fontsource/inter": "^5.3.0",
     "@fontsource/kalam": "^5.1.0",
     "@fontsource/patrick-hand": "^5.1.0",
     "@remotion/cli": "^4.0.290",

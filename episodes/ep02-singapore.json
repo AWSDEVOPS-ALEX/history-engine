@@ -159,138 +159,213 @@
     {
       "type": "narration",
       "speaker": "NARRATOR",
-      "text": "This tiny island is richer than the United States. Richer than Germany. Richer than almost anywhere on Earth.",
+      "text": "On the ninth of August 1965, a prime minister sat in front of television cameras and broke down in tears.",
       "visual": {
-        "kind": "map",
-        "from": { "lon": 103.82, "lat": 1.35, "zoom": 2 },
-        "to":   { "lon": 103.82, "lat": 1.35, "zoom": 10 },
-        "events": [
+        "kind": "scene",
+        "set": "palace",
+        "cam": {
+          "x": 50,
+          "y": 50,
+          "from": 1,
+          "to": 1.08
+        },
+        "cast": [
           {
-            "type": "pulse",
-            "at": [103.82, 1.35],
-            "t": 0.4,
-            "color": "#f1c40f"
-          },
+            "id": "LEE_KY",
+            "x": 50,
+            "pose": "confused",
+            "flip": false
+          }
+        ],
+        "props": [
           {
-            "type": "pulse",
-            "at": [103.82, 1.35],
-            "t": 1.1,
-            "color": "#f1c40f"
-          },
-          {
-            "type": "nation",
-            "at": [103.82, 1.35],
-            "t": 1.6,
-            "code": "sg",
-            "label": "Singapore"
-          },
-          {
-            "type": "label",
-            "at": [103.82, 2.6],
-            "t": 2.0,
-            "text": "$107,000 / person",
-            "size": 32,
-            "color": "#f1c40f",
-            "caps": false
+            "icon": "scroll",
+            "x": 72,
+            "y": 68,
+            "scale": 0.7,
+            "anim": "none"
           }
         ]
       },
-      "id": "hook-s01"
+      "date": "1965",
+      "id": "hook-s01",
+      "audio": "audio/ep02-singapore/hook-s01.mp3",
+      "durationSec": 8.37
     },
     {
       "type": "narration",
       "speaker": "NARRATOR",
-      "text": "And sixty years ago it had nothing. No oil. No gold. No farmland. Not even enough water to drink.",
+      "text": "His country had just been thrown out of the nation it had joined only two years earlier. It was now on its own.",
       "visual": {
         "kind": "map",
-        "from": { "lon": 103.82, "lat": 1.35, "zoom": 10 },
-        "to":   { "lon": 103.82, "lat": 1.35, "zoom": 4.5 },
+        "from": {
+          "lon": 109,
+          "lat": 4,
+          "zoom": 4.2
+        },
+        "to": {
+          "lon": 103.82,
+          "lat": 1.35,
+          "zoom": 9
+        },
+        "events": [
+          {
+            "type": "fill",
+            "countries": [
+              "MYS"
+            ],
+            "t": 0,
+            "color": "#c0392b",
+            "stagger": 0
+          },
+          {
+            "type": "pulse",
+            "at": [
+              103.82,
+              1.35
+            ],
+            "t": 0.5,
+            "color": "#f39c12"
+          },
+          {
+            "type": "nation",
+            "at": [
+              103.82,
+              1.35
+            ],
+            "t": 1,
+            "code": "sg",
+            "label": "Singapore — alone"
+          },
+          {
+            "type": "label",
+            "at": [
+              109.5,
+              4
+            ],
+            "t": 0.8,
+            "text": "EXPELLED",
+            "size": 32,
+            "color": "#e74c3c",
+            "caps": true
+          }
+        ]
+      },
+      "date": "1965",
+      "id": "hook-s02",
+      "audio": "audio/ep02-singapore/hook-s02.mp3",
+      "durationSec": 7.39
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "And on paper, it had almost no chance.",
+      "visual": {
+        "kind": "action",
+        "name": "scales",
+        "left": {
+          "icon": "crown",
+          "label": "The odds"
+        },
+        "right": {
+          "icon": "coins",
+          "label": "Singapore"
+        },
+        "tilt": 35,
+        "bg": "night-city"
+      },
+      "mascot": {
+        "pose": "confused"
+      },
+      "id": "hook-s03",
+      "audio": "audio/ep02-singapore/hook-s03.mp3",
+      "durationSec": 3.15
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "It was a small island, smaller than the city of London. No oil. No gold. No farmland. Not even enough fresh water for its own people.",
+      "visual": {
+        "kind": "map",
+        "from": {
+          "lon": 103.82,
+          "lat": 1.35,
+          "zoom": 5
+        },
+        "to": {
+          "lon": 103.82,
+          "lat": 1.35,
+          "zoom": 6
+        },
         "events": [
           {
             "type": "nation",
-            "at": [103.82, 1.35],
+            "at": [
+              103.82,
+              1.35
+            ],
             "t": 0,
             "code": "sg",
             "label": "Singapore"
           },
           {
+            "type": "pulse",
+            "at": [
+              103.82,
+              1.35
+            ],
+            "t": 0,
+            "color": "#e74c3c"
+          },
+          {
             "type": "callout",
-            "at": [94.0, 14.0],
-            "t": 0.4,
+            "at": [
+              96,
+              8
+            ],
+            "t": 0.3,
             "icon": "oil",
             "label": "NO OIL",
-            "side": "right",
-            "pos": "above"
+            "side": "right"
           },
           {
             "type": "callout",
-            "at": [116.0, 13.0],
-            "t": 1.0,
+            "at": [
+              112,
+              7
+            ],
+            "t": 0.7,
             "icon": "gold",
             "label": "NO GOLD",
-            "side": "left",
-            "pos": "above"
+            "side": "left"
           },
           {
             "type": "callout",
-            "at": [94.0, -9.0],
-            "t": 1.6,
+            "at": [
+              96,
+              -6
+            ],
+            "t": 1.1,
             "icon": "wheat",
             "label": "NO FARMLAND",
-            "side": "right",
-            "pos": "below"
+            "side": "right"
           },
           {
             "type": "callout",
-            "at": [116.0, -9.0],
-            "t": 2.2,
+            "at": [
+              112,
+              -6
+            ],
+            "t": 1.5,
             "icon": "water",
             "label": "NO WATER",
-            "side": "left",
-            "pos": "below"
+            "side": "left"
           }
         ]
       },
-      "id": "hook-s02"
-    },
-    {
-      "type": "narration",
-      "speaker": "NARRATOR",
-      "text": "The average person earned five hundred dollars a year. The same as Mexico. A third of what people made in Britain.",
-      "visual": {
-        "kind": "action",
-        "name": "bars",
-        "bg": "street",
-        "bars": [
-          { "label": "Singapore", "value": 500,  "color": "#c0392b", "flag": "sg" },
-          { "label": "Mexico",    "value": 490,  "color": "#e67e22" },
-          { "label": "UK",        "value": 1400, "color": "#2ecc71", "flag": "gb" },
-          { "label": "USA",       "value": 3600, "color": "#3498db", "flag": "us" }
-        ],
-        "hideValues": false,
-        "labels": [
-          { "text": "GDP per person, 1965 (USD)", "x": 50, "y": 10, "at": 0.4, "size": 54 }
-        ]
-      },
-      "id": "hook-s03"
-    },
-    {
-      "type": "narration",
-      "speaker": "NARRATOR",
-      "text": "On the ninth of August 1965, the man who had to fix all of this sat down in front of television cameras \u2014 and wept.",
-      "visual": {
-        "kind": "scene",
-        "set": "palace",
-        "cam": { "x": 50, "y": 60, "from": 1.6, "to": 1.9 },
-        "cast": [
-          { "id": "LEE_KY", "x": 50, "pose": "shrug", "flip": false }
-        ],
-        "props": [
-          { "icon": "scroll", "x": 68, "y": 66, "scale": 0.65, "anim": "none" }
-        ]
-      },
-      "date": "1965",
-      "id": "hook-s04"
+      "id": "hook-s04",
+      "audio": "audio/ep02-singapore/hook-s04.mp3",
+      "durationSec": 10.79
     },
     {
       "type": "narration",
@@ -322,45 +397,220 @@
       "mascot": {
         "pose": "confused"
       },
-      "id": "hook-s05"
+      "id": "hook-s05",
+      "audio": "audio/ep02-singapore/hook-s05.mp3",
+      "durationSec": 8.61
     },
     {
       "type": "narration",
       "speaker": "NARRATOR",
-      "text": "Now look at it today. In 2026, the average Singaporean earns over a hundred and seven thousand dollars a year.",
+      "text": "The average person earned around five hundred dollars a year. About the same as Mexico or South Africa at the time.",
+      "visual": {
+        "kind": "action",
+        "name": "bars",
+        "bg": "street",
+        "bars": [
+          {
+            "label": "Singapore",
+            "value": 500,
+            "color": "#c0392b",
+            "flag": "sg"
+          },
+          {
+            "label": "Mexico",
+            "value": 490,
+            "color": "#e67e22"
+          },
+          {
+            "label": "USA",
+            "value": 3600,
+            "color": "#3498db",
+            "flag": "us"
+          },
+          {
+            "label": "UK",
+            "value": 1400,
+            "color": "#2ecc71",
+            "flag": "gb"
+          }
+        ],
+        "hideValues": false,
+        "labels": [
+          {
+            "text": "GDP per person, 1965 (USD)",
+            "x": 50,
+            "y": 10,
+            "at": 0.4,
+            "size": 54
+          }
+        ]
+      },
+      "id": "hook-s06",
+      "audio": "audio/ep02-singapore/hook-s06.mp3",
+      "durationSec": 7.63
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "That country was Singapore.",
+      "visual": {
+        "kind": "map",
+        "from": {
+          "lon": 103.82,
+          "lat": 1.35,
+          "zoom": 4
+        },
+        "to": {
+          "lon": 103.82,
+          "lat": 1.35,
+          "zoom": 9
+        },
+        "events": [
+          {
+            "type": "nation",
+            "at": [
+              103.82,
+              1.35
+            ],
+            "t": 0.3,
+            "code": "sg",
+            "label": "Singapore"
+          },
+          {
+            "type": "pulse",
+            "at": [
+              103.82,
+              1.35
+            ],
+            "t": 0.3,
+            "color": "#f39c12"
+          },
+          {
+            "type": "pulse",
+            "at": [
+              103.82,
+              1.35
+            ],
+            "t": 1.1,
+            "color": "#e74c3c"
+          },
+          {
+            "type": "label",
+            "at": [
+              103.82,
+              2.2
+            ],
+            "t": 0.6,
+            "text": "SINGAPORE",
+            "size": 36,
+            "color": "#f1c40f",
+            "caps": true
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "talk"
+      },
+      "id": "hook-s07",
+      "audio": "audio/ep02-singapore/hook-s07.mp3",
+      "durationSec": 2.2
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Now look at it today. In 2026, the average Singaporean produces more than a hundred and seven thousand dollars a year.",
       "visual": {
         "kind": "action",
         "name": "bars",
         "bg": "skyline",
         "bars": [
-          { "label": "Singapore", "value": 107000, "color": "#f2d27a", "flag": "sg" },
-          { "label": "USA",       "value": 86000,  "color": "#3498db", "flag": "us" },
-          { "label": "Germany",   "value": 55000,  "color": "#e67e22", "flag": "de" },
-          { "label": "UK",        "value": 49000,  "color": "#2ecc71", "flag": "gb" }
+          {
+            "label": "Singapore",
+            "value": 107000,
+            "color": "#f2d27a",
+            "flag": "sg"
+          },
+          {
+            "label": "USA",
+            "value": 86000,
+            "color": "#3498db",
+            "flag": "us"
+          },
+          {
+            "label": "UK",
+            "value": 49000,
+            "color": "#2ecc71",
+            "flag": "gb"
+          },
+          {
+            "label": "Germany",
+            "value": 55000,
+            "color": "#e67e22",
+            "flag": "de"
+          }
         ],
         "hideValues": false,
         "labels": [
-          { "text": "GDP per person, 2026 (USD)", "x": 50, "y": 10, "at": 0.4, "size": 54 }
+          {
+            "text": "GDP per person, 2026 (USD)",
+            "x": 50,
+            "y": 10,
+            "at": 0.4,
+            "size": 54
+          }
         ]
       },
-      "id": "hook-s06"
+      "id": "hook-s08",
+      "audio": "audio/ep02-singapore/hook-s08.mp3",
+      "durationSec": 8.9
     },
     {
       "type": "narration",
       "speaker": "NARRATOR",
-      "text": "More than the average American. More than the British. More than the Germans. The same island. One lifetime.",
+      "text": "That is more than the average American. More than the British, the French and the Germans. One of the highest figures on Earth.",
       "visual": {
         "kind": "action",
-        "name": "pricetag",
-        "from": 500,
-        "to": 107000,
-        "prefix": "$",
-        "suffix": "/yr",
-        "item": "GDP per person",
-        "bg": "bank"
+        "name": "bars",
+        "bars": [
+          {
+            "label": "Singapore",
+            "value": 107000,
+            "color": "#e74c3c",
+            "flag": "sg"
+          },
+          {
+            "label": "USA",
+            "value": 80000,
+            "color": "#3498db",
+            "flag": "us"
+          },
+          {
+            "label": "Germany",
+            "value": 54000,
+            "color": "#f1c40f",
+            "flag": "de"
+          },
+          {
+            "label": "UK",
+            "value": 49000,
+            "color": "#2ecc71",
+            "flag": "gb"
+          },
+          {
+            "label": "France",
+            "value": 46000,
+            "color": "#9b59b6",
+            "flag": "fr"
+          }
+        ],
+        "bg": "market"
       },
-      "mascot": { "pose": "happy" },
-      "id": "hook-s07"
+      "mascot": {
+        "pose": "happy"
+      },
+      "id": "hook-s09",
+      "audio": "audio/ep02-singapore/hook-s09.mp3",
+      "durationSec": 8.61
     },
     {
       "type": "narration",
@@ -373,7 +623,30 @@
         "n": 10,
         "seed": 22
       },
-      "id": "hook-s10"
+      "id": "hook-s10",
+      "audio": "audio/ep02-singapore/hook-s10.mp3",
+      "durationSec": 8.09
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "So how does a swamp with nothing go from five hundred dollars to more than a hundred thousand in one lifetime?",
+      "visual": {
+        "kind": "action",
+        "name": "pricetag",
+        "from": 500,
+        "to": 107000,
+        "prefix": "$",
+        "suffix": "/yr",
+        "item": "GDP per person",
+        "bg": "bank"
+      },
+      "mascot": {
+        "pose": "confused"
+      },
+      "id": "hook-s11",
+      "audio": "audio/ep02-singapore/hook-s11.mp3",
+      "durationSec": 6.39
     },
     {
       "type": "narration",
@@ -393,7 +666,9 @@
         "tilt": -28,
         "bg": "desert"
       },
-      "id": "hook-s12"
+      "id": "hook-s12",
+      "audio": "audio/ep02-singapore/hook-s12.mp3",
+      "durationSec": 5.25
     },
     {
       "type": "narration",
@@ -411,7 +686,9 @@
         "roll": "close"
       },
       "date": "1819",
-      "id": "hook-s13"
+      "id": "hook-s13",
+      "audio": "audio/ep02-singapore/hook-s13.mp3",
+      "durationSec": 7.04
     },
     {
       "type": "narration",
@@ -420,21 +697,21 @@
       "visual": {
         "kind": "map",
         "from": {
-          "lon": 95.0,
-          "lat": 10.0,
+          "lon": 95,
+          "lat": 10,
           "zoom": 2.5
         },
         "to": {
           "lon": 103.82,
-          "lat": 5.0,
+          "lat": 5,
           "zoom": 3.5
         },
         "events": [
           {
             "type": "nation",
             "at": [
-              80.0,
-              20.0
+              80,
+              20
             ],
             "t": 0,
             "code": "in",
@@ -443,8 +720,8 @@
           {
             "type": "nation",
             "at": [
-              116.0,
-              35.0
+              116,
+              35
             ],
             "t": 0.5,
             "code": "cn",
@@ -465,10 +742,10 @@
           {
             "type": "label",
             "at": [
-              110.0,
-              5.0
+              110,
+              5
             ],
-            "t": 1.0,
+            "t": 1,
             "text": "SOUTHEAST ASIA",
             "size": 22,
             "color": "#f1c40f",
@@ -491,7 +768,9 @@
       "mascot": {
         "pose": "point"
       },
-      "id": "ch1-s01"
+      "id": "ch1-s01",
+      "audio": "audio/ep02-singapore/ch1-s01.mp3",
+      "durationSec": 1.98
     },
     {
       "type": "narration",
@@ -576,7 +855,9 @@
           }
         ]
       },
-      "id": "ch1-s02"
+      "id": "ch1-s02",
+      "audio": "audio/ep02-singapore/ch1-s02.mp3",
+      "durationSec": 6.22
     },
     {
       "type": "narration",
@@ -586,7 +867,9 @@
         "kind": "gray",
         "icon": "globe"
       },
-      "id": "ch1-s03"
+      "id": "ch1-s03",
+      "audio": "audio/ep02-singapore/ch1-s03.mp3",
+      "durationSec": 4.2
     },
     {
       "type": "narration",
@@ -648,7 +931,9 @@
           }
         ]
       },
-      "id": "ch1-s04"
+      "id": "ch1-s04",
+      "audio": "audio/ep02-singapore/ch1-s04.mp3",
+      "durationSec": 7.27
     },
     {
       "type": "narration",
@@ -660,7 +945,7 @@
         "cam": {
           "x": 50,
           "y": 50,
-          "from": 1.0,
+          "from": 1,
           "to": 1.06
         },
         "cast": [
@@ -682,7 +967,9 @@
         ]
       },
       "date": "1819",
-      "id": "ch1-s05"
+      "id": "ch1-s05",
+      "audio": "audio/ep02-singapore/ch1-s05.mp3",
+      "durationSec": 8.97
     },
     {
       "type": "narration",
@@ -696,7 +983,9 @@
         "bg": "study"
       },
       "date": "1819",
-      "id": "ch1-s06"
+      "id": "ch1-s06",
+      "audio": "audio/ep02-singapore/ch1-s06.mp3",
+      "durationSec": 9.29
     },
     {
       "type": "narration",
@@ -705,9 +994,9 @@
       "visual": {
         "kind": "map",
         "from": {
-          "lon": 109,
-          "lat": 4,
-          "zoom": 4.2
+          "lon": 103.82,
+          "lat": 1.35,
+          "zoom": 9
         },
         "to": {
           "lon": 109,
@@ -716,56 +1005,96 @@
         },
         "events": [
           {
-            "type": "label",
-            "at": [103.82, 1.35],
-            "text": "Singapore",
+            "type": "move",
+            "path": [
+              [
+                110,
+                22
+              ],
+              [
+                103.82,
+                1.35
+              ]
+            ],
             "t": 0,
-            "word": 0
+            "word": 0,
+            "icon": "ship",
+            "dur": 2,
+            "trail": true
           },
           {
             "type": "move",
-            "path": [[120, 24], [103.82, 1.35]],
-            "t": 0.3,
+            "path": [
+              [
+                74,
+                15
+              ],
+              [
+                103.82,
+                1.35
+              ]
+            ],
+            "t": 0,
+            "word": 2,
+            "icon": "ship",
+            "dur": 2,
+            "trail": true
+          },
+          {
+            "type": "move",
+            "path": [
+              [
+                115,
+                4
+              ],
+              [
+                103.82,
+                1.35
+              ]
+            ],
+            "t": 0,
             "word": 4,
             "icon": "ship",
-            "dur": 1.8,
-            "trail": true,
-            "label": "China"
+            "dur": 2,
+            "trail": true
           },
           {
             "type": "move",
-            "path": [[74, 13], [103.82, 1.35]],
-            "t": 1.5,
+            "path": [
+              [
+                55,
+                25
+              ],
+              [
+                103.82,
+                1.35
+              ]
+            ],
+            "t": 0,
             "word": 6,
             "icon": "ship",
-            "dur": 1.8,
-            "trail": true,
-            "label": "India"
-          },
-          {
-            "type": "move",
-            "path": [[110, 5], [103.82, 1.35]],
-            "t": 2.8,
-            "word": 8,
-            "icon": "ship",
-            "dur": 1.5,
-            "trail": true,
-            "label": "Malay world"
+            "dur": 2,
+            "trail": true
           },
           {
             "type": "callout",
-            "at": [103.82, 1.35],
-            "t": 4.2,
-            "word": 10,
-            "label": "Free port — no taxes",
+            "at": [
+              103.82,
+              1.35
+            ],
+            "t": 0,
+            "word": 8,
+            "label": "Free port - no taxes",
             "side": "right",
-            "persist": true,
-            "focus": false,
+            "persist": false,
+            "focus": true,
             "icon": "banknotes"
           }
         ]
       },
-      "id": "ch1-s07"
+      "id": "ch1-s07",
+      "audio": "audio/ep02-singapore/ch1-s07.mp3",
+      "durationSec": 6.58
     },
     {
       "type": "narration",
@@ -775,7 +1104,9 @@
         "kind": "gray",
         "icon": "globe"
       },
-      "id": "ch1-s08"
+      "id": "ch1-s08",
+      "audio": "audio/ep02-singapore/ch1-s08.mp3",
+      "durationSec": 5.33
     },
     {
       "type": "narration",
@@ -798,7 +1129,9 @@
       "mascot": {
         "pose": "confused"
       },
-      "id": "ch1-s09"
+      "id": "ch1-s09",
+      "audio": "audio/ep02-singapore/ch1-s09.mp3",
+      "durationSec": 6.29
     },
     {
       "type": "narration",
@@ -808,19 +1141,19 @@
         "kind": "map",
         "from": {
           "lon": 103.82,
-          "lat": 3.0,
+          "lat": 3,
           "zoom": 6
         },
         "to": {
           "lon": 103.82,
-          "lat": 2.0,
+          "lat": 2,
           "zoom": 7
         },
         "events": [
           {
             "type": "label",
             "at": [
-              104.0,
+              104,
               3.5
             ],
             "t": 0,
@@ -833,7 +1166,7 @@
             "type": "label",
             "at": [
               101.5,
-              4.0
+              4
             ],
             "t": 0.3,
             "text": "TIN",
@@ -870,7 +1203,9 @@
           }
         ]
       },
-      "id": "ch1-s10"
+      "id": "ch1-s10",
+      "audio": "audio/ep02-singapore/ch1-s10.mp3",
+      "durationSec": 6.39
     },
     {
       "type": "narration",
@@ -903,7 +1238,9 @@
           }
         ]
       },
-      "id": "ch1-s11"
+      "id": "ch1-s11",
+      "audio": "audio/ep02-singapore/ch1-s11.mp3",
+      "durationSec": 5.82
     },
     {
       "type": "narration",
@@ -928,7 +1265,9 @@
       "mascot": {
         "pose": "confused"
       },
-      "id": "ch1-s12"
+      "id": "ch1-s12",
+      "audio": "audio/ep02-singapore/ch1-s12.mp3",
+      "durationSec": 9.36
     },
     {
       "type": "narration",
@@ -974,7 +1313,7 @@
           {
             "type": "callout",
             "at": [
-              104.0,
+              104,
               1.2
             ],
             "t": 1.5,
@@ -999,7 +1338,9 @@
         ]
       },
       "date": "1959",
-      "id": "ch1-s13"
+      "id": "ch1-s13",
+      "audio": "audio/ep02-singapore/ch1-s13.mp3",
+      "durationSec": 8.77
     },
     {
       "type": "narration",
@@ -1009,7 +1350,9 @@
         "kind": "gray",
         "icon": "question"
       },
-      "id": "ch1-s14"
+      "id": "ch1-s14",
+      "audio": "audio/ep02-singapore/ch1-s14.mp3",
+      "durationSec": 5.47
     },
     {
       "type": "skit",
@@ -1032,7 +1375,9 @@
           }
         ]
       },
-      "id": "ch1-s15"
+      "id": "ch1-s15",
+      "audio": "audio/ep02-singapore/ch1-s15.mp3",
+      "durationSec": 2.64
     },
     {
       "type": "skit",
@@ -1055,7 +1400,9 @@
           }
         ]
       },
-      "id": "ch1-s16"
+      "id": "ch1-s16",
+      "audio": "audio/ep02-singapore/ch1-s16.mp3",
+      "durationSec": 3.1
     },
     {
       "type": "skit",
@@ -1065,7 +1412,9 @@
         "kind": "gray",
         "icon": "question"
       },
-      "id": "ch1-s17"
+      "id": "ch1-s17",
+      "audio": "audio/ep02-singapore/ch1-s17.mp3",
+      "durationSec": 5.05
     },
     {
       "type": "skit",
@@ -1088,7 +1437,9 @@
           }
         ]
       },
-      "id": "ch1-s18"
+      "id": "ch1-s18",
+      "audio": "audio/ep02-singapore/ch1-s18.mp3",
+      "durationSec": 2.92
     },
     {
       "type": "narration",
@@ -1100,7 +1451,7 @@
         "cam": {
           "x": 50,
           "y": 50,
-          "from": 1.0,
+          "from": 1,
           "to": 1.06
         },
         "cast": [
@@ -1122,7 +1473,9 @@
         ]
       },
       "date": "1959",
-      "id": "ch1-s19"
+      "id": "ch1-s19",
+      "audio": "audio/ep02-singapore/ch1-s19.mp3",
+      "durationSec": 10.76
     },
     {
       "type": "narration",
@@ -1136,7 +1489,9 @@
         "seed": 11
       },
       "date": "1961",
-      "id": "ch1-s20"
+      "id": "ch1-s20",
+      "audio": "audio/ep02-singapore/ch1-s20.mp3",
+      "durationSec": 10.28
     },
     {
       "type": "narration",
@@ -1162,7 +1517,9 @@
       "mascot": {
         "pose": "happy"
       },
-      "id": "ch1-s21"
+      "id": "ch1-s21",
+      "audio": "audio/ep02-singapore/ch1-s21.mp3",
+      "durationSec": 8.9
     },
     {
       "type": "narration",
@@ -1174,14 +1531,16 @@
         "cam": {
           "x": 50,
           "y": 50,
-          "from": 1.0,
+          "from": 1,
           "to": 1.08
         }
       },
       "mascot": {
         "pose": "point"
       },
-      "id": "ch1-s22"
+      "id": "ch1-s22",
+      "audio": "audio/ep02-singapore/ch1-s22.mp3",
+      "durationSec": 4.29
     },
     {
       "type": "narration",
@@ -1207,7 +1566,9 @@
       "mascot": {
         "pose": "confused"
       },
-      "id": "ch1-s23"
+      "id": "ch1-s23",
+      "audio": "audio/ep02-singapore/ch1-s23.mp3",
+      "durationSec": 9.65
     },
     {
       "type": "narration",
@@ -1270,10 +1631,10 @@
           {
             "type": "label",
             "at": [
-              108.0,
+              108,
               6.5
             ],
-            "t": 1.0,
+            "t": 1,
             "text": "ONE NATION",
             "size": 26,
             "color": "#f1c40f",
@@ -1298,7 +1659,9 @@
         ]
       },
       "date": "1963",
-      "id": "ch1-s24"
+      "id": "ch1-s24",
+      "audio": "audio/ep02-singapore/ch1-s24.mp3",
+      "durationSec": 6.29
     },
     {
       "type": "narration",
@@ -1307,13 +1670,13 @@
       "visual": {
         "kind": "map",
         "from": {
-          "lon": 108.0,
-          "lat": 4.0,
+          "lon": 108,
+          "lat": 4,
           "zoom": 4
         },
         "to": {
-          "lon": 108.0,
-          "lat": 4.0,
+          "lon": 108,
+          "lat": 4,
           "zoom": 5
         },
         "events": [
@@ -1348,10 +1711,10 @@
           {
             "type": "label",
             "at": [
-              108.0,
+              108,
               6.5
             ],
-            "t": 1.0,
+            "t": 1,
             "text": "ONE COUNTRY",
             "size": 26,
             "color": "#f1c40f",
@@ -1359,7 +1722,9 @@
           }
         ]
       },
-      "id": "ch1-s25"
+      "id": "ch1-s25",
+      "audio": "audio/ep02-singapore/ch1-s25.mp3",
+      "durationSec": 4.65
     },
     {
       "type": "narration",
@@ -1378,7 +1743,9 @@
       "mascot": {
         "pose": "confused"
       },
-      "id": "ch1-s26"
+      "id": "ch1-s26",
+      "audio": "audio/ep02-singapore/ch1-s26.mp3",
+      "durationSec": 2.63
     },
     {
       "type": "narration",
@@ -1404,7 +1771,9 @@
       "mascot": {
         "pose": "confused"
       },
-      "id": "ch2-s01"
+      "id": "ch2-s01",
+      "audio": "audio/ep02-singapore/ch2-s01.mp3",
+      "durationSec": 3.09
     },
     {
       "type": "narration",
@@ -1427,7 +1796,9 @@
           }
         ]
       },
-      "id": "ch2-s02"
+      "id": "ch2-s02",
+      "audio": "audio/ep02-singapore/ch2-s02.mp3",
+      "durationSec": 10.76
     },
     {
       "type": "narration",
@@ -1441,7 +1812,9 @@
         "seed": 4
       },
       "date": "1964",
-      "id": "ch2-s03"
+      "id": "ch2-s03",
+      "audio": "audio/ep02-singapore/ch2-s03.mp3",
+      "durationSec": 7.27
     },
     {
       "type": "narration",
@@ -1450,8 +1823,8 @@
       "visual": {
         "kind": "map",
         "from": {
-          "lon": 108.0,
-          "lat": 4.0,
+          "lon": 108,
+          "lat": 4,
           "zoom": 5
         },
         "to": {
@@ -1482,7 +1855,7 @@
             "type": "arrow",
             "from": [
               109.5,
-              3.0
+              3
             ],
             "to": [
               103.82,
@@ -1497,7 +1870,7 @@
               106.5,
               2.2
             ],
-            "t": 1.0,
+            "t": 1,
             "text": "OUT",
             "size": 42,
             "color": "#e74c3c",
@@ -1508,7 +1881,9 @@
       "mascot": {
         "pose": "angry"
       },
-      "id": "ch2-s04"
+      "id": "ch2-s04",
+      "audio": "audio/ep02-singapore/ch2-s04.mp3",
+      "durationSec": 6.58
     },
     {
       "type": "narration",
@@ -1535,7 +1910,9 @@
         ]
       },
       "date": "1965",
-      "id": "ch2-s05"
+      "id": "ch2-s05",
+      "audio": "audio/ep02-singapore/ch2-s05.mp3",
+      "durationSec": 8.37
     },
     {
       "type": "narration",
@@ -1570,7 +1947,7 @@
             ],
             "t": 0,
             "code": "sg",
-            "label": "Singapore \u2014 alone"
+            "label": "Singapore — alone"
           },
           {
             "type": "pulse",
@@ -1607,7 +1984,9 @@
       "mascot": {
         "pose": "angry"
       },
-      "id": "ch2-s06"
+      "id": "ch2-s06",
+      "audio": "audio/ep02-singapore/ch2-s06.mp3",
+      "durationSec": 1.92
     },
     {
       "type": "narration",
@@ -1618,7 +1997,9 @@
         "icon": "question"
       },
       "date": "1965",
-      "id": "ch2-s07"
+      "id": "ch2-s07",
+      "audio": "audio/ep02-singapore/ch2-s07.mp3",
+      "durationSec": 4.89
     },
     {
       "type": "narration",
@@ -1647,7 +2028,9 @@
       "mascot": {
         "pose": "confused"
       },
-      "id": "ch2-s08"
+      "id": "ch2-s08",
+      "audio": "audio/ep02-singapore/ch2-s08.mp3",
+      "durationSec": 6
     },
     {
       "type": "narration",
@@ -1709,7 +2092,7 @@
           {
             "type": "label",
             "at": [
-              108.0,
+              108,
               0.5
             ],
             "t": 1.3,
@@ -1720,7 +2103,9 @@
           }
         ]
       },
-      "id": "ch2-s09"
+      "id": "ch2-s09",
+      "audio": "audio/ep02-singapore/ch2-s09.mp3",
+      "durationSec": 8.15
     },
     {
       "type": "narration",
@@ -1729,20 +2114,20 @@
       "visual": {
         "kind": "map",
         "from": {
-          "lon": 108.0,
-          "lat": 1.0,
+          "lon": 108,
+          "lat": 1,
           "zoom": 4
         },
         "to": {
-          "lon": 108.0,
-          "lat": 1.0,
+          "lon": 108,
+          "lat": 1,
           "zoom": 5
         },
         "events": [
           {
             "type": "nation",
             "at": [
-              115.0,
+              115,
               -2.5
             ],
             "t": 0,
@@ -1762,15 +2147,15 @@
           {
             "type": "battle",
             "at": [
-              109.0,
-              1.0
+              109,
+              1
             ],
             "t": 0.8
           },
           {
             "type": "label",
             "at": [
-              109.0,
+              109,
               -0.5
             ],
             "t": 1.2,
@@ -1784,7 +2169,9 @@
       "mascot": {
         "pose": "confused"
       },
-      "id": "ch2-s10"
+      "id": "ch2-s10",
+      "audio": "audio/ep02-singapore/ch2-s10.mp3",
+      "durationSec": 8.02
     },
     {
       "type": "narration",
@@ -1794,7 +2181,7 @@
         "kind": "map",
         "from": {
           "lon": 103.82,
-          "lat": 2.0,
+          "lat": 2,
           "zoom": 7
         },
         "to": {
@@ -1845,7 +2232,7 @@
             ],
             "icon": "wheat",
             "t": 0.8,
-            "dur": 2.0,
+            "dur": 2,
             "trail": true,
             "label": "Food"
           },
@@ -1863,7 +2250,9 @@
       "mascot": {
         "pose": "confused"
       },
-      "id": "ch2-s11"
+      "id": "ch2-s11",
+      "audio": "audio/ep02-singapore/ch2-s11.mp3",
+      "durationSec": 9.88
     },
     {
       "type": "narration",
@@ -1880,7 +2269,9 @@
         "bg": "night-city",
         "cycle": false
       },
-      "id": "ch2-s12"
+      "id": "ch2-s12",
+      "audio": "audio/ep02-singapore/ch2-s12.mp3",
+      "durationSec": 4.13
     },
     {
       "type": "narration",
@@ -1894,8 +2285,8 @@
           "zoom": 6
         },
         "to": {
-          "lon": 80.0,
-          "lat": 20.0,
+          "lon": 80,
+          "lat": 20,
           "zoom": 3
         },
         "events": [
@@ -1925,7 +2316,7 @@
                 1.35
               ],
               [
-                0.0,
+                0,
                 51.5
               ]
             ],
@@ -1938,8 +2329,8 @@
           {
             "type": "label",
             "at": [
-              60.0,
-              20.0
+              60,
+              20
             ],
             "t": 1.5,
             "text": "EAST OF SUEZ WITHDRAWAL",
@@ -1953,7 +2344,7 @@
               103.82,
               1.35
             ],
-            "t": 2.0,
+            "t": 2,
             "label": "30,000 jobs gone",
             "icon": "coins",
             "side": "right",
@@ -1962,7 +2353,9 @@
         ]
       },
       "date": "1967",
-      "id": "ch2-s13"
+      "id": "ch2-s13",
+      "audio": "audio/ep02-singapore/ch2-s13.mp3",
+      "durationSec": 13.55
     },
     {
       "type": "skit",
@@ -1985,7 +2378,9 @@
           }
         ]
       },
-      "id": "ch2-s14"
+      "id": "ch2-s14",
+      "audio": "audio/ep02-singapore/ch2-s14.mp3",
+      "durationSec": 1.82
     },
     {
       "type": "skit",
@@ -2008,7 +2403,9 @@
           }
         ]
       },
-      "id": "ch2-s15"
+      "id": "ch2-s15",
+      "audio": "audio/ep02-singapore/ch2-s15.mp3",
+      "durationSec": 1.22
     },
     {
       "type": "skit",
@@ -2018,7 +2415,9 @@
         "kind": "gray",
         "icon": "question"
       },
-      "id": "ch2-s16"
+      "id": "ch2-s16",
+      "audio": "audio/ep02-singapore/ch2-s16.mp3",
+      "durationSec": 3.84
     },
     {
       "type": "skit",
@@ -2041,7 +2440,9 @@
           }
         ]
       },
-      "id": "ch2-s17"
+      "id": "ch2-s17",
+      "audio": "audio/ep02-singapore/ch2-s17.mp3",
+      "durationSec": 2.17
     },
     {
       "type": "skit",
@@ -2051,7 +2452,9 @@
         "kind": "gray",
         "icon": "coins"
       },
-      "id": "ch2-s18"
+      "id": "ch2-s18",
+      "audio": "audio/ep02-singapore/ch2-s18.mp3",
+      "durationSec": 4.08
     },
     {
       "type": "skit",
@@ -2074,7 +2477,9 @@
           }
         ]
       },
-      "id": "ch2-s19"
+      "id": "ch2-s19",
+      "audio": "audio/ep02-singapore/ch2-s19.mp3",
+      "durationSec": 2.11
     },
     {
       "type": "skit",
@@ -2097,7 +2502,9 @@
           }
         ]
       },
-      "id": "ch2-s20"
+      "id": "ch2-s20",
+      "audio": "audio/ep02-singapore/ch2-s20.mp3",
+      "durationSec": 1.75
     },
     {
       "type": "skit",
@@ -2107,7 +2514,9 @@
         "kind": "gray",
         "icon": "coins"
       },
-      "id": "ch2-s21"
+      "id": "ch2-s21",
+      "audio": "audio/ep02-singapore/ch2-s21.mp3",
+      "durationSec": 6.46
     },
     {
       "type": "skit",
@@ -2130,7 +2539,9 @@
           }
         ]
       },
-      "id": "ch2-s22"
+      "id": "ch2-s22",
+      "audio": "audio/ep02-singapore/ch2-s22.mp3",
+      "durationSec": 1.23
     },
     {
       "type": "narration",
@@ -2156,7 +2567,9 @@
       "mascot": {
         "pose": "confused"
       },
-      "id": "ch2-s23"
+      "id": "ch2-s23",
+      "audio": "audio/ep02-singapore/ch2-s23.mp3",
+      "durationSec": 9.48
     },
     {
       "type": "narration",
@@ -2179,7 +2592,9 @@
       "mascot": {
         "pose": "angry"
       },
-      "id": "ch2-s24"
+      "id": "ch2-s24",
+      "audio": "audio/ep02-singapore/ch2-s24.mp3",
+      "durationSec": 8.55
     },
     {
       "type": "narration",
@@ -2192,7 +2607,9 @@
       "mascot": {
         "pose": "point"
       },
-      "id": "ch2-s25"
+      "id": "ch2-s25",
+      "audio": "audio/ep02-singapore/ch2-s25.mp3",
+      "durationSec": 4
     },
     {
       "type": "narration",
@@ -2208,7 +2625,9 @@
       "mascot": {
         "pose": "happy"
       },
-      "id": "ch2-s26"
+      "id": "ch2-s26",
+      "audio": "audio/ep02-singapore/ch2-s26.mp3",
+      "durationSec": 9.2
     },
     {
       "type": "narration",
@@ -2229,14 +2648,16 @@
         "cam": {
           "x": 50,
           "y": 50,
-          "from": 1.0,
+          "from": 1,
           "to": 1.1
         }
       },
       "mascot": {
         "pose": "point"
       },
-      "id": "ch3-s01"
+      "id": "ch3-s01",
+      "audio": "audio/ep02-singapore/ch3-s01.mp3",
+      "durationSec": 3.38
     },
     {
       "type": "narration",
@@ -2304,7 +2725,9 @@
           }
         ]
       },
-      "id": "ch3-s02"
+      "id": "ch3-s02",
+      "audio": "audio/ep02-singapore/ch3-s02.mp3",
+      "durationSec": 8.96
     },
     {
       "type": "narration",
@@ -2391,7 +2814,9 @@
         ]
       },
       "date": "1962",
-      "id": "ch3-s03"
+      "id": "ch3-s03",
+      "audio": "audio/ep02-singapore/ch3-s03.mp3",
+      "durationSec": 12.37
     },
     {
       "type": "narration",
@@ -2401,12 +2826,14 @@
         "kind": "document",
         "title": "WATER DEAL",
         "sub": "3 Malaysian cents per 1,000 gallons",
-        "stamp": "1962\u20132061",
+        "stamp": "1962–2061",
         "stampAt": 1.2,
         "seal": true,
         "bg": "study"
       },
-      "id": "ch3-s04"
+      "id": "ch3-s04",
+      "audio": "audio/ep02-singapore/ch3-s04.mp3",
+      "durationSec": 11.44
     },
     {
       "type": "narration",
@@ -2421,7 +2848,9 @@
       "mascot": {
         "pose": "confused"
       },
-      "id": "ch3-s05"
+      "id": "ch3-s05",
+      "audio": "audio/ep02-singapore/ch3-s05.mp3",
+      "durationSec": 7.14
     },
     {
       "type": "narration",
@@ -2467,7 +2896,9 @@
           "to": 1.05
         }
       },
-      "id": "ch3-s06"
+      "id": "ch3-s06",
+      "audio": "audio/ep02-singapore/ch3-s06.mp3",
+      "durationSec": 12.49
     },
     {
       "type": "skit",
@@ -2490,7 +2921,9 @@
           }
         ]
       },
-      "id": "ch3-s07"
+      "id": "ch3-s07",
+      "audio": "audio/ep02-singapore/ch3-s07.mp3",
+      "durationSec": 2.69
     },
     {
       "type": "skit",
@@ -2513,7 +2946,9 @@
           }
         ]
       },
-      "id": "ch3-s08"
+      "id": "ch3-s08",
+      "audio": "audio/ep02-singapore/ch3-s08.mp3",
+      "durationSec": 2.27
     },
     {
       "type": "skit",
@@ -2536,7 +2971,9 @@
           }
         ]
       },
-      "id": "ch3-s09"
+      "id": "ch3-s09",
+      "audio": "audio/ep02-singapore/ch3-s09.mp3",
+      "durationSec": 2.17
     },
     {
       "type": "skit",
@@ -2546,7 +2983,9 @@
         "kind": "gray",
         "icon": "question"
       },
-      "id": "ch3-s10"
+      "id": "ch3-s10",
+      "audio": "audio/ep02-singapore/ch3-s10.mp3",
+      "durationSec": 4.82
     },
     {
       "type": "skit",
@@ -2569,7 +3008,9 @@
           }
         ]
       },
-      "id": "ch3-s11"
+      "id": "ch3-s11",
+      "audio": "audio/ep02-singapore/ch3-s11.mp3",
+      "durationSec": 2.8
     },
     {
       "type": "skit",
@@ -2592,7 +3033,9 @@
           }
         ]
       },
-      "id": "ch3-s12"
+      "id": "ch3-s12",
+      "audio": "audio/ep02-singapore/ch3-s12.mp3",
+      "durationSec": 1.45
     },
     {
       "type": "narration",
@@ -2628,7 +3071,9 @@
       "mascot": {
         "pose": "happy"
       },
-      "id": "ch3-s13"
+      "id": "ch3-s13",
+      "audio": "audio/ep02-singapore/ch3-s13.mp3",
+      "durationSec": 12.26
     },
     {
       "type": "narration",
@@ -2641,7 +3086,7 @@
           "x": 50,
           "y": 50,
           "from": 1.1,
-          "to": 1.0
+          "to": 1
         },
         "props": [
           {
@@ -2656,7 +3101,9 @@
       "mascot": {
         "pose": "point"
       },
-      "id": "ch3-s14"
+      "id": "ch3-s14",
+      "audio": "audio/ep02-singapore/ch3-s14.mp3",
+      "durationSec": 2.04
     },
     {
       "type": "narration",
@@ -2669,7 +3116,9 @@
         "n": 10,
         "seed": 14
       },
-      "id": "ch3-s15"
+      "id": "ch3-s15",
+      "audio": "audio/ep02-singapore/ch3-s15.mp3",
+      "durationSec": 8.83
     },
     {
       "type": "narration",
@@ -2684,7 +3133,9 @@
       "mascot": {
         "pose": "point"
       },
-      "id": "ch3-s16"
+      "id": "ch3-s16",
+      "audio": "audio/ep02-singapore/ch3-s16.mp3",
+      "durationSec": 7.21
     },
     {
       "type": "narration",
@@ -2695,7 +3146,9 @@
         "icon": "coins"
       },
       "date": "1968",
-      "id": "ch3-s17"
+      "id": "ch3-s17",
+      "audio": "audio/ep02-singapore/ch3-s17.mp3",
+      "durationSec": 4.49
     },
     {
       "type": "narration",
@@ -2706,7 +3159,9 @@
         "name": "moneyrain",
         "bg": "bank"
       },
-      "id": "ch3-s18"
+      "id": "ch3-s18",
+      "audio": "audio/ep02-singapore/ch3-s18.mp3",
+      "durationSec": 12.37
     },
     {
       "type": "skit",
@@ -2729,7 +3184,9 @@
           }
         ]
       },
-      "id": "ch3-s19"
+      "id": "ch3-s19",
+      "audio": "audio/ep02-singapore/ch3-s19.mp3",
+      "durationSec": 3.39
     },
     {
       "type": "skit",
@@ -2752,7 +3209,9 @@
           }
         ]
       },
-      "id": "ch3-s20"
+      "id": "ch3-s20",
+      "audio": "audio/ep02-singapore/ch3-s20.mp3",
+      "durationSec": 3.61
     },
     {
       "type": "skit",
@@ -2762,7 +3221,9 @@
         "kind": "gray",
         "icon": "shield"
       },
-      "id": "ch3-s21"
+      "id": "ch3-s21",
+      "audio": "audio/ep02-singapore/ch3-s21.mp3",
+      "durationSec": 6.28
     },
     {
       "type": "skit",
@@ -2785,7 +3246,9 @@
           }
         ]
       },
-      "id": "ch3-s22"
+      "id": "ch3-s22",
+      "audio": "audio/ep02-singapore/ch3-s22.mp3",
+      "durationSec": 1.53
     },
     {
       "type": "narration",
@@ -2798,7 +3261,9 @@
         "n": 10,
         "seed": 19
       },
-      "id": "ch3-s23"
+      "id": "ch3-s23",
+      "audio": "audio/ep02-singapore/ch3-s23.mp3",
+      "durationSec": 9.2
     },
     {
       "type": "narration",
@@ -2819,14 +3284,16 @@
         "cam": {
           "x": 50,
           "y": 50,
-          "from": 1.0,
+          "from": 1,
           "to": 1.1
         }
       },
       "mascot": {
         "pose": "point"
       },
-      "id": "ch3-s24"
+      "id": "ch3-s24",
+      "audio": "audio/ep02-singapore/ch3-s24.mp3",
+      "durationSec": 2.69
     },
     {
       "type": "narration",
@@ -2839,7 +3306,9 @@
         "bg": "study"
       },
       "date": "1960",
-      "id": "ch3-s25"
+      "id": "ch3-s25",
+      "audio": "audio/ep02-singapore/ch3-s25.mp3",
+      "durationSec": 13.76
     },
     {
       "type": "narration",
@@ -2872,7 +3341,9 @@
       "mascot": {
         "pose": "happy"
       },
-      "id": "ch3-s26"
+      "id": "ch3-s26",
+      "audio": "audio/ep02-singapore/ch3-s26.mp3",
+      "durationSec": 6.28
     },
     {
       "type": "narration",
@@ -2900,7 +3371,9 @@
         ],
         "bg": "study"
       },
-      "id": "ch3-s27"
+      "id": "ch3-s27",
+      "audio": "audio/ep02-singapore/ch3-s27.mp3",
+      "durationSec": 10.99
     },
     {
       "type": "narration",
@@ -2926,7 +3399,9 @@
       "mascot": {
         "pose": "point"
       },
-      "id": "ch3-s28"
+      "id": "ch3-s28",
+      "audio": "audio/ep02-singapore/ch3-s28.mp3",
+      "durationSec": 9.65
     },
     {
       "type": "narration",
@@ -2939,7 +3414,9 @@
       "mascot": {
         "pose": "happy"
       },
-      "id": "ch3-s29"
+      "id": "ch3-s29",
+      "audio": "audio/ep02-singapore/ch3-s29.mp3",
+      "durationSec": 5.54
     },
     {
       "type": "narration",
@@ -2954,7 +3431,9 @@
       "mascot": {
         "pose": "talk"
       },
-      "id": "ch4-s01"
+      "id": "ch4-s01",
+      "audio": "audio/ep02-singapore/ch4-s01.mp3",
+      "durationSec": 11.09
     },
     {
       "type": "narration",
@@ -2963,21 +3442,21 @@
       "visual": {
         "kind": "map",
         "from": {
-          "lon": -63.0,
-          "lat": -35.0,
+          "lon": -63,
+          "lat": -35,
           "zoom": 4
         },
         "to": {
-          "lon": -63.0,
-          "lat": -35.0,
+          "lon": -63,
+          "lat": -35,
           "zoom": 5
         },
         "events": [
           {
             "type": "nation",
             "at": [
-              -63.0,
-              -35.0
+              -63,
+              -35
             ],
             "t": 0,
             "code": "ar",
@@ -2994,8 +3473,8 @@
           {
             "type": "label",
             "at": [
-              -63.0,
-              -38.0
+              -63,
+              -38
             ],
             "t": 0.8,
             "text": "NATIONALISED",
@@ -3006,8 +3485,8 @@
           {
             "type": "label",
             "at": [
-              -63.0,
-              -41.0
+              -63,
+              -41
             ],
             "t": 1.2,
             "text": "CLOSED BORDERS",
@@ -3018,8 +3497,8 @@
           {
             "type": "callout",
             "at": [
-              -63.0,
-              -33.0
+              -63,
+              -33
             ],
             "t": 1.5,
             "label": "Ep 01",
@@ -3028,7 +3507,9 @@
           }
         ]
       },
-      "id": "ch4-s02"
+      "id": "ch4-s02",
+      "audio": "audio/ep02-singapore/ch4-s02.mp3",
+      "durationSec": 4.65
     },
     {
       "type": "narration",
@@ -3063,7 +3544,9 @@
       "mascot": {
         "pose": "point"
       },
-      "id": "ch4-s03"
+      "id": "ch4-s03",
+      "audio": "audio/ep02-singapore/ch4-s03.mp3",
+      "durationSec": 6.97
     },
     {
       "type": "narration",
@@ -3072,12 +3555,14 @@
       "visual": {
         "kind": "document",
         "title": "ECONOMIC DEVELOPMENT BOARD",
-        "sub": "Est. 1961 \u2014 Albert Winsemius, adviser",
+        "sub": "Est. 1961 — Albert Winsemius, adviser",
         "seal": true,
         "bg": "study"
       },
       "date": "1961",
-      "id": "ch4-s04"
+      "id": "ch4-s04",
+      "audio": "audio/ep02-singapore/ch4-s04.mp3",
+      "durationSec": 9.06
     },
     {
       "type": "narration",
@@ -3103,7 +3588,7 @@
               1.32
             ],
             "t": 0,
-            "label": "Jurong \u2014 swamp",
+            "label": "Jurong — swamp",
             "icon": "wheat",
             "side": "left",
             "persist": true,
@@ -3140,12 +3625,14 @@
               103.68,
               1.32
             ],
-            "t": 2.0,
+            "t": 2,
             "color": "#e67e22"
           }
         ]
       },
-      "id": "ch4-s05"
+      "id": "ch4-s05",
+      "audio": "audio/ep02-singapore/ch4-s05.mp3",
+      "durationSec": 9.23
     },
     {
       "type": "narration",
@@ -3160,7 +3647,9 @@
       "mascot": {
         "pose": "confused"
       },
-      "id": "ch4-s06"
+      "id": "ch4-s06",
+      "audio": "audio/ep02-singapore/ch4-s06.mp3",
+      "durationSec": 12.19
     },
     {
       "type": "narration",
@@ -3173,7 +3662,9 @@
       "mascot": {
         "pose": "confused"
       },
-      "id": "ch4-s07"
+      "id": "ch4-s07",
+      "audio": "audio/ep02-singapore/ch4-s07.mp3",
+      "durationSec": 5.83
     },
     {
       "type": "skit",
@@ -3196,7 +3687,9 @@
           }
         ]
       },
-      "id": "ch4-s08"
+      "id": "ch4-s08",
+      "audio": "audio/ep02-singapore/ch4-s08.mp3",
+      "durationSec": 3.02
     },
     {
       "type": "skit",
@@ -3219,7 +3712,9 @@
           }
         ]
       },
-      "id": "ch4-s09"
+      "id": "ch4-s09",
+      "audio": "audio/ep02-singapore/ch4-s09.mp3",
+      "durationSec": 6.35
     },
     {
       "type": "skit",
@@ -3242,7 +3737,9 @@
           }
         ]
       },
-      "id": "ch4-s10"
+      "id": "ch4-s10",
+      "audio": "audio/ep02-singapore/ch4-s10.mp3",
+      "durationSec": 1.58
     },
     {
       "type": "skit",
@@ -3252,7 +3749,9 @@
         "kind": "gray",
         "icon": "coins"
       },
-      "id": "ch4-s11"
+      "id": "ch4-s11",
+      "audio": "audio/ep02-singapore/ch4-s11.mp3",
+      "durationSec": 4.52
     },
     {
       "type": "skit",
@@ -3275,7 +3774,9 @@
           }
         ]
       },
-      "id": "ch4-s12"
+      "id": "ch4-s12",
+      "audio": "audio/ep02-singapore/ch4-s12.mp3",
+      "durationSec": 1.38
     },
     {
       "type": "skit",
@@ -3298,7 +3799,9 @@
           }
         ]
       },
-      "id": "ch4-s13"
+      "id": "ch4-s13",
+      "audio": "audio/ep02-singapore/ch4-s13.mp3",
+      "durationSec": 2.4
     },
     {
       "type": "skit",
@@ -3321,7 +3824,9 @@
           }
         ]
       },
-      "id": "ch4-s14"
+      "id": "ch4-s14",
+      "audio": "audio/ep02-singapore/ch4-s14.mp3",
+      "durationSec": 1.66
     },
     {
       "type": "narration",
@@ -3332,7 +3837,9 @@
         "icon": "coins"
       },
       "date": "1967",
-      "id": "ch4-s15"
+      "id": "ch4-s15",
+      "audio": "audio/ep02-singapore/ch4-s15.mp3",
+      "durationSec": 5.77
     },
     {
       "type": "narration",
@@ -3365,7 +3872,9 @@
       "mascot": {
         "pose": "happy"
       },
-      "id": "ch4-s16"
+      "id": "ch4-s16",
+      "audio": "audio/ep02-singapore/ch4-s16.mp3",
+      "durationSec": 11.15
     },
     {
       "type": "narration",
@@ -3378,7 +3887,9 @@
         "n": 10,
         "seed": 33
       },
-      "id": "ch4-s17"
+      "id": "ch4-s17",
+      "audio": "audio/ep02-singapore/ch4-s17.mp3",
+      "durationSec": 9.24
     },
     {
       "type": "narration",
@@ -3390,7 +3901,9 @@
         "bg": "sea",
         "cargo": "empty"
       },
-      "id": "ch4-s18"
+      "id": "ch4-s18",
+      "audio": "audio/ep02-singapore/ch4-s18.mp3",
+      "durationSec": 9.82
     },
     {
       "type": "narration",
@@ -3400,7 +3913,9 @@
         "kind": "gray",
         "icon": "star"
       },
-      "id": "ch4-s19"
+      "id": "ch4-s19",
+      "audio": "audio/ep02-singapore/ch4-s19.mp3",
+      "durationSec": 7.8
     },
     {
       "type": "narration",
@@ -3427,7 +3942,9 @@
       "mascot": {
         "pose": "happy"
       },
-      "id": "ch4-s20"
+      "id": "ch4-s20",
+      "audio": "audio/ep02-singapore/ch4-s20.mp3",
+      "durationSec": 6.22
     },
     {
       "type": "narration",
@@ -3443,7 +3960,9 @@
         "item": "GDP per person by 1990",
         "bg": "bank"
       },
-      "id": "ch4-s21"
+      "id": "ch4-s21",
+      "audio": "audio/ep02-singapore/ch4-s21.mp3",
+      "durationSec": 6.62
     },
     {
       "type": "narration",
@@ -3453,7 +3972,9 @@
         "kind": "gray",
         "icon": "globe"
       },
-      "id": "ch4-s22"
+      "id": "ch4-s22",
+      "audio": "audio/ep02-singapore/ch4-s22.mp3",
+      "durationSec": 6.88
     },
     {
       "type": "narration",
@@ -3476,8 +3997,8 @@
             "type": "move",
             "path": [
               [
-                80.0,
-                20.0
+                80,
+                20
               ],
               [
                 103.82,
@@ -3494,8 +4015,8 @@
             "type": "move",
             "path": [
               [
-                121.0,
-                25.0
+                121,
+                25
               ],
               [
                 103.82,
@@ -3512,7 +4033,7 @@
             "type": "move",
             "path": [
               [
-                0.0,
+                0,
                 51.5
               ],
               [
@@ -3522,7 +4043,7 @@
             ],
             "icon": "banknotes",
             "t": 0.8,
-            "dur": 3.0,
+            "dur": 3,
             "trail": true,
             "label": "Capital from Europe"
           },
@@ -3538,7 +4059,9 @@
           }
         ]
       },
-      "id": "ch4-s23"
+      "id": "ch4-s23",
+      "audio": "audio/ep02-singapore/ch4-s23.mp3",
+      "durationSec": 8.38
     },
     {
       "type": "narration",
@@ -3551,7 +4074,9 @@
         "item": "Singapore GDP per person (USD)",
         "cycle": true
       },
-      "id": "ch4-s24"
+      "id": "ch4-s24",
+      "audio": "audio/ep02-singapore/ch4-s24.mp3",
+      "durationSec": 14.58
     },
     {
       "type": "narration",
@@ -3574,7 +4099,9 @@
       "mascot": {
         "pose": "confused"
       },
-      "id": "ch5-s01"
+      "id": "ch5-s01",
+      "audio": "audio/ep02-singapore/ch5-s01.mp3",
+      "durationSec": 7.33
     },
     {
       "type": "narration",
@@ -3590,7 +4117,9 @@
         "item": "Cost of living",
         "bg": "market"
       },
-      "id": "ch5-s02"
+      "id": "ch5-s02",
+      "audio": "audio/ep02-singapore/ch5-s02.mp3",
+      "durationSec": 7.13
     },
     {
       "type": "narration",
@@ -3607,7 +4136,9 @@
       "mascot": {
         "pose": "confused"
       },
-      "id": "ch5-s03"
+      "id": "ch5-s03",
+      "audio": "audio/ep02-singapore/ch5-s03.mp3",
+      "durationSec": 6.88
     },
     {
       "type": "narration",
@@ -3621,7 +4152,9 @@
         "from_": 50000,
         "to": 132000
       },
-      "id": "ch5-s04"
+      "id": "ch5-s04",
+      "audio": "audio/ep02-singapore/ch5-s04.mp3",
+      "durationSec": 10.99
     },
     {
       "type": "skit",
@@ -3644,7 +4177,9 @@
           }
         ]
       },
-      "id": "ch5-s05"
+      "id": "ch5-s05",
+      "audio": "audio/ep02-singapore/ch5-s05.mp3",
+      "durationSec": 2.33
     },
     {
       "type": "skit",
@@ -3667,7 +4202,9 @@
           }
         ]
       },
-      "id": "ch5-s06"
+      "id": "ch5-s06",
+      "audio": "audio/ep02-singapore/ch5-s06.mp3",
+      "durationSec": 3.16
     },
     {
       "type": "skit",
@@ -3690,7 +4227,9 @@
           }
         ]
       },
-      "id": "ch5-s07"
+      "id": "ch5-s07",
+      "audio": "audio/ep02-singapore/ch5-s07.mp3",
+      "durationSec": 1.65
     },
     {
       "type": "skit",
@@ -3700,7 +4239,9 @@
         "kind": "gray",
         "icon": "coins"
       },
-      "id": "ch5-s08"
+      "id": "ch5-s08",
+      "audio": "audio/ep02-singapore/ch5-s08.mp3",
+      "durationSec": 4.42
     },
     {
       "type": "skit",
@@ -3723,7 +4264,9 @@
           }
         ]
       },
-      "id": "ch5-s09"
+      "id": "ch5-s09",
+      "audio": "audio/ep02-singapore/ch5-s09.mp3",
+      "durationSec": 1.64
     },
     {
       "type": "skit",
@@ -3746,7 +4289,9 @@
           }
         ]
       },
-      "id": "ch5-s10"
+      "id": "ch5-s10",
+      "audio": "audio/ep02-singapore/ch5-s10.mp3",
+      "durationSec": 3.75
     },
     {
       "type": "narration",
@@ -3785,7 +4330,9 @@
       "mascot": {
         "pose": "confused"
       },
-      "id": "ch5-s11"
+      "id": "ch5-s11",
+      "audio": "audio/ep02-singapore/ch5-s11.mp3",
+      "durationSec": 10.47
     },
     {
       "type": "narration",
@@ -3814,7 +4361,9 @@
         "bg": "village",
         "hideValues": false
       },
-      "id": "ch5-s12"
+      "id": "ch5-s12",
+      "audio": "audio/ep02-singapore/ch5-s12.mp3",
+      "durationSec": 10.47
     },
     {
       "type": "narration",
@@ -3824,7 +4373,9 @@
         "kind": "gray",
         "icon": "shield"
       },
-      "id": "ch5-s13"
+      "id": "ch5-s13",
+      "audio": "audio/ep02-singapore/ch5-s13.mp3",
+      "durationSec": 4.82
     },
     {
       "type": "narration",
@@ -3839,7 +4390,9 @@
       "mascot": {
         "pose": "confused"
       },
-      "id": "ch5-s14"
+      "id": "ch5-s14",
+      "audio": "audio/ep02-singapore/ch5-s14.mp3",
+      "durationSec": 7.92
     },
     {
       "type": "narration",
@@ -3852,7 +4405,9 @@
       "mascot": {
         "pose": "point"
       },
-      "id": "ch5-s15"
+      "id": "ch5-s15",
+      "audio": "audio/ep02-singapore/ch5-s15.mp3",
+      "durationSec": 5.3
     },
     {
       "type": "narration",
@@ -3881,7 +4436,9 @@
         ],
         "bg": "pampas"
       },
-      "id": "ch5-s16"
+      "id": "ch5-s16",
+      "audio": "audio/ep02-singapore/ch5-s16.mp3",
+      "durationSec": 8.02
     },
     {
       "type": "narration",
@@ -3901,7 +4458,9 @@
       "mascot": {
         "pose": "confused"
       },
-      "id": "ch5-s17"
+      "id": "ch5-s17",
+      "audio": "audio/ep02-singapore/ch5-s17.mp3",
+      "durationSec": 10.35
     },
     {
       "type": "narration",
@@ -3924,7 +4483,9 @@
       "mascot": {
         "pose": "talk"
       },
-      "id": "ch5-s18"
+      "id": "ch5-s18",
+      "audio": "audio/ep02-singapore/ch5-s18.mp3",
+      "durationSec": 9.88
     },
     {
       "type": "narration",
@@ -3937,7 +4498,9 @@
       "mascot": {
         "pose": "point"
       },
-      "id": "ch6-s01"
+      "id": "ch6-s01",
+      "audio": "audio/ep02-singapore/ch6-s01.mp3",
+      "durationSec": 2.04
     },
     {
       "type": "narration",
@@ -3953,7 +4516,9 @@
         ],
         "roll": "close"
       },
-      "id": "ch6-s02"
+      "id": "ch6-s02",
+      "audio": "audio/ep02-singapore/ch6-s02.mp3",
+      "durationSec": 10.7
     },
     {
       "type": "narration",
@@ -3979,7 +4544,9 @@
       "mascot": {
         "pose": "confused"
       },
-      "id": "ch6-s03"
+      "id": "ch6-s03",
+      "audio": "audio/ep02-singapore/ch6-s03.mp3",
+      "durationSec": 7.67
     },
     {
       "type": "narration",
@@ -4008,7 +4575,9 @@
           }
         ]
       },
-      "id": "ch6-s04"
+      "id": "ch6-s04",
+      "audio": "audio/ep02-singapore/ch6-s04.mp3",
+      "durationSec": 13.41
     },
     {
       "type": "narration",
@@ -4031,7 +4600,7 @@
             "type": "move",
             "path": [
               [
-                0.0,
+                0,
                 51.5
               ],
               [
@@ -4041,15 +4610,15 @@
             ],
             "icon": "ship",
             "t": 0,
-            "dur": 3.0,
+            "dur": 3,
             "trail": true
           },
           {
             "type": "move",
             "path": [
               [
-                80.0,
-                20.0
+                80,
+                20
               ],
               [
                 103.82,
@@ -4065,8 +4634,8 @@
             "type": "move",
             "path": [
               [
-                121.0,
-                23.0
+                121,
+                23
               ],
               [
                 103.82,
@@ -4084,14 +4653,14 @@
               103.82,
               1.35
             ],
-            "t": 1.0,
+            "t": 1,
             "code": "sg",
             "label": "Open for business"
           },
           {
             "type": "nation",
             "at": [
-              0.0,
+              0,
               51.5
             ],
             "t": 0,
@@ -4100,8 +4669,8 @@
           {
             "type": "nation",
             "at": [
-              80.0,
-              20.0
+              80,
+              20
             ],
             "t": 0.3,
             "code": "in"
@@ -4109,8 +4678,8 @@
           {
             "type": "nation",
             "at": [
-              121.0,
-              23.0
+              121,
+              23
             ],
             "t": 0.6,
             "code": "cn"
@@ -4120,7 +4689,9 @@
       "mascot": {
         "pose": "point"
       },
-      "id": "ch6-s05"
+      "id": "ch6-s05",
+      "audio": "audio/ep02-singapore/ch6-s05.mp3",
+      "durationSec": 11.9
     },
     {
       "type": "narration",
@@ -4138,7 +4709,9 @@
       "mascot": {
         "pose": "happy"
       },
-      "id": "ch6-s06"
+      "id": "ch6-s06",
+      "audio": "audio/ep02-singapore/ch6-s06.mp3",
+      "durationSec": 8.02
     },
     {
       "type": "narration",
@@ -4163,7 +4736,9 @@
       "mascot": {
         "pose": "happy"
       },
-      "id": "ch6-s07"
+      "id": "ch6-s07",
+      "audio": "audio/ep02-singapore/ch6-s07.mp3",
+      "durationSec": 9.88
     },
     {
       "type": "narration",
@@ -4199,7 +4774,9 @@
       "mascot": {
         "pose": "confused"
       },
-      "id": "ch6-s08"
+      "id": "ch6-s08",
+      "audio": "audio/ep02-singapore/ch6-s08.mp3",
+      "durationSec": 9.58
     },
     {
       "type": "narration",
@@ -4219,7 +4796,9 @@
           "label": "Singapore: built trust"
         }
       },
-      "id": "ch6-s09"
+      "id": "ch6-s09",
+      "audio": "audio/ep02-singapore/ch6-s09.mp3",
+      "durationSec": 11.15
     },
     {
       "type": "narration",
@@ -4245,7 +4824,9 @@
       "mascot": {
         "pose": "happy"
       },
-      "id": "ch6-s10"
+      "id": "ch6-s10",
+      "audio": "audio/ep02-singapore/ch6-s10.mp3",
+      "durationSec": 5.83
     },
     {
       "type": "narration",
@@ -4258,7 +4839,9 @@
         "n": 14,
         "seed": 42
       },
-      "id": "ch6-s11"
+      "id": "ch6-s11",
+      "audio": "audio/ep02-singapore/ch6-s11.mp3",
+      "durationSec": 7.72
     },
     {
       "type": "narration",
@@ -4330,7 +4913,9 @@
           }
         ]
       },
-      "id": "ch6-s12"
+      "id": "ch6-s12",
+      "audio": "audio/ep02-singapore/ch6-s12.mp3",
+      "durationSec": 12.27
     }
   ]
 }
