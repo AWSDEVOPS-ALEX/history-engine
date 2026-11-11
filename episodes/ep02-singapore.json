@@ -199,7 +199,7 @@
               103.82,
               2.4
             ],
-            "t": 1.0,
+            "t": 1,
             "text": "$107,000/person",
             "size": 38,
             "color": "#f1c40f",
@@ -207,7 +207,9 @@
           }
         ]
       },
-      "id": "hook-s01"
+      "id": "hook-s01",
+      "audio": "audio/ep02-singapore/hook-s01.mp3",
+      "durationSec": 8.37
     },
     {
       "type": "narration",
@@ -273,7 +275,9 @@
           }
         ]
       },
-      "id": "hook-s02"
+      "id": "hook-s02",
+      "audio": "audio/ep02-singapore/hook-s02.mp3",
+      "durationSec": 7.39
     },
     {
       "type": "narration",
@@ -323,7 +327,9 @@
       "mascot": {
         "pose": "confused"
       },
-      "id": "hook-s03"
+      "id": "hook-s03",
+      "audio": "audio/ep02-singapore/hook-s03.mp3",
+      "durationSec": 3.15
     },
     {
       "type": "narration",
@@ -357,7 +363,9 @@
         ]
       },
       "date": "1965",
-      "id": "hook-s04"
+      "id": "hook-s04",
+      "audio": "audio/ep02-singapore/hook-s04.mp3",
+      "durationSec": 10.79
     },
     {
       "type": "narration",
@@ -389,7 +397,9 @@
       "mascot": {
         "pose": "confused"
       },
-      "id": "hook-s05"
+      "id": "hook-s05",
+      "audio": "audio/ep02-singapore/hook-s05.mp3",
+      "durationSec": 8.61
     },
     {
       "type": "narration",
@@ -439,7 +449,9 @@
       "mascot": {
         "pose": "happy"
       },
-      "id": "hook-s06"
+      "id": "hook-s06",
+      "audio": "audio/ep02-singapore/hook-s06.mp3",
+      "durationSec": 7.63
     },
     {
       "type": "narration",
@@ -458,7 +470,9 @@
       "mascot": {
         "pose": "happy"
       },
-      "id": "hook-s07"
+      "id": "hook-s07",
+      "audio": "audio/ep02-singapore/hook-s07.mp3",
+      "durationSec": 2.2
     },
     {
       "type": "narration",
