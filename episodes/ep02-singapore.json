@@ -4730,7 +4730,9 @@
         "bg": "fields"
       },
       "mascot": {
-        "pose": "talk"
+        "pose": "talk",
+        "side": "left",
+        "stage": "left"
       },
       "id": "ch5-s18",
       "audio": "audio/ep02-singapore/ch5-s18.mp3",
