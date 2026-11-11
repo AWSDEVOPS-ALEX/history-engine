@@ -956,9 +956,9 @@
       "visual": {
         "kind": "map",
         "from": {
-          "lon": 103.82,
-          "lat": 1.35,
-          "zoom": 9
+          "lon": 109,
+          "lat": 4,
+          "zoom": 4.2
         },
         "to": {
           "lon": 109,
@@ -967,89 +967,51 @@
         },
         "events": [
           {
-            "type": "move",
-            "path": [
-              [
-                110,
-                22
-              ],
-              [
-                103.82,
-                1.35
-              ]
-            ],
+            "type": "label",
+            "at": [103.82, 1.35],
+            "text": "Singapore",
             "t": 0,
-            "word": 0,
-            "icon": "ship",
-            "dur": 2.0,
-            "trail": true
+            "word": 0
           },
           {
             "type": "move",
-            "path": [
-              [
-                74,
-                15
-              ],
-              [
-                103.82,
-                1.35
-              ]
-            ],
-            "t": 0,
-            "word": 2,
-            "icon": "ship",
-            "dur": 2.0,
-            "trail": true
-          },
-          {
-            "type": "move",
-            "path": [
-              [
-                115,
-                4
-              ],
-              [
-                103.82,
-                1.35
-              ]
-            ],
-            "t": 0,
+            "path": [[120, 24], [103.82, 1.35]],
+            "t": 0.3,
             "word": 4,
             "icon": "ship",
-            "dur": 2.0,
-            "trail": true
+            "dur": 1.8,
+            "trail": true,
+            "label": "China"
           },
           {
             "type": "move",
-            "path": [
-              [
-                55,
-                25
-              ],
-              [
-                103.82,
-                1.35
-              ]
-            ],
-            "t": 0,
+            "path": [[74, 13], [103.82, 1.35]],
+            "t": 1.5,
             "word": 6,
             "icon": "ship",
-            "dur": 2.0,
-            "trail": true
+            "dur": 1.8,
+            "trail": true,
+            "label": "India"
+          },
+          {
+            "type": "move",
+            "path": [[110, 5], [103.82, 1.35]],
+            "t": 2.8,
+            "word": 8,
+            "icon": "ship",
+            "dur": 1.5,
+            "trail": true,
+            "label": "Malay world"
           },
           {
             "type": "callout",
-            "at": [
-              103.82,
-              1.35
-            ],
-            "t": 0,
-            "word": 8,
-            "label": "Free port - no taxes",
+            "at": [103.82, 1.35],
+            "t": 4.2,
+            "word": 10,
+            "label": "Free port — no taxes",
             "side": "right",
-            "persist": false,
-            "focus": true,
+            "persist": true,
+            "focus": false,
             "icon": "banknotes"
           }
         ]

@@ -25,18 +25,18 @@ const COUNTRIES_LOW = feature(worldLow as any, (worldLow as any).objects.countri
  * the far north tundra. Painted-map stand-in for a satellite image.
  */
 const biome = (name: string, [lon, lat]: [number, number]) => {
-  if (name === "Antarctica" || name === "Greenland" || name === "Fr. S. Antarctic Lands") return "#e9eef1";
-  if (name === "Australia") return "#cf9f63";
-  if (Math.abs(lat) > 62) return "#a3ad94";
-  if (lat > 14 && lat < 36 && lon > -18 && lon < 62) return "#dcbb7c"; // Sahara, Arabia, Iran
-  if (lat > 35 && lat < 50 && lon > 46 && lon < 80) return "#cdb582"; // Central Asian steppe-desert
-  if (lat > 40 && lat < 52 && lon > 85 && lon < 125) return "#bfb781"; // Mongolia
-  if (lat > 18 && lat < 34 && lon > -118 && lon < -98) return "#c8b07a"; // Mexico / US southwest
-  if ((name === "Namibia" || name === "Botswana") ) return "#d2b277";
-  if (lat > -12 && lat < 7) return "#4f7d3a"; // rainforest belt
-  if (Math.abs(lat) >= 7 && Math.abs(lat) <= 15) return "#a7b25d"; // savanna
-  if (Math.abs(lat) > 48) return "#6f8c56";
-  return "#78984a";
+  if (name === "Antarctica" || name === "Greenland" || name === "Fr. S. Antarctic Lands") return "#dde8ed";
+  if (name === "Australia") return "#d4a455";
+  if (Math.abs(lat) > 62) return "#8fa882";
+  if (lat > 14 && lat < 36 && lon > -18 && lon < 62) return "#e8c46a"; // Sahara, Arabia, Iran
+  if (lat > 35 && lat < 50 && lon > 46 && lon < 80) return "#d9be72"; // Central Asian steppe-desert
+  if (lat > 40 && lat < 52 && lon > 85 && lon < 125) return "#ccc070"; // Mongolia
+  if (lat > 18 && lat < 34 && lon > -118 && lon < -98) return "#d4b868"; // Mexico / US southwest
+  if ((name === "Namibia" || name === "Botswana") ) return "#dabb6a";
+  if (lat > -12 && lat < 7) return "#3d8c30"; // rainforest belt — vivid green
+  if (Math.abs(lat) >= 7 && Math.abs(lat) <= 15) return "#96b840"; // savanna
+  if (Math.abs(lat) > 48) return "#5a9444";
+  return "#5ea838"; // base green — much more vivid
 };
 const tint = (fc: FC) => fc.features.map((f) => biome(f.properties.name, geoCentroid(f as any) as [number, number]));
 const TINT = tint(COUNTRIES);
@@ -544,8 +544,8 @@ export const MapScene: React.FC<{ v: MapVisual; cast: CastMember[]; satellite?: 
       <svg viewBox={`0 0 ${W} ${H}`} width="100%" height="100%" style={{ position: "absolute" }}>
         <defs>
           <radialGradient id="sea" cx="40%" cy="40%" r="80%">
-            <stop offset="0%" stopColor="#2a62b8" />
-            <stop offset="100%" stopColor="#123873" />
+            <stop offset="0%" stopColor="#3d80e0" />
+            <stop offset="100%" stopColor="#1a4f9e" />
           </radialGradient>
           <radialGradient id="cloud">
             <stop offset="0%" stopColor="rgba(255,255,255,0.16)" />

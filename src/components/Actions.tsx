@@ -406,6 +406,12 @@ const Bars: React.FC<{ v: ActionV }> = ({ v }) => {
           const barColor = b.color ?? "#e74c3c";
           // Value clearance above bar: more room when flag is present
           const valAbove = b.flag ? (k > 0.3 ? 150 : 20) : 20;
+          // Clamp label y so it never clips above the top of the chart area
+          const rawValY = BASE_Y - h - valAbove;
+          const valY = Math.max(TOP_Y + 10, rawValY);
+          // Also clamp the flag badge so it never goes above the top
+          const rawFlagY = BASE_Y - h - (v.hideValues ? 60 : 110);
+          const flagY = Math.max(TOP_Y - 50, rawFlagY);
 
           return (
             <g key={i}>
@@ -421,7 +427,7 @@ const Bars: React.FC<{ v: ActionV }> = ({ v }) => {
               )}
               {/* Flag badge above bar */}
               {b.flag && k > 0.3 ? (
-                <g transform={`translate(${x + w / 2 - 40} ${BASE_Y - h - (v.hideValues ? 60 : 110)})`}>
+                <g transform={`translate(${x + w / 2 - 40} ${flagY})`}>
                   <rect x={-4} y={-4} width={88} height={62} rx={6}
                     fill="#fff" stroke="rgba(0,0,0,0.5)" strokeWidth={3} />
                   <FlagArt code={b.flag} />
@@ -429,7 +435,7 @@ const Bars: React.FC<{ v: ActionV }> = ({ v }) => {
               ) : null}
               {/* Value label above bar */}
               {k > 0.5 && !v.hideValues ? (
-                <text x={x + w / 2} y={BASE_Y - h - valAbove}
+                <text x={x + w / 2} y={valY}
                   textAnchor="middle" fontFamily={HAND_BOLD} fontWeight={700}
                   fontSize={isTop ? 66 : 54}
                   fill={isTop ? "#ffd34d" : "#ffffff"}
