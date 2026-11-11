@@ -4272,68 +4272,65 @@
         },
         "events": [
           {
-            "type": "move",
-            "path": [
-              [
-                80,
-                20
-              ],
-              [
-                103.82,
-                1.35
-              ]
-            ],
-            "icon": "banknotes",
+            "type": "flow",
+            "path": [[80, 20], [103.82, 1.35]],
             "t": 0,
-            "dur": 2.5,
-            "trail": true,
-            "label": "Capital from India"
+            "color": "#27ae60",
+            "width": 5
           },
           {
-            "type": "move",
-            "path": [
-              [
-                121,
-                25
-              ],
-              [
-                103.82,
-                1.35
-              ]
-            ],
-            "icon": "banknotes",
+            "type": "flow",
+            "path": [[121, 25], [103.82, 1.35]],
             "t": 0.4,
-            "dur": 2.5,
-            "trail": true,
-            "label": "Capital from Asia"
+            "color": "#27ae60",
+            "width": 5
           },
           {
-            "type": "move",
-            "path": [
-              [
-                0,
-                51.5
-              ],
-              [
-                103.82,
-                1.35
-              ]
-            ],
-            "icon": "banknotes",
+            "type": "flow",
+            "path": [[0, 51.5], [103.82, 1.35]],
             "t": 0.8,
-            "dur": 3,
-            "trail": true,
-            "label": "Capital from Europe"
+            "color": "#27ae60",
+            "width": 5
           },
           {
-            "type": "nation",
-            "at": [
-              103.82,
-              1.35
-            ],
+            "type": "label",
+            "at": [80, 22],
+            "t": 0.2,
+            "text": "India",
+            "size": 18,
+            "color": "#a8e6c0"
+          },
+          {
+            "type": "label",
+            "at": [121, 27],
+            "t": 0.6,
+            "text": "Asia",
+            "size": 18,
+            "color": "#a8e6c0"
+          },
+          {
+            "type": "label",
+            "at": [5, 50],
+            "t": 1.0,
+            "text": "Europe",
+            "size": 18,
+            "color": "#a8e6c0"
+          },
+          {
+            "type": "pulse",
+            "at": [103.82, 1.35],
+            "t": 0,
+            "color": "#27ae60"
+          },
+          {
+            "type": "callout",
+            "at": [103.82, 1.35],
             "t": 1.5,
-            "code": "sg",
-            "label": "Financial hub"
+            "icon": "banknotes",
+            "label": "Financial hub",
+            "side": "right",
+            "pos": "above",
+            "focus": false
           }
         ]
       },
