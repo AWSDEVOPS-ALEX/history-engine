@@ -4158,96 +4158,17 @@
       "text": "The port never stopped. In 2025, the second busiest container port on earth.",
       "visual": {
         "kind": "map",
-        "from": {
-          "lon": 103.82,
-          "lat": 1.35,
-          "zoom": 1.5
-        },
-        "to": {
-          "lon": 103.82,
-          "lat": 1.35,
-          "zoom": 2.0
-        },
+        "satellite": true,
+        "from": { "lon": 103.82, "lat": 1.35, "zoom": 6 },
+        "to":   { "lon": 103.6,  "lat": 1.4,  "zoom": 7 },
         "events": [
-          {
-            "type": "nation",
-            "at": [
-              103.82,
-              1.35
-            ],
-            "t": 0,
-            "code": "sg",
-            "label": "#2 busiest port"
-          },
-          {
-            "type": "move",
-            "path": [
-              [
-                121.5,
-                31.2
-              ],
-              [
-                103.82,
-                1.35
-              ]
-            ],
-            "t": 0.0,
-            "icon": "ship"
-          },
-          {
-            "type": "move",
-            "path": [
-              [
-                -87.6,
-                41.8
-              ],
-              [
-                103.82,
-                1.35
-              ]
-            ],
-            "t": 0.3,
-            "icon": "ship"
-          },
-          {
-            "type": "move",
-            "path": [
-              [
-                2.35,
-                48.9
-              ],
-              [
-                103.82,
-                1.35
-              ]
-            ],
-            "t": 0.6,
-            "icon": "ship"
-          },
-          {
-            "type": "move",
-            "path": [
-              [
-                139.7,
-                35.7
-              ],
-              [
-                103.82,
-                1.35
-              ]
-            ],
-            "t": 0.9,
-            "icon": "ship"
-          },
-          {
-            "type": "pulse",
-            "at": [
-              103.82,
-              1.35
-            ],
-            "t": 1.2,
-            "color": "#e74c3c"
-          }
+          { "type": "flow", "path": [[99, 4],   [103.82, 1.35]], "t": 0,   "color": "#ffd34d", "width": 5 },
+          { "type": "flow", "path": [[106, -2], [103.82, 1.35]], "t": 0.4, "color": "#ffd34d", "width": 5 },
+          { "type": "flow", "path": [[103.82, 1.35], [108.5, 1.5]], "t": 0.8, "color": "#ffd34d", "width": 5 },
+          { "type": "flow", "path": [[103.82, 1.35], [100, -0.5]], "t": 1.2, "color": "#ffd34d", "width": 5 },
+          { "type": "pulse", "at": [103.82, 1.35], "t": 0,   "color": "#ffd34d" },
+          { "type": "pulse", "at": [103.82, 1.35], "t": 1.8, "color": "#ffd34d" },
+          { "type": "callout", "at": [103.82, 1.35], "t": 1.4, "icon": "ship", "label": "#2 busiest port", "side": "right", "pos": "above", "focus": false }
         ]
       },
       "id": "ch4-s22",
