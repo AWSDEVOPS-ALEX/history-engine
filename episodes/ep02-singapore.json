@@ -221,57 +221,59 @@
         "from": {
           "lon": 103.82,
           "lat": 1.35,
-          "zoom": 10
+          "zoom": 7
         },
         "to": {
           "lon": 103.82,
           "lat": 1.35,
-          "zoom": 4.5
+          "zoom": 7.5
         },
         "events": [
           {
             "type": "callout",
-            "at": [
-              94,
-              13
-            ],
+            "at": [103.0, 2.2],
             "t": 0.3,
             "icon": "oil",
             "label": "NO OIL",
-            "pos": "above"
+            "pos": "above",
+            "side": "left",
+            "focus": false
           },
           {
             "type": "callout",
-            "at": [
-              116,
-              13
-            ],
+            "at": [104.8, 2.2],
             "t": 0.7,
             "icon": "gold",
             "label": "NO GOLD",
-            "pos": "above"
+            "pos": "above",
+            "side": "right",
+            "focus": false
           },
           {
             "type": "callout",
-            "at": [
-              94,
-              -9
-            ],
+            "at": [103.0, 0.5],
             "t": 1.1,
             "icon": "wheat",
             "label": "NO FARMLAND",
-            "pos": "below"
+            "pos": "below",
+            "side": "left",
+            "focus": false
           },
           {
             "type": "callout",
-            "at": [
-              116,
-              -9
-            ],
+            "at": [104.8, 0.5],
             "t": 1.5,
             "icon": "water",
             "label": "NO WATER",
-            "pos": "below"
+            "pos": "below",
+            "side": "right",
+            "focus": false
+          },
+          {
+            "type": "pulse",
+            "at": [103.82, 1.35],
+            "t": 0,
+            "color": "#f1c40f"
           }
         ]
       },
