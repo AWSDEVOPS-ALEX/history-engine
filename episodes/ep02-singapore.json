@@ -2035,7 +2035,7 @@
             "label": "Singapore alone",
             "side": "right",
             "persist": true,
-            "icon": "island"
+            "icon": "flag"
           },
           {
             "type": "callout",
@@ -2046,7 +2046,8 @@
             "t": 0.8,
             "label": "No Malay market",
             "side": "left",
-            "persist": true
+            "persist": true,
+            "icon": "banknotes"
           },
           {
             "type": "label",
