@@ -1085,39 +1085,36 @@
           {
             "type": "callout",
             "at": [
-              103.6,
-              1.5
+              103.62,
+              1.48
             ],
             "t": 0.3,
             "label": "200,000 jobless",
             "icon": "coins",
             "side": "left",
-            "persist": true
+            "persist": true,
+            "pos": "above",
+            "focus": false
           },
           {
             "type": "callout",
             "at": [
-              104,
-              1.2
+              104.05,
+              1.22
             ],
             "t": 1.5,
             "label": "1 in 7 workers",
             "icon": "question",
             "side": "right",
-            "persist": true
+            "persist": true,
+            "pos": "below",
+            "focus": false
           },
           {
-            "type": "counter",
-            "at": [
-              103.82,
-              1.6
-            ],
-            "from": 0,
-            "to": 200000,
+            "type": "pulse",
+            "at": [103.82, 1.35],
             "t": 0.5,
-            "dur": 2.5,
-            "prefix": "",
-            "suffix": " unemployed"
+            "color": "#e74c3c"
           }
         ]
       },
@@ -1131,12 +1128,34 @@
       "speaker": "NARRATOR",
       "text": "Two hundred thousand unemployed. Hundreds of thousands more in squatter huts.",
       "visual": {
-        "kind": "gray",
-        "icon": "question"
+        "kind": "crowd",
+        "set": "village",
+        "n": 10,
+        "action": "stand",
+        "seed": 12,
+        "props": [
+          {
+            "icon": "house",
+            "x": 10,
+            "y": 55,
+            "scale": 0.65,
+            "anim": "none"
+          },
+          {
+            "icon": "house",
+            "x": 85,
+            "y": 58,
+            "scale": 0.65,
+            "anim": "none"
+          }
+        ]
       },
       "id": "ch1-s14",
       "audio": "audio/ep02-singapore/ch1-s14.mp3",
-      "durationSec": 5.47
+      "durationSec": 5.47,
+      "mascot": {
+        "pose": "confused"
+      }
     },
     {
       "type": "skit",
