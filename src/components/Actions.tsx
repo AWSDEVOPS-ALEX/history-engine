@@ -404,18 +404,23 @@ const Bars: React.FC<{ v: ActionV }> = ({ v }) => {
           const x = startX + i * (w + gap);
           const isTop = i === topIdx;
           const barColor = b.color ?? "#e74c3c";
-          // Flag badge: sits closest to the bar top, clamped so it never clips above chart area
-          const flagGap  = 14;   // px between bar top and bottom of flag badge
-          const flagH    = 54;   // visible height of flag badge
-          const rawFlagY = BASE_Y - h - flagGap - flagH;
-          const flagY    = Math.max(TOP_Y + flagH + 4, rawFlagY);
-          // Value label: sits above the flag (or directly above bar when no flag)
+          // Stack from the bar top upward: bar → gap → flag → gap → value label
+          // Everything anchors off the bar top; we work upward so nothing collides.
+          const barTopY  = BASE_Y - h;           // top edge of the bar
+          const flagGap  = 10;                   // space between bar top and flag bottom
+          const flagH    = 62;                   // visible height of flag badge (matches rect height={62})
           const valSize  = isTop ? 66 : 54;
-          const valGap   = 8;    // px between flag top edge and value label baseline
+          const valGap   = 10;                   // space between flag top and value label baseline
+
+          // Flag: anchored flagGap below bar top (i.e. flagY = top of the flag rect)
+          const rawFlagY = barTopY - flagGap - flagH;
+          const flagY    = Math.min(rawFlagY, TOP_Y + 4);   // never below the bar top; push up if bar very tall
+
+          // Value label: always above the flag (or above bar when no flag)
           const rawValY  = b.flag && k > 0.3
-            ? flagY - valGap - valSize * 0.25   // anchor above flag
-            : BASE_Y - h - 20;                  // no flag: directly above bar
-          const valY = Math.max(TOP_Y + 10, rawValY);
+            ? flagY - valGap                    // baseline sits valGap above flag top
+            : barTopY - 20;                     // no flag: just above bar top
+          const valY     = Math.min(rawValY, TOP_Y + valSize * 0.75);  // clamp within chart area
 
           return (
             <g key={i}>
