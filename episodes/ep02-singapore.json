@@ -3440,11 +3440,90 @@
       "speaker": "NARRATOR",
       "text": "At first, almost nobody came. Goh Keng Swee flew around the world begging.",
       "visual": {
-        "kind": "gray",
-        "icon": "question"
-      },
-      "mascot": {
-        "pose": "confused"
+        "kind": "map",
+        "satellite": true,
+        "from": {
+          "lon": 103.7,
+          "lat": 1.33,
+          "zoom": 12
+        },
+        "to": {
+          "lon": 100,
+          "lat": 20,
+          "zoom": 2.5
+        },
+        "events": [
+          {
+            "type": "nation",
+            "at": [
+              103.82,
+              1.35
+            ],
+            "t": 0,
+            "code": "sg",
+            "label": "Singapore"
+          },
+          {
+            "type": "move",
+            "path": [
+              [
+                103.82,
+                1.35
+              ],
+              [
+                -87.6,
+                41.8
+              ]
+            ],
+            "t": 0.3,
+            "icon": "ship",
+            "label": "USA"
+          },
+          {
+            "type": "move",
+            "path": [
+              [
+                103.82,
+                1.35
+              ],
+              [
+                10.0,
+                51.0
+              ]
+            ],
+            "t": 1.0,
+            "icon": "ship",
+            "label": "Europe"
+          },
+          {
+            "type": "move",
+            "path": [
+              [
+                103.82,
+                1.35
+              ],
+              [
+                139.7,
+                35.7
+              ]
+            ],
+            "t": 1.7,
+            "icon": "ship",
+            "label": "Japan"
+          },
+          {
+            "type": "label",
+            "at": [
+              100,
+              10
+            ],
+            "t": 2.2,
+            "text": "No takers",
+            "size": 32,
+            "color": "#e74c3c",
+            "caps": true
+          }
+        ]
       },
       "id": "ch4-s07",
       "audio": "audio/ep02-singapore/ch4-s07.mp3",
