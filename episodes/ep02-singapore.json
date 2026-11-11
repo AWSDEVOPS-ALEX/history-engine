@@ -209,7 +209,7 @@
       },
       "id": "hook-s01",
       "audio": "audio/ep02-singapore/hook-s01.mp3",
-      "durationSec": 8.37
+      "durationSec": 7.57
     },
     {
       "type": "narration",
@@ -277,7 +277,7 @@
       },
       "id": "hook-s02",
       "audio": "audio/ep02-singapore/hook-s02.mp3",
-      "durationSec": 7.39
+      "durationSec": 8.77
     },
     {
       "type": "narration",
@@ -329,7 +329,7 @@
       },
       "id": "hook-s03",
       "audio": "audio/ep02-singapore/hook-s03.mp3",
-      "durationSec": 3.15
+      "durationSec": 8.09
     },
     {
       "type": "narration",
@@ -365,7 +365,7 @@
       "date": "1965",
       "id": "hook-s04",
       "audio": "audio/ep02-singapore/hook-s04.mp3",
-      "durationSec": 10.79
+      "durationSec": 8.61
     },
     {
       "type": "narration",
@@ -399,7 +399,7 @@
       },
       "id": "hook-s05",
       "audio": "audio/ep02-singapore/hook-s05.mp3",
-      "durationSec": 8.61
+      "durationSec": 10.7
     },
     {
       "type": "narration",
@@ -451,7 +451,7 @@
       },
       "id": "hook-s06",
       "audio": "audio/ep02-singapore/hook-s06.mp3",
-      "durationSec": 7.63
+      "durationSec": 8.44
     },
     {
       "type": "narration",
@@ -472,7 +472,7 @@
       },
       "id": "hook-s07",
       "audio": "audio/ep02-singapore/hook-s07.mp3",
-      "durationSec": 2.2
+      "durationSec": 8.38
     },
     {
       "type": "narration",
@@ -3487,11 +3487,11 @@
                 1.35
               ],
               [
-                10.0,
-                51.0
+                10,
+                51
               ]
             ],
-            "t": 1.0,
+            "t": 1,
             "icon": "ship",
             "label": "Europe"
           },
