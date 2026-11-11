@@ -404,14 +404,18 @@ const Bars: React.FC<{ v: ActionV }> = ({ v }) => {
           const x = startX + i * (w + gap);
           const isTop = i === topIdx;
           const barColor = b.color ?? "#e74c3c";
-          // Value clearance above bar: more room when flag is present
-          const valAbove = b.flag ? (k > 0.3 ? 150 : 20) : 20;
-          // Clamp label y so it never clips above the top of the chart area
-          const rawValY = BASE_Y - h - valAbove;
+          // Flag badge: sits closest to the bar top, clamped so it never clips above chart area
+          const flagGap  = 14;   // px between bar top and bottom of flag badge
+          const flagH    = 54;   // visible height of flag badge
+          const rawFlagY = BASE_Y - h - flagGap - flagH;
+          const flagY    = Math.max(TOP_Y + flagH + 4, rawFlagY);
+          // Value label: sits above the flag (or directly above bar when no flag)
+          const valSize  = isTop ? 66 : 54;
+          const valGap   = 8;    // px between flag top edge and value label baseline
+          const rawValY  = b.flag && k > 0.3
+            ? flagY - valGap - valSize * 0.25   // anchor above flag
+            : BASE_Y - h - 20;                  // no flag: directly above bar
           const valY = Math.max(TOP_Y + 10, rawValY);
-          // Also clamp the flag badge so it never goes above the top
-          const rawFlagY = BASE_Y - h - (v.hideValues ? 60 : 110);
-          const flagY = Math.max(TOP_Y - 50, rawFlagY);
 
           return (
             <g key={i}>
