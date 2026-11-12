@@ -1,0 +1,874 @@
+{
+  "title": "Singapore TEST \u2014 90s new features",
+  "fps": 30,
+  "mascot": {
+    "skin": "#e8c09a",
+    "robe": "#2b4a6b",
+    "trim": "#f2d27a",
+    "hair": "#2b2622",
+    "hat": "scholar",
+    "hatColor": "#2b4a6b",
+    "staff": "chronicler"
+  },
+  "narratorVoice": "",
+  "cast": [
+    {
+      "id": "NARRATOR",
+      "look": {},
+      "voice": ""
+    },
+    {
+      "id": "MOTHER_1",
+      "look": {
+        "skin": "#c89060",
+        "robe": "#8a4a2a",
+        "trim": "#c9a95a",
+        "hair": "#1e1a17",
+        "bun": true
+      }
+    },
+    {
+      "id": "FATHER_1",
+      "look": {
+        "skin": "#d0a070",
+        "robe": "#2b4a3a",
+        "trim": "#7fae7a",
+        "hair": "#1e1a17"
+      }
+    },
+    {
+      "id": "BRIT_OFF",
+      "look": {
+        "skin": "#f0d8b8",
+        "robe": "#8a0020",
+        "trim": "#c9a95a",
+        "hair": "#a08060",
+        "hat": "tallhat",
+        "hatColor": "#1e1a17"
+      }
+    },
+    {
+      "id": "SG_CLERK",
+      "look": {
+        "skin": "#c89060",
+        "robe": "#2b4a6b",
+        "trim": "#f2d27a",
+        "hair": "#1e1a17"
+      }
+    },
+    {
+      "id": "DAUGHTER",
+      "look": {
+        "skin": "#c89060",
+        "robe": "#7a3b7a",
+        "trim": "#c9a95a",
+        "hair": "#1e1a17",
+        "bun": true
+      }
+    },
+    {
+      "id": "FATHER_2",
+      "look": {
+        "skin": "#d0a070",
+        "robe": "#2b4a3a",
+        "trim": "#7fae7a",
+        "hair": "#1e1a17",
+        "glasses": true
+      }
+    },
+    {
+      "id": "SON",
+      "look": {
+        "skin": "#c89060",
+        "robe": "#2b4a6b",
+        "trim": "#f2d27a",
+        "hair": "#1e1a17"
+      }
+    },
+    {
+      "id": "MOTHER_2",
+      "look": {
+        "skin": "#c89060",
+        "robe": "#8a4a2a",
+        "trim": "#c9a95a",
+        "hair": "#1e1a17",
+        "bun": true,
+        "glasses": true
+      }
+    },
+    {
+      "id": "EXEC",
+      "look": {
+        "skin": "#f0d8b8",
+        "robe": "#2b4a6b",
+        "trim": "#c9a95a",
+        "hair": "#a08060",
+        "glasses": true
+      }
+    },
+    {
+      "id": "EDB_OFF",
+      "look": {
+        "skin": "#c89060",
+        "robe": "#2b4a6b",
+        "trim": "#f2d27a",
+        "hair": "#1e1a17"
+      }
+    },
+    {
+      "id": "CUSTOMER",
+      "look": {
+        "skin": "#e8c09a",
+        "robe": "#a04020",
+        "trim": "#f2d27a",
+        "hair": "#1e1a17"
+      }
+    },
+    {
+      "id": "SALESMAN",
+      "look": {
+        "skin": "#c89060",
+        "robe": "#2b4a6b",
+        "trim": "#c9a95a",
+        "hair": "#1e1a17",
+        "glasses": true
+      }
+    },
+    {
+      "id": "LEE_KY",
+      "name": "Lee Kuan Yew",
+      "look": {
+        "skin": "#c8a070",
+        "robe": "#1a1a2e",
+        "trim": "#2e2e4e",
+        "hat": "none",
+        "beard": "none",
+        "hair": "#1a1a1a",
+        "glasses": false,
+        "prop": "scroll",
+        "staff": "none"
+      },
+      "voice": ""
+    }
+  ],
+  "sfxMode": "scenes",
+  "sfxVolume": 0.7,
+  "music": "music/bed.mp3",
+  "musicVolume": 0.08,
+  "segments": [
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "This tiny island is richer than the United States. Richer than Germany. Richer than almost anywhere on Earth.",
+      "visual": {
+        "kind": "map",
+        "satellite": true,
+        "from": {
+          "lon": 103.82,
+          "lat": 1.35,
+          "zoom": 2
+        },
+        "to": {
+          "lon": 103.82,
+          "lat": 1.35,
+          "zoom": 10
+        },
+        "events": [
+          {
+            "type": "nation",
+            "at": [
+              103.82,
+              1.35
+            ],
+            "t": 0.3,
+            "code": "sg",
+            "label": "Singapore"
+          },
+          {
+            "type": "pulse",
+            "at": [
+              103.82,
+              1.35
+            ],
+            "t": 0.3,
+            "color": "#f1c40f"
+          },
+          {
+            "type": "label",
+            "at": [
+              103.82,
+              2.4
+            ],
+            "t": 1,
+            "text": "$107,000/person",
+            "size": 38,
+            "color": "#f1c40f",
+            "caps": false
+          },
+          {
+            "type": "dotScatter",
+            "bbox": [
+              103.6,
+              1.1,
+              104.0,
+              1.5
+            ],
+            "n": 60,
+            "t": 1.5,
+            "color": "rgba(241,196,15,0.8)",
+            "size": 4
+          },
+          {
+            "type": "legendBadge",
+            "at": [
+              103.6,
+              1.6
+            ],
+            "label": "#1 GDP/capita",
+            "icon": "gold",
+            "t": 2.5,
+            "color": "rgba(20,16,12,0.85)"
+          }
+        ],
+        "dateCounter": {
+          "start": 2024,
+          "suffix": " AD"
+        }
+      },
+      "id": "hook-s01",
+      "audio": "audio/ep02-singapore/hook-s01.mp3",
+      "durationSec": 7.57
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "And sixty years ago it had nothing. No oil. No gold. No farmland. Not even enough water to drink.",
+      "visual": {
+        "kind": "map",
+        "satellite": true,
+        "from": {
+          "lon": 103.82,
+          "lat": 1.35,
+          "zoom": 7
+        },
+        "to": {
+          "lon": 103.82,
+          "lat": 1.35,
+          "zoom": 7.5
+        },
+        "events": [
+          {
+            "type": "callout",
+            "at": [
+              103.0,
+              2.2
+            ],
+            "t": 0.3,
+            "icon": "oil",
+            "label": "NO OIL",
+            "pos": "above",
+            "side": "left",
+            "focus": false
+          },
+          {
+            "type": "callout",
+            "at": [
+              104.8,
+              2.2
+            ],
+            "t": 0.7,
+            "icon": "gold",
+            "label": "NO GOLD",
+            "pos": "above",
+            "side": "right",
+            "focus": false
+          },
+          {
+            "type": "callout",
+            "at": [
+              103.0,
+              0.5
+            ],
+            "t": 1.1,
+            "icon": "wheat",
+            "label": "NO FARMLAND",
+            "pos": "below",
+            "side": "left",
+            "focus": false
+          },
+          {
+            "type": "callout",
+            "at": [
+              104.8,
+              0.5
+            ],
+            "t": 1.5,
+            "icon": "water",
+            "label": "NO WATER",
+            "pos": "below",
+            "side": "right",
+            "focus": false
+          },
+          {
+            "type": "pulse",
+            "at": [
+              103.82,
+              1.35
+            ],
+            "t": 0,
+            "color": "#f1c40f"
+          }
+        ]
+      },
+      "id": "hook-s02",
+      "audio": "audio/ep02-singapore/hook-s02.mp3",
+      "durationSec": 8.77
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "The average person earned five hundred dollars a year. The same as Mexico. A third of what people made in Britain.",
+      "visual": {
+        "kind": "action",
+        "name": "bars",
+        "bg": "street",
+        "bars": [
+          {
+            "label": "Singapore",
+            "value": 500,
+            "color": "#c0392b",
+            "flag": "sg"
+          },
+          {
+            "label": "Mexico",
+            "value": 490,
+            "color": "#e67e22",
+            "flag": "mx"
+          },
+          {
+            "label": "UK",
+            "value": 1400,
+            "color": "#2ecc71",
+            "flag": "gb"
+          },
+          {
+            "label": "USA",
+            "value": 3600,
+            "color": "#3498db",
+            "flag": "us"
+          }
+        ],
+        "hideValues": false,
+        "labels": [
+          {
+            "text": "GDP per person, 1965 (USD)",
+            "x": 50,
+            "y": 10,
+            "at": 0.4,
+            "size": 54
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "confused"
+      },
+      "id": "hook-s03",
+      "audio": "audio/ep02-singapore/hook-s03.mp3",
+      "durationSec": 8.09
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "On the ninth of August 1965, the man who had to fix all of this sat down in front of television cameras \u2014 and wept.",
+      "visual": {
+        "kind": "scene",
+        "set": "palace",
+        "cam": {
+          "x": 50,
+          "y": 60,
+          "from": 1.6,
+          "to": 1.9
+        },
+        "cast": [
+          {
+            "id": "LEE_KY",
+            "x": 50,
+            "pose": "shrug",
+            "flip": false
+          }
+        ],
+        "props": [
+          {
+            "icon": "scroll",
+            "x": 72,
+            "y": 68,
+            "scale": 0.7,
+            "anim": "none"
+          }
+        ]
+      },
+      "date": "1965",
+      "id": "hook-s04",
+      "audio": "audio/ep02-singapore/hook-s04.mp3",
+      "durationSec": 8.61
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "His country had no money, no army, no water supply. Nine hundred thousand people lived in wooden slums that burned down on a dry afternoon.",
+      "visual": {
+        "kind": "crowd",
+        "set": "village",
+        "n": 9,
+        "action": "stand",
+        "seed": 7,
+        "props": [
+          {
+            "icon": "house",
+            "x": 15,
+            "y": 55,
+            "scale": 0.7,
+            "anim": "none"
+          },
+          {
+            "icon": "house",
+            "x": 82,
+            "y": 58,
+            "scale": 0.65,
+            "anim": "none"
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "confused"
+      },
+      "id": "hook-s05",
+      "audio": "audio/ep02-singapore/hook-s05.mp3",
+      "durationSec": 10.7
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Now look at it today. In 2026, the average Singaporean earns over a hundred and seven thousand dollars a year.",
+      "visual": {
+        "kind": "action",
+        "name": "bars",
+        "bg": "skyline",
+        "bars": [
+          {
+            "label": "Singapore",
+            "value": 107000,
+            "color": "#f2d27a",
+            "flag": "sg"
+          },
+          {
+            "label": "USA",
+            "value": 86000,
+            "color": "#3498db",
+            "flag": "us"
+          },
+          {
+            "label": "Germany",
+            "value": 55000,
+            "color": "#e67e22",
+            "flag": "de"
+          },
+          {
+            "label": "UK",
+            "value": 49000,
+            "color": "#2ecc71",
+            "flag": "gb"
+          }
+        ],
+        "hideValues": false,
+        "labels": [
+          {
+            "text": "GDP per person, 2026 (USD)",
+            "x": 50,
+            "y": 10,
+            "at": 0.4,
+            "size": 54
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "happy"
+      },
+      "id": "hook-s06",
+      "audio": "audio/ep02-singapore/hook-s06.mp3",
+      "durationSec": 8.44
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "More than the average American. More than the British. More than the Germans. The same island. One lifetime.",
+      "visual": {
+        "kind": "action",
+        "name": "pricetag",
+        "from": 500,
+        "to": 107000,
+        "prefix": "$",
+        "suffix": "/yr",
+        "item": "GDP per person",
+        "bg": "bank"
+      },
+      "mascot": {
+        "pose": "happy"
+      },
+      "id": "hook-s07",
+      "audio": "audio/ep02-singapore/hook-s07.mp3",
+      "durationSec": 8.38
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Look at a map of Asia.",
+      "visual": {
+        "kind": "map",
+        "from": {
+          "lon": 95,
+          "lat": 10,
+          "zoom": 2.5
+        },
+        "to": {
+          "lon": 103.82,
+          "lat": 5,
+          "zoom": 3.5
+        },
+        "events": [
+          {
+            "type": "nation",
+            "at": [
+              80,
+              20
+            ],
+            "t": 0,
+            "code": "in",
+            "label": "India"
+          },
+          {
+            "type": "nation",
+            "at": [
+              116,
+              35
+            ],
+            "t": 0.5,
+            "code": "cn",
+            "label": "China"
+          },
+          {
+            "type": "fill",
+            "countries": [
+              "IDN",
+              "MYS",
+              "THA",
+              "MMR",
+              "VNM"
+            ],
+            "t": 0.8,
+            "color": "#2c3e50"
+          },
+          {
+            "type": "label",
+            "at": [
+              110,
+              5
+            ],
+            "t": 1,
+            "text": "SOUTHEAST ASIA",
+            "size": 22,
+            "color": "#f1c40f",
+            "caps": true
+          },
+          {
+            "type": "label",
+            "at": [
+              103.82,
+              1.35
+            ],
+            "t": 1.2,
+            "text": "HERE",
+            "size": 28,
+            "color": "#e74c3c",
+            "caps": true
+          },
+          {
+            "type": "dotScatter",
+            "bbox": [
+              95,
+              -5,
+              125,
+              25
+            ],
+            "n": 55,
+            "t": 1.0,
+            "color": "rgba(255,255,255,0.45)",
+            "size": 3
+          },
+          {
+            "type": "legendBadge",
+            "at": [
+              103.0,
+              -3.0
+            ],
+            "label": "150M people",
+            "icon": "tent",
+            "t": 1.6
+          }
+        ],
+        "dateCounter": {
+          "start": 1819,
+          "suffix": " AD",
+          "dur": 1.5
+        }
+      },
+      "mascot": {
+        "pose": "point"
+      },
+      "id": "ch1-s01",
+      "audio": "audio/ep02-singapore/ch1-s01.mp3",
+      "durationSec": 1.98
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Between India and China there is a narrow strip of sea called the Strait of Malacca.",
+      "visual": {
+        "kind": "map",
+        "from": {
+          "lon": 100,
+          "lat": 10,
+          "zoom": 1.8
+        },
+        "to": {
+          "lon": 109,
+          "lat": 4,
+          "zoom": 4.2
+        },
+        "events": [
+          {
+            "type": "label",
+            "at": [
+              77,
+              20
+            ],
+            "t": 0,
+            "word": 0,
+            "text": "India",
+            "size": 36,
+            "caps": true,
+            "style": "region"
+          },
+          {
+            "type": "label",
+            "at": [
+              110,
+              32
+            ],
+            "t": 0,
+            "word": 0,
+            "text": "China",
+            "size": 36,
+            "caps": true,
+            "style": "region"
+          },
+          {
+            "type": "label",
+            "at": [
+              100,
+              3
+            ],
+            "t": 0,
+            "word": 5,
+            "text": "Strait of Malacca",
+            "size": 36,
+            "caps": true,
+            "style": "region"
+          },
+          {
+            "type": "flow",
+            "path": [
+              [
+                73,
+                20
+              ],
+              [
+                82,
+                8
+              ],
+              [
+                100,
+                3
+              ],
+              [
+                103,
+                2
+              ]
+            ],
+            "t": 0,
+            "word": 8,
+            "color": "#2255aa",
+            "width": 2.5
+          },
+          {
+            "type": "dotScatter",
+            "bbox": [
+              99,
+              0,
+              105,
+              7
+            ],
+            "n": 35,
+            "t": 2.0,
+            "color": "rgba(100,180,255,0.7)",
+            "size": 4
+          },
+          {
+            "type": "legendBadge",
+            "at": [
+              100.5,
+              1.5
+            ],
+            "label": "World's chokepoint",
+            "icon": "ship",
+            "t": 3.5
+          }
+        ]
+      },
+      "id": "ch1-s02",
+      "audio": "audio/ep02-singapore/ch1-s02.mp3",
+      "durationSec": 6.22
+    },
+    {
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Every ship from China to India passed through one narrow strait.",
+      "visual": {
+        "kind": "map",
+        "from": {
+          "lon": 103.0,
+          "lat": 2.5,
+          "zoom": 4
+        },
+        "to": {
+          "lon": 103.5,
+          "lat": 2.0,
+          "zoom": 5.5
+        },
+        "events": [
+          {
+            "type": "move",
+            "path": [
+              [
+                115.0,
+                22.0
+              ],
+              [
+                103.5,
+                1.3
+              ],
+              [
+                80.0,
+                10.0
+              ]
+            ],
+            "t": 0.0,
+            "icon": "ship",
+            "label": "China \u2192 India"
+          },
+          {
+            "type": "move",
+            "path": [
+              [
+                110.0,
+                20.0
+              ],
+              [
+                103.5,
+                1.3
+              ],
+              [
+                75.0,
+                8.0
+              ]
+            ],
+            "t": 0.4,
+            "icon": "ship"
+          },
+          {
+            "type": "move",
+            "path": [
+              [
+                105.0,
+                15.0
+              ],
+              [
+                103.5,
+                1.3
+              ],
+              [
+                72.0,
+                6.0
+              ]
+            ],
+            "t": 0.8,
+            "icon": "ship"
+          },
+          {
+            "type": "arrow",
+            "from": [
+              103.5,
+              5.0
+            ],
+            "to": [
+              103.5,
+              -1.0
+            ],
+            "t": 0.2,
+            "color": "#f39c12"
+          },
+          {
+            "type": "label",
+            "at": [
+              103.5,
+              1.3
+            ],
+            "t": 0.5,
+            "text": "Strait of Malacca",
+            "size": 28,
+            "color": "#ffffff",
+            "caps": true
+          },
+          {
+            "type": "crossOut",
+            "at": [
+              101.5,
+              4.5
+            ],
+            "t": 1.5,
+            "size": 70,
+            "color": "#e63329"
+          },
+          {
+            "type": "legendBadge",
+            "at": [
+              103.0,
+              0.0
+            ],
+            "label": "Every ship. Every time.",
+            "icon": "scroll",
+            "t": 2.0
+          }
+        ],
+        "dateCounter": {
+          "start": 1400,
+          "end": 1500,
+          "suffix": " AD"
+        }
+      },
+      "id": "ch1-s03",
+      "audio": "audio/ep02-singapore/ch1-s03.mp3",
+      "durationSec": 4.2
+    }
+  ]
+}
