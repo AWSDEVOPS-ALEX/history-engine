@@ -529,6 +529,95 @@ export const MapScene: React.FC<{ v: MapVisual; cast: CastMember[]; satellite?: 
         );
         break;
       }
+      case "dotScatter": {
+        // Scatter white dots across a bounding box. bbox = [lonMin, latMin, lonMax, latMax]
+        const [lonMin, latMin, lonMax, latMax] = e.bbox;
+        const n = e.n ?? 40;
+        const dotColor = e.color ?? "rgba(255,255,255,0.72)";
+        const dotR = e.size ?? 5;
+        // seeded pseudo-random so dots don't jump each frame
+        const dots: { x: number; y: number; delay: number }[] = [];
+        for (let d = 0; d < n; d++) {
+          const seed1 = Math.sin(d * 127.1 + 311.7) * 43758.5453;
+          const seed2 = Math.sin(d * 269.5 + 183.3) * 43758.5453;
+          const lon = lonMin + (seed1 - Math.floor(seed1)) * (lonMax - lonMin);
+          const lat = latMin + (seed2 - Math.floor(seed2)) * (latMax - latMin);
+          const [dx, dy] = P([lon, lat]);
+          dots.push({ x: dx, y: dy, delay: d / n });
+        }
+        over.push(
+          <g key={`ds${i}`}>
+            {dots.map((dot, di) => {
+              const dotAge = Math.max(0, age - dot.delay * 0.6);
+              const s = spring({ frame: Math.round(dotAge * fps), fps, config: { damping: 24, stiffness: 160 } });
+              return <circle key={di} cx={dot.x} cy={dot.y} r={dotR} fill={dotColor} opacity={Math.min(1, dotAge * 6)} transform={`scale(${s})`} style={{ transformOrigin: `${dot.x}px ${dot.y}px` }} />;
+            })}
+          </g>,
+        );
+        break;
+      }
+      case "crossOut": {
+        const [x, y] = P(e.at);
+        const size = e.size ?? 110;
+        const col = e.color ?? "#e63329";
+        const mark = e.mark ?? "X";
+        // Draw X as two crossed lines, or ? as text
+        const draw = spring({ frame: frame - e.t * fps, fps, config: { damping: 18, stiffness: 80 } });
+        const wobble = Math.sin(frame / 8) * 3;
+        over.push(
+          <g key={`cx${i}`} transform={`translate(${x} ${y}) rotate(${wobble})`} opacity={Math.min(1, age * 5)}>
+            {mark === "X" ? (
+              <>
+                <line
+                  x1={-size} y1={-size} x2={size * draw} y2={size * draw}
+                  stroke={col} strokeWidth={22} strokeLinecap="round"
+                  pathLength={1} strokeDasharray="1 1" strokeDashoffset={1 - draw}
+                />
+                <line
+                  x1={size} y1={-size} x2={-size * draw} y2={size * draw}
+                  stroke={col} strokeWidth={22} strokeLinecap="round"
+                  pathLength={1} strokeDasharray="1 1" strokeDashoffset={1 - draw}
+                />
+                {/* white halo for legibility */}
+                <line x1={-size} y1={-size} x2={size} y2={size} stroke="rgba(255,255,255,0.35)" strokeWidth={30} strokeLinecap="round" />
+                <line x1={size} y1={-size} x2={-size} y2={size} stroke="rgba(255,255,255,0.35)" strokeWidth={30} strokeLinecap="round" />
+              </>
+            ) : (
+              <text textAnchor="middle" dominantBaseline="central" fontFamily={HAND_BOLD} fontSize={size * 2.2} fill={col} stroke="rgba(0,0,0,0.5)" strokeWidth={12} paintOrder="stroke" transform={`scale(${draw})`}>
+                {mark}
+              </text>
+            )}
+          </g>,
+        );
+        break;
+      }
+      case "legendBadge": {
+        // Map-pinned badge — appears near the specified location as a dark pill
+        const [x, y] = e.at ? P(e.at) : [120, H - 120 - (i * 90)];
+        const s = pop(e.t);
+        const badgeColor = e.color ?? "rgba(28,24,20,0.82)";
+        over.push(
+          <g key={`lb${i}`} transform={`translate(${x} ${y}) scale(${s})`} opacity={Math.min(1, age * 4)}>
+            <rect x={-110} y={-32} width={220} height={62} rx={31} fill={badgeColor} stroke="rgba(255,255,255,0.22)" strokeWidth={2.5} />
+            {e.icon ? (
+              <>
+                <circle cx={-78} cy={-1} r={22} fill="rgba(255,255,255,0.14)" />
+                <g transform="translate(-78 -1) scale(0.28)">
+                  <MapToken icon={e.icon} step={frame * 0.3} />
+                </g>
+                <text x={-46} y={6} fontFamily={HAND} fontSize={34} fill="#ffffff" stroke="rgba(0,0,0,0.5)" strokeWidth={5} paintOrder="stroke">
+                  {e.label}
+                </text>
+              </>
+            ) : (
+              <text x={0} y={6} textAnchor="middle" fontFamily={HAND} fontSize={34} fill="#ffffff" stroke="rgba(0,0,0,0.5)" strokeWidth={5} paintOrder="stroke">
+                {e.label}
+              </text>
+            )}
+          </g>,
+        );
+        break;
+      }
     }
   });
 
@@ -654,6 +743,38 @@ export const MapScene: React.FC<{ v: MapVisual; cast: CastMember[]; satellite?: 
         );
       })}
       {medallions}
+      {v.dateCounter ? (() => {
+        const dc = v.dateCounter;
+        const startNum = typeof dc.start === "number" ? dc.start : parseInt(String(dc.start), 10);
+        const endNum = dc.end !== undefined ? (typeof dc.end === "number" ? dc.end : parseInt(String(dc.end), 10)) : startNum;
+        const dur = dc.dur ?? total;
+        const k = Easing.inOut(Easing.cubic)(Math.min(1, sec / Math.max(0.1, dur)));
+        const val = Math.round(startNum + (endNum - startNum) * k);
+        const display = `${dc.prefix ?? ""}${typeof dc.start === "number" ? val.toLocaleString("en-US") : val}${dc.suffix ?? ""}`;
+        const fadeIn = Math.min(1, sec * 3);
+        return (
+          <div style={{
+            position: "absolute", top: 36, left: 36,
+            background: "rgba(20,16,12,0.78)",
+            border: "2.5px solid rgba(255,220,120,0.55)",
+            borderRadius: 18,
+            padding: "10px 28px 10px 22px",
+            fontFamily: HAND_BOLD,
+            fontSize: 58,
+            color: "#ffe9a8",
+            WebkitTextStroke: "4px rgba(0,0,0,0.5)",
+            paintOrder: "stroke fill",
+            opacity: fadeIn,
+            pointerEvents: "none",
+            letterSpacing: 2,
+            lineHeight: 1.1,
+            boxShadow: "0 4px 24px rgba(0,0,0,0.5)",
+            backdropFilter: "blur(4px)",
+          }}>
+            {display}
+          </div>
+        );
+      })() : null}
       {v.intro === "clouds" ? <CloudIntro sec={sec} dur={v.introDur ?? 3.2} /> : null}
     </AbsoluteFill>
   );

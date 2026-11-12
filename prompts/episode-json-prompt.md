@@ -27,7 +27,12 @@ Segments:
      `move` (icon camel | ship | soldier | horse, `count`, `dur`, optional `label`), `flow` (trade line),
      `battle`, `fill` (country names as in Natural Earth, `stagger`), `border`, `scatter` (icon, n, spread),
      `icon` (gold, salt, crown, book, mosque, tent, house, scroll, fire…, optional `label`),
-     `label` (geo-anchored handwriting), `pulse`, `arrow`, `counter`. Plus `rivers`, `cities`, `rulers`.
+     `label` (geo-anchored handwriting), `pulse`, `arrow`, `counter`,
+     `dotScatter` (bbox:[lonMin,latMin,lonMax,latMax], n, color — white dot territory scatter),
+     `crossOut` (at, size, mark:"X"|"?" — animated red X/? stamp over a location),
+     `legendBadge` (at, label, icon, color — dark pill badge on the map, stagger multiples).
+     Plus `dateCounter` on the visual itself (`start`, `end`, `dur`, `prefix`, `suffix`) for a top-left
+     animated year/era pill that counts across the segment. Plus `rivers`, `cities`, `rulers`.
    - **gray** + `icon` (coins, bulb, question, mound, crown, camel, book) for ideas, numbers, jokes.
    - **scene** for skits: `set` (palace, study, desert, fields, night-city, sky, village, sea, battlefield,
      market) + `cast` positions (x 20–80, `pose`, `flip`).

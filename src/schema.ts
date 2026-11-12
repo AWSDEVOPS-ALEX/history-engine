@@ -90,7 +90,23 @@ export type MapEvent =
   | { type: "arrow"; from: LonLat; to: LonLat; t: number; color?: string; bend?: number }
   | { type: "scatter"; around: LonLat; icon: MapIcon; n: number; spread?: number; t: number; size?: number }
   | { type: "border"; countries: string[]; t: number; color?: string }
-  | { type: "flag"; at: LonLat; t: number; color?: string; label?: string };
+  | { type: "flag"; at: LonLat; t: number; color?: string; label?: string }
+  /**
+   * Scatter white dots across a rectangular bounding box to show territorial coverage,
+   * population density, or resource spread. bbox = [lonMin, latMin, lonMax, latMax].
+   */
+  | { type: "dotScatter"; bbox: [number, number, number, number]; n?: number; t: number; color?: string; size?: number }
+  /**
+   * Draw an animated red X (or ?) over a territory or point. Use when a nation falls,
+   * a plan fails, or a claim is contested. `mark` defaults to "X".
+   */
+  | { type: "crossOut"; at: LonLat; t: number; size?: number; color?: string; mark?: "X" | "?" }
+  /**
+   * Overlay dark pill badges (icon + label) in the bottom-left corner.
+   * Good for showing what trade goods, factions, or stats are on the map.
+   * Each badge slides in staggered. `t` = seconds after segment start.
+   */
+  | { type: "legendBadge"; at?: LonLat; label: string; icon?: MapIcon; t: number; color?: string };
 
 /** Slow camera move on a set or card: push from zoom `from` to zoom `to`, centred on x/y (% of frame). */
 export type Cam = { x: number; y: number; from?: number; to?: number };
@@ -159,6 +175,13 @@ export type Visual =
       routes?: { points: LonLat[]; at?: number; color?: string }[];
       cities?: { name: string; at: LonLat; t?: number }[];
       rulers?: { cast: string; at: LonLat; t?: number; label?: string }[];
+      /**
+       * Animated date/era pill in the top-left corner of the map.
+       * Counts from `start` to `end` over `dur` seconds (default = segment duration).
+       * Use plain years (1200), era strings ("1200 AD"), or century strings ("13th century").
+       * `prefix` / `suffix` wrap the value: prefix "c. " → "c. 1200 AD".
+       */
+      dateCounter?: { start: string | number; end?: string | number; dur?: number; prefix?: string; suffix?: string };
     }
   | {
       kind: "scene";
