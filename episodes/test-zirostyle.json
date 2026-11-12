@@ -1,0 +1,1016 @@
+{
+  "title": "Singapore \u2014 Ziro Style Test (1 min)",
+  "fps": 30,
+  "mascot": {
+    "skin": "#e8c09a",
+    "robe": "#2b4a6b",
+    "trim": "#f2d27a",
+    "hair": "#2b2622",
+    "hat": "scholar",
+    "hatColor": "#2b4a6b",
+    "staff": "chronicler"
+  },
+  "cast": [
+    {
+      "id": "NARRATOR",
+      "look": {},
+      "voice": ""
+    },
+    {
+      "id": "MOTHER_1",
+      "look": {
+        "skin": "#c89060",
+        "robe": "#8a4a2a",
+        "trim": "#c9a95a",
+        "hair": "#1e1a17",
+        "bun": true
+      }
+    },
+    {
+      "id": "FATHER_1",
+      "look": {
+        "skin": "#d0a070",
+        "robe": "#2b4a3a",
+        "trim": "#7fae7a",
+        "hair": "#1e1a17"
+      }
+    },
+    {
+      "id": "BRIT_OFF",
+      "look": {
+        "skin": "#f0d8b8",
+        "robe": "#8a0020",
+        "trim": "#c9a95a",
+        "hair": "#a08060",
+        "hat": "tallhat",
+        "hatColor": "#1e1a17"
+      }
+    },
+    {
+      "id": "SG_CLERK",
+      "look": {
+        "skin": "#c89060",
+        "robe": "#2b4a6b",
+        "trim": "#f2d27a",
+        "hair": "#1e1a17"
+      }
+    },
+    {
+      "id": "DAUGHTER",
+      "look": {
+        "skin": "#c89060",
+        "robe": "#7a3b7a",
+        "trim": "#c9a95a",
+        "hair": "#1e1a17",
+        "bun": true
+      }
+    },
+    {
+      "id": "FATHER_2",
+      "look": {
+        "skin": "#d0a070",
+        "robe": "#2b4a3a",
+        "trim": "#7fae7a",
+        "hair": "#1e1a17",
+        "glasses": true
+      }
+    },
+    {
+      "id": "SON",
+      "look": {
+        "skin": "#c89060",
+        "robe": "#2b4a6b",
+        "trim": "#f2d27a",
+        "hair": "#1e1a17"
+      }
+    },
+    {
+      "id": "MOTHER_2",
+      "look": {
+        "skin": "#c89060",
+        "robe": "#8a4a2a",
+        "trim": "#c9a95a",
+        "hair": "#1e1a17",
+        "bun": true,
+        "glasses": true
+      }
+    },
+    {
+      "id": "EXEC",
+      "look": {
+        "skin": "#f0d8b8",
+        "robe": "#2b4a6b",
+        "trim": "#c9a95a",
+        "hair": "#a08060",
+        "glasses": true
+      }
+    },
+    {
+      "id": "EDB_OFF",
+      "look": {
+        "skin": "#c89060",
+        "robe": "#2b4a6b",
+        "trim": "#f2d27a",
+        "hair": "#1e1a17"
+      }
+    },
+    {
+      "id": "CUSTOMER",
+      "look": {
+        "skin": "#e8c09a",
+        "robe": "#a04020",
+        "trim": "#f2d27a",
+        "hair": "#1e1a17"
+      }
+    },
+    {
+      "id": "SALESMAN",
+      "look": {
+        "skin": "#c89060",
+        "robe": "#2b4a6b",
+        "trim": "#c9a95a",
+        "hair": "#1e1a17",
+        "glasses": true
+      }
+    },
+    {
+      "id": "LEE_KY",
+      "name": "Lee Kuan Yew",
+      "look": {
+        "skin": "#c8a070",
+        "robe": "#1a1a2e",
+        "trim": "#2e2e4e",
+        "hat": "none",
+        "beard": "none",
+        "hair": "#1a1a1a",
+        "glasses": false,
+        "prop": "scroll",
+        "staff": "none"
+      },
+      "voice": ""
+    }
+  ],
+  "narratorVoice": "",
+  "satellite": true,
+  "sfx": true,
+  "sfxMode": "full",
+  "subtitles": true,
+  "segments": [
+    {
+      "id": "ch1-s01",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Look at a map of Asia.",
+      "visual": {
+        "kind": "map",
+        "from": {
+          "lon": 85,
+          "lat": 15,
+          "zoom": 1.8
+        },
+        "to": {
+          "lon": 103.82,
+          "lat": 5,
+          "zoom": 3.2
+        },
+        "dateCounter": {
+          "start": 1819,
+          "suffix": " AD"
+        },
+        "events": [
+          {
+            "type": "fill",
+            "countries": [
+              "India"
+            ],
+            "t": 0,
+            "color": "#c0392b",
+            "stagger": 0
+          },
+          {
+            "type": "fill",
+            "countries": [
+              "China"
+            ],
+            "t": 0.2,
+            "color": "#e67e22",
+            "stagger": 0
+          },
+          {
+            "type": "fill",
+            "countries": [
+              "Malaysia",
+              "Indonesia",
+              "Thailand",
+              "Myanmar",
+              "Vietnam",
+              "Cambodia",
+              "Laos",
+              "Philippines"
+            ],
+            "t": 0.5,
+            "color": "#2c3e50",
+            "stagger": 0.08
+          },
+          {
+            "type": "label",
+            "at": [
+              78,
+              20
+            ],
+            "t": 0,
+            "text": "INDIA",
+            "size": 32,
+            "style": "region"
+          },
+          {
+            "type": "label",
+            "at": [
+              112,
+              32
+            ],
+            "t": 0.2,
+            "text": "CHINA",
+            "size": 32,
+            "style": "region"
+          },
+          {
+            "type": "label",
+            "at": [
+              110,
+              5
+            ],
+            "t": 0.5,
+            "text": "SOUTHEAST ASIA",
+            "size": 20,
+            "color": "#f1c40f",
+            "caps": true
+          },
+          {
+            "type": "pulse",
+            "at": [
+              103.82,
+              1.35
+            ],
+            "t": 1.0,
+            "color": "#e74c3c"
+          }
+        ]
+      },
+      "audio": "audio/ep02-singapore/ch1-s01.mp3",
+      "durationSec": 1.98,
+      "mascot": {
+        "pose": "point"
+      }
+    },
+    {
+      "id": "ch1-s02",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Between India and China there is a narrow strip of sea called the Strait of Malacca.",
+      "visual": {
+        "kind": "map",
+        "from": {
+          "lon": 103.82,
+          "lat": 5,
+          "zoom": 3.2
+        },
+        "to": {
+          "lon": 101.5,
+          "lat": 3.5,
+          "zoom": 5.5
+        },
+        "events": [
+          {
+            "type": "label",
+            "at": [
+              78,
+              20
+            ],
+            "t": 0,
+            "word": 1,
+            "text": "INDIA",
+            "size": 32,
+            "style": "region"
+          },
+          {
+            "type": "label",
+            "at": [
+              112,
+              32
+            ],
+            "t": 0,
+            "word": 3,
+            "text": "CHINA",
+            "size": 32,
+            "style": "region"
+          },
+          {
+            "type": "flow",
+            "path": [
+              [
+                72,
+                18
+              ],
+              [
+                82,
+                10
+              ],
+              [
+                98,
+                4
+              ],
+              [
+                103,
+                2
+              ]
+            ],
+            "t": 0.4,
+            "word": 5,
+            "color": "#c0392b",
+            "width": 3
+          },
+          {
+            "type": "flow",
+            "path": [
+              [
+                118,
+                24
+              ],
+              [
+                112,
+                15
+              ],
+              [
+                105,
+                5
+              ],
+              [
+                103,
+                2
+              ]
+            ],
+            "t": 0.6,
+            "word": 5,
+            "color": "#e67e22",
+            "width": 3
+          },
+          {
+            "type": "label",
+            "at": [
+              100.5,
+              3.5
+            ],
+            "t": 1.5,
+            "word": 8,
+            "text": "Strait of Malacca",
+            "size": 30,
+            "caps": true,
+            "style": "region"
+          },
+          {
+            "type": "dotScatter",
+            "bbox": [
+              99,
+              0,
+              105,
+              6
+            ],
+            "n": 40,
+            "t": 2.0,
+            "color": "rgba(100,180,255,0.65)",
+            "size": 4
+          },
+          {
+            "type": "legendBadge",
+            "at": [
+              98.5,
+              1.0
+            ],
+            "label": "World chokepoint",
+            "icon": "ship",
+            "t": 3.0
+          }
+        ]
+      },
+      "audio": "audio/ep02-singapore/ch1-s02.mp3",
+      "durationSec": 6.22,
+      "mascot": {
+        "pose": "talk",
+        "poses": [
+          {
+            "t": 3.5,
+            "pose": "point"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ch1-s03",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Every ship from China to India passed through one narrow strait.",
+      "visual": {
+        "kind": "map",
+        "from": {
+          "lon": 101.5,
+          "lat": 3.5,
+          "zoom": 5.5
+        },
+        "to": {
+          "lon": 103.5,
+          "lat": 1.5,
+          "zoom": 7
+        },
+        "events": [
+          {
+            "type": "move",
+            "path": [
+              [
+                115,
+                22
+              ],
+              [
+                103.5,
+                1.3
+              ],
+              [
+                80,
+                10
+              ]
+            ],
+            "t": 0.0,
+            "icon": "ship",
+            "count": 2,
+            "label": "Every ship"
+          },
+          {
+            "type": "move",
+            "path": [
+              [
+                110,
+                18
+              ],
+              [
+                103.5,
+                1.3
+              ],
+              [
+                76,
+                8
+              ]
+            ],
+            "t": 0.5,
+            "icon": "ship",
+            "count": 2
+          },
+          {
+            "type": "move",
+            "path": [
+              [
+                107,
+                14
+              ],
+              [
+                103.5,
+                1.3
+              ],
+              [
+                73,
+                6
+              ]
+            ],
+            "t": 1.0,
+            "icon": "ship",
+            "count": 2
+          },
+          {
+            "type": "arrow",
+            "from": [
+              103.5,
+              5.5
+            ],
+            "to": [
+              103.5,
+              0.5
+            ],
+            "t": 0.3,
+            "color": "#f1c40f"
+          },
+          {
+            "type": "crossOut",
+            "at": [
+              106,
+              5
+            ],
+            "t": 1.8,
+            "size": 60,
+            "color": "#e63329",
+            "mark": "X"
+          },
+          {
+            "type": "label",
+            "at": [
+              103.5,
+              1.3
+            ],
+            "t": 2.0,
+            "text": "No other way",
+            "size": 26,
+            "color": "#ffffff"
+          }
+        ]
+      },
+      "audio": "audio/ep02-singapore/ch1-s03.mp3",
+      "durationSec": 4.2,
+      "mascot": {
+        "pose": "point"
+      }
+    },
+    {
+      "id": "ch1-s04",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "And right at the bottom of that strait, at the very tip of the Malay Peninsula, sits one small island.",
+      "visual": {
+        "kind": "map",
+        "from": {
+          "lon": 103.5,
+          "lat": 1.5,
+          "zoom": 7
+        },
+        "to": {
+          "lon": 103.82,
+          "lat": 1.35,
+          "zoom": 11
+        },
+        "dateCounter": {
+          "start": 1819,
+          "suffix": " AD"
+        },
+        "events": [
+          {
+            "type": "pulse",
+            "at": [
+              103.82,
+              1.35
+            ],
+            "t": 0.3,
+            "color": "#f1c40f"
+          },
+          {
+            "type": "pulse",
+            "at": [
+              103.82,
+              1.35
+            ],
+            "t": 0.3,
+            "color": "#ffffff"
+          },
+          {
+            "type": "pin",
+            "at": [
+              103.82,
+              1.35
+            ],
+            "t": 1.0,
+            "label": "Singapore",
+            "color": "#f1c40f"
+          },
+          {
+            "type": "dotScatter",
+            "bbox": [
+              103.6,
+              1.1,
+              104.0,
+              1.5
+            ],
+            "n": 45,
+            "t": 2.5,
+            "color": "rgba(241,196,15,0.7)",
+            "size": 4
+          },
+          {
+            "type": "label",
+            "at": [
+              103.82,
+              2.1
+            ],
+            "t": 3.0,
+            "text": "One. Small. Island.",
+            "size": 32,
+            "color": "#ffffff"
+          },
+          {
+            "type": "legendBadge",
+            "at": [
+              103.3,
+              0.8
+            ],
+            "label": "719 km\u00b2",
+            "icon": "crown",
+            "t": 3.5
+          }
+        ]
+      },
+      "audio": "audio/ep02-singapore/ch1-s04.mp3",
+      "durationSec": 7.27,
+      "mascot": {
+        "pose": "talk",
+        "poses": [
+          {
+            "t": 4.0,
+            "pose": "happy"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ch1-s05",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "In 1819, a British official named Stamford Raffles landed there and set up a trading post for the British East India Company.",
+      "visual": {
+        "kind": "scene",
+        "set": "port",
+        "cam": {
+          "x": 50,
+          "y": 50,
+          "from": 1,
+          "to": 1.06
+        },
+        "cast": [
+          {
+            "id": "BRIT_OFF",
+            "x": 38,
+            "pose": "point",
+            "flip": false
+          }
+        ],
+        "props": [
+          {
+            "icon": "flag",
+            "x": 65,
+            "y": 55,
+            "scale": 0.9,
+            "anim": "bob"
+          }
+        ]
+      },
+      "audio": "audio/ep02-singapore/ch1-s05.mp3",
+      "durationSec": 8.97,
+      "mascot": {
+        "pose": "talk",
+        "poses": [
+          {
+            "t": 4.0,
+            "pose": "point"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ch1-s06",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "His idea was simple. Make it a free port. No taxes on trade. Let every ship stop, buy, sell and move on.",
+      "visual": {
+        "kind": "document",
+        "title": "FREE PORT",
+        "sub": "No taxes. All ships welcome.",
+        "seal": true,
+        "bg": "study"
+      },
+      "audio": "audio/ep02-singapore/ch1-s06.mp3",
+      "durationSec": 9.29,
+      "mascot": {
+        "pose": "talk"
+      }
+    },
+    {
+      "id": "ch1-s07",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "It worked. Merchants came from China, India, the Malay world, the Middle East and Europe.",
+      "visual": {
+        "kind": "map",
+        "from": {
+          "lon": 103.82,
+          "lat": 1.35,
+          "zoom": 9
+        },
+        "to": {
+          "lon": 100,
+          "lat": 5,
+          "zoom": 4
+        },
+        "dateCounter": {
+          "start": 1820,
+          "end": 1860,
+          "suffix": " AD"
+        },
+        "events": [
+          {
+            "type": "flow",
+            "path": [
+              [
+                115,
+                22
+              ],
+              [
+                108,
+                12
+              ],
+              [
+                104,
+                2
+              ],
+              [
+                103.82,
+                1.35
+              ]
+            ],
+            "t": 0.3,
+            "color": "#e67e22",
+            "width": 2.5
+          },
+          {
+            "type": "flow",
+            "path": [
+              [
+                72,
+                18
+              ],
+              [
+                82,
+                10
+              ],
+              [
+                98,
+                4
+              ],
+              [
+                103.82,
+                1.35
+              ]
+            ],
+            "t": 0.6,
+            "color": "#c0392b",
+            "width": 2.5
+          },
+          {
+            "type": "flow",
+            "path": [
+              [
+                55,
+                25
+              ],
+              [
+                65,
+                15
+              ],
+              [
+                85,
+                8
+              ],
+              [
+                103.82,
+                1.35
+              ]
+            ],
+            "t": 0.9,
+            "color": "#8e44ad",
+            "width": 2
+          },
+          {
+            "type": "flow",
+            "path": [
+              [
+                0,
+                50
+              ],
+              [
+                20,
+                40
+              ],
+              [
+                60,
+                20
+              ],
+              [
+                103.82,
+                1.35
+              ]
+            ],
+            "t": 1.2,
+            "color": "#2980b9",
+            "width": 2
+          },
+          {
+            "type": "icon",
+            "at": [
+              115,
+              22
+            ],
+            "icon": "ship",
+            "t": 0.3,
+            "label": "China"
+          },
+          {
+            "type": "icon",
+            "at": [
+              72,
+              18
+            ],
+            "icon": "camel",
+            "t": 0.6,
+            "label": "India"
+          },
+          {
+            "type": "icon",
+            "at": [
+              55,
+              25
+            ],
+            "icon": "gold",
+            "t": 0.9,
+            "label": "Arabia"
+          },
+          {
+            "type": "pulse",
+            "at": [
+              103.82,
+              1.35
+            ],
+            "t": 1.5,
+            "color": "#f1c40f"
+          },
+          {
+            "type": "legendBadge",
+            "at": [
+              103.0,
+              0.5
+            ],
+            "label": "Spices",
+            "icon": "wheat",
+            "t": 2.0
+          },
+          {
+            "type": "legendBadge",
+            "at": [
+              103.0,
+              -0.3
+            ],
+            "label": "Silk",
+            "icon": "scroll",
+            "t": 2.4
+          },
+          {
+            "type": "legendBadge",
+            "at": [
+              103.0,
+              -1.1
+            ],
+            "label": "Tin & Rubber",
+            "icon": "factory",
+            "t": 2.8
+          }
+        ]
+      },
+      "audio": "audio/ep02-singapore/ch1-s07.mp3",
+      "durationSec": 6.58,
+      "mascot": {
+        "pose": "happy"
+      }
+    },
+    {
+      "id": "ch1-s08",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Within decades, Singapore became one of the great trading hubs of the British empire.",
+      "visual": {
+        "kind": "map",
+        "from": {
+          "lon": 100,
+          "lat": 5,
+          "zoom": 4
+        },
+        "to": {
+          "lon": 103.82,
+          "lat": 1.35,
+          "zoom": 8
+        },
+        "dateCounter": {
+          "start": 1860,
+          "end": 1900,
+          "suffix": " AD"
+        },
+        "regions": [
+          {
+            "countries": [
+              "Malaysia",
+              "Singapore",
+              "Myanmar",
+              "Thailand"
+            ],
+            "color": "#c0392b",
+            "opacity": 0.4
+          }
+        ],
+        "events": [
+          {
+            "type": "fill",
+            "countries": [
+              "Malaysia"
+            ],
+            "t": 0,
+            "color": "#c0392b"
+          },
+          {
+            "type": "label",
+            "at": [
+              109,
+              4
+            ],
+            "t": 0.3,
+            "text": "BRITISH EMPIRE",
+            "size": 24,
+            "color": "#c0392b",
+            "caps": true,
+            "style": "region"
+          },
+          {
+            "type": "pulse",
+            "at": [
+              103.82,
+              1.35
+            ],
+            "t": 0.5,
+            "color": "#f1c40f"
+          },
+          {
+            "type": "dotScatter",
+            "bbox": [
+              103.6,
+              1.1,
+              104.0,
+              1.5
+            ],
+            "n": 50,
+            "t": 1.0,
+            "color": "rgba(255,255,255,0.75)",
+            "size": 3
+          },
+          {
+            "type": "move",
+            "path": [
+              [
+                100,
+                3
+              ],
+              [
+                103.5,
+                1.3
+              ]
+            ],
+            "t": 0.8,
+            "icon": "ship",
+            "count": 3,
+            "label": "British fleet"
+          },
+          {
+            "type": "legendBadge",
+            "at": [
+              103.0,
+              2.2
+            ],
+            "label": "Free port",
+            "icon": "banknotes",
+            "t": 2.5
+          },
+          {
+            "type": "legendBadge",
+            "at": [
+              103.0,
+              1.4
+            ],
+            "label": "Zero tax",
+            "icon": "dollar",
+            "t": 3.0
+          }
+        ]
+      },
+      "audio": "audio/ep02-singapore/ch1-s08.mp3",
+      "durationSec": 5.33,
+      "mascot": {
+        "pose": "talk",
+        "poses": [
+          {
+            "t": 3.0,
+            "pose": "point"
+          }
+        ]
+      }
+    }
+  ]
+}
