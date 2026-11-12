@@ -4,7 +4,7 @@ import { Thumb01 } from "./Thumbnail";
 import { Episode } from "./Episode";
 import type { Episode as EpisodeT } from "./schema";
 import { segmentFrames } from "./schema";
-import demo from "../episodes/ep02-singapore.json";
+import demo from "../episodes/test-newfeatures.json";
 import { Avatar, Banner } from "./Brand";
 
 // The episode JSON is passed as props. To render another episode:
