@@ -59,10 +59,13 @@ async function tts(text: string, referenceId?: string): Promise<Buffer> {
 const seconds = (p: string) =>
   Number(execFileSync("ffprobe", ["-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", p]).toString().trim());
 
-// apply tempo (pitch-preserving); ffmpeg's atempo accepts 0.5–2.0 per stage
+// apply tempo (pitch-preserving) + loudnorm to -14 LUFS (YouTube target)
+// ffmpeg's atempo accepts 0.5–2.0 per stage
 const retime = (raw: string, out: string) => {
-  if (TEMPO === 1) return execFileSync("cp", [raw, out]);
-  execFileSync("ffmpeg", ["-y", "-v", "error", "-i", raw, "-filter:a", `atempo=${TEMPO}`, "-b:a", "192k", out]);
+  const filters: string[] = [];
+  if (TEMPO !== 1) filters.push(`atempo=${TEMPO}`);
+  filters.push("loudnorm=I=-14:TP=-1:LRA=11");
+  execFileSync("ffmpeg", ["-y", "-v", "error", "-i", raw, "-af", filters.join(","), "-b:a", "192k", out]);
 };
 
 console.log(`Voice ID: ${DEFAULT_VOICE ?? "MISSING"} · model: ${MODEL} · tempo: ${TEMPO}`);
