@@ -550,7 +550,8 @@ export const MapScene: React.FC<{ v: MapVisual; cast: CastMember[]; satellite?: 
             {dots.map((dot, di) => {
               const dotAge = Math.max(0, age - dot.delay * 0.6);
               const s = spring({ frame: Math.round(dotAge * fps), fps, config: { damping: 24, stiffness: 160 } });
-              return <circle key={di} cx={dot.x} cy={dot.y} r={dotR} fill={dotColor} opacity={Math.min(1, dotAge * 6)} transform={`scale(${s})`} style={{ transformOrigin: `${dot.x}px ${dot.y}px` }} />;
+              // SVG transform: scale from the dot's own centre using translate+scale+translate
+              return <g key={di} transform={`translate(${dot.x} ${dot.y}) scale(${s}) translate(${-dot.x} ${-dot.y})`}><circle cx={dot.x} cy={dot.y} r={dotR} fill={dotColor} opacity={Math.min(1, dotAge * 6)} /></g>;
             })}
           </g>,
         );
@@ -561,29 +562,30 @@ export const MapScene: React.FC<{ v: MapVisual; cast: CastMember[]; satellite?: 
         const size = e.size ?? 110;
         const col = e.color ?? "#e63329";
         const mark = e.mark ?? "X";
-        // Draw X as two crossed lines, or ? as text
-        const draw = spring({ frame: frame - e.t * fps, fps, config: { damping: 18, stiffness: 80 } });
+        // Reveal progress: 0→1 over ~0.5s
+        const drawProg = Math.min(1, Math.max(0, age) * 2.2);
         const wobble = Math.sin(frame / 8) * 3;
+        const fadeIn = Math.min(1, age * 6);
         over.push(
-          <g key={`cx${i}`} transform={`translate(${x} ${y}) rotate(${wobble})`} opacity={Math.min(1, age * 5)}>
+          <g key={`cx${i}`} transform={`translate(${x} ${y}) rotate(${wobble})`} opacity={fadeIn}>
             {mark === "X" ? (
               <>
-                <line
-                  x1={-size} y1={-size} x2={size * draw} y2={size * draw}
+                {/* white halo always visible for legibility */}
+                <line x1={-size} y1={-size} x2={size} y2={size} stroke="rgba(255,255,255,0.4)" strokeWidth={34} strokeLinecap="round" />
+                <line x1={size} y1={-size} x2={-size} y2={size} stroke="rgba(255,255,255,0.4)" strokeWidth={34} strokeLinecap="round" />
+                {/* red X revealed via dashoffset */}
+                <line x1={-size} y1={-size} x2={size} y2={size}
                   stroke={col} strokeWidth={22} strokeLinecap="round"
-                  pathLength={1} strokeDasharray="1 1" strokeDashoffset={1 - draw}
+                  pathLength={1} strokeDasharray="1 1" strokeDashoffset={1 - drawProg}
                 />
-                <line
-                  x1={size} y1={-size} x2={-size * draw} y2={size * draw}
+                <line x1={size} y1={-size} x2={-size} y2={size}
                   stroke={col} strokeWidth={22} strokeLinecap="round"
-                  pathLength={1} strokeDasharray="1 1" strokeDashoffset={1 - draw}
+                  pathLength={1} strokeDasharray="1 1" strokeDashoffset={1 - drawProg}
                 />
-                {/* white halo for legibility */}
-                <line x1={-size} y1={-size} x2={size} y2={size} stroke="rgba(255,255,255,0.35)" strokeWidth={30} strokeLinecap="round" />
-                <line x1={size} y1={-size} x2={-size} y2={size} stroke="rgba(255,255,255,0.35)" strokeWidth={30} strokeLinecap="round" />
               </>
             ) : (
-              <text textAnchor="middle" dominantBaseline="central" fontFamily={HAND_BOLD} fontSize={size * 2.2} fill={col} stroke="rgba(0,0,0,0.5)" strokeWidth={12} paintOrder="stroke" transform={`scale(${draw})`}>
+              <text textAnchor="middle" dominantBaseline="central" fontFamily={HAND_BOLD} fontSize={size * 2.2} fill={col} stroke="rgba(0,0,0,0.5)" strokeWidth={12} paintOrder="stroke"
+                transform={`scale(${drawProg})`} style={{ transformBox: "fill-box", transformOrigin: "center" }}>
                 {mark}
               </text>
             )}
@@ -750,7 +752,8 @@ export const MapScene: React.FC<{ v: MapVisual; cast: CastMember[]; satellite?: 
         const dur = dc.dur ?? total;
         const k = Easing.inOut(Easing.cubic)(Math.min(1, sec / Math.max(0.1, dur)));
         const val = Math.round(startNum + (endNum - startNum) * k);
-        const display = `${dc.prefix ?? ""}${typeof dc.start === "number" ? val.toLocaleString("en-US") : val}${dc.suffix ?? ""}`;
+        // No thousands separator for years — "1819 AD" not "1,819 AD"
+        const display = `${dc.prefix ?? ""}${val}${dc.suffix ?? ""}`;
         const fadeIn = Math.min(1, sec * 3);
         return (
           <div style={{

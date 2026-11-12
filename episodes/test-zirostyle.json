@@ -184,8 +184,7 @@
               "India"
             ],
             "t": 0,
-            "color": "#c0392b",
-            "stagger": 0
+            "color": "#c0392b"
           },
           {
             "type": "fill",
@@ -193,8 +192,7 @@
               "China"
             ],
             "t": 0.2,
-            "color": "#e67e22",
-            "stagger": 0
+            "color": "#e67e22"
           },
           {
             "type": "fill",
@@ -288,7 +286,6 @@
               20
             ],
             "t": 0,
-            "word": 1,
             "text": "INDIA",
             "size": 32,
             "style": "region"
@@ -300,7 +297,6 @@
               32
             ],
             "t": 0,
-            "word": 3,
             "text": "CHINA",
             "size": 32,
             "style": "region"
@@ -326,7 +322,6 @@
               ]
             ],
             "t": 0.4,
-            "word": 5,
             "color": "#c0392b",
             "width": 3
           },
@@ -351,7 +346,6 @@
               ]
             ],
             "t": 0.6,
-            "word": 5,
             "color": "#e67e22",
             "width": 3
           },
@@ -362,7 +356,6 @@
               3.5
             ],
             "t": 1.5,
-            "word": 8,
             "text": "Strait of Malacca",
             "size": 30,
             "caps": true,
@@ -372,20 +365,20 @@
             "type": "dotScatter",
             "bbox": [
               99,
-              0,
-              105,
-              6
+              1,
+              104,
+              5
             ],
-            "n": 40,
+            "n": 35,
             "t": 2.0,
-            "color": "rgba(100,180,255,0.65)",
-            "size": 4
+            "color": "rgba(100,180,255,0.75)",
+            "size": 5
           },
           {
             "type": "legendBadge",
             "at": [
-              98.5,
-              1.0
+              98.0,
+              1.5
             ],
             "label": "World chokepoint",
             "icon": "ship",
@@ -420,7 +413,7 @@
         "to": {
           "lon": 103.5,
           "lat": 1.5,
-          "zoom": 7
+          "zoom": 7.0
         },
         "events": [
           {
@@ -500,13 +493,12 @@
           {
             "type": "crossOut",
             "at": [
-              106,
-              5
+              109.0,
+              2.0
             ],
             "t": 1.8,
-            "size": 60,
-            "color": "#e63329",
-            "mark": "X"
+            "size": 80,
+            "color": "#e63329"
           },
           {
             "type": "label",
@@ -515,7 +507,7 @@
               1.3
             ],
             "t": 2.0,
-            "text": "No other way",
+            "text": "Only way through",
             "size": 26,
             "color": "#ffffff"
           }
@@ -537,12 +529,12 @@
         "from": {
           "lon": 103.5,
           "lat": 1.5,
-          "zoom": 7
+          "zoom": 7.0
         },
         "to": {
           "lon": 103.82,
           "lat": 1.35,
-          "zoom": 11
+          "zoom": 11.0
         },
         "dateCounter": {
           "start": 1819,
@@ -580,21 +572,21 @@
           {
             "type": "dotScatter",
             "bbox": [
-              103.6,
-              1.1,
-              104.0,
-              1.5
+              103.65,
+              1.15,
+              103.98,
+              1.47
             ],
-            "n": 45,
+            "n": 40,
             "t": 2.5,
-            "color": "rgba(241,196,15,0.7)",
+            "color": "rgba(241,196,15,0.65)",
             "size": 4
           },
           {
             "type": "label",
             "at": [
               103.82,
-              2.1
+              2.0
             ],
             "t": 3.0,
             "text": "One. Small. Island.",
@@ -605,7 +597,7 @@
             "type": "legendBadge",
             "at": [
               103.3,
-              0.8
+              0.75
             ],
             "label": "719 km\u00b2",
             "icon": "crown",
@@ -626,7 +618,6 @@
       }
     },
     {
-      "id": "ch1-s05",
       "type": "narration",
       "speaker": "NARRATOR",
       "text": "In 1819, a British official named Stamford Raffles landed there and set up a trading post for the British East India Company.",
@@ -657,6 +648,8 @@
           }
         ]
       },
+      "date": "1819",
+      "id": "ch1-s05",
       "audio": "audio/ep02-singapore/ch1-s05.mp3",
       "durationSec": 8.97,
       "mascot": {
@@ -670,7 +663,6 @@
       }
     },
     {
-      "id": "ch1-s06",
       "type": "narration",
       "speaker": "NARRATOR",
       "text": "His idea was simple. Make it a free port. No taxes on trade. Let every ship stop, buy, sell and move on.",
@@ -681,6 +673,8 @@
         "seal": true,
         "bg": "study"
       },
+      "date": "1819",
+      "id": "ch1-s06",
       "audio": "audio/ep02-singapore/ch1-s06.mp3",
       "durationSec": 9.29,
       "mascot": {
@@ -697,12 +691,12 @@
         "from": {
           "lon": 103.82,
           "lat": 1.35,
-          "zoom": 9
+          "zoom": 9.0
         },
         "to": {
-          "lon": 100,
-          "lat": 5,
-          "zoom": 4
+          "lon": 100.0,
+          "lat": 5.0,
+          "zoom": 4.0
         },
         "dateCounter": {
           "start": 1820,
@@ -848,8 +842,8 @@
           {
             "type": "legendBadge",
             "at": [
-              103.0,
-              0.5
+              90,
+              25
             ],
             "label": "Spices",
             "icon": "wheat",
@@ -858,8 +852,8 @@
           {
             "type": "legendBadge",
             "at": [
-              103.0,
-              -0.3
+              90,
+              18
             ],
             "label": "Silk",
             "icon": "scroll",
@@ -868,8 +862,8 @@
           {
             "type": "legendBadge",
             "at": [
-              103.0,
-              -1.1
+              90,
+              11
             ],
             "label": "Tin & Rubber",
             "icon": "factory",
@@ -891,32 +885,20 @@
       "visual": {
         "kind": "map",
         "from": {
-          "lon": 100,
-          "lat": 5,
-          "zoom": 4
+          "lon": 100.0,
+          "lat": 5.0,
+          "zoom": 4.0
         },
         "to": {
           "lon": 103.82,
           "lat": 1.35,
-          "zoom": 8
+          "zoom": 8.0
         },
         "dateCounter": {
           "start": 1860,
           "end": 1900,
           "suffix": " AD"
         },
-        "regions": [
-          {
-            "countries": [
-              "Malaysia",
-              "Singapore",
-              "Myanmar",
-              "Thailand"
-            ],
-            "color": "#c0392b",
-            "opacity": 0.4
-          }
-        ],
         "events": [
           {
             "type": "fill",
@@ -949,19 +931,6 @@
             "color": "#f1c40f"
           },
           {
-            "type": "dotScatter",
-            "bbox": [
-              103.6,
-              1.1,
-              104.0,
-              1.5
-            ],
-            "n": 50,
-            "t": 1.0,
-            "color": "rgba(255,255,255,0.75)",
-            "size": 3
-          },
-          {
             "type": "move",
             "path": [
               [
@@ -979,10 +948,23 @@
             "label": "British fleet"
           },
           {
+            "type": "dotScatter",
+            "bbox": [
+              103.65,
+              1.15,
+              103.98,
+              1.47
+            ],
+            "n": 45,
+            "t": 1.0,
+            "color": "rgba(255,255,255,0.7)",
+            "size": 3
+          },
+          {
             "type": "legendBadge",
             "at": [
-              103.0,
-              2.2
+              101.5,
+              3.5
             ],
             "label": "Free port",
             "icon": "banknotes",
@@ -991,8 +973,8 @@
           {
             "type": "legendBadge",
             "at": [
-              103.0,
-              1.4
+              101.5,
+              2.5
             ],
             "label": "Zero tax",
             "icon": "dollar",

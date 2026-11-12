@@ -47,7 +47,7 @@ for (let i = 0; i < targets.length; i += parallel) {
     targets.slice(i, i + parallel).map(async (t, k) => {
       const out = join(dir, `${String(i + k).padStart(3, "0")}_${t.id}.jpg`);
       files[i + k] = out;
-      await renderStill({ serveUrl, composition, inputProps, frame: t.frame, output: out, imageFormat: "jpeg", scale: 0.33, browserExecutable });
+      await renderStill({ serveUrl, composition, inputProps, frame: t.frame, output: out, imageFormat: "jpeg", scale: Number(process.env.STILLS_SCALE ?? 0.33), browserExecutable });
     }),
   );
   process.stdout.write(`\r${Math.min(i + parallel, targets.length)}/${targets.length}`);
