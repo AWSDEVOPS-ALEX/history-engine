@@ -1,0 +1,3599 @@
+{
+  "title": "THE WORLD'S RICHEST INVESTORS USE THESE TINY ISLANDS. HERE'S WHY",
+  "fps": 30,
+  "satellite": true,
+  "sfx": true,
+  "sfxMode": "full",
+  "subtitles": true,
+  "mascot": {
+    "skin": "#e8c09a",
+    "robe": "#1a3a2a",
+    "trim": "#f2d27a",
+    "hair": "#2b2622",
+    "hat": "none",
+    "staff": "chronicler"
+  },
+  "narratorVoice": "fb7ec16ca51a45a5a4db881244d7990a",
+  "cast": [
+    {
+      "id": "NARRATOR",
+      "look": {},
+      "voice": "fb7ec16ca51a45a5a4db881244d7990a"
+    },
+    {
+      "id": "PENSION_MGR",
+      "look": {
+        "skin": "#f0d8b8",
+        "robe": "#2b4a6b",
+        "trim": "#c9a95a",
+        "hair": "#6a4a3a",
+        "hat": "none",
+        "glasses": true,
+        "prop": "scroll"
+      }
+    },
+    {
+      "id": "LAWYER",
+      "look": {
+        "skin": "#c89060",
+        "robe": "#1e1a2a",
+        "trim": "#c9a95a",
+        "hair": "#1e1a17",
+        "hat": "none",
+        "prop": "scroll"
+      }
+    },
+    {
+      "id": "INVESTOR",
+      "look": {
+        "skin": "#d0a070",
+        "robe": "#2b4a3a",
+        "trim": "#7fae7a",
+        "hair": "#1e1a17",
+        "hat": "none",
+        "prop": "coin"
+      }
+    },
+    {
+      "id": "BRIT_GOV",
+      "look": {
+        "skin": "#f0d8b8",
+        "robe": "#8a0020",
+        "trim": "#c9a95a",
+        "hair": "#a08060",
+        "hat": "tallhat",
+        "hatColor": "#1e1a17"
+      }
+    },
+    {
+      "id": "LOCAL",
+      "look": {
+        "skin": "#c07040",
+        "robe": "#4a7a5a",
+        "trim": "#c9a95a",
+        "hair": "#1e1a17",
+        "hat": "none"
+      }
+    }
+  ],
+  "segments": [
+    {
+      "id": "c01-s01",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Your retirement money could be passing through a tiny island in the Caribbean right now.",
+      "visual": {
+        "kind": "map",
+        "from": {
+          "lon": -81,
+          "lat": 19,
+          "zoom": 2.5
+        },
+        "to": {
+          "lon": -81.3,
+          "lat": 19.3,
+          "zoom": 5
+        },
+        "dateCounter": {
+          "start": 2026,
+          "suffix": ""
+        },
+        "events": [
+          {
+            "type": "pulse",
+            "at": [
+              -81.37,
+              19.32
+            ],
+            "t": 0.5,
+            "color": "#f1c40f"
+          },
+          {
+            "type": "pulse",
+            "at": [
+              -81.37,
+              19.32
+            ],
+            "t": 0.5,
+            "color": "#ffffff"
+          },
+          {
+            "type": "label",
+            "at": [
+              -81.37,
+              20.2
+            ],
+            "t": 1.0,
+            "text": "CAYMAN ISLANDS",
+            "size": 28,
+            "color": "#f1c40f",
+            "caps": true
+          },
+          {
+            "type": "dotScatter",
+            "bbox": [
+              -83,
+              17,
+              -79,
+              22
+            ],
+            "n": 30,
+            "t": 1.5,
+            "color": "rgba(241,196,15,0.5)",
+            "size": 4
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "talk"
+      }
+    },
+    {
+      "id": "c01-s02",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "You've probably never been there. You might not even know where it is on a map.",
+      "visual": {
+        "kind": "map",
+        "from": {
+          "lon": -81.37,
+          "lat": 19.32,
+          "zoom": 5
+        },
+        "to": {
+          "lon": -81.37,
+          "lat": 19.32,
+          "zoom": 7
+        },
+        "events": [
+          {
+            "type": "pin",
+            "at": [
+              -81.37,
+              19.32
+            ],
+            "t": 0.3,
+            "label": "Grand Cayman",
+            "color": "#f1c40f"
+          },
+          {
+            "type": "label",
+            "at": [
+              -75,
+              23
+            ],
+            "t": 1.5,
+            "text": "CARIBBEAN SEA",
+            "size": 22,
+            "color": "#aad4f5",
+            "style": "region"
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "shrug"
+      }
+    },
+    {
+      "id": "c01-s03",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "But some of the world's largest investment funds are legally registered there.",
+      "visual": {
+        "kind": "map",
+        "from": {
+          "lon": -81.37,
+          "lat": 19.32,
+          "zoom": 7
+        },
+        "to": {
+          "lon": -81.37,
+          "lat": 19.32,
+          "zoom": 8
+        },
+        "events": [
+          {
+            "type": "legendBadge",
+            "at": [
+              -83.5,
+              22
+            ],
+            "label": "31,500+ funds",
+            "icon": "banknotes",
+            "t": 0.8
+          },
+          {
+            "type": "legendBadge",
+            "at": [
+              -83.5,
+              20.5
+            ],
+            "label": "Global capital",
+            "icon": "gold",
+            "t": 1.3
+          },
+          {
+            "type": "pulse",
+            "at": [
+              -81.37,
+              19.32
+            ],
+            "t": 1.8,
+            "color": "#f1c40f"
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "point"
+      }
+    },
+    {
+      "id": "c01-s04",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Funds connected to wealthy investors, major financial institutions, and retirement savings.",
+      "visual": {
+        "kind": "map",
+        "from": {
+          "lon": -81.37,
+          "lat": 19.32,
+          "zoom": 8
+        },
+        "to": {
+          "lon": -40,
+          "lat": 25,
+          "zoom": 2.2
+        },
+        "events": [
+          {
+            "type": "flow",
+            "path": [
+              [
+                -81.37,
+                19.32
+              ],
+              [
+                40,
+                51
+              ]
+            ],
+            "t": 0.3,
+            "color": "#2980b9",
+            "width": 2
+          },
+          {
+            "type": "flow",
+            "path": [
+              [
+                -81.37,
+                19.32
+              ],
+              [
+                -74,
+                40
+              ]
+            ],
+            "t": 0.6,
+            "color": "#c0392b",
+            "width": 2
+          },
+          {
+            "type": "flow",
+            "path": [
+              [
+                -81.37,
+                19.32
+              ],
+              [
+                139,
+                35
+              ]
+            ],
+            "t": 0.9,
+            "color": "#27ae60",
+            "width": 2
+          },
+          {
+            "type": "label",
+            "at": [
+              10,
+              51
+            ],
+            "t": 1.0,
+            "text": "EUROPE",
+            "size": 22,
+            "style": "region"
+          },
+          {
+            "type": "label",
+            "at": [
+              -95,
+              38
+            ],
+            "t": 1.0,
+            "text": "USA",
+            "size": 22,
+            "style": "region"
+          },
+          {
+            "type": "label",
+            "at": [
+              120,
+              36
+            ],
+            "t": 1.0,
+            "text": "ASIA",
+            "size": 22,
+            "style": "region"
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "talk"
+      }
+    },
+    {
+      "id": "c01-s05",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "And here's the strange part. The money doesn't necessarily stay on the island.",
+      "visual": {
+        "kind": "gray",
+        "icon": "question",
+        "props": [
+          {
+            "icon": "banknotes",
+            "x": 30,
+            "y": 45,
+            "anim": "bob"
+          },
+          {
+            "icon": "ship",
+            "x": 55,
+            "y": 55,
+            "anim": "bob"
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "confused"
+      }
+    },
+    {
+      "id": "c01-s06",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "It might never physically go there at all.",
+      "visual": {
+        "kind": "map",
+        "from": {
+          "lon": -40,
+          "lat": 25,
+          "zoom": 2.2
+        },
+        "to": {
+          "lon": -81.37,
+          "lat": 19.32,
+          "zoom": 5
+        },
+        "events": [
+          {
+            "type": "crossOut",
+            "at": [
+              -81.37,
+              19.32
+            ],
+            "t": 1.0,
+            "size": 60,
+            "mark": "?"
+          },
+          {
+            "type": "label",
+            "at": [
+              -81.37,
+              21.5
+            ],
+            "t": 1.5,
+            "text": "Where is the money?",
+            "size": 26,
+            "color": "#f1c40f"
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "confused"
+      }
+    },
+    {
+      "id": "c01-s07",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "So why would an investment company in New York set up a fund thousands of miles away on a Caribbean island?",
+      "visual": {
+        "kind": "map",
+        "from": {
+          "lon": -81.37,
+          "lat": 19.32,
+          "zoom": 5
+        },
+        "to": {
+          "lon": -60,
+          "lat": 30,
+          "zoom": 3
+        },
+        "events": [
+          {
+            "type": "arrow",
+            "from": [
+              -74,
+              40.7
+            ],
+            "to": [
+              -81.37,
+              19.32
+            ],
+            "t": 0.5,
+            "color": "#f1c40f"
+          },
+          {
+            "type": "icon",
+            "at": [
+              -74,
+              40.7
+            ],
+            "icon": "castle",
+            "t": 0.5,
+            "label": "New York"
+          },
+          {
+            "type": "icon",
+            "at": [
+              -81.37,
+              19.32
+            ],
+            "icon": "scroll",
+            "t": 1.0,
+            "label": "Cayman"
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "point"
+      }
+    },
+    {
+      "id": "c01-s08",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "By the third quarter of 2026, more than 31,500 regulated investment funds were registered in the Cayman Islands.",
+      "visual": {
+        "kind": "scroll",
+        "dates": [
+          "Q3 2026: 31,547 regulated funds",
+          "Three small Caribbean islands"
+        ]
+      },
+      "mascot": {
+        "pose": "talk"
+      }
+    },
+    {
+      "id": "c01-s09",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "On three small islands in the Caribbean Sea.",
+      "visual": {
+        "kind": "map",
+        "from": {
+          "lon": -60,
+          "lat": 30,
+          "zoom": 3
+        },
+        "to": {
+          "lon": -81.37,
+          "lat": 19.5,
+          "zoom": 8
+        },
+        "events": [
+          {
+            "type": "pin",
+            "at": [
+              -81.37,
+              19.32
+            ],
+            "t": 0.3,
+            "label": "Grand Cayman"
+          },
+          {
+            "type": "pin",
+            "at": [
+              -79.82,
+              19.72
+            ],
+            "t": 0.6,
+            "label": "Cayman Brac"
+          },
+          {
+            "type": "pin",
+            "at": [
+              -80.07,
+              19.68
+            ],
+            "t": 0.9,
+            "label": "Little Cayman"
+          },
+          {
+            "type": "dotScatter",
+            "bbox": [
+              -82,
+              18.8,
+              -79,
+              20.2
+            ],
+            "n": 25,
+            "t": 1.5,
+            "color": "rgba(100,200,255,0.6)",
+            "size": 4
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "point"
+      }
+    },
+    {
+      "id": "c01-s10",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "These aren't all small private accounts belonging to people trying to hide money.",
+      "visual": {
+        "kind": "gray",
+        "icon": "coins",
+        "props": [
+          {
+            "icon": "crown",
+            "x": 30,
+            "y": 50,
+            "anim": "none"
+          },
+          {
+            "icon": "scroll",
+            "x": 50,
+            "y": 50,
+            "anim": "none"
+          },
+          {
+            "icon": "castle",
+            "x": 70,
+            "y": 50,
+            "anim": "none"
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "talk"
+      }
+    },
+    {
+      "id": "c01-s11",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "And the deeper you follow the money, the stranger the picture becomes.",
+      "visual": {
+        "kind": "map",
+        "from": {
+          "lon": -81.37,
+          "lat": 19.5,
+          "zoom": 8
+        },
+        "to": {
+          "lon": 0,
+          "lat": 20,
+          "zoom": 1.5
+        },
+        "events": [
+          {
+            "type": "flow",
+            "path": [
+              [
+                -81.37,
+                19.32
+              ],
+              [
+                -74,
+                40
+              ],
+              [
+                0,
+                51
+              ],
+              [
+                139,
+                35
+              ],
+              [
+                151,
+                -33
+              ]
+            ],
+            "t": 0.5,
+            "color": "#f1c40f",
+            "width": 2
+          },
+          {
+            "type": "pulse",
+            "at": [
+              -81.37,
+              19.32
+            ],
+            "t": 2.0,
+            "color": "#e74c3c"
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "confused",
+        "poses": [
+          {
+            "t": 3.0,
+            "pose": "point"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c02-s01",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Look at the western Caribbean.",
+      "visual": {
+        "kind": "scroll",
+        "dates": [
+          "The Cayman Islands"
+        ],
+        "roll": "open"
+      },
+      "mascot": {
+        "pose": "talk"
+      }
+    },
+    {
+      "id": "c02-s02",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "South of Cuba and northwest of Jamaica, you'll find three islands.",
+      "visual": {
+        "kind": "map",
+        "from": {
+          "lon": -75,
+          "lat": 22,
+          "zoom": 3.5
+        },
+        "to": {
+          "lon": -79,
+          "lat": 20,
+          "zoom": 5
+        },
+        "events": [
+          {
+            "type": "fill",
+            "countries": [
+              "Cuba"
+            ],
+            "t": 0,
+            "color": "#c0392b"
+          },
+          {
+            "type": "fill",
+            "countries": [
+              "Jamaica"
+            ],
+            "t": 0.3,
+            "color": "#27ae60"
+          },
+          {
+            "type": "label",
+            "at": [
+              -79,
+              22
+            ],
+            "t": 0,
+            "text": "CUBA",
+            "size": 26,
+            "style": "region"
+          },
+          {
+            "type": "label",
+            "at": [
+              -77,
+              18
+            ],
+            "t": 0.3,
+            "text": "JAMAICA",
+            "size": 22,
+            "style": "region"
+          },
+          {
+            "type": "pulse",
+            "at": [
+              -81.37,
+              19.32
+            ],
+            "t": 0.8,
+            "color": "#f1c40f"
+          },
+          {
+            "type": "pin",
+            "at": [
+              -81.37,
+              19.32
+            ],
+            "t": 1.0,
+            "label": "Cayman Islands",
+            "color": "#f1c40f"
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "point"
+      }
+    },
+    {
+      "id": "c02-s03",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Together, they form the Cayman Islands, a British Overseas Territory.",
+      "visual": {
+        "kind": "map",
+        "from": {
+          "lon": -79,
+          "lat": 20,
+          "zoom": 5
+        },
+        "to": {
+          "lon": -81.37,
+          "lat": 19.32,
+          "zoom": 9
+        },
+        "events": [
+          {
+            "type": "nation",
+            "at": [
+              -81.37,
+              19.32
+            ],
+            "t": 0.5,
+            "code": "gb",
+            "label": "British Overseas Territory"
+          },
+          {
+            "type": "label",
+            "at": [
+              -81.37,
+              18.5
+            ],
+            "t": 1.0,
+            "text": "GRAND CAYMAN",
+            "size": 28,
+            "caps": true
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "talk"
+      },
+      "date": "1962"
+    },
+    {
+      "id": "c02-s04",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "For much of its history, Cayman was a small maritime community. People made their living through fishing, seafaring, and trade.",
+      "visual": {
+        "kind": "set",
+        "set": "sea",
+        "props": [
+          {
+            "icon": "ship",
+            "x": 40,
+            "y": 50,
+            "anim": "bob"
+          },
+          {
+            "icon": "fish",
+            "x": 65,
+            "y": 60,
+            "anim": "bob"
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "talk"
+      }
+    },
+    {
+      "id": "c02-s05",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "There was no enormous manufacturing industry. No vast domestic market. No major stock exchange.",
+      "visual": {
+        "kind": "gray",
+        "icon": "question",
+        "props": [
+          {
+            "icon": "factory",
+            "x": 25,
+            "y": 50,
+            "anim": "none"
+          },
+          {
+            "icon": "castle",
+            "x": 50,
+            "y": 50,
+            "anim": "none"
+          },
+          {
+            "icon": "gold",
+            "x": 75,
+            "y": 50,
+            "anim": "none"
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "shrug"
+      }
+    },
+    {
+      "id": "c02-s06",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "According to historical records, the first commercial bank opened in 1953. Barclays established a presence in George Town.",
+      "visual": {
+        "kind": "document",
+        "title": "BARCLAYS BANK",
+        "sub": "George Town, Grand Cayman \u2014 1953",
+        "stamp": "ESTABLISHED",
+        "stampAt": 2.5,
+        "bg": "bank"
+      },
+      "mascot": {
+        "pose": "point"
+      },
+      "date": "1953"
+    },
+    {
+      "id": "c02-s07",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Think about what that means. When New York and London had already spent generations building powerful banking institutions, Cayman was only beginning.",
+      "visual": {
+        "kind": "map",
+        "from": {
+          "lon": -81.37,
+          "lat": 19.32,
+          "zoom": 9
+        },
+        "to": {
+          "lon": -20,
+          "lat": 40,
+          "zoom": 2
+        },
+        "events": [
+          {
+            "type": "icon",
+            "at": [
+              -74,
+              40.7
+            ],
+            "icon": "castle",
+            "t": 0.3,
+            "label": "New York"
+          },
+          {
+            "type": "icon",
+            "at": [
+              -0.1,
+              51.5
+            ],
+            "icon": "castle",
+            "t": 0.6,
+            "label": "London"
+          },
+          {
+            "type": "pulse",
+            "at": [
+              -81.37,
+              19.32
+            ],
+            "t": 1.2,
+            "color": "#e74c3c"
+          },
+          {
+            "type": "label",
+            "at": [
+              -81.37,
+              21
+            ],
+            "t": 1.5,
+            "text": "just getting started",
+            "size": 22,
+            "color": "#f1c40f"
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "talk"
+      },
+      "date": "1953"
+    },
+    {
+      "id": "c02-s08",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "In 1970, Cayman's recorded population was only 10,249.",
+      "visual": {
+        "kind": "gray",
+        "icon": "mound",
+        "props": [
+          {
+            "icon": "house",
+            "x": 40,
+            "y": 50,
+            "anim": "none"
+          },
+          {
+            "icon": "house",
+            "x": 55,
+            "y": 50,
+            "anim": "none"
+          },
+          {
+            "icon": "house",
+            "x": 70,
+            "y": 50,
+            "anim": "none"
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "talk"
+      },
+      "date": "1970"
+    },
+    {
+      "id": "c02-s09",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "But while Cayman's domestic economy was small, the international financial system was changing.",
+      "visual": {
+        "kind": "map",
+        "from": {
+          "lon": -20,
+          "lat": 40,
+          "zoom": 2
+        },
+        "to": {
+          "lon": 0,
+          "lat": 30,
+          "zoom": 1.8
+        },
+        "events": [
+          {
+            "type": "flow",
+            "path": [
+              [
+                -74,
+                40
+              ],
+              [
+                0,
+                51
+              ],
+              [
+                139,
+                35
+              ]
+            ],
+            "t": 0.3,
+            "color": "#2980b9",
+            "width": 2
+          },
+          {
+            "type": "flow",
+            "path": [
+              [
+                -0.1,
+                51.5
+              ],
+              [
+                -74,
+                40
+              ],
+              [
+                139,
+                35
+              ]
+            ],
+            "t": 0.6,
+            "color": "#c0392b",
+            "width": 2
+          },
+          {
+            "type": "label",
+            "at": [
+              0,
+              15
+            ],
+            "t": 1.0,
+            "text": "GLOBAL CAPITAL FLOWS",
+            "size": 20,
+            "color": "#f1c40f",
+            "caps": true
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "talk"
+      }
+    },
+    {
+      "id": "c02-s10",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "After the Second World War, international commerce expanded. Multinational companies became more important.",
+      "visual": {
+        "kind": "map",
+        "from": {
+          "lon": 0,
+          "lat": 30,
+          "zoom": 1.8
+        },
+        "to": {
+          "lon": 0,
+          "lat": 30,
+          "zoom": 1.8
+        },
+        "dateCounter": {
+          "start": 1945,
+          "end": 1965,
+          "suffix": ""
+        },
+        "events": [
+          {
+            "type": "move",
+            "path": [
+              [
+                -74,
+                40
+              ],
+              [
+                0,
+                51
+              ],
+              [
+                139,
+                35
+              ]
+            ],
+            "t": 0.3,
+            "icon": "ship",
+            "count": 3,
+            "label": "Trade"
+          },
+          {
+            "type": "move",
+            "path": [
+              [
+                139,
+                35
+              ],
+              [
+                0,
+                51
+              ],
+              [
+                -74,
+                40
+              ]
+            ],
+            "t": 0.8,
+            "icon": "gold",
+            "count": 2
+          },
+          {
+            "type": "scatter",
+            "around": [
+              0,
+              30
+            ],
+            "icon": "factory",
+            "n": 6,
+            "spread": 50,
+            "t": 1.5
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "talk"
+      }
+    },
+    {
+      "id": "c02-s11",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "US dollars were increasingly being deposited, borrowed, and lent through financial institutions outside the United States. This became known as the Eurodollar market.",
+      "visual": {
+        "kind": "gray",
+        "icon": "coins",
+        "props": [
+          {
+            "icon": "banknotes",
+            "x": 30,
+            "y": 45,
+            "scale": 1.3,
+            "anim": "bob"
+          },
+          {
+            "icon": "dollar",
+            "x": 60,
+            "y": 45,
+            "scale": 1.3,
+            "anim": "bob"
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "talk"
+      },
+      "labels": [
+        {
+          "text": "EURODOLLAR MARKET",
+          "x": 10,
+          "y": 20,
+          "size": 52,
+          "color": "#f1c40f",
+          "caps": true
+        }
+      ]
+    },
+    {
+      "id": "c02-s12",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "And this is where Cayman's story takes an unexpected turn. Its leaders began building an industry around something that couldn't be mined, shipped, or manufactured.",
+      "visual": {
+        "kind": "set",
+        "set": "study",
+        "props": [
+          {
+            "icon": "scroll",
+            "x": 40,
+            "y": 50,
+            "anim": "bob"
+          },
+          {
+            "icon": "book",
+            "x": 60,
+            "y": 50,
+            "anim": "bob"
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "point",
+        "poses": [
+          {
+            "t": 3.0,
+            "pose": "happy"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c02-s13",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "They built it around law.",
+      "visual": {
+        "kind": "gray",
+        "icon": "scroll",
+        "props": [
+          {
+            "icon": "scroll",
+            "x": 50,
+            "y": 45,
+            "scale": 2.0,
+            "anim": "pulse"
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "happy"
+      },
+      "labels": [
+        {
+          "text": "LAW",
+          "x": 25,
+          "y": 70,
+          "size": 100,
+          "color": "#f1c40f",
+          "caps": true
+        }
+      ]
+    },
+    {
+      "id": "c02-s14",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "In 1966, new legislation was introduced to encourage the banking industry. Company law, trust arrangements, and professional services developed alongside.",
+      "visual": {
+        "kind": "document",
+        "title": "CAYMAN BANKING ACT",
+        "sub": "1966 \u2014 Encouraging international finance",
+        "seal": true,
+        "stamp": "ENACTED",
+        "stampAt": 2.0,
+        "bg": "study"
+      },
+      "mascot": {
+        "pose": "talk"
+      },
+      "date": "1966"
+    },
+    {
+      "id": "c02-s15",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "There was another attraction. Cayman did not impose the kind of ordinary direct income taxes found in many larger economies.",
+      "visual": {
+        "kind": "gray",
+        "icon": "coins",
+        "props": [
+          {
+            "icon": "banknotes",
+            "x": 50,
+            "y": 45,
+            "scale": 1.5,
+            "anim": "bob"
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "talk"
+      },
+      "labels": [
+        {
+          "text": "NO INCOME TAX",
+          "x": 10,
+          "y": 20,
+          "size": 60,
+          "color": "#27ae60",
+          "caps": true
+        }
+      ]
+    },
+    {
+      "id": "c02-s16",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "But if low taxes alone created successful financial centers, every jurisdiction with low taxes would become a global financial powerhouse. That hasn't happened.",
+      "visual": {
+        "kind": "map",
+        "from": {
+          "lon": 0,
+          "lat": 30,
+          "zoom": 1.8
+        },
+        "to": {
+          "lon": 0,
+          "lat": 20,
+          "zoom": 1.6
+        },
+        "events": [
+          {
+            "type": "scatter",
+            "around": [
+              0,
+              10
+            ],
+            "icon": "flag",
+            "n": 8,
+            "spread": 80,
+            "t": 0.5
+          },
+          {
+            "type": "crossOut",
+            "at": [
+              20,
+              10
+            ],
+            "t": 1.5,
+            "size": 50,
+            "color": "#e74c3c"
+          },
+          {
+            "type": "crossOut",
+            "at": [
+              -30,
+              15
+            ],
+            "t": 1.8,
+            "size": 50,
+            "color": "#e74c3c"
+          },
+          {
+            "type": "crossOut",
+            "at": [
+              60,
+              5
+            ],
+            "t": 2.1,
+            "size": 50,
+            "color": "#e74c3c"
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "talk"
+      }
+    },
+    {
+      "id": "c02-s17",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Investors also care about whether contracts can be enforced. They care about company law, access to legal professionals, accountants, and regulators.",
+      "visual": {
+        "kind": "set",
+        "set": "study",
+        "props": [
+          {
+            "icon": "scroll",
+            "x": 25,
+            "y": 50,
+            "anim": "none"
+          },
+          {
+            "icon": "book",
+            "x": 45,
+            "y": 50,
+            "anim": "none"
+          },
+          {
+            "icon": "gold",
+            "x": 65,
+            "y": 50,
+            "anim": "none"
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "talk"
+      }
+    },
+    {
+      "id": "c02-s18",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "By the time global investment funds became a much larger industry, Cayman already had part of the necessary infrastructure.",
+      "visual": {
+        "kind": "map",
+        "from": {
+          "lon": 0,
+          "lat": 20,
+          "zoom": 1.6
+        },
+        "to": {
+          "lon": -81.37,
+          "lat": 19.32,
+          "zoom": 7
+        },
+        "dateCounter": {
+          "start": 1970,
+          "end": 2000,
+          "suffix": ""
+        },
+        "events": [
+          {
+            "type": "flow",
+            "path": [
+              [
+                -74,
+                40
+              ],
+              [
+                -81.37,
+                19.32
+              ]
+            ],
+            "t": 0.3,
+            "color": "#2980b9",
+            "width": 2
+          },
+          {
+            "type": "flow",
+            "path": [
+              [
+                0,
+                51
+              ],
+              [
+                -81.37,
+                19.32
+              ]
+            ],
+            "t": 0.6,
+            "color": "#c0392b",
+            "width": 2
+          },
+          {
+            "type": "flow",
+            "path": [
+              [
+                139,
+                35
+              ],
+              [
+                -81.37,
+                19.32
+              ]
+            ],
+            "t": 0.9,
+            "color": "#27ae60",
+            "width": 2
+          },
+          {
+            "type": "legendBadge",
+            "at": [
+              -84,
+              22
+            ],
+            "label": "Infrastructure ready",
+            "icon": "castle",
+            "t": 2.5
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "happy"
+      }
+    },
+    {
+      "id": "c03-s01",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Imagine you own a business. Its headquarters are in London. Its customers are in America. Its factories are in Vietnam.",
+      "visual": {
+        "kind": "map",
+        "from": {
+          "lon": -81.37,
+          "lat": 19.32,
+          "zoom": 7
+        },
+        "to": {
+          "lon": 50,
+          "lat": 25,
+          "zoom": 1.8
+        },
+        "events": [
+          {
+            "type": "icon",
+            "at": [
+              -0.1,
+              51.5
+            ],
+            "icon": "castle",
+            "t": 0.3,
+            "label": "HQ London"
+          },
+          {
+            "type": "icon",
+            "at": [
+              -95,
+              38
+            ],
+            "icon": "gold",
+            "t": 0.6,
+            "label": "Customers USA"
+          },
+          {
+            "type": "icon",
+            "at": [
+              106,
+              16
+            ],
+            "icon": "factory",
+            "t": 0.9,
+            "label": "Factories Vietnam"
+          },
+          {
+            "type": "icon",
+            "at": [
+              78,
+              20
+            ],
+            "icon": "scroll",
+            "t": 1.2,
+            "label": "Engineers India"
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "talk"
+      }
+    },
+    {
+      "id": "c03-s02",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Where is the business? There isn't one answer that describes everything it does.",
+      "visual": {
+        "kind": "gray",
+        "icon": "question",
+        "props": [
+          {
+            "icon": "castle",
+            "x": 20,
+            "y": 50,
+            "anim": "none"
+          },
+          {
+            "icon": "gold",
+            "x": 40,
+            "y": 50,
+            "anim": "none"
+          },
+          {
+            "icon": "factory",
+            "x": 60,
+            "y": 50,
+            "anim": "none"
+          },
+          {
+            "icon": "scroll",
+            "x": 80,
+            "y": 50,
+            "anim": "none"
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "confused"
+      }
+    },
+    {
+      "id": "c03-s03",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "A financial company can be legally registered in the Cayman Islands while the people making its investment decisions work in New York.",
+      "visual": {
+        "kind": "map",
+        "from": {
+          "lon": 50,
+          "lat": 25,
+          "zoom": 1.8
+        },
+        "to": {
+          "lon": -50,
+          "lat": 30,
+          "zoom": 2.2
+        },
+        "events": [
+          {
+            "type": "arrow",
+            "from": [
+              -74,
+              40.7
+            ],
+            "to": [
+              -81.37,
+              19.32
+            ],
+            "t": 0.5,
+            "color": "#f1c40f"
+          },
+          {
+            "type": "icon",
+            "at": [
+              -74,
+              40.7
+            ],
+            "icon": "crown",
+            "t": 0.3,
+            "label": "Decisions: NY"
+          },
+          {
+            "type": "icon",
+            "at": [
+              -81.37,
+              19.32
+            ],
+            "icon": "scroll",
+            "t": 0.3,
+            "label": "Legal home: Cayman"
+          },
+          {
+            "type": "label",
+            "at": [
+              -50,
+              15
+            ],
+            "t": 2.0,
+            "text": "Same fund. Two places.",
+            "size": 28,
+            "color": "#f1c40f"
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "point"
+      }
+    },
+    {
+      "id": "c03-s04",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "This is the first thing you need to understand about offshore finance. A fund can be registered in a country without all its money being deposited there.",
+      "visual": {
+        "kind": "gray",
+        "icon": "bulb",
+        "props": [
+          {
+            "icon": "banknotes",
+            "x": 50,
+            "y": 50,
+            "scale": 1.5,
+            "anim": "bob"
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "talk"
+      },
+      "labels": [
+        {
+          "text": "Legal home \u2260 where money lives",
+          "x": 5,
+          "y": 20,
+          "size": 44,
+          "color": "#f1c40f"
+        }
+      ]
+    },
+    {
+      "id": "c04-s01",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Let's build a hypothetical example. Imagine a pension fund called Northbridge Retirement Fund.",
+      "visual": {
+        "kind": "document",
+        "title": "NORTHBRIDGE RETIREMENT FUND",
+        "sub": "Managing retirement savings for thousands of workers",
+        "bg": "bank",
+        "seal": true
+      },
+      "mascot": {
+        "pose": "talk"
+      }
+    },
+    {
+      "id": "c04-s02",
+      "type": "skit",
+      "speaker": "PENSION_MGR",
+      "text": "We need to allocate part of our portfolio to an international investment fund.",
+      "visual": {
+        "kind": "scene",
+        "set": "bank",
+        "cast": [
+          {
+            "id": "PENSION_MGR",
+            "x": 40,
+            "pose": "talk"
+          },
+          {
+            "id": "LAWYER",
+            "x": 65,
+            "pose": "talk",
+            "flip": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "c04-s03",
+      "type": "skit",
+      "speaker": "LAWYER",
+      "text": "The fund's managers specialize in businesses across several countries. It's established in the Cayman Islands.",
+      "visual": {
+        "kind": "scene",
+        "set": "bank",
+        "cast": [
+          {
+            "id": "PENSION_MGR",
+            "x": 40,
+            "pose": "talk"
+          },
+          {
+            "id": "LAWYER",
+            "x": 65,
+            "pose": "talk",
+            "flip": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "c04-s04",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Northbridge reviews the legal documents. It examines the investment strategy, fees, risks, and reporting. Then it subscribes for an interest.",
+      "visual": {
+        "kind": "set",
+        "set": "study",
+        "props": [
+          {
+            "icon": "scroll",
+            "x": 35,
+            "y": 45,
+            "anim": "none"
+          },
+          {
+            "icon": "scroll",
+            "x": 50,
+            "y": 45,
+            "anim": "none"
+          },
+          {
+            "icon": "scroll",
+            "x": 65,
+            "y": 45,
+            "anim": "none"
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "talk"
+      }
+    },
+    {
+      "id": "c04-s05",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "The fund buys into a manufacturing company in Germany. Northbridge's economic exposure is now connected, through the fund, to a business operating in Germany.",
+      "visual": {
+        "kind": "map",
+        "from": {
+          "lon": -50,
+          "lat": 30,
+          "zoom": 2.2
+        },
+        "to": {
+          "lon": -20,
+          "lat": 45,
+          "zoom": 2.8
+        },
+        "events": [
+          {
+            "type": "arrow",
+            "from": [
+              -74,
+              40.7
+            ],
+            "to": [
+              -81.37,
+              19.32
+            ],
+            "t": 0.3,
+            "color": "#2980b9"
+          },
+          {
+            "type": "arrow",
+            "from": [
+              -81.37,
+              19.32
+            ],
+            "to": [
+              10,
+              51
+            ],
+            "t": 0.8,
+            "color": "#f1c40f"
+          },
+          {
+            "type": "icon",
+            "at": [
+              -74,
+              40.7
+            ],
+            "icon": "banknotes",
+            "t": 0.3,
+            "label": "Northbridge"
+          },
+          {
+            "type": "icon",
+            "at": [
+              -81.37,
+              19.32
+            ],
+            "icon": "scroll",
+            "t": 0.3,
+            "label": "Cayman fund"
+          },
+          {
+            "type": "icon",
+            "at": [
+              10,
+              51
+            ],
+            "icon": "factory",
+            "t": 0.8,
+            "label": "German company"
+          },
+          {
+            "type": "label",
+            "at": [
+              -20,
+              35
+            ],
+            "t": 2.0,
+            "text": "Four very different places.",
+            "size": 24,
+            "color": "#f1c40f"
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "point"
+      }
+    },
+    {
+      "id": "c04-s06",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "The German company grows. Its value rises. The fund sells at a profit. Northbridge receives its share.",
+      "visual": {
+        "kind": "action",
+        "name": "moneyrain",
+        "bg": "bank"
+      },
+      "mascot": {
+        "pose": "happy"
+      }
+    },
+    {
+      "id": "c04-s07",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Where did the profit come from? Economically, from the performance of the underlying investment. Where was the vehicle registered? Cayman.",
+      "visual": {
+        "kind": "map",
+        "from": {
+          "lon": -20,
+          "lat": 45,
+          "zoom": 2.8
+        },
+        "to": {
+          "lon": -50,
+          "lat": 30,
+          "zoom": 2.2
+        },
+        "events": [
+          {
+            "type": "flow",
+            "path": [
+              [
+                10,
+                51
+              ],
+              [
+                -81.37,
+                19.32
+              ],
+              [
+                -74,
+                40.7
+              ]
+            ],
+            "t": 0.5,
+            "color": "#27ae60",
+            "width": 3
+          },
+          {
+            "type": "legendBadge",
+            "at": [
+              -84,
+              24
+            ],
+            "label": "Profit \u2192 investors",
+            "icon": "banknotes",
+            "t": 2.0
+          },
+          {
+            "type": "legendBadge",
+            "at": [
+              -84,
+              22
+            ],
+            "label": "Value created: Germany",
+            "icon": "factory",
+            "t": 2.5
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "talk"
+      }
+    },
+    {
+      "id": "c04-s08",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "And that's why the popular idea of money simply being sent away to an island and sitting there misses so much of what is happening.",
+      "visual": {
+        "kind": "gray",
+        "icon": "question",
+        "props": [
+          {
+            "icon": "ship",
+            "x": 30,
+            "y": 50,
+            "anim": "bob"
+          },
+          {
+            "icon": "gold",
+            "x": 55,
+            "y": 50,
+            "anim": "bob"
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "confused",
+        "poses": [
+          {
+            "t": 3.0,
+            "pose": "point"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c05-s01",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Why do investors keep choosing the same places? Why not establish every fund in the country where the manager works?",
+      "visual": {
+        "kind": "gray",
+        "icon": "question"
+      },
+      "mascot": {
+        "pose": "confused"
+      }
+    },
+    {
+      "id": "c05-s02",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Imagine you're starting an investment fund. You have potential investors in six countries. You need experienced lawyers, administrators, auditors, and reliable rules.",
+      "visual": {
+        "kind": "map",
+        "from": {
+          "lon": -50,
+          "lat": 30,
+          "zoom": 2.2
+        },
+        "to": {
+          "lon": 0,
+          "lat": 30,
+          "zoom": 1.8
+        },
+        "events": [
+          {
+            "type": "scatter",
+            "around": [
+              0,
+              30
+            ],
+            "icon": "scroll",
+            "n": 6,
+            "spread": 60,
+            "t": 0.5
+          },
+          {
+            "type": "label",
+            "at": [
+              0,
+              10
+            ],
+            "t": 1.5,
+            "text": "6 jurisdictions, 1 problem",
+            "size": 26,
+            "color": "#f1c40f"
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "talk"
+      }
+    },
+    {
+      "id": "c05-s03",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "For many international managers, Cayman falls into the category of a jurisdiction where an established professional industry already understands the type of fund you're creating.",
+      "visual": {
+        "kind": "map",
+        "from": {
+          "lon": 0,
+          "lat": 30,
+          "zoom": 1.8
+        },
+        "to": {
+          "lon": -81.37,
+          "lat": 19.32,
+          "zoom": 7
+        },
+        "events": [
+          {
+            "type": "flow",
+            "path": [
+              [
+                -74,
+                40
+              ],
+              [
+                -81.37,
+                19.32
+              ]
+            ],
+            "t": 0.3,
+            "color": "#2980b9"
+          },
+          {
+            "type": "flow",
+            "path": [
+              [
+                0,
+                51
+              ],
+              [
+                -81.37,
+                19.32
+              ]
+            ],
+            "t": 0.5,
+            "color": "#c0392b"
+          },
+          {
+            "type": "flow",
+            "path": [
+              [
+                139,
+                35
+              ],
+              [
+                -81.37,
+                19.32
+              ]
+            ],
+            "t": 0.7,
+            "color": "#27ae60"
+          },
+          {
+            "type": "flow",
+            "path": [
+              [
+                -43,
+                -23
+              ],
+              [
+                -81.37,
+                19.32
+              ]
+            ],
+            "t": 0.9,
+            "color": "#8e44ad"
+          },
+          {
+            "type": "legendBadge",
+            "at": [
+              -84.5,
+              22
+            ],
+            "label": "Known structure",
+            "icon": "scroll",
+            "t": 2.0
+          },
+          {
+            "type": "legendBadge",
+            "at": [
+              -84.5,
+              20.5
+            ],
+            "label": "Expert professionals",
+            "icon": "crown",
+            "t": 2.4
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "happy"
+      }
+    },
+    {
+      "id": "c05-s04",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "This is the advantage of specialization. Over time, thousands of funds have been established there. Law firms developed expertise. Administrators became familiar with the procedures.",
+      "visual": {
+        "kind": "action",
+        "name": "bars",
+        "bars": [
+          {
+            "label": "1980",
+            "value": 20
+          },
+          {
+            "label": "1990",
+            "value": 150
+          },
+          {
+            "label": "2000",
+            "value": 4000
+          },
+          {
+            "label": "2010",
+            "value": 11000
+          },
+          {
+            "label": "2026",
+            "value": 31547
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "point"
+      }
+    },
+    {
+      "id": "c05-s05",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "By the third quarter of 2026, the regulator recorded 13,187 mutual funds and 18,360 private funds. Together, 31,547 regulated funds.",
+      "visual": {
+        "kind": "scroll",
+        "dates": [
+          "13,187 mutual funds",
+          "18,360 private funds",
+          "= 31,547 regulated funds \u2014 Q3 2026"
+        ]
+      },
+      "mascot": {
+        "pose": "talk"
+      }
+    },
+    {
+      "id": "c06-s01",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "There is also the tax treatment. Cayman generally does not impose direct income taxes on investment funds.",
+      "visual": {
+        "kind": "gray",
+        "icon": "coins",
+        "props": [
+          {
+            "icon": "banknotes",
+            "x": 50,
+            "y": 45,
+            "scale": 1.5,
+            "anim": "bob"
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "talk"
+      },
+      "labels": [
+        {
+          "text": "TAX NEUTRAL",
+          "x": 10,
+          "y": 20,
+          "size": 60,
+          "color": "#27ae60",
+          "caps": true
+        }
+      ]
+    },
+    {
+      "id": "c06-s02",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "But it's essential to understand what that does and does not mean. It doesn't make the investors automatically tax-free.",
+      "visual": {
+        "kind": "gray",
+        "icon": "question",
+        "props": [
+          {
+            "icon": "banknotes",
+            "x": 30,
+            "y": 50,
+            "anim": "bob"
+          },
+          {
+            "icon": "scroll",
+            "x": 60,
+            "y": 50,
+            "anim": "bob"
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "talk"
+      }
+    },
+    {
+      "id": "c06-s03",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "An investor may still owe tax under the laws of their own country. The underlying investment can also generate taxes where business activity takes place.",
+      "visual": {
+        "kind": "map",
+        "from": {
+          "lon": -81.37,
+          "lat": 19.32,
+          "zoom": 7
+        },
+        "to": {
+          "lon": 0,
+          "lat": 30,
+          "zoom": 1.8
+        },
+        "events": [
+          {
+            "type": "icon",
+            "at": [
+              -74,
+              40.7
+            ],
+            "icon": "gold",
+            "t": 0.3,
+            "label": "US investor \u2192 US taxes"
+          },
+          {
+            "type": "icon",
+            "at": [
+              10,
+              51
+            ],
+            "icon": "factory",
+            "t": 0.6,
+            "label": "German company \u2192 German taxes"
+          },
+          {
+            "type": "crossOut",
+            "at": [
+              -81.37,
+              19.32
+            ],
+            "t": 1.5,
+            "size": 50,
+            "mark": "?",
+            "color": "#e67e22"
+          },
+          {
+            "type": "label",
+            "at": [
+              -81.37,
+              21
+            ],
+            "t": 2.0,
+            "text": "No extra layer here",
+            "size": 22,
+            "color": "#27ae60"
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "point"
+      }
+    },
+    {
+      "id": "c07-s01",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "In March 2026, the Bank for International Settlements published research on cross-border financial centers.",
+      "visual": {
+        "kind": "document",
+        "title": "BANK FOR INTERNATIONAL SETTLEMENTS",
+        "sub": "Research: Cross-Border Financial Centers \u2014 March 2026",
+        "stamp": "PUBLISHED",
+        "stampAt": 2.0,
+        "bg": "bank"
+      },
+      "mascot": {
+        "pose": "point"
+      },
+      "date": "2026"
+    },
+    {
+      "id": "c07-s02",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "By 2023, these centers accounted for almost sixty trillion dollars in external financial positions. Nearly thirty percent of the worldwide total.",
+      "visual": {
+        "kind": "action",
+        "name": "bars",
+        "bars": [
+          {
+            "label": "Other\ncountries",
+            "value": 70,
+            "color": "#2980b9"
+          },
+          {
+            "label": "Offshore\ncenters",
+            "value": 30,
+            "color": "#f1c40f"
+          }
+        ],
+        "hideValues": false
+      },
+      "mascot": {
+        "pose": "point"
+      },
+      "labels": [
+        {
+          "text": "$60 TRILLION",
+          "x": 10,
+          "y": 15,
+          "size": 70,
+          "color": "#f1c40f",
+          "caps": true
+        }
+      ]
+    },
+    {
+      "id": "c07-s03",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Yet the economies of those same centers represented just 2.8 percent of global economic activity.",
+      "visual": {
+        "kind": "action",
+        "name": "scales",
+        "left": {
+          "icon": "banknotes",
+          "label": "30% of financial positions"
+        },
+        "right": {
+          "icon": "factory",
+          "label": "2.8% of global GDP"
+        },
+        "tilt": -25
+      },
+      "mascot": {
+        "pose": "confused"
+      }
+    },
+    {
+      "id": "c07-s04",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "From 1980 to 2023, the share of worldwide external financial positions associated with these centers increased from around twelve percent to nearly thirty percent.",
+      "visual": {
+        "kind": "action",
+        "name": "bars",
+        "bars": [
+          {
+            "label": "1980",
+            "value": 12
+          },
+          {
+            "label": "1990",
+            "value": 18
+          },
+          {
+            "label": "2000",
+            "value": 24
+          },
+          {
+            "label": "2010",
+            "value": 27
+          },
+          {
+            "label": "2023",
+            "value": 30
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "talk"
+      }
+    },
+    {
+      "id": "c08-s01",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "In November 2026, the United States Treasury published detailed figures showing where American investors held foreign securities at the end of 2025.",
+      "visual": {
+        "kind": "document",
+        "title": "US TREASURY",
+        "sub": "Foreign Securities Holdings Survey \u2014 November 2026",
+        "stamp": "OFFICIAL",
+        "stampAt": 2.0,
+        "bg": "bank"
+      },
+      "mascot": {
+        "pose": "talk"
+      },
+      "date": "2026"
+    },
+    {
+      "id": "c08-s02",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "You might expect the largest destination to be Britain. Or Japan. Perhaps Canada, one of America's largest trading partners.",
+      "visual": {
+        "kind": "map",
+        "from": {
+          "lon": -81.37,
+          "lat": 19.32,
+          "zoom": 7
+        },
+        "to": {
+          "lon": -20,
+          "lat": 45,
+          "zoom": 2
+        },
+        "events": [
+          {
+            "type": "icon",
+            "at": [
+              -0.1,
+              51.5
+            ],
+            "icon": "crown",
+            "t": 0.3,
+            "label": "UK"
+          },
+          {
+            "type": "icon",
+            "at": [
+              139,
+              35
+            ],
+            "icon": "crown",
+            "t": 0.6,
+            "label": "Japan"
+          },
+          {
+            "type": "icon",
+            "at": [
+              -95,
+              56
+            ],
+            "icon": "crown",
+            "t": 0.9,
+            "label": "Canada"
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "confused"
+      }
+    },
+    {
+      "id": "c08-s03",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "But the jurisdiction at the top of that particular list wasn't any of them. It was the Cayman Islands.",
+      "visual": {
+        "kind": "map",
+        "from": {
+          "lon": -20,
+          "lat": 45,
+          "zoom": 2
+        },
+        "to": {
+          "lon": -65,
+          "lat": 28,
+          "zoom": 3.5
+        },
+        "events": [
+          {
+            "type": "pulse",
+            "at": [
+              -81.37,
+              19.32
+            ],
+            "t": 0.5,
+            "color": "#f1c40f"
+          },
+          {
+            "type": "pulse",
+            "at": [
+              -81.37,
+              19.32
+            ],
+            "t": 0.5,
+            "color": "#ffffff"
+          },
+          {
+            "type": "pin",
+            "at": [
+              -81.37,
+              19.32
+            ],
+            "t": 0.8,
+            "label": "#1",
+            "color": "#f1c40f"
+          },
+          {
+            "type": "label",
+            "at": [
+              -81.37,
+              21.5
+            ],
+            "t": 1.5,
+            "text": "CAYMAN ISLANDS",
+            "size": 32,
+            "color": "#f1c40f",
+            "caps": true
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "happy"
+      }
+    },
+    {
+      "id": "c08-s04",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "American investors held approximately 3.07 trillion dollars in foreign securities attributed to Cayman. More than the two trillion attributed to the United Kingdom.",
+      "visual": {
+        "kind": "action",
+        "name": "bars",
+        "bars": [
+          {
+            "label": "Cayman",
+            "value": 307,
+            "color": "#f1c40f"
+          },
+          {
+            "label": "UK",
+            "value": 200,
+            "color": "#c0392b"
+          },
+          {
+            "label": "Canada",
+            "value": 188,
+            "color": "#e67e22"
+          },
+          {
+            "label": "Japan",
+            "value": 140,
+            "color": "#2980b9"
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "point"
+      },
+      "labels": [
+        {
+          "text": "$3.07 TRILLION",
+          "x": 5,
+          "y": 15,
+          "size": 60,
+          "color": "#f1c40f",
+          "caps": true
+        }
+      ]
+    },
+    {
+      "id": "c08-s05",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Cayman didn't suddenly become a bigger industrial economy than Japan. The figures measure market value of securities held through Cayman-domiciled fund structures.",
+      "visual": {
+        "kind": "map",
+        "from": {
+          "lon": -65,
+          "lat": 28,
+          "zoom": 3.5
+        },
+        "to": {
+          "lon": -81.37,
+          "lat": 19.32,
+          "zoom": 8
+        },
+        "events": [
+          {
+            "type": "label",
+            "at": [
+              -81.37,
+              20.5
+            ],
+            "t": 1.0,
+            "text": "Legal route \u2192 changes the map",
+            "size": 24,
+            "color": "#f1c40f"
+          },
+          {
+            "type": "dotScatter",
+            "bbox": [
+              -82.5,
+              18.5,
+              -79.5,
+              20.5
+            ],
+            "n": 30,
+            "t": 1.5,
+            "color": "rgba(241,196,15,0.5)",
+            "size": 4
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "talk"
+      }
+    },
+    {
+      "id": "c09-s01",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "If so much of this system is legitimate, why has offshore finance developed such a troubling reputation?",
+      "visual": {
+        "kind": "gray",
+        "icon": "question"
+      },
+      "mascot": {
+        "pose": "confused"
+      }
+    },
+    {
+      "id": "c09-s02",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "The answer begins with the difference between financial privacy and financial secrecy.",
+      "visual": {
+        "kind": "gray",
+        "icon": "book",
+        "props": [
+          {
+            "icon": "scroll",
+            "x": 30,
+            "y": 50,
+            "anim": "none"
+          },
+          {
+            "icon": "shield",
+            "x": 65,
+            "y": 50,
+            "anim": "none"
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "talk"
+      },
+      "labels": [
+        {
+          "text": "Privacy vs Secrecy",
+          "x": 10,
+          "y": 20,
+          "size": 52,
+          "color": "#e74c3c"
+        }
+      ]
+    },
+    {
+      "id": "c09-s03",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Imagine a person owns a company. That company owns another company. The second owns a third. And the third holds a financial asset.",
+      "visual": {
+        "kind": "set",
+        "set": "study",
+        "props": [
+          {
+            "icon": "crown",
+            "x": 20,
+            "y": 40,
+            "anim": "none"
+          },
+          {
+            "icon": "scroll",
+            "x": 40,
+            "y": 50,
+            "anim": "none"
+          },
+          {
+            "icon": "scroll",
+            "x": 60,
+            "y": 60,
+            "anim": "none"
+          },
+          {
+            "icon": "gold",
+            "x": 80,
+            "y": 70,
+            "anim": "none"
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "talk"
+      }
+    },
+    {
+      "id": "c09-s04",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Who ultimately controls the asset? This is known as beneficial ownership. And it becomes crucial when investigators are trying to determine whether financial activity is lawful.",
+      "visual": {
+        "kind": "gray",
+        "icon": "question",
+        "props": [
+          {
+            "icon": "shield",
+            "x": 50,
+            "y": 45,
+            "scale": 1.8,
+            "anim": "pulse"
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "point"
+      },
+      "labels": [
+        {
+          "text": "BENEFICIAL OWNERSHIP",
+          "x": 5,
+          "y": 15,
+          "size": 48,
+          "color": "#e74c3c",
+          "caps": true
+        }
+      ]
+    },
+    {
+      "id": "c09-s05",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Financial secrecy can help conceal corruption. It can make tax evasion harder to detect. It can be used in money laundering.",
+      "visual": {
+        "kind": "gray",
+        "icon": "exclaim",
+        "props": [
+          {
+            "icon": "sword",
+            "x": 25,
+            "y": 50,
+            "anim": "shake"
+          },
+          {
+            "icon": "gold",
+            "x": 50,
+            "y": 50,
+            "anim": "shake"
+          },
+          {
+            "icon": "scroll",
+            "x": 75,
+            "y": 50,
+            "anim": "shake"
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "angry"
+      }
+    },
+    {
+      "id": "c09-s06",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "But we need to separate several activities that are often confused. Tax planning is not automatically tax evasion. International investment is not automatically money laundering.",
+      "visual": {
+        "kind": "action",
+        "name": "scales",
+        "left": {
+          "icon": "scroll",
+          "label": "Tax planning (legal)"
+        },
+        "right": {
+          "icon": "sword",
+          "label": "Tax evasion (illegal)"
+        },
+        "tilt": 0
+      },
+      "mascot": {
+        "pose": "talk"
+      }
+    },
+    {
+      "id": "c10-s01",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "In 2021, the Financial Action Task Force placed the Cayman Islands under increased monitoring.",
+      "visual": {
+        "kind": "document",
+        "title": "FINANCIAL ACTION TASK FORCE",
+        "sub": "Cayman Islands \u2014 Increased Monitoring, 2021",
+        "stamp": "GREY LIST",
+        "stampAt": 1.5,
+        "bg": "study"
+      },
+      "mascot": {
+        "pose": "talk"
+      },
+      "date": "2021"
+    },
+    {
+      "id": "c10-s02",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "It did not mean every financial business in Cayman was engaged in wrongdoing. It meant the framework for preventing financial crime needed improvements.",
+      "visual": {
+        "kind": "gray",
+        "icon": "scroll",
+        "props": [
+          {
+            "icon": "shield",
+            "x": 50,
+            "y": 45,
+            "scale": 1.5,
+            "anim": "none"
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "talk"
+      }
+    },
+    {
+      "id": "c10-s03",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Cayman undertook reforms. In October 2023, FATF announced the Cayman Islands would no longer be subject to its increased monitoring process.",
+      "visual": {
+        "kind": "document",
+        "title": "FATF",
+        "sub": "Cayman Islands removed from increased monitoring \u2014 October 2023",
+        "stamp": "CLEARED",
+        "stampAt": 2.0,
+        "bg": "study"
+      },
+      "mascot": {
+        "pose": "happy"
+      },
+      "date": "Oct 2023"
+    },
+    {
+      "id": "c10-s04",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "But in June 2026, the OECD published findings on Cayman's implementation of tax information exchange standards. The findings were mixed.",
+      "visual": {
+        "kind": "document",
+        "title": "OECD REVIEW",
+        "sub": "Tax Information Exchange \u2014 Cayman Islands, June 2026",
+        "stamp": "MIXED",
+        "stampAt": 2.0,
+        "bg": "study"
+      },
+      "mascot": {
+        "pose": "confused"
+      },
+      "date": "Jun 2026"
+    },
+    {
+      "id": "c10-s05",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "For the monitored period covering 2023 and 2024, Cayman reported that only 23 percent of incoming requests received responses within ninety days.",
+      "visual": {
+        "kind": "action",
+        "name": "bars",
+        "bars": [
+          {
+            "label": "On time\n(within 90 days)",
+            "value": 23,
+            "color": "#e74c3c"
+          },
+          {
+            "label": "Delayed",
+            "value": 77,
+            "color": "#7f8c8d"
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "angry"
+      }
+    },
+    {
+      "id": "c10-s06",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "This is important because it shows how financial regulation works in the real world. A jurisdiction can strengthen its rules and still face practical problems.",
+      "visual": {
+        "kind": "gray",
+        "icon": "scroll",
+        "props": [
+          {
+            "icon": "shield",
+            "x": 35,
+            "y": 50,
+            "anim": "none"
+          },
+          {
+            "icon": "exclaim",
+            "x": 65,
+            "y": 50,
+            "anim": "shake"
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "talk"
+      }
+    },
+    {
+      "id": "c11-s01",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Cayman belongs to a much wider network. Pull back from the Caribbean.",
+      "visual": {
+        "kind": "map",
+        "from": {
+          "lon": -81.37,
+          "lat": 19.32,
+          "zoom": 8
+        },
+        "to": {
+          "lon": 0,
+          "lat": 40,
+          "zoom": 1.8
+        },
+        "events": [
+          {
+            "type": "pin",
+            "at": [
+              -81.37,
+              19.32
+            ],
+            "t": 0.3,
+            "label": "Cayman",
+            "color": "#f1c40f"
+          },
+          {
+            "type": "pin",
+            "at": [
+              -64.7,
+              32.3
+            ],
+            "t": 0.5,
+            "label": "Bermuda"
+          },
+          {
+            "type": "pin",
+            "at": [
+              -64.5,
+              18.4
+            ],
+            "t": 0.7,
+            "label": "BVI"
+          },
+          {
+            "type": "pin",
+            "at": [
+              -2.1,
+              49.2
+            ],
+            "t": 0.9,
+            "label": "Jersey"
+          },
+          {
+            "type": "pin",
+            "at": [
+              6.1,
+              49.6
+            ],
+            "t": 1.1,
+            "label": "Luxembourg"
+          },
+          {
+            "type": "pin",
+            "at": [
+              -8,
+              53
+            ],
+            "t": 1.3,
+            "label": "Ireland"
+          },
+          {
+            "type": "scatter",
+            "around": [
+              0,
+              40
+            ],
+            "icon": "gold",
+            "n": 6,
+            "spread": 60,
+            "t": 2.0
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "point"
+      }
+    },
+    {
+      "id": "c11-s02",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Bermuda has developed important insurance and reinsurance businesses. The British Virgin Islands became known for international corporate services.",
+      "visual": {
+        "kind": "map",
+        "from": {
+          "lon": 0,
+          "lat": 40,
+          "zoom": 1.8
+        },
+        "to": {
+          "lon": -60,
+          "lat": 25,
+          "zoom": 3
+        },
+        "events": [
+          {
+            "type": "icon",
+            "at": [
+              -64.7,
+              32.3
+            ],
+            "icon": "shield",
+            "t": 0.3,
+            "label": "Bermuda \u2014 Insurance"
+          },
+          {
+            "type": "icon",
+            "at": [
+              -64.5,
+              18.4
+            ],
+            "icon": "scroll",
+            "t": 0.6,
+            "label": "BVI \u2014 Corporate services"
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "talk"
+      }
+    },
+    {
+      "id": "c11-s03",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Luxembourg and Ireland are major investment fund domiciles within European regulatory frameworks. Jersey and Guernsey have their own traditions of trusts and financial services.",
+      "visual": {
+        "kind": "map",
+        "from": {
+          "lon": -60,
+          "lat": 25,
+          "zoom": 3
+        },
+        "to": {
+          "lon": 5,
+          "lat": 50,
+          "zoom": 4
+        },
+        "events": [
+          {
+            "type": "icon",
+            "at": [
+              6.1,
+              49.6
+            ],
+            "icon": "banknotes",
+            "t": 0.3,
+            "label": "Luxembourg \u2014 Funds"
+          },
+          {
+            "type": "icon",
+            "at": [
+              -8,
+              53
+            ],
+            "icon": "banknotes",
+            "t": 0.5,
+            "label": "Ireland \u2014 Funds"
+          },
+          {
+            "type": "icon",
+            "at": [
+              -2.1,
+              49.2
+            ],
+            "icon": "scroll",
+            "t": 0.7,
+            "label": "Jersey \u2014 Trusts"
+          },
+          {
+            "type": "icon",
+            "at": [
+              -2.5,
+              49.5
+            ],
+            "icon": "scroll",
+            "t": 0.9,
+            "label": "Guernsey \u2014 Trusts"
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "talk"
+      }
+    },
+    {
+      "id": "c12-s01",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Could the world simply stop using small offshore financial centers?",
+      "visual": {
+        "kind": "gray",
+        "icon": "question"
+      },
+      "mascot": {
+        "pose": "confused"
+      }
+    },
+    {
+      "id": "c12-s02",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Suppose a group of major economies decided that investment funds should no longer use Cayman. Some funds might move to other jurisdictions. Some managers might reorganize.",
+      "visual": {
+        "kind": "map",
+        "from": {
+          "lon": 5,
+          "lat": 50,
+          "zoom": 4
+        },
+        "to": {
+          "lon": 0,
+          "lat": 30,
+          "zoom": 1.8
+        },
+        "events": [
+          {
+            "type": "crossOut",
+            "at": [
+              -81.37,
+              19.32
+            ],
+            "t": 0.8,
+            "size": 70,
+            "color": "#e74c3c"
+          },
+          {
+            "type": "flow",
+            "path": [
+              [
+                -81.37,
+                19.32
+              ],
+              [
+                6.1,
+                49.6
+              ]
+            ],
+            "t": 1.5,
+            "color": "#2980b9",
+            "width": 2
+          },
+          {
+            "type": "flow",
+            "path": [
+              [
+                -81.37,
+                19.32
+              ],
+              [
+                -8,
+                53
+              ]
+            ],
+            "t": 1.8,
+            "color": "#c0392b",
+            "width": 2
+          },
+          {
+            "type": "label",
+            "at": [
+              0,
+              15
+            ],
+            "t": 2.5,
+            "text": "Business moves, demand stays",
+            "size": 22,
+            "color": "#f1c40f"
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "talk"
+      }
+    },
+    {
+      "id": "c12-s03",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "But the underlying need to organize international investments would not disappear. Investors would still live in different countries. Businesses would still need capital.",
+      "visual": {
+        "kind": "map",
+        "from": {
+          "lon": 0,
+          "lat": 30,
+          "zoom": 1.8
+        },
+        "to": {
+          "lon": 0,
+          "lat": 30,
+          "zoom": 1.8
+        },
+        "events": [
+          {
+            "type": "flow",
+            "path": [
+              [
+                -74,
+                40
+              ],
+              [
+                10,
+                51
+              ],
+              [
+                139,
+                35
+              ]
+            ],
+            "t": 0.3,
+            "color": "#2980b9"
+          },
+          {
+            "type": "flow",
+            "path": [
+              [
+                139,
+                35
+              ],
+              [
+                10,
+                51
+              ],
+              [
+                -74,
+                40
+              ]
+            ],
+            "t": 0.6,
+            "color": "#27ae60"
+          },
+          {
+            "type": "scatter",
+            "around": [
+              0,
+              20
+            ],
+            "icon": "factory",
+            "n": 5,
+            "spread": 70,
+            "t": 1.2
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "talk"
+      }
+    },
+    {
+      "id": "c13-s01",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "History tells us that centers of financial power do not stay in the same places forever.",
+      "visual": {
+        "kind": "scroll",
+        "dates": [
+          "Venice \u2014 medieval trade hub",
+          "Amsterdam \u2014 17th century",
+          "London \u2014 18th\u201320th century",
+          "New York \u2014 20th century"
+        ]
+      },
+      "mascot": {
+        "pose": "talk"
+      }
+    },
+    {
+      "id": "c13-s02",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "Venice was once an important center of international commerce. Amsterdam became a major financial hub. London expanded its global influence over centuries.",
+      "visual": {
+        "kind": "map",
+        "from": {
+          "lon": 0,
+          "lat": 30,
+          "zoom": 1.8
+        },
+        "to": {
+          "lon": 15,
+          "lat": 45,
+          "zoom": 3
+        },
+        "dateCounter": {
+          "start": 1300,
+          "end": 1800,
+          "suffix": ""
+        },
+        "events": [
+          {
+            "type": "icon",
+            "at": [
+              12.3,
+              45.4
+            ],
+            "icon": "ship",
+            "t": 0.3,
+            "label": "Venice"
+          },
+          {
+            "type": "icon",
+            "at": [
+              4.9,
+              52.4
+            ],
+            "icon": "gold",
+            "t": 0.6,
+            "label": "Amsterdam"
+          },
+          {
+            "type": "icon",
+            "at": [
+              -0.1,
+              51.5
+            ],
+            "icon": "crown",
+            "t": 0.9,
+            "label": "London"
+          },
+          {
+            "type": "flow",
+            "path": [
+              [
+                12.3,
+                45.4
+              ],
+              [
+                4.9,
+                52.4
+              ],
+              [
+                -0.1,
+                51.5
+              ]
+            ],
+            "t": 1.5,
+            "color": "#f1c40f"
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "talk"
+      }
+    },
+    {
+      "id": "c14-s01",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "When you see a major financial position recorded in a small island jurisdiction, you're not necessarily seeing where that wealth was created.",
+      "visual": {
+        "kind": "map",
+        "from": {
+          "lon": 15,
+          "lat": 45,
+          "zoom": 3
+        },
+        "to": {
+          "lon": -81.37,
+          "lat": 19.32,
+          "zoom": 7
+        },
+        "events": [
+          {
+            "type": "pulse",
+            "at": [
+              -81.37,
+              19.32
+            ],
+            "t": 0.5,
+            "color": "#f1c40f"
+          },
+          {
+            "type": "label",
+            "at": [
+              -81.37,
+              20.8
+            ],
+            "t": 1.0,
+            "text": "One location in a chain",
+            "size": 26,
+            "color": "#f1c40f"
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "talk"
+      }
+    },
+    {
+      "id": "c14-s02",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "The world economy isn't connected by roads, ports, and shipping lanes alone. It's also connected by contracts, ownership structures, investment funds, banks, and laws.",
+      "visual": {
+        "kind": "map",
+        "from": {
+          "lon": -81.37,
+          "lat": 19.32,
+          "zoom": 7
+        },
+        "to": {
+          "lon": 0,
+          "lat": 20,
+          "zoom": 1.5
+        },
+        "events": [
+          {
+            "type": "flow",
+            "path": [
+              [
+                -74,
+                40
+              ],
+              [
+                -81.37,
+                19.32
+              ],
+              [
+                0,
+                51
+              ],
+              [
+                10,
+                51
+              ],
+              [
+                139,
+                35
+              ]
+            ],
+            "t": 0.3,
+            "color": "#f1c40f",
+            "width": 2
+          },
+          {
+            "type": "flow",
+            "path": [
+              [
+                -95,
+                38
+              ],
+              [
+                -81.37,
+                19.32
+              ],
+              [
+                -43,
+                -23
+              ],
+              [
+                6.1,
+                49.6
+              ]
+            ],
+            "t": 0.8,
+            "color": "#2980b9",
+            "width": 2
+          },
+          {
+            "type": "label",
+            "at": [
+              0,
+              5
+            ],
+            "t": 2.0,
+            "text": "LAW connects the world",
+            "size": 24,
+            "color": "#f1c40f",
+            "caps": true
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "happy"
+      }
+    },
+    {
+      "id": "c14-s03",
+      "type": "narration",
+      "speaker": "NARRATOR",
+      "text": "This is Farthing Explains. Explaining how money shapes the world.",
+      "visual": {
+        "kind": "gray",
+        "icon": "crown",
+        "props": [
+          {
+            "icon": "scroll",
+            "x": 50,
+            "y": 45,
+            "scale": 1.5,
+            "anim": "pulse"
+          }
+        ]
+      },
+      "mascot": {
+        "pose": "happy"
+      },
+      "labels": [
+        {
+          "text": "FARTHING EXPLAINS",
+          "x": 10,
+          "y": 15,
+          "size": 60,
+          "color": "#f1c40f",
+          "caps": true
+        }
+      ]
+    },
+    {
+      "id": "c14-s04",
+      "type": "cta",
+      "speaker": "NARRATOR",
+      "text": "If this documentary changed how you see the global financial system, share it with someone who might find the story surprising.",
+      "ctaText": "Share this documentary",
+      "visual": {
+        "kind": "scroll",
+        "roll": "close"
+      },
+      "mascot": {
+        "pose": "point"
+      }
+    }
+  ]
+}
